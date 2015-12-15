@@ -2,7 +2,7 @@
 title: How to add custom URL to a website hosted on Github?
 
 ---
-![Configure custom domain to github website screenshot](/images/custom-domain-to-github.jpg "ok")
+![Configure custom domain to github website screenshot](/images/custom-domain-to-github.jpg "Configure custom domain to github website screenshot")
 Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain to Github here.
 
 You may have a website with a URL which looks similar to [sharu725.github.io](http://sharu725.github.io). But what you want is something like [webjeda.com](http://webjeda.com). So how to change it to a custom domain like webjeda.com?
@@ -15,10 +15,10 @@ First thing is that you should own a domain name. You can buy it from godaddy, n
 
 
 Go to the repository where you have hosted your website and click on 'New File'
-![Adding a CNAME file to github screenshot](/images/adding-CNAME-file-to-github-repository.JPG)
+![Adding a CNAME file to github screenshot](/images/adding-CNAME-file-to-github-repository.JPG "Adding a CNAME file to github screenshot")
 
 Name the file as CNAME without any extension. Now, inside the CNAME file write your domain name you would like to host it as. I have written ``` truejewls.in ```
-![Adding domain name in CNAME file - github screenshot](/images/adding-domain-name-in-CNAME-file-github.JPG)
+![Adding domain name in CNAME file - github screenshot](/images/adding-domain-name-in-CNAME-file-github.JPG "Adding domain name in CNAME file - github screenshot")
 
 Now commit your file to the repository. Make sure you are still in the gh-pages branch.
 
@@ -28,11 +28,11 @@ Now commit your file to the repository. Make sure you are still in the gh-pages 
 
 
 Login to the website where you purchased your website. Go to your domain and click on something similar to 'Manage Domain'
-![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github.JPG)
+![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github.JPG "Adding A record to DNS Zone Records - github screenshot")
 
 Now go to **DNS Zone File** option
 
-![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-2.JPG)
+![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-2.JPG "Adding A record to DNS Zone Records - github screenshot")
 
 Now click on **Add Record** and add an **A** record with following configuration
 
@@ -41,7 +41,7 @@ Now click on **Add Record** and add an **A** record with following configuration
 
 **Points to:** 192.30.252.153 or 192.30.252.154
 
-![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-3.JPG)
+![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-3.JPG "Adding A record to DNS Zone Records - github screenshot")
 
 Click on **Finish** and **Save**.
 
