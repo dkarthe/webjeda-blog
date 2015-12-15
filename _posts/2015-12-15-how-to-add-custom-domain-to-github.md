@@ -2,7 +2,7 @@
 title: How to add custom URL to a website hosted on Github?
 
 ---
-![Configure custom domain to github website screenshot](/images/Adding-A-record-to-DNS-github.JPG "ok")
+![Configure custom domain to github website screenshot](images/custom-domain-to-github.jpg "ok")
 Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain to Github here.
 
 You may have a website with a URL which looks similar to [sharu725.github.io](http://sharu725.github.io). But what you want is something like [webjeda.com](http://webjeda.com). So how to change it to a custom domain like webjeda.com?
