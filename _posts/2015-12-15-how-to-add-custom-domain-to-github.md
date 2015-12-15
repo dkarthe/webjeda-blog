@@ -13,6 +13,7 @@ First thing is that you should own a domain name. You can buy it from godaddy, n
 ##Step 1: Adding CNAME file to the gh-pages branch of your repository.
 
 
+
 Go to the repository where you have hosted your website and click on 'New File'
 ![Adding a CNAME file to github screenshot](/images/adding-CNAME-file-to-github-repository.JPG)
 
@@ -23,6 +24,7 @@ Now commit your file to the repository. Make sure you are still in the gh-pages 
 
 
 ##Step 2: Adding A record in the DNS Zone Records
+
 
 
 Login to the website where you purchased your website. Go to your domain and click on something similar to 'Manage Domain'
@@ -49,3 +51,5 @@ And that's about it. Do not rush though. It will take a while to propagate. So g
 
 Here is a video demonstration
 <iframe width="854" height="480" src="https://www.youtube.com/embed/hUChaN-VRIc?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
