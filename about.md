@@ -3,16 +3,13 @@ layout: page
 title: About WebJeda
 ---
 ## About
+![WebJeda](img/webjeda-logo.png "WebJeda")
+WebJeda is a web designing company based in Bengaluru. Designing beautiful responsive and functional websites is our passion. 
 
-![Emerald](img/Emerald01.png "Emerald")
+I had no plans to turn this passion into a business. But when you love what you do, why not do it for living?!
 
-### Setup
-Emerald may be installed by simply downloading the .zip folder from the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
 
-After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find it there.
 
-Additionally it is possible to fork the repository and use Github Pages as hosting. By following this way it will be enough to change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or simply with a "/" (slash) if you want install Emerald in the root. 
+Please feel free to ping me on whatsapp if you want a quick response
 
-Last but not least: the [Jekyll documentation](http://jekyllrb.com) is the best starting point!
-
-Enjoy!
+**Whatsapp:** +91 890 447 5972
