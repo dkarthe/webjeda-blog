@@ -50,6 +50,6 @@ And that's about it. Do not rush though. It will take a while to propagate. So g
 
 
 Here is a video demonstration
-<iframe width="854" height="480" src="https://www.youtube.com/embed/hUChaN-VRIc?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/hUChaN-VRIc?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ---
