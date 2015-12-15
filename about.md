@@ -3,9 +3,7 @@ layout: page
 title: About WebJeda
 ---
 ## About
-ªÉ¨ïeÉÃqÀ
-For further details on Emerald, please visit the [repository on Github](https://github.com/KingFelix/emerald/).
-
+ಹಗಗಗ
 ![Emerald](img/Emerald01.png "Emerald")
 
 ### Setup
