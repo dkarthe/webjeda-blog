@@ -13,27 +13,27 @@ First thing is that you should own a domain name. You can buy it from godaddy, n
 ##Step 1: Adding CNAME file to the gh-pages branch of your repository.
 
 Go to the repository where you have hosted your website and click on 'New File'
-![Adding a CNAME file to github screenshot](/images/adding-CNAME-file-to-github-repository.jpg)
+![Adding a CNAME file to github screenshot](/images/adding-CNAME-file-to-github-repository.JPG)
 
 Name the file as CNAME without any extension. Now, inside the CNAME file write your domain name you would like to host it as. I have written <pre>truejewls.in</pre>
-![Adding domain name in CNAME file - github screenshot](/images/adding-domain-name-in-CNAME-file-github.jpeg)
+![Adding domain name in CNAME file - github screenshot](/images/adding-domain-name-in-CNAME-file-github.JPG)
 
 Now commit your file to the repository. Make sure you are still in the gh-pages branch.
 
 
 ##Step 2: Adding A record in the DNS Zone Records
 Login to the website where you purchased your website. Go to your domain and click on something similar to 'Manage Domain'
-![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github.jpeg)
+![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github.JPG)
 
 Now go to **DNS Zone File** option
-![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-2.jpeg)
+![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-2.JPG)
 
 Now click on **Add Record** and add an **A** record with following configuration
 
 Host: @
 Points to: 192.30.252.153 or 192.30.252.154
 
-![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-3.jpeg)
+![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-3.JPG)
 
 Click on Finish and Save.
 
