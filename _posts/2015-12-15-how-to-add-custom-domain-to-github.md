@@ -1,5 +1,6 @@
 ---
 title: How to add custom URL to a website hosted on Github?
+
 ---
 ![Configure custom domain to github website screenshot](/images/custom-domain-to-github.JPEG "ok")
 Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain to Github here.
@@ -12,7 +13,7 @@ First thing is that you should own a domain name. You can buy it from godaddy, n
 ##Step 1: Adding CNAME file to the gh-pages branch of your repository.
 
 Go to the repository where you have hosted your website and click on 'New File'
-![Adding a CNAME file to github screenshot](/images/adding-CNAME-file-to-github-repository.jpeg)
+![Adding a CNAME file to github screenshot](/images/adding-CNAME-file-to-github-repository.jpg)
 
 Name the file as CNAME without any extension. Now, inside the CNAME file write your domain name you would like to host it as. I have written <pre>truejewls.in</pre>
 ![Adding domain name in CNAME file - github screenshot](/images/adding-domain-name-in-CNAME-file-github.jpeg)
