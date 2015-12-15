@@ -3,7 +3,7 @@ layout: page
 title: About WebJeda
 ---
 ## About
-ಹಗಗಗ
+
 ![Emerald](img/Emerald01.png "Emerald")
 
 ### Setup
