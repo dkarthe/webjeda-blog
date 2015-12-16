@@ -8,7 +8,7 @@ WebJeda is a web designing company based in Bengaluru. Designing beautiful respo
 
 I had no plans to turn this passion into a business. But when you love what you do, why not do it for living?!
 
-
+![WebJeda](img/webjeda-logo.png "WebJeda")
 
 
 Please feel free to ping me on whatsapp if you want a quick response
