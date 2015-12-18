@@ -69,4 +69,17 @@
       {% include script.html %}
     {% include analytics.html %}
 </body>
+    
+    <script type="text/javascript">
+(function(){
+	var hexacode = ['#ffff00', '#ff0000', '#00ff00', '#0000ff', '#ffffff'],
+	el = document.getElementsByTagName('a').style,
+	counter = -1,
+	hexalen = hexacode.length;
+	function auto(){
+		el.backgroundColor = hexacode[counter = ++counter % hexalen];
+	}
+	setInterval(auto, 20);
+})();
+</script>
 </html>
