@@ -77,7 +77,7 @@
 	counter = -1,
 	hexalen = hexacode.length;
 	function auto(){
-		el.backgroundColor = hexacode[counter = ++counter % hexalen];
+		el.color = hexacode[counter = ++counter % hexalen];
 	}
 	setInterval(auto, 20);
 })();
