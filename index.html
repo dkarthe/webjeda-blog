@@ -15,7 +15,7 @@ layout: default
     
     
     <paper-card heading="{{ post.title }}">
-        <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
+        <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
   <div class="card-content">{{ post.content | strip_html | truncatewords:50 }}</div>
   <div class="card-actions">
     <paper-button><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">Read</a></paper-button>
