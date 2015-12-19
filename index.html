@@ -12,6 +12,20 @@ layout: default
 	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
 	  </li>
 
+    
+    
+    <paper-card heading="{{ post.title }}">
+  <div class="card-content">{{ post.content | strip_html | truncatewords:50 }}</div>
+  <div class="card-actions">
+    <paper-button><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">Read</a></paper-button>
+  </div>
+</paper-card>
+    
+    
+    
+    
+    
+    
     {% endfor %}
 
 </ul>
