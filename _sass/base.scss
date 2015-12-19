@@ -64,9 +64,10 @@ paper-card {
 }
 paper-material {
 
-
-
 }
+
+paper-material.paper-material-0[elevation="1"] {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 5px 0 rgba(0, 0, 0, 0.32), 0 4px 6px 0px rgba(0, 0, 0, 0.15);
 
 time {
     margin-left: 1rem;
