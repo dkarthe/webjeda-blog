@@ -2,11 +2,9 @@
 layout: page
 title: About WebJeda
 ---
-<<<<<<< HEAD
-## About![WebJeda](img/favicon.ico "WebJeda")
-=======
+
 ## About
->>>>>>> origin/gh-pages
+
 
 WebJeda is a web designing company based in Bengaluru. Designing beautiful responsive and functional websites is our passion. 
 
