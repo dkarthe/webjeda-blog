@@ -18,7 +18,8 @@ layout: default
         <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
   <div class="card-content">{{ post.content | strip_html | truncatewords:50 }}</div>
   <div class="card-actions">
-    <a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">Read</a>
+      <a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"><paper-button>Read</paper-button>
+    </a>
   </div>
 </paper-card>
     {% endfor %}
