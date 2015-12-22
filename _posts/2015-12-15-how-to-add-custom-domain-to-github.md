@@ -2,6 +2,7 @@
 title: How to add custom URL to a website hosted on Github?
 
 ---
+
 ![Configure custom domain to github website screenshot](/images/custom-domain-to-github.jpg "Configure custom domain to github website screenshot")
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i> Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain to Github here.
 
