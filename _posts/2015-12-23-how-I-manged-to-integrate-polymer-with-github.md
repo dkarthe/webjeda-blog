@@ -41,7 +41,6 @@ Now you can call the elements inside the body tag and they will be downloaded.
 So what about my jekyll blog index page. How I included colored paper button?
 
 ''' html
-
  <paper-card heading="{{ post.title }}">
         <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
                     <div class="card-content">{{ post.content | strip_html | truncatewords:50 }}</div>
@@ -51,7 +50,6 @@ So what about my jekyll blog index page. How I included colored paper button?
                                 </a>
                             </div>
 </paper-card>
-
 '''
 
 Copy these lines to your **index.html** page without deleting the default code. If you like it then delete the default code and keep the polymer one.
