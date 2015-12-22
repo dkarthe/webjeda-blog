@@ -7,7 +7,8 @@ title: How I managed to integrate Polymer with my jekyll blog.
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i> If you have observed my blog index, I have a card style as shown in the screenshot. It took me a while to figure out how I can integrate Polymer(a promising project by Google) to my jekyll blog.
 
 ##Why Polymer?
-Polymer cards are getting used every single application Google is developing. It is in a way very convinient to use one custom element and call it as many times you want to.
+
+Polymer cards are getting used in every single application Google is developing. It is in a way very convinient to use one custom element and call it as many times you want to.
 
 If you observe the applications by Google, almost all of them are using paper-cards
 
@@ -50,6 +51,7 @@ So what about my jekyll blog index page. How I included colored paper button?
                                 </a>
                             </div>
 </paper-card>
+
 '''
 
 Copy these lines to your **index.html** page without deleting the default code. If you like it then delete the default code and keep the polymer one.
@@ -57,13 +59,14 @@ Copy these lines to your **index.html** page without deleting the default code. 
 
 Here is the css code for coloring the paper-button.
 
-''' css
+''' html
  paper-button.colored {
      background-color:#26A65B;
      color: #fff;
      text-transform: none;
      font-weight: 100;     
      }
+     
 '''
 
 Let me know if you were successful in integrating Polymer in your website. Comment if you do something awesome.
