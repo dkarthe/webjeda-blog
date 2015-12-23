@@ -8,7 +8,7 @@ If you have observed my blog index, I have a card style as shown in the screensh
 
 ##Why Polymer?
 
-Polymer cards are getting used in every single application Google is developing. It is in a way very convinient to use one custom element and call it as many times you want to.
+Polymer cards are getting used in every single application Google is developing. It is in a way very convinient to use one custom element and call it as many times you want to. It saves a lot of time for developer and designer and also the page loads fast.
 
 If you observe the applications by Google, almost all of them are using paper-cards.
 
@@ -43,7 +43,7 @@ Now you can call the elements inside the body tag and they will be downloaded.
 <paper-button>Click Me</paper-button>
 {% endhighlight %}
 
-So what about my jekyll blog index page. How I included colored paper button?
+So what about my jekyll blog index page?
 
 {% highlight html linenos %}
  <paper-card heading="(( post.title ))">
@@ -56,11 +56,12 @@ So what about my jekyll blog index page. How I included colored paper button?
  {% endhighlight %}
  
  Note: Replace all the **()** with **{}**
+ 
+ Source Code: [source code](https://raw.githubusercontent.com/sharu725/emerald/gh-pages/index.html)
 
-Copy these lines to your **index.html** page without deleting the default code. If 
+Copy these lines to your **index.html** page without deleting the default code. If you like it then delete the default code and keep the polymer one.
 
-you like it then delete the default code and keep the polymer one.
-
+How I included colored paper button?
 
 Here is the css code for coloring the paper-button.
 
