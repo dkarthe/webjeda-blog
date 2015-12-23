@@ -21,7 +21,7 @@ Here is how I did it.
 
 First thing is to import the Polymer elements. Paste these lines to your **head** tag.
 
-``` html
+```
 
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html" />
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html" />
@@ -34,11 +34,9 @@ then just replace the **paper-card** with **paper-toggle-button** which would
 
 be,
 
-``` html
-<link rel="import" href="https://cdn.rawgit.com/download/polymer-
-
-cdn/1.1.4/lib/paper-toggle-button/paper-toggle-button.html" />
-'''
+```
+<link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-toggle-button/paper-toggle-button.html" />
+```
 
 Now you can call the elements inside the body tag and they will be downloaded. 
 
