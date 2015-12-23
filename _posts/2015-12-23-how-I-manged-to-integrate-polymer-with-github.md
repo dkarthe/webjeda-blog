@@ -21,12 +21,12 @@ Here is how I did it.
 
 First thing is to import the Polymer elements. Paste these lines to your **head** tag.
 
-<pre>
+<code>
 
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html" />
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html" />
 
-</pre>
+</code>
 
 And that's about it. If you want some other element, say **paper-toggle-button** 
 
@@ -34,19 +34,19 @@ then just replace the **paper-card** with **paper-toggle-button** which would
 
 be,
 
-<pre>
+<code>
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-toggle-button/paper-toggle-button.html" />
-</pre>
+</code>
 
 Now you can call the elements inside the body tag and they will be downloaded. 
 
-<pre>
+<code>
 <paper-button>Click Me</paper-button>
-</pre>
+</code>
 
 So what about my jekyll blog index page. How I included colored paper button?
 
-<pre>
+<code>
  <paper-card heading="{{ post.title }}">
         <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
         <div class="card-content">{{ post.content | strip_html | truncatewords:50 }}</div>
@@ -54,7 +54,7 @@ So what about my jekyll blog index page. How I included colored paper button?
         <a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">                           <paper-button class="colored" raised>Read</paper-button></a>
         </div>
 </paper-card>
-</pre>
+</code>
 
 Copy these lines to your **index.html** page without deleting the default code. If 
 
@@ -63,14 +63,14 @@ you like it then delete the default code and keep the polymer one.
 
 Here is the css code for coloring the paper-button.
 
-<pre>
+<code>
  paper-button.colored {
      background-color:#26A65B;
      color: #fff;
      text-transform: none;
      font-weight: 100;     
      }
-</pre>
+</code>
 
 Let me know if you were successful in integrating Polymer in your website. 
 
