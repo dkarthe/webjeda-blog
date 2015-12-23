@@ -15,7 +15,7 @@ If you observe the applications by Google, almost all of them are using paper-ca
 ![Applications that are using polymer](/images/applications-using-polymer-cards-screenshot.jpg)
 Above screenshot shows few applications using card interface. Youtube (I know, it is a new channel), Playstore, Google Keep, Gmail and even Play music is using card interface.
 
-I wanted something similar. I did it only using CDN. Usually you have to include Polymer elements in the project of you want to use those elements extensively. But I was using just three elements - paper-card, paper-ripple and paper-button.
+I wanted something similar. I did it only using CDN. Usually you have to include Polymer elements in the project if you want to use those elements extensively. But I was using just three elements - paper-card, paper-ripple and paper-button.
 
 Here is how I did it.
 
