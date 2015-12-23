@@ -46,7 +46,9 @@ Now you can call the elements inside the body tag and they will be downloaded.
 So what about my jekyll blog index page. How I included colored paper button?
 
 {% highlight html linenos %}
- <paper-card heading="{{ post.title }}">
+ <paper-card heading="(( post.title ))">
+ <time datetime=" post.date | date_to_xmlschema " >(( post.date | date_to_string ))</time>
+ <div class="card-content">(( post.content | strip_html | truncatewords:50 ))</div>
  {% endhighlight %}
  
 
