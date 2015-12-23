@@ -1,6 +1,7 @@
 ---
 title: Typograhy example
 published: false
+
 ---
 
 ![Test](/img/img-test.png "Test")

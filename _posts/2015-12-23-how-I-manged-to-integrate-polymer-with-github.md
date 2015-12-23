@@ -22,7 +22,9 @@ Here is how I did it.
 First thing is to import the Polymer elements. Paste these lines to your **head** tag.
 
 ``` html
+<pre>
         <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html" />
         <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html" />
+</pre>
 ```
 
