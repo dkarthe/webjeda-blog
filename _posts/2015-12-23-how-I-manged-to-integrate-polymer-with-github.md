@@ -40,3 +40,8 @@ be,
 href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-toggle-button/paper-toggle-button.html" />
 {% endhighlight %}
 
+Now you can call the elements inside the body tag and they will be downloaded. 
+
+{% highlight  linenos %}
+<paper-button>Click Me</paper-button>
+{% endhighlight %}
