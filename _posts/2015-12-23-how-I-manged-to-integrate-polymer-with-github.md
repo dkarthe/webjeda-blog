@@ -22,10 +22,8 @@ Here is how I did it.
 First thing is to import the Polymer elements. Paste these lines to your **head** tag.
 
 {% highlight html linenos %}
-<link rel="import" 
-href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html" />
-<link rel="import" 
-href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html" />
+<link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html" />
+<link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html" />
 {% endhighlight %}
 
 
@@ -36,8 +34,7 @@ then just replace the **paper-card** with **paper-toggle-button** which would
 be,
 
 {% highlight html linenos %}
-<link rel="import" 
-href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-toggle-button/paper-toggle-button.html" />
+<link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-toggle-button/paper-toggle-button.html" />
 {% endhighlight %}
 
 Now you can call the elements inside the body tag and they will be downloaded. 
@@ -48,8 +45,16 @@ Now you can call the elements inside the body tag and they will be downloaded.
 
 So what about my jekyll blog index page. How I included colored paper button?
 
-
-
+{% highlight html linenos %}
+ <paper-card heading="{{ post.title }}">
+ <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
+ <div class="card-content">{{ post.content | strip_html | truncatewords:50 }}
+ </div>
+ <div class="card-actions">
+ <a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">                           <paper-button class="colored" raised>Read</paper-button></a>
+ </div>
+ </paper-card>
+{% endhighlight %}
 
 
 Copy these lines to your **index.html** page without deleting the default code. If 
