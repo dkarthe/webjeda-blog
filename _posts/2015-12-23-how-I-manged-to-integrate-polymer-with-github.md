@@ -21,58 +21,8 @@ Here is how I did it.
 
 First thing is to import the Polymer elements. Paste these lines to your **head** tag.
 
-<code>
+``` html <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html" />
+    <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html" />
 
-<link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html" />
-<link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html" />
+```
 
-</code>
-
-And that's about it. If you want some other element, say **paper-toggle-button** 
-
-then just replace the **paper-card** with **paper-toggle-button** which would 
-
-be,
-
-<code>
-<link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-toggle-button/paper-toggle-button.html" />
-</code>
-
-Now you can call the elements inside the body tag and they will be downloaded. 
-
-<code>
-<paper-button>Click Me</paper-button>
-</code>
-
-So what about my jekyll blog index page. How I included colored paper button?
-
-<code>
- <paper-card heading="{{ post.title }}">
-        <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
-        <div class="card-content">{{ post.content | strip_html | truncatewords:50 }}</div>
-        <div class="card-actions">
-        <a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">                           <paper-button class="colored" raised>Read</paper-button></a>
-        </div>
-</paper-card>
-</code>
-
-Copy these lines to your **index.html** page without deleting the default code. If 
-
-you like it then delete the default code and keep the polymer one.
-
-
-Here is the css code for coloring the paper-button.
-
-<code>
- paper-button.colored {
-     background-color:#26A65B;
-     color: #fff;
-     text-transform: none;
-     font-weight: 100;     
-     }
-</code>
-
-Let me know if you were successful in integrating Polymer in your website. 
-
-Comment if you do something awesome.
-Thanks for reading!
