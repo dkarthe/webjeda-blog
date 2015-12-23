@@ -3,7 +3,7 @@ title: Coding and more
 ---
 <iframe width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i> I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching 'hosting websites on Github'. The best thing about Github is that it hosts your website (only static) rightaway. This is the simplest way to learn web designing. 
+I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching 'hosting websites on Github'. The best thing about Github is that it hosts your website (only static) rightaway. This is the simplest way to learn web designing. 
 
 There are other tools I recommend for web designers 
 

@@ -4,7 +4,7 @@ title: How I managed to integrate Polymer with my jekyll blog.
 ---
 
 ![How I managed to integrate Polymer with github pages jekyll](/images/github-pages-polymer.JPG)
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i> If you have observed my blog index, I have a card style as shown in the screenshot. It took me a while to figure out how I can integrate Polymer(a promising project by Google) to my jekyll blog.
+If you have observed my blog index, I have a card style as shown in the screenshot. It took me a while to figure out how I can integrate Polymer(a promising project by Google) to my jekyll blog.
 
 ##Why Polymer?
 
