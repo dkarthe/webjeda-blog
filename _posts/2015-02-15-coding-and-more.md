@@ -23,5 +23,5 @@ Only after making hundreds of mistakes, one can learn the best way to code a web
 
 Jekyll is another boon to web designers to host their blogs or single page websites. I have created many blogs on jekyll. It almost will never break. Uptime of the websites depends on Github. As an established company, Github is always up and running. I have not faced any major issues with them. I think years ago my blog was down for few seconds.
 
-Finally what I suggest for new developers is to get familiar with Github and contribute to the community. THank me later.
+Finally what I suggest for new developers is to get familiar with Github and contribute to the community. Thank me later.
 
