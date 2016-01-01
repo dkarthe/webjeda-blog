@@ -5,9 +5,8 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	letter-spacing: 0.02em;
-    font-weight: 300;
-    font-size: 1.2em;
+	letter-spacing: 0.01em;
+    
 }
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
@@ -55,9 +54,11 @@ blockquote {
 @media (min-width: 940px) { //Breakpoint set to 940px
 
 p, ul, ol {
-	font-size: 1em; /* 18px */
+	/* 18px */
 	line-height: 1.3334em; /* 24px/18px */
 	margin-bottom: 1.3334em; /* 24px/18px */
+    font-weight: 300;
+    font-size: 1.2em;
 }
 
 h1 {
