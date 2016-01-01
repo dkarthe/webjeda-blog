@@ -71,6 +71,12 @@ paper-card {
      padding: 16px;
     font-size: 1.5em;
     font-weight: 800;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
+
+
 }
 
 
@@ -89,6 +95,12 @@ time {
      
 }
 
+paper-button {
+
+   
+    padding: 0.3em 0.87em;
+
+}
 
 
 
