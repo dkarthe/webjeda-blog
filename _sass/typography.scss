@@ -70,9 +70,10 @@ h1 {
 }
 
 h2 {
-	font-size: 2em; /* 36px/18px */
-	line-height: 1.3334em; /* 48px/36px */
-	padding: 0.66667em 0 0 0; /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */
+	font-size: 3em; /* 36px/18px */
+	line-height: 1.2em; /* 48px/36px */
+    padding: 0.66667em 0 1em 0px;/* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */  font-weight: 900;
+    text-rendering: optimizeLegibility;
 }
 
 h3, h4, h5, h6 {
