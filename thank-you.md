@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About WebJeda
+title: Thank you
 ---
  
    
    
    
-   <div class="container">
-        <div class="content">
+   <div class="cont">
+        <div class="">
         <div class="thanks thum"><i class="fa fa-thumbs-up fa-5x"></i><br><p>Your message has reached us. If you still want to confirm it, then please ping me on whatsapp +91-890-447-5972 </p>
 
       </div></div>
@@ -16,8 +16,8 @@ title: About WebJeda
  <style>
      
          
-         .container {
-            width: 100px;
+         .cont {
+            width: 90%;
             margin: 0 auto;
             
      
@@ -36,7 +36,11 @@ title: About WebJeda
      
      .thum {
     text-align: center;
+    
     }
-     
+    
+     .fa-thumbs-up {
+    color: #1BBC9B;
+    }
      
  </style>
