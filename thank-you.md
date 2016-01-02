@@ -19,6 +19,7 @@ title: Thank you
          .cont {
             width: 90%;
             margin: 0 auto;
+            margin-bottom: 500px;
             
      
      
