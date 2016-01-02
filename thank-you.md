@@ -6,8 +6,8 @@ title: About WebJeda
    
    
    
-   <div class="container content">
-        <div class="container">
+   <div class="container">
+        <div class="content">
         <div class="thanks thum"><i class="fa fa-thumbs-up fa-5x"></i><br><p>Your message has reached us. If you still want to confirm it, then please ping me on whatsapp +91-890-447-5972 </p>
 
       </div></div>
@@ -15,14 +15,11 @@ title: About WebJeda
 
  <style>
      
-     .container {
          
          .container {
-    max-width: 38rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-left: auto;
-    margin-right: auto;
+            width: 100px;
+            margin: 0 auto;
+            
      
      
      }
