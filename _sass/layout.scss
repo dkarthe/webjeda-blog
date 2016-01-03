@@ -23,7 +23,7 @@
 
 #nav {
   @include nav-position(right);
-        position: absolute;
+       /*  position: absolute; */
 }
 
 #nav-left {
@@ -105,9 +105,9 @@
 /* Main content */
 
 .fixed {
-  /* position: fixed; */
+  position: fixed;
   @media (min-width: 940px) {
-    position: static;
+    /* position: static; */
   }
 }
 
