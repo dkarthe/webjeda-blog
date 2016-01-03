@@ -23,6 +23,7 @@
 
 #nav {
   @include nav-position(right);
+        position: absolute;
 }
 
 #nav-left {
