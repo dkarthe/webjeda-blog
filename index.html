@@ -5,6 +5,8 @@ layout: default
 <ul id="posts">
 
 	{% for post in paginator.posts %}
+
+    
     
     <paper-card heading="{{ post.title }}">
         <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
