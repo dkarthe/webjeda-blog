@@ -26,19 +26,19 @@
 
 
 
-<script>
+<script async>
 function fbshareCurrentPage()
     {window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href), 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false; }
 </script>
 
-<script>
+<script async>
     function gshare() {
         
         window.open("https://plus.google.com/share?url="+escape(window.location.href)+"&t="+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;
         
     }
 </script>
-<script>
+<script async>
     function redshare() {
         
         window.open("https://www.reddit.com/submit?url="+escape(window.location.href), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=900');return false;
@@ -47,14 +47,14 @@ function fbshareCurrentPage()
 </script>
 
 
-<script>
+<script async>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 </script>
 
 
 
 <!-- Place this tag after the last share tag. -->
-<script>
+<script async>
     
     (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
