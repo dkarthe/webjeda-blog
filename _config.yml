@@ -1,11 +1,11 @@
 # Site settings
 title: WebJeda | A modern web development blog
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+description: "WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions"
+url: "http://blog.webjeda.com"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "Sharath Kumar"
+  email: "info@redgadgets.com"
+  url: "http://www.webjeda.com.com"
 
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
