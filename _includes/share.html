@@ -17,7 +17,8 @@
 <!-- Google Plus -->
 &nbsp;<a href="javascript:gshare()" target="_blank" ><img src="/img/google-logo.jpg">
   </a>
-
+&nbsp;<a href="javascript:redshare()" target="_blank" ><img src="/img/google-logo.jpg">
+  </a>
 </div>
 
 
@@ -32,6 +33,13 @@ function fbshareCurrentPage()
     function gshare() {
         
         window.open("https://plus.google.com/share?url="+escape(window.location.href)+"&t="+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;
+        
+    }
+</script>
+<script>
+    function redshare() {
+        
+        window.open("www.reddit.com/submit?url="+escape(window.location.href), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;
         
     }
 </script>
