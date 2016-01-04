@@ -4,6 +4,7 @@
 
 /*- Base reset -*/
 
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -15,6 +16,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
   padding: 0;
   border: 0;
 }
+
 
 body {
 
@@ -38,7 +40,6 @@ html {
 	color: $text-color;
 }
 
-
 /*- Link -*/
 a {
 	color: $main-color;
@@ -49,6 +50,8 @@ a {
 		color: darken($main-color, 5%);
 	}
 }
+
+
 .paper-card {
     margin-bottom: 2rem;
     paper-card-header-color: #2AF;
