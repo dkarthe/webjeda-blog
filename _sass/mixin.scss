@@ -1,10 +1,6 @@
-// -- Mixins -- //
-
-// Nav menu
-
 @mixin icon-position($position) {
-  display: block;
-  position: absolute;
+	display: block;
+  position: fixed;
   top: 35px;
   #{$position}: 25px;
   z-index: 10;
