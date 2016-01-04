@@ -1,7 +1,3 @@
-/* -- General Layout -- */
-
-/* Navigation */
-
 #nav, #nav-left { 
   a {
     display: block;
@@ -23,7 +19,6 @@
 
 #nav {
   @include nav-position(right);
-       /*  position: absolute; */
 }
 
 #nav-left {
@@ -107,7 +102,7 @@
 .fixed {
   position: fixed;
   @media (min-width: 940px) {
-    /* position: static; */
+    position: static;
   }
 }
 
@@ -200,8 +195,8 @@ img[title="Emerald"] {
   }
 
 code {
-    color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0);
+  color: lighten($text-color, 35%);
+  background-color: lighten($background-color, 35%);
 }
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
@@ -252,5 +247,4 @@ footer {
   color: $background-color;
   text-align: center;
   padding: 0.6667em 0;
-
 }
