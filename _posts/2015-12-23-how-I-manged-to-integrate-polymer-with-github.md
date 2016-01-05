@@ -1,5 +1,5 @@
 ---
-title: How I managed to integrate Polymer with my jekyll blog.
+title: How I managed to integrate Polymer with my jekyll blog
 
 ---
 
