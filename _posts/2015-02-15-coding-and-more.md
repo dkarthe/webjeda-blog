@@ -11,10 +11,10 @@ I have started teaching how to make websites for budding web designers. I have p
 While I was learning, I used to go through YouTube videos. But there was not a single guy who teaches it without using CLI. When you run commands on CLI, it will not output the same result for everyone. It depends on the previous installations and a correct PATH variable. For starters CLI is a hard nut to crack. So I decided to make it easier for beginners. I used no CLI in my videos. Everything was done through GUI.
 
 I got a very positive response for my efforts. A few in the screenshots below
-![Github pages tutorial screenshot](/)
-![Github pages tutorial screenshot]()
-![Github pages tutorial screenshot]()
-![Github pages tutorial screenshot]()
+![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-4.JPG)
+![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-3.JPG)
+![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-2.JPG)
+![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot.JPG)
 
 There are other tools I recommend for web designers 
 
