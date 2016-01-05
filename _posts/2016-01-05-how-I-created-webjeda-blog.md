@@ -8,7 +8,7 @@ When I had this idea to create a web designing blog, I thought of making it in W
 
 A minimalistic WordPress theme would have done the job, but I wanted something that can load faster. Jekyll static websites are lot faster and very secure. But Jekyll themes are very limited. You cannot actually get the exact design you want like you get in WordPress.
 
-Then I came across this theme called [Emerald](http://www.jacoporabolini.com/emerald/).	It felt perfect for my blog. I will show you how I implemented the theme.
+Then I came across this theme called [Emerald](http://www.jacoporabolini.com/emerald/).	It felt perfect for my blog. I will show you how I implemented the theme. Once you successfully implement this theme, please consider donating something to the creator of this theme.
 
 
 ##Fork - A new way of copy pasting!
