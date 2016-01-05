@@ -13,7 +13,8 @@ Then I came across this theme called [Emerald](http://www.jacoporabolini.com/eme
 
 ##Fork - A new way of copy pasting!
 
-First thing is forking the whole [theme repository](https://github.com/KingFelix/emerald)
+
+First thing is logging in to Github and forking the whole [theme repository](https://github.com/KingFelix/emerald)
 ![Fork a repository](/images/fork-jekyll-theme-screenshot.JPG)
 
 ##Check for redirection
