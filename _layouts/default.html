@@ -4,7 +4,7 @@
 {% include head.html %}
 
 <body>
-<paper-spinner active></paper-spinner>
+<paper-spinner active class="loading"></paper-spinner>
  
 	<div id="wrap">
 	  	
@@ -71,10 +71,13 @@
       {% include script.html %}
     {% include analytics.html %}
    <script>
-        window.onload = function() {
-  $('body').addClass('loaded');
-}
-        
+jQuery(document).ready(function($) {  
+
+$(window).load(function(){
+	$('#preloader').fadeOut('slow',function(){$(this).remove();});
+});
+
+});
     </script> 
    
 </body>
