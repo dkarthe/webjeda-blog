@@ -15,6 +15,7 @@ Then I came across this theme called [Emerald](http://www.jacoporabolini.com/eme
 
 
 First thing is logging in to Github and forking the whole [theme repository](https://github.com/KingFelix/emerald)
+
 ![Fork a repository](/images/fork-jekyll-theme-screenshot.JPG)
 
 What **fork** does is that it copies the whole repository as a new repository inside your Github account.
@@ -24,6 +25,7 @@ What **fork** does is that it copies the whole repository as a new repository in
 Once you hit the fork button, all the files in the remote repository will be copied as a new repository.
 
 Now once it is in that repository, check whether it has any CNAME file inside it.
+
 ![CNAME in repository](/images/CNAME-in-repository.JPG)
 
 If there is one, then delete the URL inside it and commit. If there isn't one, then no problem.
@@ -40,7 +42,7 @@ Jekyll blog configuration is found inside **_config.yml** file.
 
 ![_config.yml in repository](/images/config.yml-in-repository.jpg)
 
-Open the file to see what is the baseurl configured. Usually it is /emerald/ for emerald theme.
+Open the file to see what is the **baseurl** configured. Usually it is **/emerald/** for emerald theme.
 
 ![inside _config.yml in repository](/images/inside-config.yml-jekyll-blog.JPG)
 
@@ -54,6 +56,7 @@ baseurl:	/blog/
 {% highlight html linenos %}
 baseurl:	/something/
 {% endhighlight %}
+
 
 Your blog will show up in the particular website
 
