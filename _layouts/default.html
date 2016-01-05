@@ -4,7 +4,12 @@
 {% include head.html %}
 
 <body>
-
+    <script>
+        window.onload = function() {
+  $('body').addClass('loaded');
+}
+        
+    </script>
  <!-- Pre-loader start -->
         <div id="loader-wrapper">
             <div class="loader-section section-left"></div>
@@ -83,11 +88,6 @@
     	    <!-- Script -->
       {% include script.html %}
     {% include analytics.html %}
-    <script>
-        window.onload = function() {
-  $('body').addClass('loaded');
-}
-        
-    </script>
+
 </body>
 </html>
