@@ -10,12 +10,14 @@ I have started teaching how to make websites for budding web designers. I have p
 ##Why teach Github?
 While I was learning, I used to go through YouTube videos. But there was not a single guy who teaches it without using CLI. When you run commands on CLI, it will not output the same result for everyone. It depends on the previous installations and a correct PATH variable. For starters CLI is a hard nut to crack. So I decided to make it easier for beginners. I used no CLI in my videos. Everything was done through GUI.
 
-I got a very positive response for my efforts. A few in the screenshots below
+Making it simple helped a lot of people start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few in the screenshots below
 ![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-4.JPG)
 ![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-3.JPG)
 ![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-2.JPG)
 ![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot.JPG)
 Checkout the playlist on above to see more comments.
+
+
 ---
 
 There are some tools I recommend for new web designers 
@@ -30,10 +32,10 @@ There are some tools I recommend for new web designers
 
 [w3schools](www.w3schools.com/) - they are the best at teaching how to code.
 
-I think Github pages is faster than any other conventional web hosting method. Github cannot execute files in the server. So php files will not run in Github. If you are looking for inserting a contact form in Github pages, you may have to struggle a little bit.
-I have a solutio for [creating working forms](https://www.youtube.com/watch?v=IP6HsgwQkvs).
+I think Github pages is faster than any other conventional web hosting method. But Github cannot execute files in the server. So php files will not run in Github. If you are looking for inserting a contact form in Github pages, you may have to struggle a little bit.
+I have a solutioल for [creating working forms](https://www.youtube.com/watch?v=IP6HsgwQkvs).
 
-Only after making hundreds of mistakes, one can learn the best way to code a website.
+Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it, learn while doing so.
 
 Jekyll is another boon to web designers to host their blogs or single page websites. I have created many blogs on jekyll. It almost will never break. Uptime of the websites depends on Github. As an established company, Github is always up and running. I have not faced any major issues with them. I think years ago my blog was down for few seconds.
 
