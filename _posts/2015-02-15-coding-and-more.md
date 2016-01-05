@@ -15,10 +15,14 @@ I got a very positive response for my efforts. A few in the screenshots below
 ![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-3.JPG)
 ![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-2.JPG)
 ![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot.JPG)
+Checkout the playlist on above to see more comments.
+---
 
-There are other tools I recommend for web designers 
+There are some tools I recommend for new web designers 
 
 [Brackets](http://brackets.io) - an awesome code editor. (recommended plugin - [emmet](http://emmet.io/download/))
+
+[Prose](http://prose.io) - an awesome online code editor.
 
 [Github Desktop](https://desktop.github.com/) - to sync files with your repository.
 
