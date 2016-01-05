@@ -20,7 +20,6 @@ Making it simple helped a lot of people start off with Github. I'm glad I helped
 Checkout the playlist on above to see more comments.
 
 
----
 
 There are some tools I recommend for new web designers 
 
