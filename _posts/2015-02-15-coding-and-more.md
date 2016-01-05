@@ -35,7 +35,7 @@ There are some tools I recommend for new web designers
 [w3schools](www.w3schools.com/) - they are the best at teaching how to code.
 
 I think Github pages is faster than any other conventional web hosting method. But Github cannot execute files in the server. So php files will not run in Github. If you are looking for inserting a contact form in Github pages, you may have to struggle a little bit.
-I have a solutioल for [creating working forms](https://www.youtube.com/watch?v=IP6HsgwQkvs).
+I have a solution for [creating working forms](https://www.youtube.com/watch?v=IP6HsgwQkvs).
 
 Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it, learn while doing so.
 
