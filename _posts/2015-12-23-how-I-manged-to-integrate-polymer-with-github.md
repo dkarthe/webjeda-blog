@@ -30,6 +30,7 @@ First thing is to import the Polymer elements. Paste these lines to your **head*
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html" />
 {% endhighlight %}
 
+
 This is just to see if you get the same result. For greater response time you should be using a local copy of these files rather importing from an URL.
 
 And that's about it. If you want some other element, say **paper-toggle-button** 
@@ -78,6 +79,7 @@ Here is the css code for coloring the paper-button.
      font-weight: 100;     
      }
 {% endhighlight %}
+
 
 Let me know if you were successful in integrating Polymer in your website. 
 
