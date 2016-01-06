@@ -23,13 +23,15 @@ So here it is giving some valuable information. But what I want is just a consta
 
 Just copy these lines to your css file and you are good. So far we have called this top bar but in reality it is the top border of your body. Normally it is invisible, we are just giving it a size and color. Pretty neat. Isn't it? There is not a single extra div used. So there is no load on your website!
 
+
 {% highlight css linenos %}
 body {
   border-top: 0.1em solid #37ba8a;
 }
 {% endhighlight %}
 
-So that's all there is! Use pixels instead on em if you like. Change the color according to your theme. Make sure your body has no margin. Otherwise you may not get the top bar where you wanted.
+
+So that's all there is! Use ```px``` instead on ```em``` if you like. Change the color according to your theme. Make sure your body has no margin. Otherwise you may not get the top bar where you wanted.
 
 Ok, so implement this on your website and let me know how it went.
 
