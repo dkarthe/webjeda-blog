@@ -1,7 +1,8 @@
 # Site settings
 title: WebJeda | A modern web development blog
 description: "WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions"
-url: "http://blog.webjeda.com"
+url: https://blog.webjeda.com
+enforce_ssl: www.blog.webjeda.com
 author:
   name: "Sharath Kumar"
   email: "info@redgadgets.com"
