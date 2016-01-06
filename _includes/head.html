@@ -12,7 +12,7 @@
     <meta name="description" content="WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions">
     <meta name="keywords" content="web designing, web development ">
 	<title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<link rel="canonical" href=" { { site.url } }{ { page.url } }" />
+	<link rel="canonical" href=" {{ site.url }}{{ page.url }}" />
 
 	<!-- CSS & fonts -->
 	<link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
