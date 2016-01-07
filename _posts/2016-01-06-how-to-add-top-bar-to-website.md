@@ -34,7 +34,10 @@ body {
 So that's all there is! Use ```px``` instead on ```em``` if you like. Change the color according to your theme. Make sure your body has no margin. Otherwise you may not get the top bar where you wanted.
 
 Though it is a simple thing, it gives a huge impact on the look and aesthetics.
+Check the difference between these two websites I made for my mom.
 
+Top bar: [Top bar](http://webjeda.com/top-bar/)
+No top bar: [No top bar](http://webjeda.com/No-top-bar/)
 
 Ok, so do implement this on your website and let me know how it went.
 
