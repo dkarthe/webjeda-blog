@@ -3,9 +3,9 @@ title: How to add top bar to websites
 
 ---
 
-![How to add colored top bar to website](/images/how-to-add-top-bar-to-website-webjeda.jpg)
+![How to add colored top bar to website](/images/top-bar-on-websites.jpg)
 
-As you can see in the screenshot of one of my websites [nallikayi](https://articles.nallikayi.com), there is a top green bar. Though the website is minimal a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
+As you can see in the screenshot, one of my websites [nallikayi](https://articles.nallikayi.com), there is a top green bar for no reason. Though the website is minimal a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
 
 ##Why top bar?
 
