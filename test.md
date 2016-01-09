@@ -4,4 +4,4 @@ title: Testing New Features
 ---
 
 
-{include search.html}
+{% include search.html %}
