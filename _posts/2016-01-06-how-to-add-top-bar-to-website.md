@@ -5,7 +5,7 @@ title: How to add top bar to websites
 
 ![How to add colored top bar to website](/images/top-bar-on-websites.jpg)
 
-As you can see in the screenshot, one of my websites [nallikayi](https://articles.nallikayi.com), there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
+As you can see in the screenshot, one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
 
 ##Why top bar?
 
@@ -31,7 +31,7 @@ body {
 {% endhighlight %}
 
 
-So that's all there is! Use ```px``` instead on ```em``` if you like. Change the color according to your theme. Make sure your body has no margin. Otherwise you may not get the top bar where you wanted.
+So that's all there is! Use ```px``` instead on ```em``` if you like. I use ```em``` as I have configured it to adjust to the screen-size.  Now change the color according to your theme and don't make it very contrasting, say a blue top bar on red background. That is not pleasing to eyes. And also make sure your body has no margin. Otherwise you may not get the top bar where you wanted.
 
 Though it is a simple thing, it gives a huge impact on the look and aesthetics.
 Check the difference between these two websites I made for my mom.
