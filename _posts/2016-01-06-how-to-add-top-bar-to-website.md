@@ -11,7 +11,7 @@ As you can see in the screenshot, one of my websites [nallikayi](https://article
 
 I started considering top bar only after I saw the designers from [Quora](https://www.quora.com) started using it. And my blog WebJeda had a minimal theme. So I thought why not try it. 
 
-I remember YouTube using a red top bar to show how the progress of page loading. That was only for a while and for some reason they stopped it. It was actually a great idea to show the users how much page has been loaded. By the time of writing this blog [Freecharge](https://www.freecharge.in) is using the top bar as a progress indicator.
+I remember YouTube using a red top bar to show how the progress of page loading. That was only for a while and for some reason they stopped it. It was actually a great idea to show the users how much page has been loaded. By the time of writing this blog <a rel="nofollow" href="https://www.freecharge.in" alt="Freecharge">Freecharge</a> is using the top bar as a progress indicator.
 
 If you have seen Chrome browser on android, they still use this.
 
@@ -36,10 +36,11 @@ So that's all there is! Use ```px``` instead on ```em``` if you like. Change the
 Though it is a simple thing, it gives a huge impact on the look and aesthetics.
 Check the difference between these two websites I made for my mom.
 
-Top bar: [Top bar](http://webjeda.com/top-bar/)
+No top bar: [No top bar](http://webjeda.com/No-top-bar/){:rel='nofollow'} 
 
 
-No top bar: [No top bar](http://webjeda.com/No-top-bar/)
+Top bar: [Top bar](http://webjeda.com/top-bar/){:rel='nofollow'}
+
 
 Ok, so do implement this on your website and let me know how it went.
 
