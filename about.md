@@ -15,5 +15,3 @@ If you are looking for a modern, fast loading, visually appealing website then [
 Please feel free to ping me on whatsapp if you want a quick response
 
 **Whatsapp:** +91 890 447 5972
-
----
