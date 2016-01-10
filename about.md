@@ -17,4 +17,4 @@ Please feel free to ping me on whatsapp if you want a quick response
 **Whatsapp:** +91 890 447 5972
 
 
-**Disclaimer:** This website is under constant modification. If you find something isn't right then I may be doing some changes in the backend.
+**Disclaimer:** This website is under constant modification. If you find something isn't right then I might be doing some changes in the backend.
