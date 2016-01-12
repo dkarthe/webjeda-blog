@@ -1,6 +1,7 @@
 ---
 title: How I created WebJeda blog
-
+desc: I created this beautiful looking blog by forking a repository. You can also fork it to make it yours. Here is a easy way.
+keyword: cerate jekyll blog, blogging on jekyll
 ---
 
 ![How to create a website using Github pages](/images/how-to-create-a-blog-on-github-pages.jpg)

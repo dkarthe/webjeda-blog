@@ -1,6 +1,6 @@
 ---
 title: Why WebJeda?
-
+desc: While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser which was github.com. Cognizant had learning period of two months in which I googled a lot about it.
 ---
 
 ![c10h14n2](/images/c10h14n2movie-mockup.png "Test")

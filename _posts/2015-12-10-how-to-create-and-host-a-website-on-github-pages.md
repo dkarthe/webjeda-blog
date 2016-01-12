@@ -1,6 +1,6 @@
 ---
 title: How to create and host a website on Github Pages?
-desc: For a beginner Github could be hardnut to creack. But with this tutorial learn how to create and host a website on Github Pages
+desc: For a beginner Github could be hardnut to crack. But with this tutorial learn how to create and host a website on Github Pages in simple steps.
 keywords: create a website on github, github pages website, host website on github
 ---
 

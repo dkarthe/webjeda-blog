@@ -1,6 +1,7 @@
 ---
 title: How to add top bar to websites
-
+desc: Top bars are beautiful looking lines at the top of a website. See how I have implemented it in my websites.
+keyword: top bar, website top line
 ---
 
 ![How to add colored top bar to website](/images/top-bar-on-websites.jpg)

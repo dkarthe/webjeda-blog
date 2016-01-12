@@ -1,6 +1,7 @@
 ---
 title: How to make a form in Jekyll website
-
+desc: Normal forms will not work on Jekyll blog or Github pages website. You have to use something that works for a static website. I have given a simple solution for such problems.
+kewords: form in jekyll, form in jekyll blog, form in a static website
 ---
 
 ![How to make a form in Jekyll website](/images/how-to-add-form-option-for-jekyll-websites.jpg)
