@@ -10,19 +10,19 @@ I have been using Github pages since 2012. It was a hardnut for me when I starte
 ##Why github pages
 
 ###1. It is free 
-- This is something I found out really late. By that time I had a hosting space bought from hostgator :(
+:This is something I found out really late. By that time I had a hosting space bought from hostgator :(
 
 
 ###2. It is fast 
-- Github Pages are incredibly fast when compared to WordPress and other CMSs.
+:Github Pages are incredibly fast when compared to WordPress and other CMSs.
 
 
-###3. It is secure - 
-There is no backend execution in Github pages and the chances of website getting hacked are nil(one of the reasons why [Obama campaign](https://contribute.barackobama.com/) used Jekyll)
+###3. It is secure
+:There is no backend execution in Github pages and the chances of website getting hacked are nil(one of the reasons why [Obama campaign](https://contribute.barackobama.com/) used Jekyll)
 
 
 ###4. Blog aware 
-- Jekyll is a static website generator used for blogging in Github pages. Jekyll blogs will have almost all the features of a general blog.
+:Jekyll is a static website generator used for blogging in Github pages. Jekyll blogs will have almost all the features of a general blog.
 
 
 These are some of the major advantages over other platforms, you'll realize more perks when you start using it. So let's start by creating a simple website.
