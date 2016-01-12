@@ -12,6 +12,7 @@ But Jekyll websites and blogs being static, cannot execute 'php' files. Wait.! T
 ##Solution
 There are few solutions.
 1. [Formspree](http://formspree.io)
+
 2. [SimpleForm](https://getsimpleform.com/)
 
 I'm going to explain the simplest one among the two - Formspree.
@@ -28,6 +29,8 @@ Let's create a simple form and make it work. I will have only two options for us
 <input type="submit" value="Send">
 </form>
 {% endhighlight %}
+
+
 
 So the output should look something like this.
 
@@ -46,16 +49,20 @@ If you see the code for the form, **action** and **method** are empty. Formspree
 
 {% endhighlight %}
 
+
+
 Whenever a user submits his name and email, the data will be sent to formspree.io website and then formspree sends it back to your email with the details. 
 
 Try to enter something and see if you recieve the mail. For the first time you have to verify your email address. Then on you can recieve mails without any hassle.
 
-##Custom thank-you page 
+##Step 3: Custom thank-you page 
 After the submission, users are redirected to a formspree thank you page by default. But if you want it to be your own custom thank you page then you can do so adding this code.
 
 {% highlight html linenos %}
 <input type="hidden" name="_next" value="//path/thanks.html" />
 {% endhighlight %}
+
+
 
 I have a working example here - [nallikayi contact](https://articles.nallikayi.com/contact-us.html)
 
@@ -67,6 +74,8 @@ Also I don't recommend using formspree if you are asking your users any sensitiv
 
 Here is a video demonstration
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/IP6HsgwQkvs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
 
 And don't forget to leave the link of your website with newly created form, in the comment section.
 
