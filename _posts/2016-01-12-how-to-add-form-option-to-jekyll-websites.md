@@ -7,7 +7,9 @@ title: How to make a form in Jekyll website
 
 When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. How to add a form to jekyll website which is static?! The backbone of a forms is the ```php``` code which takes in the data and sends it to respective email address.
 
-But Jekyll websites and blogs being static, cannot execute 'php' files. Wait.! Then how do I make a working form in Jekyll?
+But Jekyll blogs and websites hosted on github being static, cannot execute ```php``` files. Wait.! Then how do I make a working form in Jekyll blog?
+
+
 
 ##Solution
 There are few solutions.
@@ -16,7 +18,11 @@ There are few solutions.
 
 2. [SimpleForm](https://getsimpleform.com/)
 
-I'm going to explain the simplest one among the two - Formspree.
+I'm going to explain the simplest one among the two - Formspree. 
+
+Formspree has a restriction 1000 entries/month. That was more than enough for a starter like myself. You can choose Gold membership for more options and have access to database.
+
+
 
 ##Step 1: Create a form
 
@@ -56,6 +62,8 @@ Whenever a user submits his name and email, the data will be sent to formspree.i
 
 Try to enter something and see if you recieve the mail. For the first time you have to verify your email address. Then on you can recieve mails without any hassle.
 
+This is the brief process of making a form in github pages website. What if you want to redirect users to a custom web page once they are done submitting the form on Jekyll blog or github pages website?
+
 ##Step 3: Custom thank-you page 
 After the submission, users are redirected to a formspree thank you page by default. But if you want it to be your own custom thank you page then you can do so adding this code.
 
@@ -63,9 +71,11 @@ After the submission, users are redirected to a formspree thank you page by defa
 <input type="hidden" name="_next" value="//path/thanks.html" />
 {% endhighlight %}
 
-
-
 I have a working example here - [nallikayi contact](https://articles.nallikayi.com/contact-us.html)
+
+Make sure you create a **thank you** page in Github-pages with the name ```thanks.html```. 
+
+
 
 ##Things to keep in mind
 
