@@ -8,8 +8,19 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="generator" content="Jekyll">
-    <meta name="description" content="WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions">
-    <meta name="keywords" content="web designing, web development ">
+   
+       {% if page.desc %}
+    <meta name="description" content="{{ page.desc }}" />
+       {% else %}
+    <meta name="description" content="WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions." />
+       {% endif %}
+
+       {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}" />
+       {% else %}
+    <meta name="keywords" content="freelance, designer, wirral, web design, development, UI designer, freelance developer, jekyll, front-end developer, sharath kumar, sharathdt, freelance designer, freelance designer" />
+       {% endif %}
+   
 	<title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<link rel="canonical" href=" {{ site.url }}{{ page.url }}" />
 	<!-- CSS & fonts -->
