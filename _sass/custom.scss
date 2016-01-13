@@ -46,13 +46,19 @@ input[type=submit] {
 }
 
 .left{
-text-align:left;
-float:left;
+    text-align:left;
+    float:left;
+    width: 33%;
+    margin: 0 auto;
 }
 .right{
-float:right;
-text-align:right;
+    float:right;
+    text-align:right;
+    width: 33%;
+    margin: 0 auto 10px;
 }
 .centered{
-text-align:center;
+        text-align:center;
+        width: 33%;
+        margin: 0 auto;
 }
