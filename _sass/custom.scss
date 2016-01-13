@@ -33,15 +33,26 @@ input[type=submit] {
 .subs {
     height: 25px;
     width: 70px;
-    margin: 5px;
     border:0;
     border-radius: 2px;
-    box-shadow: 2px;
     background-color: #26A65B;
     color:#EAEDEE;
+    box-shadow: #7b7b7b 1px 1px 1px 1px;
 }
 
 .subs:hover {
     
    background-color: #33985C;     
+}
+
+.left{
+text-align:left;
+float:left;
+}
+.right{
+float:right;
+text-align:right;
+}
+.centered{
+text-align:center;
 }

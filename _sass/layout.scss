@@ -121,7 +121,7 @@
   	color: $text-color;
   	display: inline-block;
   }
-  img {
+ #header img {
   	height: 72px;
     width: 155px;
   	margin: 0 auto;
@@ -191,7 +191,7 @@ img {
           border-radius: 4px;
 }
 
-img[title="Emerald"] {
+img[title="WebJeda"] {
     box-shadow: 0 2px 6px #ddd;
   }
 
@@ -244,10 +244,9 @@ code {
 /* Footer */
 
 footer {
-  background-color: $main-color;
-  color: $background-color;
-  text-align: center;
+  background-color:#F9F5F5;
   padding: 0.6667em 0;
+  border-top: #7b7b7b 1px solid;
   }
 #foot {
     color: #fff; 
@@ -255,5 +254,5 @@ footer {
 }
 
 #footimg {
-    margin-bottom: 0;
+    box-shadow: #7b7b7b 1px 1px 1px 1px;
 }
