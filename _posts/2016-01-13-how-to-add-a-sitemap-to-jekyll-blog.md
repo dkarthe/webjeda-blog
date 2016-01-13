@@ -26,7 +26,7 @@ I use [SEO-checkup](https://toolbox.seositecheckup.com/apps/seo-checkup) to see 
 
 Jekyll blogs will not have sitemap by default. You can always generate them using a small snippet of code. Add below code to your **_config.yml** file. This will create a sitemap for you with the link ```/sitemap.xml```.
 
-{% highlight html linenos %}
+{% highlight css linenos %}
 gems:
   - jekyll-sitemap
 {% endhighlight %}
