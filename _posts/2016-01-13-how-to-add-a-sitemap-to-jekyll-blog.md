@@ -6,8 +6,8 @@ kewords: sitemap in jekyll blog, jekyll sitemap, sitemap for jekyll
 
 ![How to add sitemap to Jekyll blog](/images/add-sitemap-to-Jekyll-github-pages.jpg)
 
-##What is a Sitemap
-Sitemap is a list of links of all your web pages. Sitemap will be in ```.xml``` format. A sitemap helps search engine bots to crawl through your website. Sitemap will also have metadata such as date of a post, pages, last modified date and how often it was updated etc.,
+
+A sitemap is a list of links of all your web pages. Sitemap will be in ```.xml``` format. A sitemap helps search engine bots to crawl through your website. Sitemap will also have metadata such as date of a post, pages, last modified date and how often it was updated etc.,
 
 A sample website links map
 ![Sitemap of a website](/images/how-to-add-sitemap-to-jekyll.jpg)
