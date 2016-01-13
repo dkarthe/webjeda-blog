@@ -1,5 +1,5 @@
 ---
-title: How to add custom URL to a website hosted on Github?
+title: How to add custom domain to Github Pages website?
 desc: Change the ugly looking uername.github.io/repo.html URl into a yourdomain.com format URL for your project hosted on Github pages.
 keywords: github custom domain, custom domain github, custom URL github website
 ---
