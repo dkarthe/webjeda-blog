@@ -32,6 +32,8 @@ gems:
 {% endhighlight %}
 
 
-Here is my [_config.yml](https://raw.githubusercontent.com/sharu725/emerald/gh-pages/_config.yml) file for reference. I hope that helped. If you are having problem with generating a sitemap please leave a comment. I will try to fix it. 
+Here is my [_config.yml](https://raw.githubusercontent.com/sharu725/emerald/gh-pages/_config.yml) file for reference. 
+
+I hope that helped. If you are having problem with generating a sitemap please leave a comment. I will try to fix it. 
 
 Thanks for reading!
