@@ -4,10 +4,10 @@ desc: Change the ugly looking http://uername.github.io/index.html URL into a you
 keywords: github custom domain, custom domain github, custom URL github website
 ---
 
-![Configure custom domain to github website screenshot](/images/custom-domain-to-github.jpg "Configure custom domain to github website screenshot")
+![Configure custom domain to github website screenshot](/images/custom-domain-to-github-2.jpg "Configure custom domain to github website screenshot")
 Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain to Github here.
 
-You may have a website with a URL which looks similar to [sharu725.github.io](http://sharu725.github.io). But what you want is something like [webjeda.com](http://webjeda.com). So how to change it to a custom domain like webjeda.com?
+You may have a website with a URL which looks similar to [http://sharu725.github.io/index.html](http://sharu725.github.io). But what you want is something like [http://webjeda.com](http://webjeda.com). So how to change it to a custom domain like webjeda.com?
 
 First thing is that you should own a domain name. You can buy it from godaddy, namescheap or somewhere. If you already own one, then continue to Step 1.
 
