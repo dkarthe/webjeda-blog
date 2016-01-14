@@ -8,7 +8,7 @@ title: About WebJeda
 
 WebJeda is a web designing company based in Bengaluru. Designing beautiful responsive and functional websites is our passion. 
 
-I had no plans to turn this passion into a business. But when you love what you do, why not do it for living?!
+My name is Sharath and I'm the author of this blog. I had no plans to turn this passion for web designing into a business. But when you love what you do, why not do it for living?!
 
 If you are looking for a modern, fast loading, visually appealing website then [contact](https://price.webjeda.com/#contact) me. You can choose from the available [packages](https://price.webjeda.com/) (final price depends on the requirement).
 
