@@ -1,7 +1,7 @@
 ---
 title: How to add top bar to websites
 desc: Top bars are beautiful looking lines at the top of a website. See how I have implemented it in my websites.
-keyword: top bar, website top line
+keyword: top bar, website top line, top border of website, top colored line in websites
 ---
 
 ![How to add colored top bar to website](/images/top-bar-on-websites.jpg)
@@ -14,15 +14,15 @@ I started considering top bar only after I saw the designers from [Quora](https:
 
 I remember YouTube using a red top bar to show how the progress of page loading. That was only for a while and for some reason they stopped it. It was actually a great idea to show the users how much page has been loaded. By the time of writing this blog <a rel="nofollow" href="https://www.freecharge.in" alt="Freecharge">Freecharge</a> is using the top bar as a progress indicator.
 
-If you have seen Chrome browser on android, they still use this.
+If you have seen Chrome browser on android, they still use this. May be it is using a different code but visually similar to that we use in websites.
 
 ![Android chrome browser top loading bar](/images/android-chrome-browser-using-top-bar-screenshot.jpg)
 
-So here it is giving some valuable information. But what I want is just a constant colored top bar to enhance the visual appearance. So this is very easy and can be done with a single line of code!
+So here it is giving some valuable information. But what I want is just a constant colored top bar to enhance the visual appearance. It is very easy and can be done with a single line of code!
 
 ##what is the code for top bar!
 
-Just copy these lines to your css file and you'll have a top bar! So far we have called this top bar but in reality it is the top border of your body. Normally it is invisible, we are just giving it a size and color. Pretty neat. Isn't it? There is not a single extra ```div``` used. So there is no load on your website!
+Just copy these lines to your css file and you'll have a top bar! So far we have called this top bar but in reality it is the top border of your body. Normally it is invisible, we are just giving it a size, style and color. Pretty neat. Isn't it? There is not a single extra ```div``` used. So there is no load on your website!
 
 
 {% highlight css linenos %}

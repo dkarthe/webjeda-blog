@@ -66,3 +66,6 @@ Propagation can take a long time and it can be in different speeds in different 
 Here is a video demonstration
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/hUChaN-VRIc?rel=0" frameborder="0" allowfullscreen></iframe>
 
+Let me know if you were successful in using a custom domain name. Put your link in the comment section.
+
+Thanks for reading!
