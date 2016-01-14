@@ -13,7 +13,7 @@ layout: default
 
     
     
-    <div class="w3-card-2" itemprop="name" heading="{{ post.title }}">
+    <div class="w3-card-2" itemprop="name"><h1>{{ post.title }}</h1>
         <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
   <div itemprop="description" class="card-content">{{ post.content | strip_html | truncatewords:50 }}</div>
   <div class="card-actions">
