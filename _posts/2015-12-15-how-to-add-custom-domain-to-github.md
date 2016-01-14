@@ -13,7 +13,9 @@ You may have a website hosted on Github Pages whch has a URL that looks similar 
 
 If you do not have a website yet, then refer to my post on [How to create a website and host it on github pages](http://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/)
 
-First thing is that you should own a domain name. Like I own truejewels.in. You can buy it from any registrars like godaddy, namescheap or somewhere. Domain extensions like **.io**, **.com** are costly whereas **.in**, **co** are cheap. I believe **.tk** is still free. But I prefer **.com** over any other extension. If you already own a domain name and you want to use it, then continue to Step 1.
+First thing is that you should own a domain name. Like I own truejewels.in. You can buy it from any registrars like godaddy, namescheap or somewhere. Domain extensions like **.io**, **.com** are costly whereas **.in**, **co** are cheap. I believe **.tk** is still free. But I prefer **.com** over any other extension. 
+
+If you already own a domain name and you want to use it, then continue to Step 1.
 
 
 ##Step 1: Adding CNAME file to the gh-pages branch of your repository.
