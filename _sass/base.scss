@@ -123,8 +123,4 @@ paper-button {
     padding: 0px 0px 10px 15px;
 }
 
-.w3-btn {
-    color: #FFFFFF;
-    background-color: #26A65B!important;
-    border-radius: 1px!important;
-}
+.w3-btn{border:none;display:inline-block;outline:0;padding:6px 16px;vertical-align:middle;overflow:hidden;text-decoration:none !important;color:#fff;background-color:#26A65B;text-align:center;transition:.2s ease-out;cursor:pointer;white-space:nowrap}
