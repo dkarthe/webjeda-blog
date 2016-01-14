@@ -36,17 +36,17 @@ Remember - project files can only be hosted using gh-pages branch.
 
 I guess you are smart enought to install a software. Once you are done installing, open the app. You should see something like this.
 
-![Github Desktop screenshot](/images/sync-folders-with-github-desktop-tutorial-screenshot.jpg)
+![How to sync folders with Github](/images/sync-folders-with-github-desktop-tutorial-screenshot.jpg)
 
 ##Step 3: Set up Github account in Github Desktop
 
 Click on the gear icon on the top-right corner and hit **Options...**
 
-![Github Desktop Options](/images/github-desktop-settings.jpg)
+![How to sync folders with Github](/images/github-desktop-settings.jpg)
 
 Now you should see an option with name **Accounts**. Click on **Add account**.
 
-![Github Desktop Account setup](/images/github-desktop-account-setup.jpg)
+![How to sync folders with Github - Github Desktop Account setup](/images/github-desktop-account-setup.jpg)
 
 Enter your Github credentials and hit Login (choose Github Enterprise if you have an Enterprise account).
 
@@ -55,7 +55,7 @@ Enter your Github credentials and hit Login (choose Github Enterprise if you hav
 
 Click on the **+** icon on the left-top corner of Github Desktop. You should see these options.
 
-![Github Desktop clone screenshot](/images/clone-repository-to-local-folder-github-desktop.jpg)
+![How to sync folders with Github - Github Desktop clone screenshot](/images/clone-repository-to-local-folder-github-desktop.jpg)
 
 Click on clone. Github should list all your repository available for cloning. Select the repository you just created. In my case - **MyFirstWebsite**. Then hit the checkmark below which says **Clone MyFirstWebsite**    
 
@@ -65,7 +65,7 @@ You may have to choose a local folder where you want the repository to be downlo
 
 Now change the branch to **gh-pages** as shown in the screenshot.
 
-![Change branch in Github Desktop](/images/change-branch-in-github-desktop.jpg)
+![How to sync folders with Github - Change branch in Github Desktop](/images/change-branch-in-github-desktop.jpg)
 
 Now right click on the repository listed on the left side and choose **Open in Explorer**
 
@@ -82,7 +82,7 @@ If you have downloaded the file from **Link 1** then open it and extract the con
 
 ![Copy complete website to github repository](/images/copy-complete-website-to-repository.jpg)
 
-##Step 5: Sync!
+##Step 5: Sync to github!
 
 Come back to the Github Desktop app and click on **Changes** tab. You should see all the changes you just did, all the files and folders you added etc., Once you are satisfied looking at it, hit commit and wait for the app to sync it with remote (but your) Github repository.
 
@@ -93,11 +93,11 @@ Come back to the Github Desktop app and click on **Changes** tab. You should see
 
 Now login to your Github account to see whether your website has been hosted. Navigate to your repository that you just synced. Change the branch to gh-pages and see if the files you synced are present in that branch.
 
-![Successfully synced files and folders with Github](/images/successfully-synced-folders-in-github.jpg)
+![ How to sync folders with Github - Successfully synced files and folders with Github](/images/successfully-synced-folders-in-github.jpg)
 
 Now click on settings and look for **Github Pages** section where you will see a green check mark with a ugly looking URL next to it. Hit that URL. You should see your website hosted!
 
-![Hosting a complete website on Github Pages](/images/hosting-a-complete-website-on-github-pages.jpg)
+![How to sync folders with Github - Hosting a complete website on Github Pages](/images/hosting-a-complete-website-on-github-pages.jpg)
 
 Here is the final URL: [http://redgadget.github.io/MyFirstWebsite/](http://redgadget.github.io/MyFirstWebsite/)
 
