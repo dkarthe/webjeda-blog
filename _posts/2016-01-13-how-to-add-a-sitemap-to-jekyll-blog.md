@@ -4,8 +4,7 @@ desc: Submitting sitemap to major search engines is important to rank better on 
 kewords: sitemap in jekyll blog, jekyll sitemap, sitemap for jekyll
 ---
 
-![How to add sitemap to Jekyll blog](/images/add-sitemap-to-Jekyll-github-pages.jpg)
-
+<img alt="How to add sitemap to Jekyll blog" title="How to add sitemap to Jekyll blog" itemprop="thumbnailUrl" src="/images/add-sitemap-to-Jekyll-github-pages.jpg">
 
 A sitemap is a list of links of all your web pages. Sitemap will be in ```.xml``` format. A sitemap helps search engine bots to crawl through your website. Sitemap will also have metadata such as date of a post, pages, last modified date and how often it was updated etc., It looks like your **feed.xml** file. 
 

@@ -4,7 +4,7 @@ desc: Normal forms will not work on Jekyll blog or Github pages website. You hav
 kewords: form in jekyll, form in jekyll blog, form in a static website, formspree
 ---
 
-![How to make a form in Jekyll website](/images/how-to-add-form-option-for-jekyll-websites.jpg)
+<img alt="How to make a form in Jekyll website" title="How to make a form in Jekyll website" itemprop="thumbnailUrl" src="/images/how-to-add-form-option-for-jekyll-websites.jpg">
 
 When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. How to add a form to jekyll website which is static?! The backbone of a forms is the ```php``` code which takes in the data and sends it to respective email address.
 

@@ -4,7 +4,7 @@ desc: Change the ugly looking http://uername.github.io/index.html URL into a you
 keywords: github custom domain, custom domain github, custom URL github website
 ---
 
-![Configure custom domain to github website screenshot](/images/custom-domain-to-github-2.jpg "Configure custom domain to github website screenshot")
+<img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" src="/images/custom-domain-to-github-2.jpg">
 
 
 Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain name to Github here in simple steps.

@@ -4,7 +4,7 @@ desc: Creating files inside Github repository is easy but what if you have lot o
 kewords: upload folders to github, sync files and folders with github
 ---
 
-![How to sync folders with Github](/images/sync-local-folders-with-github.jpg)
+<img alt="How to sync folders with Github" title="How to sync folders with Github" itemprop="thumbnailUrl" src="/images/sync-local-folders-with-github.jpg">
 
 In my initial days of using Github I used to see repositories filled with folders, files and what not. I used to wonder how the hell these people are uploading folders to Github! 
 

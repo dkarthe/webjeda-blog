@@ -4,7 +4,8 @@ desc: Top bars are beautiful looking lines at the top of a website. See how I ha
 keyword: top bar, website top line, top border of website, top colored line in websites
 ---
 
-![How to add colored top bar to website](/images/top-bar-on-websites.jpg)
+<img alt="How to add colored top bar to website" title="How to add colored top bar to website" itemprop="thumbnailUrl" src="/images/top-bar-on-websites.jpg">
+
 
 As you can see in the screenshot, in one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
 
