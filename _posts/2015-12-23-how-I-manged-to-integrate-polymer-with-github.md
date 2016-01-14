@@ -83,7 +83,7 @@ Here is the css code for coloring the paper-button.
      }
 {% endhighlight %}
 
-
+Eventually I had to take it out as it started throwing JS errors. I chose w3-css for making cards. They look pretty much like polymer cards!
 Let me know if you were successful in integrating Polymer in your website. 
 
 Comment if you do something awesome.
