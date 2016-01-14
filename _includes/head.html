@@ -7,13 +7,13 @@
        {% if page.desc %}
     <meta itemprop="description" name="description" content="{{ page.desc }}" />
        {% else %}
-    <meta name="description" content="WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions." />
+    <meta itemprop="description" name="description" content="WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions." />
        {% endif %}
 
        {% if page.keywords %}
     <meta itemprop="keywords" name="keywords" content="{{ page.keywords }}" />
        {% else %}
-    <meta name="keywords" content="freelance, designer, web design, development, UI designer, freelance developer, jekyll, front-end developer, sharath kumar, sharathdt, freelance designer, freelance designer" />
+    <meta itemprop="keywords" name="keywords" content="freelance, designer, web design, development, UI designer, freelance developer, jekyll, front-end developer, sharath kumar, sharathdt, freelance designer, freelance designer" />
        {% endif %}
    
 	<title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
