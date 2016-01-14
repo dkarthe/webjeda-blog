@@ -2,7 +2,7 @@
 layout: default
 ---
 <article id="post-page" itemscope itemtype="http://schema.org/TechArticle">
-	<h2 itemprop="name">{{ page.title }}</h2>		
+	<h2 itemprop="headline">{{ page.title }}</h2>		
 	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line" itemprop="datePublished">{{ page.date | date_to_string }}</time>
 	<div class="content" itemprop="articleBody">
 
