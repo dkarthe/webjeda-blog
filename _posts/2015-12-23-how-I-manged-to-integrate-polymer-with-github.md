@@ -57,7 +57,8 @@ So what about my jekyll blog index page?
  <time datetime=" post.date | date_to_xmlschema " >(( post.date | date_to_string ))</time>
  <div class="card-content">(( post.content | strip_html | truncatewords:50 ))</div>
  <div class="card-actions">
- <a href="(% if site.baseurl == "/" %)(( post.url ))(% else %)(( post.url | prepend: site.baseurl ))(% endif %)">                           <paper-button class="colored" raised>Read</paper-button></a>
+ <a href="(% if site.baseurl == "/" %)(( post.url ))(% else %)(( post.url | prepend: site.baseurl ))(% endif %)">                        
+ <paper-button class="colored" raised>Read</paper-button></a>
  </div>
  </paper-card>
  {% endhighlight %}
