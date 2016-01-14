@@ -3,7 +3,7 @@ title: Why WebJeda?
 desc: While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser which was github.com. Cognizant had learning period of two months in which I googled a lot about it.
 ---
 
-![c10h14n2](/images/c10h14n2movie-mockup.png "C10h14n2 film website")
+<img alt="c10h14n2" title="C10h14n2 film website" itemprop="thumbnailUrl" src="/images/c10h14n2movie-mockup.png">
 
 While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser which was github.com. Cognizant had learning period of two months in which I googled a lot about it. I was wondered by the contributions people do there. People were creating cool plugins, websites, providing information, documentations and steb by step guide for coders.
 
@@ -18,11 +18,11 @@ But by this time I had a good hang of Github and started hosting my websites on 
 I created few websites like
 
 
-[RedGadgets](http://redgadget.github.io/)
+[RedGadgets](http://redgadget.github.io/){:rel='nofollow'}
 
-[Dxartist](http://dxartist.github.io/)
+[Dxartist](http://dxartist.github.io/){:rel='nofollow'}
 
-[c10h14n2](http://c10h14n2movie.com)
+[c10h14n2](http://c10h14n2movie.com){:rel='nofollow'}
 
 They are old and discontinued but I had a good learning through these websites. I kept them in the repository as a memory. 
 
