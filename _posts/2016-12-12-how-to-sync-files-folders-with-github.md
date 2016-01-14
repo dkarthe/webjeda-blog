@@ -104,7 +104,7 @@ Here is the final URL: [http://redgadget.github.io/MyFirstWebsite/](http://redga
 Success!!
 
 
-<span itemscope="" itemprop="video"><iframe width="100%" height="360" src="https://www.youtube.com/embed/5BSpJ0bpE14?rel=0" frameborder="0" allowfullscreen></iframe></span>
+<iframe itemscope="" itemprop="video" width="100%" height="360" src="https://www.youtube.com/embed/5BSpJ0bpE14?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 ###Want to change the URL to something not ugly?
