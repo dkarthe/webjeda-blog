@@ -109,4 +109,4 @@ Read: [How to add custom domain to websites hosted on Github Pages](https://blog
 
 If you are stuck in any of these steps, please leave a comment. I'll try to help.
 
-Thanks for reading! For more elaborated tutorials like this one, [subscribe!](http://eepurl.com/bMx0pz)
+Thanks for reading! For more elaborated tutorials like this one, [subscribe!](http://eepurl.com/bMx0pz).
