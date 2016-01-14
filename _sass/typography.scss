@@ -55,6 +55,11 @@ blockquote {
 	}
 }
 
+
+code {
+  color: #DEDBDB;
+ }
+
 /*- Typography for big screen, based on 18px font-size -*/
 
 @media (min-width: 940px) { //Breakpoint set to 940px
@@ -89,10 +94,6 @@ h3, h4, h5, h6 {
 	padding: 0.5em 0; /* 12px/24px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
 }
     
-code {
-  color: #DEDBDB;
-  /* background-color: lighten($background-color, 35%); */
-}
     
 blockquote {
 	font-style: italic;

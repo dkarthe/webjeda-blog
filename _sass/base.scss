@@ -40,6 +40,7 @@ html {
 a {
 	color: $main-color;
 	text-decoration: none;
+	font-weight: 700;
 	&:hover,
 	&:focus {
 		color: darken($main-color, 5%);
@@ -100,12 +101,3 @@ paper-button {
     padding: 0.3em 0.87em;
 
 }
-
-
-
-
-ul.share-buttons li{
-  display: inline;
-}
-
-
