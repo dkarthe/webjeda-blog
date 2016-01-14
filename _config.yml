@@ -1,6 +1,7 @@
 # Site settings
 title: WebJeda | A modern web development blog
 description: "WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions"
+keywords:   webdesign, web development, Github pages, Jekyll
 url: http://blog.webjeda.com
 author:
   name: "Sharath Kumar"
