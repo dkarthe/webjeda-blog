@@ -13,8 +13,8 @@ While I was learning Github, I used to go through YouTube videos. But there was 
 
 Github is not known to many developers. They struggle to find a reliable hosting service and they may end up paying few bucks which is not necessary when you have Github Pages for the rescue. You can host your website in minutes!
 
-Read my tutorial on [how to host a website on github.](https://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/)
-and then [sync a complete website using this tutorial](http://blog.webjeda.com/how-to-sync-files-folders-with-github).
+Read my tutorial on [how to host a website on github.](https://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/){:rel='dofollow'}
+and then [sync a complete website using this tutorial](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}.
 
 ![Github pages tutorial screenshot](/images/RGHD-channel-art.jpg)
 
@@ -42,7 +42,7 @@ I have a solution for [creating working forms](https://www.youtube.com/watch?v=I
 
 Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it, learn while doing so.
 
-Jekyll is another boon to web designers to host their blogs or single page websites. I have created many blogs on jekyll. It almost will never break. Uptime of the websites depends on Github. As an established company, Github is always up and running. I have not faced any major issues with them. I think years ago my blog was down for few seconds.
+Jekyll is another boon to web designers to host their blogs or single page websites. I have created many blogs on jekyll. Actually this blog is completely generated using Jekyll! It almost will never break. Uptime of the websites depends on Github. As an established company, Github is always up and running. I have not faced any major issue so far. I think years ago my blog was down for few seconds.
 
 Finally what I suggest for new developers is to get familiar with Github and contribute to the community. Thank me later.
 
