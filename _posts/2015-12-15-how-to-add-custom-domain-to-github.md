@@ -56,7 +56,7 @@ Click on **Finish** and **Save**.
 
 And that's about it. Do not rush though. It will take a while to propagate. So grab a cup of coffee. Once you are done, hit your URL :)
 
-Propagation can take a long while and it can be in different speeds in different geolocations. So try using a [proxy site](https://www.proxysite.com/){:rel='nofollow'} to see if it has propagated in different countries. Try servers from different countries.
+Propagation can take a long time and it can be in different speeds in different geolocations. So try using a [proxy site](https://www.proxysite.com/){:rel='nofollow'} to see if it has propagated in different countries. Try servers from different countries.
 
 
 Here is a video demonstration
