@@ -18,7 +18,7 @@ First thing is that you should own a domain name. Like I own truejewels.in. You 
 If you already own a domain name and you want to use it, then continue to Step 1.
 
 
-##Step 1: Adding CNAME file to the gh-pages branch of your repository.
+##Step 1: Adding CNAME file to the gh-pages branch.
 
 
 Go to the repository where you have hosted your website and click on **New File**
@@ -56,7 +56,9 @@ You can find these Ips [here](https://help.github.com/articles/tips-for-configur
 
 Click on **Finish** and **Save**.
 
-And that's about it. Do not rush though. It will take a while to propagate. So grab a cup of coffee. Once you are done, hit your URL :)
+##Step 3: Waiting!
+
+And that's about it. Do not rush though. It will take a while to propagate. So grab a cup of coffee. Once you are done, hit your URL :) 
 
 Propagation can take a long time and it can be in different speeds in different geolocations. So try using a [proxy site](https://www.proxysite.com/){:rel='nofollow'} to see if it has propagated in different countries. Try servers from different countries.
 
