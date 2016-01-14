@@ -5,6 +5,7 @@ layout: default
     <link rel="import" href="/bower_components/paper-card/paper-card.html" >
     <link rel="import" href="/bower_components/paper-button/paper-button.html" >
     <link rel="import" href="/bower_components/paper-ripple/paper-ripple.html" >
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <!-- Posts -->
 <ul itemscope="" itemtype="http://schema.org/Blog" id="posts">
 
@@ -12,15 +13,14 @@ layout: default
 
     
     
-    <paper-card itemprop="name" heading="{{ post.title }}">
+    <div class="w3-card-2" itemprop="name" heading="{{ post.title }}">
         <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
   <div itemprop="description" class="card-content">{{ post.content | strip_html | truncatewords:50 }}</div>
   <div class="card-actions">
-      <a itemprop="url" href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"><paper-button raised class="colored">Read</paper-button>
-          <paper-ripple></paper-ripple>   
-    </a>
+      <a itemprop="url" href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"><div class="w3-btn w3-round w3-green">Read</div>
+     </a>
   </div>
-</paper-card>
+</div>
     {% endfor %}
 
 </ul>
