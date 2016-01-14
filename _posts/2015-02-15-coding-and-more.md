@@ -6,7 +6,7 @@ desc: I have started teaching how to make websites for budding web designers. I 
 
 I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching **Hosting websites on Github**. The best thing about Github is that it hosts your website (only static) rightawayand for free. This is the simplest way to learn web designing. 
 
-<iframe width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
+<span itemscope="" itemprop="video"><iframe width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe></span>
 
 ##Why teach Github?
 While I was learning Github, I used to go through YouTube videos. But there was not a single guy who teaches it without using CLI. When you run commands on CLI, the output may not be the same for everyone. It depends on the previous installations, dependencies and a correct PATH variable. For starters CLI is a hard nut to crack. So I decided to make it easier for beginners. I do not use CLI in my videos. Everything was done through GUI.

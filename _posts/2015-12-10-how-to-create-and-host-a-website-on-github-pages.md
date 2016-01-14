@@ -107,7 +107,7 @@ This is just a single file website. If you want to sync a lot of folders, files,
 
 See a video demonstration here
 
-<iframe width="100%" height="360" src="https://www.youtube.com/embed/bwThn0rxv7M?rel=0" frameborder="0" allowfullscreen></iframe>
+<span itemscope="" itemprop="video"><iframe width="100%" height="360" src="https://www.youtube.com/embed/bwThn0rxv7M?rel=0" frameborder="0" allowfullscreen></iframe></span>
 
 Don't forget to post the link of your website created on Github Pages. And ask me if you are stuck in any of the steps above.
 

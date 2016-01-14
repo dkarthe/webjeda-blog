@@ -74,7 +74,7 @@ If you have any doubts or if you couldn't set up your Jekyll blog then please le
 
 Here is a video demonstration
 
-<iframe width="100%" height="310" src="https://www.youtube.com/embed/U0idtvxVo9I?rel=0" frameborder="0" allowfullscreen></iframe>
+<span itemscope="" itemprop="video"><iframe width="100%" height="310" src="https://www.youtube.com/embed/U0idtvxVo9I?rel=0" frameborder="0" allowfullscreen></iframe></span>
 
 
 And don't forget to leave the link of your newly created blog, in the comment section.

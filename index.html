@@ -6,17 +6,17 @@ layout: default
     <link rel="import" href="/bower_components/paper-button/paper-button.html" >
     <link rel="import" href="/bower_components/paper-ripple/paper-ripple.html" >
 <!-- Posts -->
-<ul id="posts">
+<ul itemscope="" itemtype="http://schema.org/Blog" id="posts">
 
 	{% for post in paginator.posts %}
 
     
     
-    <paper-card heading="{{ post.title }}">
+    <paper-card itemprop="name" heading="{{ post.title }}">
         <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date_to_string }}</time>
-  <div class="card-content">{{ post.content | strip_html | truncatewords:50 }}</div>
+  <div itemprop="description" class="card-content">{{ post.content | strip_html | truncatewords:50 }}</div>
   <div class="card-actions">
-      <a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"><paper-button raised class="colored">Read</paper-button>
+      <a itemprop="url" href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"><paper-button raised class="colored">Read</paper-button>
           <paper-ripple></paper-ripple>   
     </a>
   </div>

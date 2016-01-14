@@ -25,7 +25,7 @@
     
    
     <!-- Main content -->
-	  <div id="container">
+	  <div  id="container">
 		  
 		<main>
 
@@ -35,7 +35,7 @@
 		
 		  <!-- Pagination links -->
       {% if paginator.total_pages > 1 %}
-        <div class="pagination">
+        <div  itemscope="" itemprop="pagination" class="pagination">
           {% if paginator.previous_page == 1 %}
             <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
           {% elsif paginator.previous_page%}

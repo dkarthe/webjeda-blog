@@ -99,9 +99,13 @@ Now click on settings and look for **Github Pages** section where you will see a
 
 ![How to sync folders with Github - Hosting a complete website on Github Pages](/images/hosting-a-complete-website-on-github-pages.jpg)
 
-Here is the final URL: [http://redgadget.github.io/MyFirstWebsite/](http://redgadget.github.io/MyFirstWebsite/)
+Here is the final URL: [http://redgadget.github.io/MyFirstWebsite/](http://redgadget.github.io/MyFirstWebsite/) and a video demonstration.
 
 Success!!
+
+
+<span itemscope="" itemprop="video"><iframe width="100%" height="360" src="https://www.youtube.com/embed/5BSpJ0bpE14?rel=0" frameborder="0" allowfullscreen></iframe></span>
+
 
 ###Want to change the URL to something not ugly?
 

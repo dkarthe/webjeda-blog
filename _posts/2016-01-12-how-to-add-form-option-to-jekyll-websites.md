@@ -85,7 +85,7 @@ Be careful not to include your personal email in form action as it is easily vis
 Also I don't recommend using formspree if you are asking your users any sensitive data bacause a copy of it is saved in formspree database. But for for general non-sensitive data submission, formspree works like charm.
 
 Here is a video demonstration
-<iframe width="100%" height="360" src="https://www.youtube.com/embed/IP6HsgwQkvs?rel=0" frameborder="0" allowfullscreen></iframe>
+<span itemscope="" itemprop="video"><iframe width="100%" height="360" src="https://www.youtube.com/embed/IP6HsgwQkvs?rel=0" frameborder="0" allowfullscreen></iframe></span>
 
 
 
