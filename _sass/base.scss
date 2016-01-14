@@ -40,7 +40,7 @@ html {
 a {
 	color: $main-color;
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: 300;
 	&:hover,
 	&:focus {
 		color: darken($main-color, 5%);
