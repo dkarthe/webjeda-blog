@@ -57,7 +57,7 @@ Click on the **+** icon on the left-top corner of Github Desktop. You should see
 
 ![Github Desktop clone screenshot](/images/clone-repository-to-local-folder-github-desktop.jpg)
 
-Click on clone. Github should list all your repository available for cloning. Select the repository you just created. In my case - *MyFirstWebsite**. Then hit the checkmark below which says **Clone MyFirstWebsite**    
+Click on clone. Github should list all your repository available for cloning. Select the repository you just created. In my case - **MyFirstWebsite**. Then hit the checkmark below which says **Clone MyFirstWebsite**    
 
 ![Github Desktop clone screenshot](/images/clone-repository-to-local-folder-github-desktop-2.jpg)
 
