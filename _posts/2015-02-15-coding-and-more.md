@@ -4,7 +4,7 @@ desc: I have started teaching how to make websites for budding web designers. I 
 ---
 
 
-I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching 'hosting websites on Github'. The best thing about Github is that it hosts your website (only static) rightawayand for free. This is the simplest way to learn web designing. 
+I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching **Hosting websites on Github**. The best thing about Github is that it hosts your website (only static) rightawayand for free. This is the simplest way to learn web designing. 
 
 <iframe width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
 
@@ -19,10 +19,8 @@ and then [sync a complete website using this tutorial](http://blog.webjeda.com/h
 ![Github pages tutorial screenshot](/images/RGHD-channel-art.jpg)
 
 Making it simple helped a lot of people start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few in the screenshots below
-![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-4.JPG)
-![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-3.JPG)
-![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot-2.JPG)
-![Github pages tutorial screenshot](/images/youtube-comments-github-pages-screenshot.JPG)
+![Github pages youtube tutorial positive response](/images/github-pages-tutorial-youtube-positive-response.jpg)
+
 Checkout the playlist on above to see more comments.
 
 
