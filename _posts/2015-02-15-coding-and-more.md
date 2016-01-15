@@ -1,6 +1,7 @@
 ---
 title: Coding and more
-desc: I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching 'hosting websites on Github'.
+desc: I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching 'hosting websites on Github'. 
+author: sharathdt
 ---
 
 
