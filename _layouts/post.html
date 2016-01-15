@@ -14,19 +14,19 @@ layout: default
   {% assign author = site.authors[page.author] %}
   
    <div class="w3-card-2">
-	
-         <h3>Author</h3>
-		<div itemprop="image" id="authorimage"><img src="{{ author.gravatar }}">
-                <div itemprop="author" id="authorname"><strong>{{ author.display_name }}</strong><br />
-                            <div id="authorsocial"> 
-                                    <a href="{{ author.facebook }}" ><i class="fa fa-facebook-square fa-2x"></i></a>
-                                    <a href="{{ author.twitter }}" ><i class="fa fa-twitter-square fa-2x"></i></a>
-                                    <a href="{{ author.email }}" ><i class="fa fa-envelope-square fa-2x"></i></a>
-                            </div>
-                </div>
-	
-        </div> 
-       
+         <div id="authorcontent">
+            <h3>Author</h3>
+                <div itemprop="image" id="authorimage"><img src="{{ author.gravatar }}">
+                        <div itemprop="author" id="authorname"><strong>{{ author.display_name }}</strong><br />
+                                    <div id="authorsocial"> 
+                                            <a href="{{ author.facebook }}" ><i class="fa fa-facebook-square fa-2x"></i></a>
+                                            <a href="{{ author.twitter }}" ><i class="fa fa-twitter-square fa-2x"></i></a>
+                                            <a href="{{ author.email }}" ><i class="fa fa-envelope-square fa-2x"></i></a>
+                                    </div>
+                        </div>
+
+                </div> 
+        </div>
    </div>
    
     {% include  share.html %}

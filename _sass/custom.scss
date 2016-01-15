@@ -107,3 +107,7 @@ position:relative;-webkit-animation-name:animateright;-webkit-animation-duration
 position:relative;-webkit-animation-name:animatebottom;-webkit-animation-duration:0.4s;animation-name:animatebottom;animation-duration:0.4s}
 @-webkit-keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0px;opacity:1}}
 @keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+#authorcontent {
+    width:90%;
+
+}
