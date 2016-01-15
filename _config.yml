@@ -38,3 +38,14 @@ gems:
 #optimization
 sass:
     style: :compressed
+    
+    
+authors:
+      sharathdt:
+        display_name: sharath.dt
+        gravatar: https://raw.githubusercontent.com/sharu725/lanyon/gh-pages/public/img/sharathdt.jpeg
+        email: mailto:info@dxartist.com
+        web: http://webjeda.com/
+        facebook: https://www.facebook.com/sharu725
+        twitter: https://twitter.com/sharathdt
+        github: sharu725
