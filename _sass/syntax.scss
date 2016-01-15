@@ -65,9 +65,9 @@
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 .highlight {
-    background-color: #434547;
+    background-color: rgba(0, 39, 59, 0.08);
     border-radius: 5px;
     overflow: scroll;
 }
 
-.highlight .err {color: #d14; background-color: rgb(67, 69, 71);}
+.highlight .err {color: #d14;     background-color: #efefef;}
