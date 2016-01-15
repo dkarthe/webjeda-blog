@@ -3,7 +3,7 @@ layout: page
 title: About WebJeda
 ---
 
-<div itemprop="about">
+
 ## About
 
 
@@ -25,4 +25,3 @@ Also I'm leaving a donate link here. I do not use any ads in my blog. I know how
 **Disclaimer:** This website is under constant modification. If you find something isn't right then I might be doing some change in the backend.
 
 
-</div>
