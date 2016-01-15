@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
-<article id="post-page" itemscope itemtype="http://schema.org/TechArticle">
+<article itemscope itemtype="http://schema.org/TechArticle"  id="post-page" >
 	<h2 itemprop="headline">{{ page.title }}</h2>		
-	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line" itemprop="datePublished">{{ page.date | date_to_string }}</time>
-	<div class="content" itemprop="articleBody">
+	<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>
+	<div itemprop="articleBody" class="content" >
 
 		{{ content }}
 		
 	</div>
-   
+   <div class="w3-card-2">
+       
+   </div>
    
     {% include  share.html %}
 </article>
