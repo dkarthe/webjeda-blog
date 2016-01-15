@@ -90,7 +90,7 @@ Come back to the Github Desktop app and click on **Changes** tab. You should see
 ![Commit changes to Github Desktop](/images/commit-changes-to-github-desktop.jpg)
 
 
-##Step 6: Your website must be hosted by now.
+##Step 6: Your website must be hosted on Github Pages now.
 
 Now login to your Github account to see whether your website has been hosted. Navigate to your repository that you just synced. Change the branch to gh-pages and see if the files you synced are present in that branch.
 
