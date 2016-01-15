@@ -4,7 +4,7 @@ desc: While I was working at Cognizant Technology Solutions I always used to hav
 author: sharathdt
 ---
 
-<img alt="c10h14n2" title="C10h14n2 film website" itemprop="thumbnailUrl" src="/images/c10h14n2movie-mockup.png">
+<img alt="c10h14n2" title="C10h14n2 film website" itemprop="thumbnailUrl" src="/images/c10h14n2movie-mockup.jpg">
 
 While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser which was github.com. Cognizant had learning period of two months in which I googled a lot about it. I was wondered by the contributions people do there. People were creating cool plugins, websites, providing information, documentations and steb by step guide for coders.
 

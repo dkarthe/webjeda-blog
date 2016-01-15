@@ -13,11 +13,30 @@ A minimalistic WordPress theme would have done the job, but I wanted something t
 
 Then I came across this theme called [Emerald](http://www.jacoporabolini.com/emerald/).	It felt perfect for my blog. I will show you how I implemented the theme. Once you successfully implement this theme, please consider donating something to the creator of this theme.
 
+##Find a theme that suits your requirement
+
+A theme is important for a good looking blog. Otherwise you can go with the [basic Jekyll theme](http://www.jekyllnow.com/){:rel='nofollow'}. But if you are looking for certain layout then you should checkout [Jekyll Themes](http://jekyllthemes.org/){:rel='nofollow'}. You see a lot of themes here but what I suggest is to go with these
+
+1. [Hyde](http://hyde.getpoole.com/){:rel='nofollow'}
+
+
+2. [Poole](http://demo.getpoole.com/){:rel='nofollow'}
+
+
+3. [Lanyon](http://lanyon.getpoole.com/){:rel='nofollow'}
+
+These are some pretty well built themes I recommend. You can change the look and scheme though. Let's take a look at how to implement [Emerald theme](http://www.jacoporabolini.com/emerald/){:rel='nofollow'}.
+
+All the themes you see are inside a certain repository. You just have to copy these files and change it accordingly to make it yours (but keep the licence file as it is). So if you see Emerald theme, it has a link in it's navigation which says **Project on Github**. That link will lead you to the theme repository.
+
+![Jekyll theme respository](/images/fork-jekyll-theme-screenshot-2.jpg)
+
+Once you are inside the repository move to next step.
 
 ##Fork - A new way of copy pasting!
 
 
-First thing is logging in to Github and forking the whole [theme repository](https://github.com/KingFelix/emerald)
+First thing is logging in to Github and forking the whole [theme repository](https://github.com/KingFelix/emerald){:rel='nofollow'}
 
 ![Fork a repository](/images/fork-jekyll-theme-screenshot.JPG)
 
