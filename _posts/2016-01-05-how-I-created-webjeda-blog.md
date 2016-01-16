@@ -11,11 +11,11 @@ When I had this idea to create a web designing blog, I thought of making it in W
 
 A minimalistic WordPress theme would have done the job, but I wanted something that can load faster. Jekyll - a static site generator - is a lot faster and very secure. But Jekyll themes are very limited. You cannot actually get the exact design you want like you get in WordPress.
 
-Then I came across this theme called [Emerald](http://www.jacoporabolini.com/emerald/).	It felt perfect for my blog. I will show you how I implemented the theme. Once you successfully implement this theme, please consider donating something to the creator of this theme.
+Then I came across this Jekyll theme called [Emerald](http://www.jacoporabolini.com/emerald/).	It felt perfect for my blog. I will show you how I implemented this theme. Once you successfully implement this Jekyll theme, please consider donating something to the creator.
 
 ##Find a theme that suits your requirement
 
-A theme is important for a good looking blog. Otherwise you can go with the [basic Jekyll theme](http://www.jekyllnow.com/){:rel='nofollow'}. But if you are looking for certain layout then you should checkout [Jekyll Themes](http://jekyllthemes.org/){:rel='nofollow'}. You see a lot of themes here but what I suggest is to go with these
+A theme is important for a good looking blog. Otherwise you can go with the [basic Jekyll theme](http://www.jekyllnow.com/){:rel='nofollow'} form minimal design. But if you are looking for certain layout then you should checkout [Jekyll Themes](http://jekyllthemes.org/){:rel='nofollow'}. You see a lot of themes here but what I suggest is to go with these Jekyll themes
 
 1. [Hyde](http://hyde.getpoole.com/){:rel='nofollow'}
 
