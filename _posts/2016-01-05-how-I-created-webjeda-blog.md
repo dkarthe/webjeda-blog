@@ -1,6 +1,6 @@
 ---
 title: How I created WebJeda blog
-desc: I created this beautiful looking blog by forking a repository. You can also fork it to make it yours. Here is a easy way.
+desc: I created this beautiful looking jekyll blog by forking a repository. You can also fork it to make it yours. Here is a easy way.
 keyword: cerate jekyll blog, blogging on jekyll, github blogging
 author: sharathdt
 ---
@@ -9,7 +9,7 @@ author: sharathdt
 
 When I had this idea to create a web designing blog, I thought of making it in WordPress. For some reason I didn't like the same look of WordPress themes. Many of them are distracting. I was looking for something totally content oriented.
 
-A minimalistic WordPress theme would have done the job, but I wanted something that can load faster. Jekyll static websites are lot faster and very secure. But Jekyll themes are very limited. You cannot actually get the exact design you want like you get in WordPress.
+A minimalistic WordPress theme would have done the job, but I wanted something that can load faster. Jekyll - a static site generator - is a lot faster and very secure. But Jekyll themes are very limited. You cannot actually get the exact design you want like you get in WordPress.
 
 Then I came across this theme called [Emerald](http://www.jacoporabolini.com/emerald/).	It felt perfect for my blog. I will show you how I implemented the theme. Once you successfully implement this theme, please consider donating something to the creator of this theme.
 
