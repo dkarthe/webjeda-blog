@@ -12,7 +12,7 @@ baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
-permalink: pretty
+permalink: /:title
 paginate: 5
 paginate_path: /page:num/
 
