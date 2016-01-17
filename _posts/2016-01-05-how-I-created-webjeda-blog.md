@@ -1,5 +1,5 @@
 ---
-title: How I created WebJeda blog
+title: How to create a Jekyll blog
 desc: I created this beautiful looking jekyll blog by forking a repository. You can also fork it to make it yours. Here is a easy way.
 keyword: cerate jekyll blog, blogging on jekyll, github blogging
 author: sharathdt

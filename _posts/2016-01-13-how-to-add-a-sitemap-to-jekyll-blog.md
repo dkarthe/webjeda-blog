@@ -6,6 +6,7 @@ author: sharathdt
 ---
 
 <img alt="How to add sitemap to Jekyll blog" title="How to add sitemap to Jekyll blog" itemprop="thumbnailUrl" src="/images/add-sitemap-to-Jekyll-github-pages.jpg">
+In one of my previous posts I wrote on [How to create a Jekyll Blog](http://blog.webjeda.com/how-I-created-webjeda-blog). If you have created a blog for yourself or if you already have a Jekyll blog then go through this tutorial.
 
 A sitemap is a list of links of all your web pages. Sitemap will be in ```.xml``` format. A sitemap helps search engine bots to crawl through your website. Sitemap will also have metadata such as date of a post, pages, last modified date and how often it was updated etc., It looks like your **feed.xml** file. 
 
@@ -37,6 +38,10 @@ gems:
 Here is my [_config.yml](https://raw.githubusercontent.com/sharu725/emerald/gh-pages/_config.yml){:rel='nofollow'} file for reference. You will not be able to see the XML file created for sitemap inside your directory.
 
 Now commit the changes and hit the URL yourwebsite.com/sitemap.xml. You should see all your links listed there.
+
+Here is a video demonstration
+
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/kiBtQClK-XQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
 I hope that helped. If you are having problems with generating a sitemap please leave a comment. I will try to fix it. 
 

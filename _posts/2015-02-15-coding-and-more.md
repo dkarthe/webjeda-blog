@@ -1,5 +1,5 @@
 ---
-title: Coding and more
+title: Coding and more in the meanwhile
 desc: I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching 'hosting websites on Github'. 
 author: sharathdt
 ---
