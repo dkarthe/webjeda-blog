@@ -2,6 +2,7 @@
 layout: page
 title: Archive
 ---
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <section id="archive">
   <h2><i class="fa fa-leanpub fa-2x"></i> Articles from this year</h2>
 {% for post in site.posts %}
