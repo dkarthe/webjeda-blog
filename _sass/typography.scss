@@ -61,12 +61,11 @@ blockquote {
 
 
 code {
-    display:block;
     color:#3CBB58;
     font-size: 0.8em;
     padding:5px;
-    margin-bottom: 10px;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;   
+   /*  margin-bottom: 10px; */
     background-color: #efefef;
     border-radius: 5px;
     overflow: auto;
