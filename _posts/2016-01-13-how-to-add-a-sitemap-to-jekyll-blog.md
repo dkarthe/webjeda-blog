@@ -27,7 +27,7 @@ I use [SEO-checkup](https://toolbox.seositecheckup.com/apps/seo-checkup){:rel='n
 
 ##How to create a sitemap for Jekyll blog
 
-In wordpress, creating a sitemap using a plugin is really easy. What if I tell you that crating sitemap in Jekyll is easier than that! Jekyll blogs will not have sitemap by default. You can always generate them using a small snippet of code. Add the below code to your **_config.yml** file. This will create a sitemap for you with the link ```/sitemap.xml```.
+In wordpress, creating a sitemap using a plugin is really easy. What if I tell you that creating sitemap in Jekyll is much easier! Jekyll blogs will not have sitemap by default. You can always generate them using a small snippet of code. Add the below code to your **_config.yml** file. This will create a sitemap for you with the link ```/sitemap.xml```.
 
 {% highlight css linenos %}
 gems:
