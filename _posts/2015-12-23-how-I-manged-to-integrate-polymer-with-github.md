@@ -67,8 +67,6 @@ So what about my jekyll blog index page?
  
  Note: Replace all the **()** with **{}**
  
- Source Code: [source code](https://raw.githubusercontent.com/sharu725/emerald/gh-pages/index.html)
-
 Copy these lines to your **index.html** page without deleting the default code. If you like it then delete the default code and keep the polymer one.
 
 How I included colored paper button?
