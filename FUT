@@ -6,3 +6,9 @@ Schema
 <img alt="c10h14n2" title="C10h14n2 film website" itemprop="thumbnailUrl" src="/images/c10h14n2movie-mockup.png">
 
 permalink: /:title
+
+
+
+{% highlight css linenos %}
+
+{% endhighlight %}

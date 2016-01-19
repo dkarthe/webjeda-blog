@@ -43,6 +43,43 @@ Here is a video demonstration
 
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/kiBtQClK-XQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
+##The hard way to insert sitemap in Jekyll blog!
+You can also list all the links by yourself. Don't worry, we will be using ```ul``` so that it arranges the links  one by oone. 
+
+Create a file in the root of the repository and name it **whatever.xml**
+
+Copy this code inside it
+
+{% highlight html linenos %}
+
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    (% for post in site.posts %)
+    <url>
+        <loc>((site.url))(( post.url | remove: 'index.html' ))</loc>
+    </url>
+    (% endfor %)
+
+    (% for page in site.pages %)
+    (% if page.layout != nil %)
+    (% if page.layout != 'feed' %)
+    <url>
+        <loc>((site.url))(( page.url | remove: 'index.html' ))</loc>
+    </url>
+    (% endif %)
+    (% endif %)
+    (% endfor %)
+</urlset>
+
+
+(% endhighlight %)
+
+Note: Replace all () with {}
+
+Here you will have the full control of your sitemap. You can exclude whatever you think is not important and include links that you want it to be in the sitemap.
+
 I hope that helped. If you are having problems with generating a sitemap please leave a comment. I will try to fix it. 
 
 Thanks for reading!
