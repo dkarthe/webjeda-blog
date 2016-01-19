@@ -10,16 +10,16 @@ I have started teaching how to make websites for budding web designers. I have p
 <iframe itemscope="" itemprop="video" width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
 
 ##Why teach Github?
+![Github pages tutorial screenshot](/images/RGHD-channel-art.jpg)
 While I was learning Github, I used to go through YouTube videos. But there was not a single guy who teaches it without using CLI. When you run commands on CLI, the output may not be the same for everyone. It depends on the previous installations, dependencies and a correct PATH variable. For starters CLI is a hard nut to crack. So I decided to make it easier for beginners. I do not use CLI in my videos. Everything is done through GUI.
 
 I see a lot of blogs providing useful information on Github pages and Jekyll. But in my blogs i want to give step by step procedure for everything without missing anything in between. This is what I expect from a blog. So that is what I follow.
 
-Github is not known to many developers. They struggle to find a reliable hosting service and they may end up paying few bucks which is not necessary when you have Github Pages for the rescue. You can host your website in minutes!
+Github is not known to many developers. They struggle to find a reliable hosting service and they may end up paying few bucks which is not necessary when you have Github Pages for the rescue. You can host your website in minutes for free!
 
 Read my tutorial on [how to host a website on github.](https://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/){:rel='dofollow'}
 and then [sync a complete website using this tutorial](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}.
 
-![Github pages tutorial screenshot](/images/RGHD-channel-art.jpg)
 
 Making it simple helped a lot of people start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few in the screenshots below
 ![Github pages youtube tutorial positive response](/images/github-pages-tutorial-youtube-positive-response.jpg)

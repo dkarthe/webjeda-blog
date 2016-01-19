@@ -29,6 +29,16 @@ Jekyll is a static site generator used for blogging in Github pages. Jekyll blog
 
 These are some of the major advantages over other platforms, you'll realize more perks when you start using it. So let's start by creating a simple website.
 
+Github offers two types of web hosting
+
+1. User & Organization Pages: To host personal and organization website.
+
+2. Project Pages: To host all the project websites.
+
+My tutorial given here is for Project Pages. Got to the bottom to see how you can host using User Pages
+
+
+
 ##Step 1: Create a repository
 
 I hope you have signed up for Github, otherwise you can [sign up for free here](https://github.com). Once you have signed up you have to create a repository by clicking on the **+** symbol on the top-right corner as shown in the screenshot.
@@ -105,10 +115,13 @@ And success!
 
 This is just a single file website. If you want to sync a lot of folders, files, images etc., then you may have to use a Github Client like Github Desktop or SourceTree(my favourite) to push the files.
 
-
 See a video demonstration here
 
 <iframe itemscope="" itemprop="video" width="100%" height="360" src="https://www.youtube.com/embed/bwThn0rxv7M?rel=0" frameborder="0" allowfullscreen></iframe>
+
+###User Pages Guide: 
+To host your website in userpages, follow the same procedure mentioned above but you have to name the repository in this format ```username.github.io``` and keep all the website files inside master branch. In my case it is redgadgets.github.io where I was hosting my tech blog **RedGadgets**
+
 
 Don't forget to post the link of your website created on Github Pages. And ask me if you are stuck in any of the steps above.
 
