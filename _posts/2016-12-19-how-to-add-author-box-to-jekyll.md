@@ -12,7 +12,7 @@ I run a blog called [Nallikayi Articles](https://articles.nallikayi.com) where I
 
 I can make a template, add it to every post manually and change author name, image and other details accordingly but it is not practical if you have many authors. I like how WordPress handles different authors.
 
-There should be a provision where you just mention authors name in the post and that should be wnough for thepost to update itself with particular author details.
+There should be a provision where you just mention authors name in the post and that should be enough for the post to update itself with particular author details.
 
 This tutorial explains how to add an author box to jekyll blog posts step by step.
 
