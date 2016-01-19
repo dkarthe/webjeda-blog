@@ -28,7 +28,7 @@ Formspree has a restriction 1000 entries/month. That was more than enough for a 
 
 ##Step 1: Create a form
 
-Let's create a simple form and make it work. I will have only two options for user input - Name and Email. Copy and paste the below form code inside the body tag (or whereever you want the form to be).
+Let's create a simple form and make it work. I will have only two options for user input - Name and Email. Copy and paste the below form code inside the body tag (or wherever you want the form to be).
 
 {% highlight html linenos %}
 
