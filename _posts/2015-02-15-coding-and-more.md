@@ -21,7 +21,7 @@ Read my tutorial on [how to host a website on github.](https://blog.webjeda.com/
 and then [sync a complete website using this tutorial](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}.
 
 
-Making it simple helped a lot of people start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few in the screenshots below
+Making it simple has helped a lot of people to start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few in the screenshots below
 ![Github pages youtube tutorial positive response](/images/github-pages-tutorial-youtube-positive-response.jpg)
 
 Checkout the playlist above to see more comments.
