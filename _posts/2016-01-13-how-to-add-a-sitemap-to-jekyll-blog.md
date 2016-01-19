@@ -74,7 +74,7 @@ Copy this code inside it
 </urlset>
 
 
-(% endhighlight %)
+{% endhighlight %}
 
 Note: Replace all () with {}
 
