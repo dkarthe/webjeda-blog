@@ -14,7 +14,39 @@ layout: default
   {% assign author = site.authors[page.author] %}
   
    <div class="w3-card-2">
-         <div id="authorcontent">
+        
+        <div class="container">
+               <!-- <div class="column-center">Column center</div> -->
+               <div class="column-left author">Author</div>
+               <!-- <div class="column-right">Column right</div> -->
+        </div>
+        <hr>
+         <div class="container">
+               <!-- <div class="column-center">Column center</div> -->
+               <div class="column-left name-author">{{ author.display_name }}</div>
+               <!-- <div class="column-right">Column right</div> -->
+        </div>
+        
+        <div class="container">
+               <div class="column-center image-author"><p id="aboutauthor">Sharath is a full-time chess coach, part-time web designer and a hobby blogger. He posts his Web Development blogs in <a href="http://blog.webjeda.com" >Webjeda Blog</a></p></div>
+               <div class="column-left"><img itemprop="image" id="authorimage" src="{{ author.gravatar }}"></div>
+               <!-- <div class="column-right">Column right</div> -->
+        </div>
+        
+        <div class="container">
+               <!-- <div class="column-center">Column center</div> -->
+               <div class="column-left"><a href="{{ author.facebook }}" ><i class="fa fa-facebook-square fa"></i></a>
+                                            <a href="{{ author.twitter }}" ><i class="fa fa-twitter-square fa"></i></a>
+                                            <a href="{{ author.github}}" ><i class="fa fa-github-square fa"></i></a>
+                                            <a href="{{ author.email }}" ><i class="fa fa-envelope-square fa"></i></a></div>
+               <!-- <div class="column-right">Column right</div> -->
+        </div>
+        
+        
+        
+        
+        
+         <!-- <div id="authorcontent">
             <h3>Author</h3>
                <hr>
                         <div itemprop="author" id="authorname"><strong>{{ author.display_name }}</strong><br /></div>
@@ -26,9 +58,9 @@ layout: default
                                             <a href="{{ author.email }}" ><i class="fa fa-envelope-square fa"></i></a>
                                     </div>
                         
-
+         
                        
-        </div>
+                 </div> -->
    </div>
    
     {% include  share.html %}
