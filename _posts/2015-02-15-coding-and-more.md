@@ -24,7 +24,7 @@ and then [sync a complete website using this tutorial](http://blog.webjeda.com/h
 Making it simple has helped a lot of people to start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few in the screenshots below
 ![Github pages youtube tutorial positive response](/images/github-pages-tutorial-youtube-positive-response.jpg)
 
-Checkout the playlist above to see more comments.
+Checkout the playlist at the top to see more comments.
 
 
 
@@ -40,13 +40,12 @@ Another thing I found very difficult is choosing the right tools for web develop
 
 [w3schools](www.w3schools.com/){:rel='nofollow'} - they are the best at teaching how to code.
 
-I hope you are wondering why Sublime text is not included in the list. I prefer Sublime text than Brackets! But for my blog posts I needed a plugin to count the words. It was easy installing it on Brackets. Moreover Brackets has live preview option!  And also inline editing makes it better than any other text editor.
+I hope you are wondering why **Sublime text** is not included in the list. I prefer Sublime text than Brackets! But for my blog posts I needed a plugin to count the words. It was easy installing it on Brackets. Moreover Brackets has live preview option!  And also inline editing makes it better than any other text editor.
 
 I think Github pages is faster than any other conventional web hosting method. But Github cannot execute files in the server. So php files will not run in Github. But you are good to use HTML, CSS and JS. 
 
-Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it and learn while doing so.
 
 Jekyll static site generator is another boon to web designers to host their blogs or single page websites. I have created many blogs on jekyll. Actually this blog is completely generated using Jekyll! It almost will never break. Uptime of the websites depends on Github Servers. As an established company, Github is always up and running. I have not faced any major issue so far. I think years ago my blog was down for few seconds.
 
-Finally what I suggest for new developers is to get familiar with Github and contribute to the community. Thank me later.
 
+Finally what I suggest for new developers is to get familiar with Github and contribute to the community. Thank me later. Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it and learn while doing so.
