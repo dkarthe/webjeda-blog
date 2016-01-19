@@ -44,7 +44,7 @@ Here is a video demonstration
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/kiBtQClK-XQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ##The hard way to insert sitemap in Jekyll blog!
-You can also list all the links by yourself. Don't worry, we will be using ```ul``` so that it arranges the links  one by oone. 
+You can also list all the links by yourself. Don't worry, we will be using ```ul``` so that it arranges the links  one by one. 
 
 Create a file in the root of the repository and name it **whatever.xml**
 
