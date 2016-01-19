@@ -25,22 +25,23 @@ Create a new ```html``` file inside **_include** folder, name it **author.html**
 
 {% highlight html linenos %}
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-   <div class="w3-card-2">
-        <div id="author-content">
-                    <h3>Author</h3>
+<div class="w3-card-2">
+  <div id="author-content">
+    <h3>Author</h3>
                          <hr>
-                    <div itemprop="author" id="name-author"><strong>(( author.display_name ))</strong><br /></div>
-                    <div id="im-ab">
-                            <img itemprop="image" id="image-author" src="(( author.gravatar ))">
-                            <div id="about-author">(( author.about ))</div>
-                    </div>
-                    <div id="social-author"> 
-                            <a href="(( author.facebook ))" ><i class="fa fa-facebook-square fa"></i></a>
-                            <a href="(( author.twitter ))" ><i class="fa fa-twitter-square fa"></i></a>
-                            <a href="(( author.github ))" ><i class="fa fa-github-square fa"></i></a>
-                            <a href="(( author.email ))" ><i class="fa fa-envelope-square fa"></i></a>
-                    </div>
+     <div itemprop="author" id="name-author"><strong>(( author.display_name ))</strong><br /></div>
+     <div id="im-ab">
+     <img itemprop="image" id="image-author" src="(( author.gravatar ))">
+        <div id="about-author">(( author.about ))</div>
+        </div>
+      <div id="social-author"> 
+            <a href="(( author.facebook ))" ><i class="fa fa-facebook-square fa"></i></a>
+            <a href="(( author.twitter ))" ><i class="fa fa-twitter-square fa"></i></a>
+            <a href="(( author.github ))" ><i class="fa fa-github-square fa"></i></a>
+            <a href="(( author.email ))" ><i class="fa fa-envelope-square fa"></i></a>
+            </div>
        </div>
     </div>
     
