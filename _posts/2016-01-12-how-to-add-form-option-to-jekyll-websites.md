@@ -11,18 +11,19 @@ When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. Ho
 
 But Jekyll blogs and websites hosted on github being static, cannot execute ```php``` files. Wait.! Then how do I make a working form in Jekyll blog?
 
+##why use a form?
+Every contact page gives a entry form to user using which they can enter the details. Forms can be contact form, subscription form, survey form etc., where user enters some data and that reaches the site owner to make further decisions based on the entry.
 
-
-##Solution
-There are few solutions.
+##Form on Jekyll
+There are few solutions to create a form in Jekyll blog.
 
 1. [Formspree](http://formspree.io)
 
 2. [SimpleForm](https://getsimpleform.com/)
 
-I'm going to explain the simplest one among the two - Formspree. 
+I'm going to explain the simplest among the two - Formspree. 
 
-Formspree has a restriction 1000 entries/month. That was more than enough for a starter like myself. You can choose Gold membership for more options and have access to database.
+Formspree has a restriction 1000 entries/month. It is more than enough for a starter like myself. You can choose Gold membership for more entries and gain access to Formspree database.
 
 
 
