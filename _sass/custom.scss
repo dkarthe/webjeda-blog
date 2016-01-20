@@ -183,3 +183,46 @@ i:hover {
     box-shadow: 0px 2px 4px 0px #e6e6e6, 0 2px 10px 0 rgba(0,0,0,0.12);
     transition: .3s ease-out;
 }
+
+
+.subs {
+    height: 22px;
+    width: 75px;
+    border:0;
+    border-radius: 2px;
+    background-color: #26A65B;
+    color:#EAEDEE;
+    font-size: 0.7em;
+    padding: 1px;
+}
+.subs:hover {
+   background-color: #33985C;     
+}
+
+time {
+    margin-left: 30px;
+    color: #999;;
+}
+
+
+.w3-card-2 {
+    margin-bottom: 2em;
+}    
+
+.w3-card-2 h1 {
+    padding: 15px 15px 5px 30px;
+    border-bottom: 1px solid #F7F8FD;
+    font-size: 2em;
+    color: #2574A9;
+    text-rendering: optimizeLegibility;
+}
+
+.card-content {
+    padding: 6px 15px 15px 30px;
+    border-bottom: 1px solid rgba(153, 153, 136, 0.42);
+    margin-bottom: 7px;
+}
+
+.card-actions {
+    padding: 0px 0px 10px 30px;
+}
