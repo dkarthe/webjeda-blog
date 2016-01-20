@@ -13,22 +13,22 @@ It is only after some tutorials I realized that it is indeed very easy. The day 
 
 That is exactly what I'm going to do here. This one is going to be a lengthy post, so grab a cup of coffee!
 
-I'm going to create this website (or at least host it) - [Hyperspace](http://redgadget.github.io/MyFirstWebsite/)
+I'm going to create this website (or at least host it) - [Hyperspace](http://redgadget.github.io/MyFirstWebsite/){:target="_blank"}
 
 
 Download these things before we start
 
-1. **Link 1:** [Github Desktop](https://desktop.github.com/)
+1. **Link 1:** [Github Desktop](https://desktop.github.com/){:target="_blank"}
 
 
-2. **Link 2:** [HTML5 sample website - Hyperspace](http://html5up.net/hyperspace/download)
+2. **Link 2:** [HTML5 sample website - Hyperspace](http://html5up.net/hyperspace/download){:target="_blank"}
 
 
 ##Step 1: Create a repository and make a gh-pages branch
 
 Login to your Github account and create a repository. Name it anything you feel like. I'm calling it **MyFirstWebsite**. Commit once you are done naming it. Now create a **gh-pages** branch in your repository.
 
-Refer to [How to create and host a website](http://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/) if you are not sure how to create a branch.
+Refer to [How to create and host a website](http://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/){:target="_blank"} if you are not sure how to create a branch.
 
 Remember - project files can only be hosted using gh-pages branch.
 
@@ -100,7 +100,7 @@ Now click on settings and look for **Github Pages** section where you will see a
 
 ![How to sync folders with Github - Hosting a complete website on Github Pages](/images/hosting-a-complete-website-on-github-pages.jpg)
 
-Here is the final URL:[MyFirstWebsite](http://redgadget.github.io/MyFirstWebsite/) and a video demonstration.
+Here is the final URL: [MyFirstWebsite](http://redgadget.github.io/MyFirstWebsite/){:target="_blank"} and a video demonstration.
 
 Success!!
 
@@ -110,8 +110,8 @@ Success!!
 
 ###Want to change the URL to something not ugly?
 
-Read: [How to add custom domain to websites hosted on Github Pages](https://blog.webjeda.com/how-to-add-custom-domain-to-github)
+Read: [How to add custom domain to websites hosted on Github Pages](https://blog.webjeda.com/how-to-add-custom-domain-to-github){:target="_blank"}
 
 If you are stuck in any of these steps, please leave a comment. I'll try to help.
 
-Thanks for reading! For more elaborated tutorials like this one, [subscribe!](http://eepurl.com/bMx0pz).
+Thanks for reading! For more elaborated tutorials like this one, [subscribe!](http://eepurl.com/bMx0pz){:target="_blank"}.

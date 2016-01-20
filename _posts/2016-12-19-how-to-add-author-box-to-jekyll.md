@@ -8,7 +8,7 @@ pulish: false
 
 <img alt="Author box jekyll" title="Author box for jekyll" itemprop="thumbnailUrl" src="/images/author-box-jekyll.jpg">
 
-I run a blog called [Nallikayi Articles](https://articles.nallikayi.com) where I choose the best articles from authors and post it. But the real hurdle was to add different author section at the bottom of the article for every post. 
+I run a blog called [Nallikayi Articles](https://articles.nallikayi.com){:target="_blank"} where I choose the best articles from authors and post it. But the real hurdle was to add different author section at the bottom of the article for every post. 
 
 I can make a template, add it to every post manually and change author name, image and other details accordingly but it is not practical if you have many authors. I like how WordPress handles different authors.
 
@@ -112,7 +112,7 @@ layout: default
 Note: Replace all () with {}
 
 
-##Step 4: Adding author name in all posts
+##Step 4: Add author name in all posts
 Now in all your posts which are inside **_post** folder you should add a new attribute called author
 
 {% highlight html linenos %} 
@@ -131,7 +131,7 @@ Now your post recognizes the author as **sharathdt** and all the details like au
 ![Author box for jekyll](/images/author-section-jekyll-sample.jpg)
 
 
-Your author box may not be styles as mine but you can style it however you want it to be. I have used w3-css cards for card style.
+Your author box may not be styled as mine but you can style it however you want it to be. I have used w3-css cards for card style.
 
 Here is how I have styled it
 
