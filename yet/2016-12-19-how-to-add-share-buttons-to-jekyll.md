@@ -1,9 +1,9 @@
 ---
-title: Why use Jekyll instead of WordPress?
-desc: Jekyll has many advantages over other CMS like WordPress. I think having a local copy of all your posts gives you a secure feeling which isn't possible in WordPress. Moreover I can customize my Jekyll blog however I want to but for WordPress, you have to stick with a theme. 
-keywords: why jekyll, how jekyll blog works, jekyll blog setup, jekyll working
+title: Share bar for Jekyll without Javascript!
+desc: You should reduce the use of javascript for a faster loading speed. Here is a guide on how to add a social share bar to Jekyll blog. You can copy paste the code and it should work! Many Jekyll themes do not offer a good share bar. So I thought of amking one for myself!
+keywords: share bar without javascript, jekyll share buttons, share buttons for jekyll blog
 author: sharathdt
-pulish: false
+publish: false
 ---
 
 <img alt="" title="" itemprop="thumbnailUrl" src="/">
