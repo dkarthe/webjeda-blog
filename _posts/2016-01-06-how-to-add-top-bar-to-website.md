@@ -8,13 +8,13 @@ author: sharathdt
 <img alt="How to add colored top bar to website" title="How to add colored top bar to website" itemprop="thumbnailUrl" src="/images/top-bar-on-websites.jpg">
 
 
-As you can see in the screenshot, in one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
+As you can see in the screenshot, one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
 
 ##Why top bar?
 
 I started considering top bar only after I saw the designers from [Quora](https://www.quora.com) started using it. And my blog WebJeda had a minimal theme. So I thought why not try it. 
 
-I remember YouTube using a red top bar to show how the progress of page loading. That was only for a while and ~~~for some reason they stopped it~~~ seems like theya re still using it!. It was actually a great idea to show the users how much page has been loaded. By the time of writing this blog <a rel="nofollow" href="https://www.freecharge.in" alt="Freecharge">Freecharge</a> is using the top bar as a progress indicator.
+I remember YouTube using a red top bar to show how the progress of page loading. That was only for a while and <strike>for some reason they stopped it</strike> seems like they are still using it!. It was actually a great idea to show the users how much page has been loaded. By the time of writing this blog <a rel="nofollow" href="https://www.freecharge.in" alt="Freecharge">Freecharge</a> is using the top bar as a progress indicator.
 
 If you have seen Chrome browser on android, they still use this. May be it is using a different code but visually similar to that we use in websites.
 
