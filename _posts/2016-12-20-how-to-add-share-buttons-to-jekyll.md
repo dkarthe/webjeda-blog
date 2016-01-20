@@ -41,7 +41,7 @@ And if you are in [How to add an author box](http://blog.webjeda.com/how-to-add-
 
 But how to do this 'change of URL' for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables**! the stuff inside double curly braces!.
 
-Here is an image explaining site variables for the article [How to create a Jekyll blog](http://blog.webjeda.com/how-I-created-webjeda-blog/){:target="_blank"}. You can check the site description by viewing the source. These variables are mentioned inside ```_config.yml``` file.
+Here is an image explaining site variables for the link [How to create a Jekyll blog](http://blog.webjeda.com/how-I-created-webjeda-blog/){:target="_blank"}. You can check the site description by viewing the source. These variables are mentioned inside ```_config.yml``` file.
 
 ![How to use site variables in Jekyll](/images/jekyll-site-variables-and-how-to-use-them.jpg)
 
