@@ -14,7 +14,7 @@ Many of the Jekyll themes will not include share buttons by default. It is upto 
 If you read a lot over the internet then you know how hard it is to share an article with your friend if it doesn't have any sharing button.
 You have to copy the link from the address bar, go to your email account, type every single detail and send it to an email address. Same thing follows for sharing on social media websites.
 
-It is a good idea to have share buttons at the end of an article. Users may not be willing to copy paste the code but hitting a button is easy! More share is equal to more eyeballs on your article. Shares will drive traffic to your website. So you shouldn't be missing out on a chance to provide users with a share bar.
+It is a good idea to have share buttons at the end of an article. Users may not be willing to copy paste the link but hitting a button is easy! More share is equal to more eyeballs on your article. Shares will drive traffic to your website. So you shouldn't be missing out on a chance to provide users with a share bar.
 
 
 ##How to add a share bar?
@@ -29,13 +29,13 @@ Now I had to make a decission whether to use it or make one for myself. I though
 
 When I decided to make a share bar for my blog WebJeda, I thought of making it ```Js``` free. As a developer - for a fast performing website - you should avoid ```Js``` and lower the number of http requests. With ShareThis, I used to have 5 to 6 ```Js``` files loaded from a remote server and 22 requests were made. This happens when you have many buttons and every button is downloaded remotely!
 
-Once I installed my css only share bar, the request number dropped to 11! That was a huge improvement! But it comes at a cost. I cannot see number of shares anymore. I think I can write a code to calculate number of shares based on click event but that is in the future. For now I'm happy that I have a beautiful sharebar which is made only with html and css. You can see it in the screenshot at the top of the page.
+Once I installed my css only share bar, the request number dropped to 11! That was a huge improvement! But it comes at a cost. I cannot see number of shares anymore. I can always write a code to calculate number of shares based on click event but that will be in the future. For now I'm happy that I have a beautiful sharebar which is made only with html and css. You can see it in the screenshot at the top of the page.
 
 
 ##Basics before we dive in
 
 
-When I was preparing this share bar, I was facing troubles for sharing the page I'm currently in. Let's say you are in [How to add a sitemap to Jekyll](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/){:target="_blank"} article, usually the facebook share link should look like ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/```. 
+When I was preparing this share bar, I was facing troubles for sharing the page I'm currently in. Let's say you are in [How to add a sitemap to Jekyll](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/){:target="_blank"} article, the facebook share link should look like ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/```. 
 
 And if you are in [How to add an author box](http://blog.webjeda.com/how-to-add-author-box-to-jekyll) article then it should change to ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-author-box-to-jekyll```.
 
