@@ -20,7 +20,7 @@ This tutorial explains how to add an author box to jekyll blog posts step by ste
 
 ##Step 1: Make an author box
 
-Create a new ```html``` file inside **_include** folder, name it **author.html** and copy paste the below code.
+Create a new ```html``` file inside **_includes** folder, name it **author.html** and copy paste the below code.
 
 
 {% highlight html linenos %}
