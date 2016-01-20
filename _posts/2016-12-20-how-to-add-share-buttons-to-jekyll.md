@@ -116,7 +116,6 @@ I have styled my buttons with the following css. You can change it for your need
     color: rgba(43, 177, 243, 0.77);
     border-radius: 12px 0px 0px 0px;
     padding: 2px 5px 2px 5px;
-    
 }
 {% endhighlight %}
 
