@@ -186,17 +186,18 @@ i:hover {
 
 
 .subs {
-    height: 22px;
+    border: 1px solid #26A65B;
+    float: right;
+    text-align: center;
     width: 75px;
-    border:0;
-    border-radius: 2px;
-    background-color: #26A65B;
-    color:#EAEDEE;
+    border-radius: 4px;
     font-size: 0.7em;
-    padding: 1px;
+    padding: 0;
 }
 .subs:hover {
-   background-color: #33985C;     
+   background-color: #26A65B;
+    transition: .3s ease-out;
+   
 }
 
 time {
