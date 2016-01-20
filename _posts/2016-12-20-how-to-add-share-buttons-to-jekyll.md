@@ -5,7 +5,7 @@ keywords: share bar without javascript, jekyll share buttons, share buttons for 
 author: sharathdt
 ---
 
-<img alt="" title="" itemprop="thumbnailUrl" src="/images/how-to-add-share-bar-to-jekyll-blog.jpg">
+<img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" src="/images/how-to-add-share-bar-to-jekyll-blog.jpg">
 
 Many of the Jekyll themes will not include share buttons by default. It is upto you to find a suitable share bar for your website.
 
