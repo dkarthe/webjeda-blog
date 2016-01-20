@@ -94,7 +94,7 @@ Create a new ```html``` file inside _includes folder and call it share.html. Cop
 </div>
 
 {% endhighlight %}
-Note: Replace (( site.url )) , (( page.url )) , (( page.desc )) and (( page.title )) braces with {{ and }}
+Note: Replace () braces with {}
 
 I have used icons from **font awesome** which is better than loading icons from local files.
 
