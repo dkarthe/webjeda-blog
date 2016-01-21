@@ -3,7 +3,7 @@ layout: default
 ---
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <article itemscope itemtype="http://schema.org/TechArticle"  id="post-page" >
-    <div>{{ page.categories }}</div>
+    <div class="categ-Div">{{ page.categories }}</div>
 	<h2 itemprop="headline">{{ page.title }}</h2>		
 	<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>
 	<div itemprop="articleBody" class="content" >
@@ -12,6 +12,6 @@ layout: default
 		
 	</div>	
 	{% include  share.html %}
-	{% include  author.html %}   
+	{% include  author.html %}       
 </article>
 {% include  disqus.html %}
