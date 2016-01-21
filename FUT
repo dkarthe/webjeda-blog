@@ -1,5 +1,4 @@
-{:rel='nofollow'}
-{:target="_blank"}
+{:rel='nofollow'}{:target="_blank"}
 
 Schema
 <a itemprop="" href=""></a>
