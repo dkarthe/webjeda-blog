@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Thank you
+permalink: /thank-you/
 ---
  
    
