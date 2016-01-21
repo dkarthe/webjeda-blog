@@ -21,7 +21,8 @@ Most of the layouts make use of these templates. If you observe **default** layo
 {% include footer.html %}
 {% endraw %}
 
-Jekyll site structure
+
+Jekyll site structure 
 
 {% highlight %}
 
