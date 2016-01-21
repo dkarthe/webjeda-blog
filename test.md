@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 
@@ -15,6 +15,17 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
 <div class="arrow_right">Github Pages</div>
 <hr>
 <div class="arrow">Github Pages</div>
+
+
+
+{% highlight css linenos %}
+{% include header.html %}
+{% endhighlight %}
+
+{% highlight css linenos %}
+{% include footer.html %}
+{% endhighlight %}
+
 
 
 <style>
