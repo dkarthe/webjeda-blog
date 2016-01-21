@@ -35,11 +35,9 @@ Once I installed my css only share bar, the request number dropped to 11! That w
 ##Basics before we dive in
 
 
-When I was preparing this share bar, I was facing troubles for sharing the page I'm currently in. Let's say you are in [How to add a sitemap to Jekyll](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/){:target="_blank"} article, the facebook share link should look like ```https://www.facebook.com/```
-```sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/```. 
+When I was preparing this share bar, I was facing troubles for sharing the page I'm currently in. Let's say you are in [How to add a sitemap to Jekyll](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/){:target="_blank"} article, the facebook share link should look like ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/```. 
 
-And if you are in [How to add an author box](http://blog.webjeda.com/how-to-add-author-box-to-jekyll) article then it should change to ```https://www.facebook.com/```
-```sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-author-box-to-jekyll```.
+And if you are in [How to add an author box](http://blog.webjeda.com/how-to-add-author-box-to-jekyll) article then it should change to ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-author-box-to-jekyll```.
 
 But how to do this 'change of URL' for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables**! the stuff inside double curly braces!.
 
