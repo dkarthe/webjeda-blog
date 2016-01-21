@@ -18,7 +18,7 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
 
 
 
-
+<pre>
 {% raw %}
 {% include header.html %}
 {% endraw %}
@@ -28,7 +28,7 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
 {% endraw %}
 
 {% highlight html %}
-
+</pre>
 .
 ├── _config.yml
 ├── _drafts

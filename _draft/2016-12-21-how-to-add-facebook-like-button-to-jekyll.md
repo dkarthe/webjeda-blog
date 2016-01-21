@@ -12,7 +12,7 @@ Understanding Jekyll is really important to manipulate the options available to 
 
 Most of the layouts make use of these templates. If you observe **default** layout inside  ```_layouts``` folder, you'll see that  at some point they have included header and footer with the following code.
 
-
+<pre>
 {% raw %}
 {% include header.html %}
 {% endraw %}
@@ -20,7 +20,7 @@ Most of the layouts make use of these templates. If you observe **default** layo
 {% raw %}
 {% include footer.html %}
 {% endraw %}
-
+</pre>
 
 Jekyll site structure 
 
