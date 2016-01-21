@@ -19,21 +19,39 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
     
     
     .arrow_box {
-	position: relative;
-	background: #2BB1F3;
+   <!--  font: 14px/1.5 'PT Sans',serif; -->
+    background: #5B92C6;
+    border-radius: 3px 0 0 3px;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none!important;
+    -webkit-transition: color .2s;
 }
-.arrow_box:after {
-	left: 100%;
-	top: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(43, 177, 243, 0);
-	border-left-color: #2BB1F3;
-	border-width: 20px;
-	margin-top: -20px;
+
+.arrow-right:before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0,0,0,.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+}
+.arrow-right:after {
+    background: #fff;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #5B92C6;
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 </style>
