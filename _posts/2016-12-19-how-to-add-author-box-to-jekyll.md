@@ -32,14 +32,14 @@ Create a new ```html``` file inside **_includes** folder, name it **author.html*
                          <hr>
      <div itemprop="author" id="name-author"><strong>{% raw %}{{ author.display_name }}{% endraw %}</strong><br /></div>
      <div id="im-ab">
-     <img itemprop="image" id="image-author" src="(( author.gravatar ))">
-        <div id="about-author">(( author.about ))</div>
+     <img itemprop="image" id="image-author" src="{% raw %}{{ author.gravatar }}{% endraw %}">
+        <div id="about-author">{% raw %}{{ author.about }}{% endraw %}</div>
         </div>
       <div id="social-author"> 
-            <a href="(( author.facebook ))" ><i class="fa fa-facebook-square fa"></i></a>
-            <a href="(( author.twitter ))" ><i class="fa fa-twitter-square fa"></i></a>
-            <a href="(( author.github ))" ><i class="fa fa-github-square fa"></i></a>
-            <a href="(( author.email ))" ><i class="fa fa-envelope-square fa"></i></a>
+            <a href="{% raw %}{{ author.facebook }}{% endraw %}" ><i class="fa fa-facebook-square fa"></i></a>
+            <a href="{% raw %}{{ author.twitter }}{% endraw %}" ><i class="fa fa-twitter-square fa"></i></a>
+            <a href="{% raw %}{{ author.github }}{% endraw %}" ><i class="fa fa-github-square fa"></i></a>
+            <a href="{% raw %}{{ author.email }}{% endraw %}" ><i class="fa fa-envelope-square fa"></i></a>
             </div>
        </div>
     </div>
@@ -90,16 +90,16 @@ layout: default
 
 
 <article id="post-page" >
-	    <h2>(( page.title ))</h2>		
-	    <time datetime="(( page.date | date_to_xmlschema ))" class="by-line" >(( page.date | date_to_string ))</time>
+	    <h2>{% raw %}{{ page.title }}{% endraw %}</h2>		
+	    <time datetime="{% raw %}{{ page.date | date_to_xmlschema }}{% endraw %}" class="by-line" >{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
 	    <div class="content" >
 
-		(( content ))
+		{% raw %}{{ content }}{% endraw %}
 		
 	    </div>
     
-        (% assign author = site.authors[page.author] %)
-        (% include  author.html %)
+        {% raw %}{% assign author = site.authors[page.author] %}{% endraw %}
+        {% raw %}{% include  author.html %}{% endraw %}
         
         
 </article>
