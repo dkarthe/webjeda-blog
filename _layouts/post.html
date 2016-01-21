@@ -6,9 +6,7 @@ layout: default
     <h2 itemprop="headline">{{ page.title }}</h2>		
 	<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>
 	<div itemprop="articleBody" class="content" >
-
 		{{ content }}
-		
 	</div>	
 	{% include  share.html %}
 	{% include  author.html %}       

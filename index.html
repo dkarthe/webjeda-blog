@@ -9,7 +9,7 @@ layout: default
 
     <div class="w3-card-2"><h1 itemprop="name" class="index-title">{{ post.title }}</h1>
         <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished" >{{ post.date | date_to_string }}</time>
-  <div itemprop="description" class="card-content">{{ post.content | strip_html | truncatewords:36 }}</div>
+  <div itemprop="description" class="card-content">{{ post.desc | strip_html | truncatewords:36 }}</div>
   <div class="card-actions">
       <a itemprop="url" href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"><div class="w3-btn">Read</div>
      </a>
