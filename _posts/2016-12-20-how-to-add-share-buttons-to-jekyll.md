@@ -39,7 +39,7 @@ When I was preparing this share bar, I was facing troubles for sharing the page 
 
 And if you are in [How to add an author box](http://blog.webjeda.com/how-to-add-author-box-to-jekyll) article then it should change to ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-author-box-to-jekyll```.
 
-But how to do this 'change of URL' for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables**! the <pre>{% raw %}{{ stuff }}{% endraw %}</pre>inside!.
+But how to do this 'change of URL' for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables**! the {% raw %}{{ stuff }}{% endraw %}inside!.
 
 Here is an image explaining site variables for the link [How to create a Jekyll blog](http://blog.webjeda.com/how-I-created-webjeda-blog/){:target="_blank"}. You can check the site description by viewing the source. These variables are mentioned inside ```_config.yml``` file.
 
