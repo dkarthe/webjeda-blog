@@ -47,21 +47,17 @@ Here is an image explaining site variables for the link [How to create a Jekyll 
 
 Then I changed the facebook share link to the following which works for all pages! Please note that I have changed {} with (). Replace it while implementing the sharebar.
 
-```https://www.facebook.com/```
-```sharer/sharer.php?u=(( site.url ))(( page.url ))```
+```https://www.facebook.com/``````sharer/sharer.php?u=(( site.url ))(( page.url ))```
 
 How cool is that!
 
 I can do the same thing for twitter share link
 
-```https://twitter.com/home?```
-```status=(( site.url ))(( page.url ))```
+```https://twitter.com/home?``````status=(( site.url ))(( page.url ))```
 
 This works pretty much on all the social media websites. For LinkedIn I also added title and description of the page.
 
-```https://www.linkedin.com/```
-```shareArticle?mini=true&url=(( site.url ))(( page.url ))```
-```&title=(( page.title ))&summary=(( page.desc ))&source=webjeda```
+```https://www.linkedin.com/``````shareArticle?mini=true&url=(( site.url ))(( page.url ))``````&title=(( page.title ))&summary=(( page.desc ))&source=webjeda```
 
 
 This is the key to my WebJeda Sharebar.
