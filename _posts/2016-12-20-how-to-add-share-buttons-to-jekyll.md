@@ -45,6 +45,8 @@ Here is an image explaining site variables for the link [How to create a Jekyll 
 
 ![How to use site variables in Jekyll](/images/jekyll-site-variables-and-how-to-use-them.jpg)
 
+See all the [variables here](http://jekyllrb.com/docs/variables/){:rel='nofollow'}{:target="_blank"}
+
 Then I changed the facebook share link to the following which works for all pages! Please note that I have changed {} with (). Replace it while implementing the sharebar.
 
 ```https://www.facebook.com/``````sharer/sharer.php?u=(( site.url ))(( page.url ))```
