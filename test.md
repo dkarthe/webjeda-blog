@@ -44,6 +44,7 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
     width: 6px;
     top: 10px;
 }
+
 .arrow-right:after {
     background: #fff;
     border-bottom: 13px solid transparent;
