@@ -58,7 +58,7 @@ Copy this code inside it
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     (% for post in site.posts %)
     <url>
-        <loc>((site.url))(( post.url | remove: 'index.html' ))</loc>
+        <loc>{% raw %}{{site.url}}{% endraw %}{% raw %}{{ post.url | remove: 'index.html' }}{% endraw %}</loc>
     </url>
     (% endfor %)
 
@@ -66,17 +66,14 @@ Copy this code inside it
     (% if page.layout != nil %)
     (% if page.layout != 'feed' %)
     <url>
-        <loc>((site.url))(( page.url | remove: 'index.html' ))</loc>
+        <loc>{% raw %}{{site.url}}{% endraw %}{% raw %}{{ page.url | remove: 'index.html' }}{% endraw %}</loc>
     </url>
     (% endif %)
     (% endif %)
     (% endfor %)
 </urlset>
-
-
 {% endhighlight %}
 
-Note: Replace all () with {}
 
 Here you will have the full control of your sitemap. You can exclude whatever you think is not important and include links that you want it to be in the sitemap.
 
