@@ -21,8 +21,8 @@ This tutorial explains how to add an author box to jekyll blog posts step by ste
 
 Create a new ```html``` file inside **_includes** folder, name it **author.html** and copy paste the below code.
 
-
-{% highlight html linenos %}
+<pre>
+{% raw %}
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -30,23 +30,22 @@ Create a new ```html``` file inside **_includes** folder, name it **author.html*
   <div id="author-content">
     <h3>Author</h3>
                          <hr>
-     <div itemprop="author" id="name-author"><strong>(( author.display_name ))</strong><br /></div>
+     <div itemprop="author" id="name-author"><strong>{{ author.display_name }}</strong><br /></div>
      <div id="im-ab">
-     <img itemprop="image" id="image-author" src="(( author.gravatar ))">
-        <div id="about-author">(( author.about ))</div>
+     <img itemprop="image" id="image-author" src="{{ author.gravatar }}">
+        <div id="about-author">{{ author.about }}</div>
         </div>
       <div id="social-author"> 
-            <a href="(( author.facebook ))" ><i class="fa fa-facebook-square fa"></i></a>
-            <a href="(( author.twitter ))" ><i class="fa fa-twitter-square fa"></i></a>
-            <a href="(( author.github ))" ><i class="fa fa-github-square fa"></i></a>
-            <a href="(( author.email ))" ><i class="fa fa-envelope-square fa"></i></a>
+            <a href="{{ author.facebook }}" ><i class="fa fa-facebook-square fa"></i></a>
+            <a href="{{ author.twitter }}" ><i class="fa fa-twitter-square fa"></i></a>
+            <a href="{{ author.github }}" ><i class="fa fa-github-square fa"></i></a>
+            <a href="{{ author.email }}" ><i class="fa fa-envelope-square fa"></i></a>
             </div>
        </div>
     </div>
     
-{% endhighlight %}
-
-Note: replace all () with {}
+{% endraw %}
+</pre>
 
 ##Step 2: Add authors in configuration file
 
@@ -83,48 +82,41 @@ Now in your **post** template file, which is inside **_layout** folder add these
 
  Sample **post layout**
  
-{% highlight html linenos %} 
+ <pre>
+{% raw %} 
 ---
 layout: default
 ---
 
 
 <article id="post-page" >
-	    <h2>(( page.title ))</h2>		
-	    <time datetime="(( page.date | date_to_xmlschema ))" class="by-line" >(( page.date | date_to_string ))</time>
+	    <h2>{{ page.title }}</h2>		
+	    <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>
 	    <div class="content" >
 
-		(( content ))
+		{{ content }}
 		
 	    </div>
     
-        (% assign author = site.authors[page.author] %)
-        (% include  author.html %)
+        {% assign author = site.authors[page.author] %}
+        {% include  author.html %}
         
         
 </article>
- 
-
-
-
- {% endhighlight %}
-Note: Replace all () with {}
+{% endraw %}
+</pre>
 
 
 ##Step 4: Add author name in all posts
 Now in all your posts which are inside **_post** folder you should add a new attribute called author
-
-{% highlight html linenos %} 
-
-
+<pre>
+{% raw %} 
 ---
 title: Some Title
 author: sharathdt
 ---
-
-
-{% endhighlight %}
-
+{% endraw %}
+</pre>
 Now your post recognizes the author as **sharathdt** and all the details like author name, author image, author about are updated accordingly. Here is how it looks like in my blog posts
 
 ![Author box for jekyll](/images/author-section-jekyll-sample.jpg)

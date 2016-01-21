@@ -12,3 +12,8 @@ permalink: /:title
 {% highlight css linenos %}
 
 {% endhighlight %}
+
+
+{% raw %}
+Hello, my name is {{name}}.
+{% endraw %}

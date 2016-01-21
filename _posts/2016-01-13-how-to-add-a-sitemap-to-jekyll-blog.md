@@ -50,33 +50,33 @@ Create a file in the root of the repository and name it **whatever.xml**
 
 Copy this code inside it
 
-{% highlight html linenos %}
+<pre>
+{% raw %}
 
 ---
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    (% for post in site.posts %)
+    {% for post in site.posts %}
     <url>
-        <loc>((site.url))(( post.url | remove: 'index.html' ))</loc>
+        <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
     </url>
-    (% endfor %)
+    {% endfor %}
 
-    (% for page in site.pages %)
-    (% if page.layout != nil %)
-    (% if page.layout != 'feed' %)
+    {% for page in site.pages %}
+    {% if page.layout != nil %}
+    {% if page.layout != 'feed' %}
     <url>
-        <loc>((site.url))(( page.url | remove: 'index.html' ))</loc>
+        <loc>{{site.url}}{{ page.url | remove: 'index.html' }}</loc>
     </url>
-    (% endif %)
-    (% endif %)
-    (% endfor %)
+    {% endif %}
+    {% endif %}
+    {% endfor %}
 </urlset>
 
 
-{% endhighlight %}
-
-Note: Replace all () with {}
+{% endraw %}
+</pre>
 
 Here you will have the full control of your sitemap. You can exclude whatever you think is not important and include links that you want it to be in the sitemap.
 

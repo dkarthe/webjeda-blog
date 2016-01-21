@@ -22,7 +22,10 @@ Most of the layouts make use of these templates. If you observe **default** layo
 {% endraw %}
 </pre>
 
-Jekyll site structure 
+So they include header and footer respectively. This kind of templating can be done with any html inside ```_includes``` folder. 
+
+A basic Jekyll site structure looks like this. 
+
 
 {% highlight html %}
 
@@ -47,3 +50,15 @@ Jekyll site structure
 └── index.html
 
 {% endhighlight %}
+
+*A master configuration file ```_config.yml``` and an ```index.html``` in the root.
+
+*Folders such as ```_includes```, ```_layouts``` ```_posts```, ```_sass``` etc.,
+
+I will be explaining the functions of these files and folders in a different post. For now I will be concentrating on ```_includes```.
+
+Just like including header or footer with just a line of code, we can add html files inside ```_includes``` to spit it out wherever we want it.
+
+For facebook like button, you should have a facebook page for your website or business. If you do not have one then [create one here](https://www.facebook.com/pages/create/){:rel='nofollow'}{:target="_blank"}.
+
+Once you are done creating a page go here and get the code.
