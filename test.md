@@ -12,7 +12,7 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
 
 <a href="http://blog.webjeda.com/how-to-add-share-buttons-to-jekyll#disqus_thread">Link</a>    
 
-<div class="arrow_box">Github Pages</div>
+<div class="arrow_right">Github Pages</div>
 
 
 <style>
