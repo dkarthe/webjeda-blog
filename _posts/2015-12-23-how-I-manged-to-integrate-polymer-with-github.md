@@ -55,17 +55,15 @@ Now you can call the elements inside the body tag and they will be downloaded.
 So what about my jekyll blog index page?
 
 {% highlight html linenos %}
- <paper-card heading="((post.title))">
- <time datetime="post.date | date_to_xmlschema">((post.date | date_to_string))</time>
- <div class="card-content">((post.content | strip_html | truncatewords:50))</div>
+ <paper-card heading="{% raw %}{{post.title}}{% endraw %}">
+ <time datetime="post.date | date_to_xmlschema">{% raw %}{{post.date | date_to_string}}{% endraw %}</time>
+ <div class="card-content">{% raw %}{{post.content | strip_html | truncatewords:50}}{% endraw %}</div>
  <div class="card-actions">
- <a href="(% if site.baseurl == "/" %)(( post.url ))(% else %)(( post.url | prepend: site.baseurl ))(% endif %)">                        
+ <a href="{% raw %}{% if site.baseurl == "/" %}{% endraw %}{% raw %}{{ post.url }}{% endraw %}{% raw %}{% else %}{% endraw %}{% raw %}{{ post.url | prepend: site.baseurl }}{% endraw %}{% raw %}{% endif %}{% endraw %}">                        
  <paper-button class="colored" raised>Read</paper-button></a>
  </div>
  </paper-card>
  {% endhighlight %}
- 
- Note: Replace all the **()** with **{}**
  
 Copy these lines to your **index.html** page without deleting the default code. If you like it then delete the default code and keep the polymer one.
 

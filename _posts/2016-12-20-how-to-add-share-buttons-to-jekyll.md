@@ -39,7 +39,7 @@ When I was preparing this share bar, I was facing troubles for sharing the page 
 
 And if you are in [How to add an author box](http://blog.webjeda.com/how-to-add-author-box-to-jekyll) article then it should change to ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-author-box-to-jekyll```.
 
-But how to do this 'change of URL' for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables**! the stuff inside double curly braces!.
+But how to do this 'change of URL' for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables**! the <pre>{% raw %}{{ stuff }}{% endraw %}</pre>inside!.
 
 Here is an image explaining site variables for the link [How to create a Jekyll blog](http://blog.webjeda.com/how-I-created-webjeda-blog/){:target="_blank"}. You can check the site description by viewing the source. These variables are mentioned inside ```_config.yml``` file.
 
@@ -47,19 +47,19 @@ Here is an image explaining site variables for the link [How to create a Jekyll 
 
 See all the [variables here](http://jekyllrb.com/docs/variables/){:rel='nofollow'}{:target="_blank"}
 
-Then I changed the facebook share link to the following which works for all pages! Please note that I have changed {} with (). Replace it while implementing the sharebar.
+Then I changed the facebook share link to the following which works for all pages!
 
-```https://www.facebook.com/``````sharer/sharer.php?u=(( site.url ))(( page.url ))```
+```https://www.facebook.com/``````sharer/sharer.php?u={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}```
 
 How cool is that!
 
 I can do the same thing for twitter share link
 
-```https://twitter.com/home?``````status=(( site.url ))(( page.url ))```
+```https://twitter.com/home?``````status={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}```
 
 This works pretty much on all the social media websites. For LinkedIn I also added title and description of the page.
 
-```https://www.linkedin.com/``````shareArticle?mini=true&url=(( site.url ))(( page.url ))``````&title=(( page.title ))&summary=(( page.desc ))&source=webjeda```
+```https://www.linkedin.com/``````shareArticle?mini=true&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}``````&title={% raw %}{{ page.title }}{% endraw %}&summary={% raw %}{{ page.desc }}{% endraw %}&source=webjeda```
 
 
 This is the key to my WebJeda Sharebar.
@@ -75,48 +75,46 @@ Create a new ```html``` file inside _includes folder and call it share.html. Cop
 
 <div id=""> 
 
-<a href="https://www.facebook.com/sharer/sharer.php?u=(( site.url ))(( page.url ))" onclick="window.open(this.href, 'mywin',
+<a href="https://www.facebook.com/sharer/sharer.php?u={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
     <i class="fa fa-facebook-square fa share-button"> facebook</i>
 </a>
 
-<a href="https://twitter.com/home?status=(( site.url ))(( page.url ))" onclick="window.open(this.href, 'mywin',
+<a href="https://twitter.com/home?status={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
     <i class="fa fa-twitter-square fa share-button"> twitter</i>
 </a>
 
-<a href="https://plus.google.com/share?url=(( site.url ))(( page.url ))" onclick="window.open(this.href, 'mywin',
+<a href="https://plus.google.com/share?url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
     <i class="fa fa-google-plus-square fa share-button"> google</i>
 </a>
  
-<a href="http://www.reddit.com/submit?url=(( site.url ))(( page.url ))" onclick="window.open(this.href, 'mywin',
+<a href="http://www.reddit.com/submit?url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" >
     <i class="fa fa-reddit-square fa share-button"> reddit</i>
 </a>
 
-<a href="https://www.linkedin.com/shareArticle?mini=true&url=(( site.url ))(( page.url ))&title=(( page.title ))&summary=(( page.desc ))&source=webjeda" onclick="window.open(this.href, 'mywin',
+<a href="https://www.linkedin.com/shareArticle?mini=true&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}&title={% raw %}{{ page.title }}{% endraw %}&summary={% raw %}{{ page.desc }}{% endraw %}&source=webjeda" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
     <i class="fa fa-linkedin-square fa share-button"> linkedin</i>
 </a>
 
-<a href="mailto:?subject=(( page.title ))&amp;body=Check out this site (( site.url ))(( page.url ))">
+<a href="mailto:?subject={% raw %}{{ page.title }}{% endraw %}&amp;body=Check out this site {% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}">
     <i class="fa fa-envelope-square fa share-button"> email</i>
 </a>   
                                
 </div>
 
 {% endhighlight %}
-Note: Replace () braces with {}
 
 I have used icons from **font awesome** which is better than loading icons from local files.
 
 Now copy this line inside your post layout file which will be inside **_layouts** folder. You have to place this line whereever you want the sharebar to appear on your posts.
 
 {% highlight html linenos %}
-(% include  share.html %)
+{% raw %}{% include  share.html %}{% endraw %}
 {% endhighlight %}
-Note: replace all () with {}
 
 ##Add style to your share bar
 
