@@ -46,8 +46,6 @@ Create a new ```html``` file inside **_includes** folder, name it **author.html*
     
 {% endhighlight %}
 
-Note: replace all () with {}
-
 ##Step 2: Add authors in configuration file
 
 Now copy below details into your ```_config.yml``` which is in the root of the repository. Change details accordingly. Here I ahve mentioned only for two authors - **sharathdt** and **sampaths**. You can use any number of authors. Add details of new authors to this file in this format.
@@ -104,11 +102,8 @@ layout: default
         
 </article>
  
-
-
-
  {% endhighlight %}
-Note: Replace all () with {}
+
 
 
 ##Step 4: Add author name in all posts
