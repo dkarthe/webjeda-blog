@@ -18,8 +18,8 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
 <style>
     
     
-    .arrow_box {
-   <!--  font: 14px/1.5 'PT Sans',serif; -->
+    .arrow_right {
+    font: 14px/1.5 'PT Sans',serif;
     background: #5B92C6;
     border-radius: 3px 0 0 3px;
     color: #FFFFFF;
