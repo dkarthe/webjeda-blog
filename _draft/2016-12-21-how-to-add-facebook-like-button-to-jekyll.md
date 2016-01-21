@@ -24,7 +24,7 @@ Most of the layouts make use of these templates. If you observe **default** layo
 
 Jekyll site structure 
 
-{% highlight %}
+{% highlight html %}
 
 .
 ├── _config.yml
