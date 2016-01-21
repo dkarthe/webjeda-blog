@@ -20,7 +20,7 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
     
     .arrow_right {
     font: 14px/1.5 'PT Sans',serif;
-    background: #5B92C6;
+    background: #2BB1F3;
     border-radius: 3px 0 0 3px;
     color: #FFFFFF;
     display: inline-block;
@@ -47,11 +47,12 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
 .arrow-right:after {
     background: #fff;
     border-bottom: 13px solid transparent;
-    border-left: 10px solid #5B92C6;
+    border-left: 10px solid #2BB1F3;
     border-top: 13px solid transparent;
     content: '';
     position: absolute;
     right: 0;
     top: 0;
 }
+
 </style>
