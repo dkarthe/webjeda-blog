@@ -30,7 +30,7 @@ Create a new ```html``` file inside **_includes** folder, name it **author.html*
   <div id="author-content">
     <h3>Author</h3>
                          <hr>
-     <div itemprop="author" id="name-author"><strong>(( author.display_name ))</strong><br /></div>
+     <div itemprop="author" id="name-author"><strong>{% raw %}{{ author.display_name }}{% endraw %}</strong><br /></div>
      <div id="im-ab">
      <img itemprop="image" id="image-author" src="(( author.gravatar ))">
         <div id="about-author">(( author.about ))</div>
