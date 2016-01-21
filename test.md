@@ -18,13 +18,14 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
 
 
 
-{% highlight css linenos %}
-\{% include header.html %\}
-{% endhighlight %}
 
-{% highlight css linenos %}
-\{% include footer.html %\}
-{% endhighlight %}
+{% raw %}
+{% include header.html %}
+{% endraw %}
+
+{% raw %}
+{% include footer.html %}
+{% endraw %}
 
 
 
