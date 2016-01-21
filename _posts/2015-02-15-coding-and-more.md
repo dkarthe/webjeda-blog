@@ -40,7 +40,7 @@ Another thing I found very difficult is choosing the right tools for web develop
 
 [w3schools](www.w3schools.com/){:rel='nofollow'} - they are the best at teaching how to code.
 
-I hope you are wondering why **Sublime text** is not included in the list. I prefer Sublime text than Brackets! But for my blog posts I needed a plugin to count the words. It was easy installing it on Brackets. Moreover Brackets has live preview option!  And also inline editing makes it better than any other text editor.
+I hope you are wondering why **Sublime text** is not included in the list. I used to prefer Sublime text over Brackets! But for my blog posts I needed a plugin to count the words. It was easy installing it on Brackets. Moreover Brackets has live preview option!  And also inline editing makes it better than any other text editor.
 
 I think Github pages is faster than any other conventional web hosting method. But Github cannot execute files in the server. So php files will not run in Github. But you are good to use HTML, CSS and JS. 
 
