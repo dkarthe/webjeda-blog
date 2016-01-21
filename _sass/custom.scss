@@ -64,7 +64,7 @@ button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appe
 button[disabled],html input[disabled]{cursor:default}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 
-.w3-btn{border:none;display:inline-block;outline:0;padding:1px 16px;vertical-align:middle;overflow:hidden;text-decoration:none !important;color:#fff;background-color:#26A65B;text-align:center;transition:.2s ease-out;cursor:pointer;white-space:nowrap;font-weight: 300;}
+.w3-btn{border:none;display:inline-block;outline:0;padding:1px 16px;vertical-align:middle;overflow:hidden;text-decoration:none !important;color:#fff;border-radius: 1em;background-color: #2574A9;text-align:center;transition:.2s ease-out;cursor:pointer;white-space:nowrap;font-weight: 300;}
 .w3-btn.w3-disabled,.w3-btn-floating.w3-disabled,.w3-btn:disabled,.w3-btn-floating:disabled,.w3-btn-floating-large.w3-disabled,.w3-btn-floating-large:disabled{cursor:not-allowed;opacity:0.3}
 .w3-btn.w3-disabled *,.w3-btn-floating.w3-disabled *,.w3-btn:disabled *,.w3-btn-floating:disabled *{pointer-events:none}
 .w3-btn.w3-disabled:hover,.w3-btn:disabled:hover,.w3-btn-floating.w3-disabled:hover,.w3-btn-floating:disabled:hover,
