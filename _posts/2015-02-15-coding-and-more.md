@@ -2,6 +2,7 @@
 title: Coding and more on Github and Github Pages
 desc: I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching 'hosting websites on Github'. 
 author: sharathdt
+category: Github, Personal
 ---
 
 
