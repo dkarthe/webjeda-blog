@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: default
 title: Tags
 description: "An archive of posts sorted by tag."
 ---
@@ -32,7 +32,7 @@ description: "An archive of posts sorted by tag."
       <span style="float: left;"><a href="{{ post.url }}">{{ post.title }}</span>
       <span style="float: right;">{{ post.date | date_to_string }}</span>
     </div>
-    <div style="clear: both;"></div>​
+    <div style="clear: both;"></div>
     {% endif %}{% endfor %}
   <!-- </ul> -->
   {% endunless %}{% endfor %}
