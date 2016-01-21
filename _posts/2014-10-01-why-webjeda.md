@@ -2,6 +2,7 @@
 title: Why did I start WebJeda?
 desc: While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser which was github.com. Cognizant had learning period of two months in which I googled a lot about it.
 author: sharathdt
+keywords: webjeda, webjeda founder
 ---
 
 <img alt="c10h14n2" title="C10h14n2 film website" itemprop="thumbnailUrl" src="/images/c10h14n2movie-mockup.jpg">
