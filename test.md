@@ -26,12 +26,10 @@ document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
 {% raw %}
 {% include footer.html %}
 {% endraw %}
-
-{% highlight html %}
-
 </pre>
 
 
+{% highlight html %}
 
 .
 ├── _config.yml
