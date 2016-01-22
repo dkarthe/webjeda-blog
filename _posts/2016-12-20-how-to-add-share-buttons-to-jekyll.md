@@ -25,7 +25,7 @@ I can always ```defer``` javascript loading but the files that are loaded by Sha
 
 Now I had to make a decission whether to use it or make one for myself. I thought why not make one! I will have the complete design control. So I chose to design it myself.
 
-##Making a share bar without JavScript
+##Making a share bar without JavaScript
 
 When I decided to make a share bar for my blog WebJeda, I thought of making it ```Js``` free. As a developer - for a fast performing website - you should avoid ```Js``` and lower the number of http requests. With ShareThis, I used to have 5 to 6 ```Js``` files loaded from a remote server and 22 requests were made. This happens when you have many buttons and every button is downloaded remotely!
 
