@@ -294,6 +294,7 @@ position:relative;-webkit-animation-name:animatebottom;-webkit-animation-duratio
 }
 
 .goog {
-    width:90%;
+    max-width:90%;
     margin: 0 auto;
+    overflow-x: hidden;
 }
