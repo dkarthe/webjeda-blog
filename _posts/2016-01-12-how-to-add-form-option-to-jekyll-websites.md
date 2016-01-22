@@ -32,11 +32,10 @@ Formspree has a restriction 1000 entries/month. It is more than enough for a sta
 Let's create a simple form and make it work. I will have only two options for user input - Name and Email. Copy and paste the below form code inside the body tag (or wherever you want the form to be).
 
 {% highlight html linenos %}
-
 <form action="" method="">
-<p>Name: </p><input type="text" name="name"><br />
-<p>Email: </p><input type="email" name="email"><br />
-<input type="submit" value="Send">
+    <p>Name: </p><input type="text" name="name"><br />
+    <p>Email: </p><input type="email" name="email"><br />
+    <input type="submit" value="Send">
 </form>
 {% endhighlight %}
 
@@ -52,9 +51,9 @@ If you see the code for the form, **action** and **method** are empty. Formspree
 {% highlight html linenos %}
 
 <form action="//formspree.io/your@email.com" method="POST">
-<p>Name: </p><input type="text" name="name"><br />
-<p>Email: </p><input type="email" name="email"><br />
-<input type="submit" value="Send">
+    <p>Name: </p><input type="text" name="name"><br />
+    <p>Email: </p><input type="email" name="email"><br />
+    <input type="submit" value="Send">
 </form>
 
 {% endhighlight %}
@@ -70,7 +69,7 @@ This is the brief process of making a form in github pages website. What if you 
 ##Step 3: Custom thank-you page 
 After the submission, users are redirected to a formspree thank you page by default. But if you want it to be your own custom thank you page then you can do so adding this code.
 
-{% highlight html linenos %}
+{% highlight html %}
 <input type="hidden" name="_next" value="//path/thanks.html" />
 {% endhighlight %}
 
@@ -78,6 +77,26 @@ I have a working example here - [nallikayi contact](https://articles.nallikayi.c
 
 Make sure you create a **thank you** page in Github-pages with the name ```thanks.html```. 
 
+##Step 4: Security from bots
+
+If your form is not secure, it may result in receiving spam mails generated from software agents - BOTS. To fool the bots Formspree has provided an option called ```_gotcha```. This is a imput field only visible to bots but not to users. If an entry is made in this invisible field, that means that someone can see through your invisible element! Must be a bot!!
+{% highlight html %}
+<input type="text" name="_gotcha" style="display:none" />
+{% endhighlight %}
+
+##Step 5: Secure your email
+When you mention your email in clear text inside your form, email harvesting bots can easily capture it. Which may result in receiving lot of spam mails. So you can use this code to and insert your seperated email. The code will join it later and makes it a meaningful email address. But bots will not recognize this as an email. 
+{% highlight html %}
+<form id="formaction" method="POST">
+    <p>Name: </p><input type="text" name="name"><br />
+    <p>Email: </p><input type="email" name="email"><br />
+    <input type="submit" value="Send">
+</form>
+<script>
+    var contactform =  document.getElementById('formaction');
+    contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
+</script>
+{% endhighlight %}
 
 
 ##Things to keep in mind
