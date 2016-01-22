@@ -5,7 +5,7 @@ keywords: share bar without javascript, jekyll share buttons, share buttons for 
 author: sharathdt
 ---
 
-<img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" src="/images/how-to-add-share-bar-to-jekyll-blog.jpg">
+<img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" src="/images/share-bar-to-jekyll.jpg">
 
 Many of the Jekyll themes will not include share buttons by default. It is upto you to find a suitable share bar for your website.
 
@@ -131,7 +131,7 @@ I have styled my buttons with the following css. You can change it for your need
 {% endhighlight %}
 
 Currently I'm using this share bar for my blog. At the end of this article you see a sharebar which uses the same code.
-
+![webjeda share bar for jekyll](/images/how-to-add-share-bar-to-jekyll-blog.jpg)
 
 So this is how you can implement only css, javaScript free WebJeda sharebar. If you were able to implement this in your blog then please leave a link in the comment.
 
