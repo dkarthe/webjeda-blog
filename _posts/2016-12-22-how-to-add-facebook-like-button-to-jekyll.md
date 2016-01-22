@@ -92,9 +92,11 @@ The codes will looks somewhat like this
 
 ##Include it in your posts
  Now you can call the file ```fb-like.html``` from wherever you like it just by using this line code. I usually place it at the bottom of my articles. To get it on all posts, you should call this inside posts layout (which will be inside ```_layouts``` folder)
- <pre>{% raw %}
+ <pre>
+ {% raw %}
  {%  include fb-like.html  %}
- {% endraw %}</pre>
+ {% endraw %}
+ </pre>
  
  Using it on all posts
  
