@@ -31,7 +31,7 @@ Formspree has a restriction 1000 entries/month. It is more than enough for a sta
 
 Let's create a simple form and make it work. I will have only two options for user input - Name and Email. Copy and paste the below form code inside the body tag (or wherever you want the form to be).
 
-{% highlight html linenos %}
+{% highlight html  %}
 <form action="" method="">
     <p>Name: </p><input type="text" name="name"><br />
     <p>Email: </p><input type="email" name="email"><br />
@@ -143,9 +143,7 @@ It is actually
 
 {% endhighlight %}
 
-You don't believe me. Put this inside body tag and use inspect option!
-
-Or checkout my [contact page](/contact/)
+You don't believe me. Checkout my [contact page](/contact/){:target="_blank"} and view source!
 
 ##Things to keep in mind
 

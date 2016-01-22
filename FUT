@@ -9,7 +9,7 @@ permalink: /:title
 
 
 
-{% highlight css linenos %}
+{% highlight css %}
 
 {% endhighlight %}
 
