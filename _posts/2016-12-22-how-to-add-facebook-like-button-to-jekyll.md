@@ -104,7 +104,7 @@ layout: default
 ---
 <article id="post-page" >
     <h2>{% raw %}{{ page.title }}{% endraw %}</h2>		
-	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
+	<time datetime="{% raw %}{{ page.date | date_to_xmlschema }}{% endraw %}" class="by-line" >{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
 	<div class="content" >
 		 {% raw %}{{ content }}{% endraw %}
 	</div>	
