@@ -22,8 +22,7 @@
         {% include header.html %}
       {% endif %}
     
-   <!-- Ads -->
-   {% include adsense-lb.html %}
+
    
     <!-- Main content -->
 	  <div id="container">
@@ -33,7 +32,8 @@
 			{{ content }}
 
 	  </main>
-		
+		   <!-- Ads -->
+   {% include adsense-lb.html %}
 		  <!-- Pagination links -->
       {% if paginator.total_pages > 1 %}
         <div  itemscope="" itemprop="pagination" class="pagination">
