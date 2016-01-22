@@ -18,7 +18,8 @@ Most of the Jekyll layouts make use of these templates. If you observe **default
 {% raw %}
 {% include header.html %}
 {% endraw %}
-
+</pre>
+<pre>
 {% raw %}
 {% include footer.html %}
 {% endraw %}
@@ -53,17 +54,18 @@ A basic Jekyll site structure looks like this.
 
 {% endhighlight %}
 
-*A master configuration file ```_config.yml``` and an ```index.html``` in the root.
+* A master configuration file ```_config.yml``` and an ```index.html``` in the root.
 
-*Folders such as ```_includes```, ```_layouts``` ```_posts```, ```_sass``` etc.,
+* Folders such as ```_includes```, ```_layouts``` ```_posts```, ```_sass``` etc.,
 
 I will be explaining the functions of these files and folders in a different post. For now I will be concentrating on ```_includes```.
 
 Just like including header or footer with just a line of code, we can add html files inside ```_includes``` and can spit it out wherever we want it.
 
+##Let's create a like button
 For facebook like button, you should have a facebook page for your website or business. If you do not have one then [create one here](https://www.facebook.com/pages/create/){:rel='nofollow'}{:target="_blank"}.
 
-Once you are done creating go to [facebook like button creator plugin](https://developers.facebook.com/docs/plugins/like-button){:rel='nofollow'}{:target="_blank"}. You may have to create an app if this is your first time fiddling with facebook developer tools. Create an app using **Add a new app** option and select platform **website**.
+Once you are done creating a page, go to [facebook like button creator plugin](https://developers.facebook.com/docs/plugins/like-button){:rel='nofollow'}{:target="_blank"}. You may have to create an app if this is your first time fiddling with facebook developer tools. Create an app using **Add a new app** option and select platform **website**.
 
 In the URL input, paste your facebook page URL and select width (this is important while using it on a responsive website), check or uncheck other options based on your requirement and hit **Get code**
 
@@ -78,7 +80,7 @@ The codes will looks somewhat like this
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1409800599270506";
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1409800511270506";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 {% endhighlight %}
@@ -89,9 +91,9 @@ The codes will looks somewhat like this
 
 
 ##Include it in your posts
- Now you can call the file ```fb-like.html``` from wherever you like it just by using this code. I usually place it at the bottom of my articles. To get it on all posts, you should call this inside posts layout (which will be inside ```_layouts``` folder)
+ Now you can call the file ```fb-like.html``` from wherever you like it just by using this line code. I usually place it at the bottom of my articles. To get it on all posts, you should call this inside posts layout (which will be inside ```_layouts``` folder)
  {% raw %}
- {% include fb-like.html%}
+ {%  include fb-like.html  %}
  {% endraw %}
  
  Using it on all posts
@@ -111,7 +113,7 @@ layout: default
 </article>
  {% endhighlight %}
 
-You can check my page for a like button. I have used the same menthod. But I have added differ to the script so that only after everything loads, the facebook like will appear. This helps to load the content before like button.
+You can check my page for a like button. I have used the same menthod. But I have added ```defer``` to the script so that only after everything loads, the facebook like will appear. This helps to load the content before like button.
 
 {% highlight html %}
 <script defer>(function(d, s, id) {
@@ -123,3 +125,6 @@ You can check my page for a like button. I have used the same menthod. But I hav
 
 Make use of ```defer``` on any ```js``` file you want to load at the end. You can also use ```async``` which loads ```js``` along with ```html```.
 
+Let me know if there is a better way to implement like button in Jekyll. Leave a comment if you are stuck in any step.
+
+Thanks for reading!
