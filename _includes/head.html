@@ -29,13 +29,26 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
+	{% if page.title %}	
 	<meta property="og:title" content="{{ page.title }}">
-	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	{% else %}
+	<meta property="og:title" content="{{ site.title }}">
+	{% endif %}
+	<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
 	<meta property="og:site_name" content="WebJeda">
 	 
 	 <!-- Twitter Cards -->
+ {% if page.title %}	 
 <meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+<meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+
+{% if page.desc %}
 <meta name="twitter:description" content="{{ page.desc }}">
+{% else %}
+<meta name="twitter:description" content="{{ site.desc }}">
+{% endif %}
 <meta name="twitter:site" content="@webjeda" />
 <meta name="twitter:creator" content="@sharathdt">
 <meta name="twitter:card" content="summary">
