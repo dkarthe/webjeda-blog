@@ -145,6 +145,8 @@ It is actually
 
 You don't believe me. Do you? Put this inside body tag and use inspect option!
 
+Or checkout my [contact page](/contact/)
+
 ##Things to keep in mind
 
 Be careful not to include your personal email in form action as it is easily visible when website source is viewed. You can include an alternative email which forwards mails to your personal email. 
