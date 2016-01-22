@@ -1,6 +1,6 @@
 ---
 title: How to sync files and folders with Github Pages
-desc: Creating files inside Github repository is easy but what if you have lot of files and folders to upload to Github! Here is a guide to do just that.
+desc: Creating files inside Github repository is easy but what if you have lot of files and folders to upload to Github! You can also upload project to github using this method.
 keywords: upload folders to github, sync files and folders with github
 author: sharathdt
 ---

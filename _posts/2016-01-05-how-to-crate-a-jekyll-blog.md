@@ -1,6 +1,6 @@
 ---
 title: How to create a Jekyll blog
-desc: I created this beautiful looking jekyll blog by forking a repository. You can also fork it to make it yours. Here is an easy way.
+desc: I created this beautiful looking jekyll blog by forking a repository. You can also fork it to make it yours.  Jekyll is a simple blog generator. You can use this as a static site builder.
 keywords: cerate jekyll blog, blogging on jekyll, github blogging
 author: sharathdt
 ---
