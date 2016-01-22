@@ -144,6 +144,7 @@ It is actually
 {% endhighlight %}
 
 You don't believe me. Checkout my [contact page](/contact/){:target="_blank"} and view source!
+This works like charm. You are not only cheating bots but also human email harvesters. It is not impossible to decode this but it is hard!
 
 ##Things to keep in mind
 
