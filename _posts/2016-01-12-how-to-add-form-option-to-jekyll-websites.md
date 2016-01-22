@@ -98,6 +98,52 @@ When you mention your email in clear text inside your form, email harvesting bot
 </script>
 {% endhighlight %}
 
+##Step 6: Ultra security 
+In step 5, your email cannot be read by a bot but a human can obvoiusly connect the dots to make it a meaningful email. If you are paranoid about giving out your email in any way then use this method.
+
+###Encode the whole form!
+Logon to [Enkoder](http://hivelogic.com/enkoder/){:rel='nofollow'}{:target="_blank"} and copy paste your entire Formspree form and hit submit. This tool will encode your data to something like this.
+
+{% highlight html %}
+<script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=92){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")17,\\\"<6>-!<lr120\\\\330\\\\SG420\\\\%n\\\\+HW(720\\\\" +
+"430\\\\420\\\\#M2Pt\\\\630\\\\600\\\\010\\\\630\\\\GD9020\\\\n\\\\710\\\\30" +
+"0\\\\520\\\\,|100\\\\a>* ,w\\\"\\\\ $=;mponm\\\"\\\\720\\\\8520\\\\vhf7&771" +
+"\\\\|c430\\\\SW\\\\\\\\Q^030\\\\e500\\\\R[TZ320\\\\020\\\\m\\\\\\\\FO@It\\\\"+
+"v420\\\\MW_Q400\\\\WWQNv\\\"\\\\#l4&9\\\"\\\\{771\\\\tyV,a,/.-,eV{T9)%va>?\\"+
+"\"\\\\\\\"\\\\030\\\\120\\\\230\\\\420\\\\[$J320\\\\030\\\\520\\\\530\\\\RS" +
+",330\\\\620\\\\010\\\\030\\\\I6Tr\\\\720\\\\730\\\\120\\\\D720\\\\720\\\\12" +
+"0\\\\610\\\\6bc,tfyb2;oC2{6)('&kXq^?\\\"\\\\\\\"\\\\)/4*[$J220\\\\230\\\\43" +
+"0\\\\700\\\\720\\\\430\\\\PM2300\\\\300\\\\200\\\\630\\\\n\\\\t\\\\n\\\\420" +
+"\\\\n\\\\200\\\\A>\\\\\\\\400\\\\6~0.4<ez771\\\\891';#'a:#)&?*'#\\\"(f};o n" +
+"ruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)17==i(fi{)" +
+"++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"              ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+
+{% endhighlight %}
+
+You don't recognize anything. Do you?
+
+It is actually
+
+{% highlight html %}
+
+<form id="formaction" method="POST">
+    <p>Name: </p><input type="text" name="name"><br />
+    <p>Email: </p><input type="email" name="email"><br />
+    <input type="submit" value="Send">
+</form>
+
+{% endhighlight %}
+
+You don't believe me. Do you? Put this inside body tag and use inspect option!
 
 ##Things to keep in mind
 
