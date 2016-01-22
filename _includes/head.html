@@ -7,7 +7,7 @@
        {% if page.desc %}
     <meta itemprop="description" name="description" content="{{ page.desc }}" />
        {% else %}
-    <meta itemprop="description" name="description" content="WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions. We also make github pages tutorial, Jekyll tutorial and more..." />
+    <meta itemprop="description" name="description" content="{{ site.description }}" />
        {% endif %}
 
        {% if page.keywords %}
@@ -36,6 +36,11 @@
 	{% endif %}
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 	<meta property="og:site_name" content="WebJeda">
+	{% if page.desc %}
+	<meta property="og:description" content="{{ page.desc }}">
+	{% else %}
+	 <meta property="og:description" content="{{ site.description }}">
+	 {% endif %}
 	 
 	 <!-- Twitter Cards -->
  {% if page.title %}	 
