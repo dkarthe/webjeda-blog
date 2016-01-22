@@ -8,7 +8,7 @@ pulish: true
 
 <img alt="" title="" itemprop="thumbnailUrl" src="/images/adding-facebook-like-button-to-jekyll.jpg">
 
-Understanding Jekyll is really important to manipulate the options available to handle different things. One of those is templates. Usually all Jekyll themes will have a **header** and a **footer** inside ```_includes``` folder.
+Understanding Jekyll is really important to manipulate the options available to handle different things. Usually all Jekyll themes will have a **header** and a **footer** template inside ```_includes``` folder.
 
 ##Basics before implementation
 
