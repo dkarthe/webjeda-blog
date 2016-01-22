@@ -143,7 +143,7 @@ It is actually
 
 {% endhighlight %}
 
-You don't believe me. Do you? Put this inside body tag and use inspect option!
+You don't believe me. Put this inside body tag and use inspect option!
 
 Or checkout my [contact page](/contact/)
 
