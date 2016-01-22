@@ -38,24 +38,18 @@ layout: page
       
       
 <style>
+    
       
 
 
-*,*:after,*:before{
--webkit-box-sizing:border-box;
--moz-box-sizing:border-box;
--ms-box-sizing:border-box;
-box-sizing:border-box;
-
-}
 
 body{
  
 }
 
 #contact {
-max-width:25em;
-margin:0 auto;
+max-width:500px;
+height: 100px;margin:0 auto;
 
 }
             
@@ -148,6 +142,8 @@ color:#333;
 .js-highlight-label label{
 color:#f1773b;
 }
+
+
 
 
 
