@@ -261,3 +261,10 @@ time {
     border-color: rgba(85, 85, 85, 0.1);
     
 }
+
+.arrow.youtube {
+    background: #D24D57;
+}
+.arrow.youtube:after {
+    border-left: 10px solid #D24D57;
+}
