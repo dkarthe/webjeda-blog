@@ -108,7 +108,7 @@ The fun part about layouts is that you can have your own layout and you can use 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Some titlw</title>
+    <title>Some Title</title>
 </head>
 <body>
     
@@ -119,8 +119,17 @@ The fun part about layouts is that you can have your own layout and you can use 
 
 {% endhighlight %}
 
-So whenever you create a new plain HTML page, you don't have to include title, head and body. Just write the code and use 
-<pre>layout: blank</pre> and Jekyll will keep the HTML code inside the ```blank``` template where {% raw %}{{ content }}{% endraw %} is defined!
+So whenever you create a new plain HTML page, you don't have to include title, head and body. Just write the code and use
+
+<pre>
+{% raw %}
+---
+layout: blank
+---
+{% endraw %}
+</pre> 
+
+and Jekyll will keep the HTML code inside the ```blank``` template where {% raw %}{{ content }}{% endraw %} is defined!
 
 
 These are the ways you can create a new page in Jekyll blog. There can be other ways as well. If you find a cooler way then please let me know. Subscribe for more cool stuff!
