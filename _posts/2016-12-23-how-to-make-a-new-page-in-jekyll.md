@@ -132,6 +132,6 @@ layout: blank
 and Jekyll will keep the HTML code inside the ```blank``` template where {% raw %}{{ content }}{% endraw %} is defined!
 
 
-These are the ways you can create a new page in Jekyll blog. There can be other ways as well. If you find a cooler way then please let me know. Subscribe for more cool stuff!
+These are the ways you can create a new page in Jekyll blog. There can be other ways as well. Let me know if you find a better way to do it. Subscribe for more cool stuff!
 
 Thanks for reading!
