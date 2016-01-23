@@ -14,7 +14,7 @@ I like Jekyll for its immense power for generating pages! Let's say you want a n
 
 Jekyll themes do not come with all the bells and rings. You have to add whatever you want and take out whatever you do not need. I wanted a [contact page](/contact/){:rel='dofollow'}{:target="_blank"} for my blog and Jekyll did not have one by default. So I had to create one. Same thing with my [about](/about/){:rel='dofollow'}{:target="_blank"} page.
 
-Many times you may want a home page which do not load a list of posts. You may want to show off your projects in the home page. In such cases, you can make your custom pages in Jekyll and use them.
+Many times you may want a home page which do not show list of posts. You may want to show off your projects in the home page. In such cases, you can make your custom pages in Jekyll and use them.
 
 
 ##Let's create a html page in Jekyll
@@ -64,7 +64,9 @@ WebJeda is a web designing company
 .
 .
 
-**Disclaimer:** This website is under constant modification. If you find something isn't right then I might be doing some change in the backend.
+**Disclaimer:** This website is under constant modification. 
+If you find something isn't right then,
+I might be doing some change in the backend.
 
 {% endraw %}
 </pre>
@@ -77,12 +79,14 @@ I don't want my web pages to have any file extension in the URL. So to remove th
 
 You can visit [my about page](/about/){:rel='dofollow'}{:target="_blank"} here.
 
-You can also achieve this without permalinks. Just create a folder in the root with the name ```about``` and create a ```index.md``` file inside it with all the above content. Even now the link will show up as ```http://blog.webjeda.com/about```. This is just like how for my blog browser will not show the URL as ```http://blog.webjeda.com/index.html``` because it is umderstood that ```index.html``` is the default file to show when the URL ```http://blog.webjeda.com``` is hit.
+You can also achieve this without permalinks. Just create a folder in the root with the name ```about``` and create a ```index.md``` file inside it with all the above content. Even now the link will show up as ```http://blog.webjeda.com/about```. This is just like how for my blog jekyll will not show the URL as ```http://blog.webjeda.com/index.html``` because it is umderstood that ```index.html``` is the default file to show when the URL ```http://blog.webjeda.com``` is hit.
 
 
 ### Step 3: Create a plain HTML page in Jekyll
 
 A plain HTML inside Jekyll can have a front matter as shown below which defines not to use any layout or you can use no front matter at all.
+
+<pre>
 {% raw %}
 ---
 layout: null
