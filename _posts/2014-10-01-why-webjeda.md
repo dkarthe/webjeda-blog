@@ -8,9 +8,9 @@ tags: [github, jekyll]
 
 <img alt="c10h14n2" title="C10h14n2 film website" itemprop="thumbnailUrl" src="/images/c10h14n2movie-mockup.jpg">
 
-While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser - github.com. Cognizant has a learning period of two months in which I googled a lot about it. I was wondered by the contributions people do there. People were creating cool plugins, websites, providing information, documentations and steb by step guide for coders.
+While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser - [github.com](https://github.com){:rel='nofollow'}{:target="_blank"}. Cognizant has a learning period of two months in which I googled a lot about it. I was wondered by the contributions people do there. People were creating cool plugins, websites, providing information, documentations and steb by step guide for coders.
 
-By then I was learning html, css and a little javascript. I used to implement the code I learned into Github Pages to see how it comes out. It was not always a positive result. I had to debug a lot and adapt the code rather copy pasting it. 
+By then I was learning HTML, CSS and a little JavaScript. I used to implement the code I learned into **Github Pages** to see how it comes out. It was not always a positive result. I had to debug a lot and adapt the code rather copy pasting it. 
 
 Initially I had to design a website for my friend. It was supposed to have all the details of her company, contact information and frequent updation of tournament results. It is actually a website on online chess coaching business. Initially I created a website using Adobe Muse - which is a non-coders best friend. It was all good but I had a problem hosting it. I tried a free service called [vlexo](http://vlexofree.com/){:rel='nofollow'}. It was good for a free service but it asked us to put a linkback of their wesite in my website. So I was looking for an alternative. 
 
