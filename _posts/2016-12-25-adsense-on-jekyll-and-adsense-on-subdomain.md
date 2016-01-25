@@ -69,8 +69,15 @@ These files can be called anywhere inside the layouts, posts and pages using thi
 
 Change ```adsense-file-1``` to whatever the name you have given to your adsense html.
 
-I have one adsense html file called inside ```default``` layout at the bottom portion (appears in almost all pages). One at the top portion of ```post``` layout and one more at the top portion of ```page``` layout. Here is how I have used it on ```page``` layout.
-{% highlight yaml %}
+I have a total of 3 adsense html files
+
+1. Called inside ```default``` layout at the bottom portion (appears in almost all pages). 
+
+2. Called at the top portion of ```post``` layout .
+
+3. At the top portion of ```page``` layout. Here is how I have used it on ```page``` layout.
+
+{% highlight css %}
 ---
 layout: default
 ---
