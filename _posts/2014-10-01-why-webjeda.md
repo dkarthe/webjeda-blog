@@ -6,15 +6,15 @@ keywords: webjeda, webjeda founder
 tags: [github, jekyll]
 ---
 
-<img alt="c10h14n2" title="C10h14n2 film website" itemprop="thumbnailUrl" src="/images/c10h14n2movie-mockup.jpg">
+<img alt="webjeda" title="why webjeda" itemprop="thumbnailUrl" src="/img/webjeda-logo-big.jpg">
 
 While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser - [github.com](https://github.com){:rel='nofollow'}{:target="_blank"}. Cognizant has a learning period of two months in which I googled a lot about it. I was wondered by the contributions people do there. People were creating cool plugins, websites, providing information, documentations and steb by step guide for coders.
 
 By then I was learning HTML, CSS and a little JavaScript. I used to implement the code I learned into **Github Pages** to see how it comes out. It was not always a positive result. I had to debug a lot and adapt the code rather copy pasting it. 
 
-Initially I had to design a website for my friend. It was supposed to have all the details of her company, contact information and frequent updation of tournament results. It is actually a website on online chess coaching business. Initially I created a website using Adobe Muse - which is a non-coders best friend. It was all good but I had a problem hosting it. I tried a free service called [vlexo](http://vlexofree.com/){:rel='nofollow'}. It was good for a free service but it asked us to put a linkback of their wesite in my website. So I was looking for an alternative. 
+Initially I had to design a website for my friend. It was supposed to have all the details of her company, contact information and frequent updation of tournament results. It is actually a website on online chess coaching business. Initially I created a website using **Adobe Muse** - which is a non-coders best friend. It was all good but I had a problem hosting it. I tried a free service called [vlexo](http://vlexofree.com/){:rel='nofollow'}. It was good for a free service but it asked us to put a linkback of their wesite in my website. So I was looking for an alternative. 
 
-I used to see many **.io** websites with a lot of content but even then they load superfast! I was curious to know how they do it. After some research I found out that they are hosted on Github Pages or Amazon s3. So I chose Github Pages (which is free) to host my website. It was all good but when it came to forms, I did not know how to make one. As a business we had new parents writing to us through our website form asking about the details. So I moved it to WordPress. It is still in WordPress - [inapurichessworld](http://inapurichessworld.com)
+I used to see many **.io** websites with a lot of content in it but even then they load superfast! I was curious to know how they do it. After some research I found out that they are hosted on Github Pages or Amazon s3. So I chose Github Pages (which is free) to host my website. It was all good but when it came to forms, I did not know how to [make a form for static website](http://blog.webjeda.com/how-to-add-form-option-to-jekyll-websites){:target="_blank"}. As a business we had new parents writing to us through our website form asking about the details. So I moved it to WordPress. It is still in WordPress - [inapurichessworld](http://inapurichessworld.com)
 
 But by this time I had a good hang of Github and started hosting my websites on it.
 
