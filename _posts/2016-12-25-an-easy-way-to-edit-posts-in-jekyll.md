@@ -77,7 +77,7 @@ I was happy that I found an option to completely edit my Jekyll posts online.
 Now in the above snippet, you can change the ```rooturl:``` to any folder you want. I have chosen ```_posts``` because that is the folder I often navigate to edit or add new posts.
 
 ## Why prose.io?
-Once you figure out how to sync files with Github from your local folders then you will realize that ```prose.io``` is not even required and you may think that you have been following the hard way all this time. But syncing files to Github can be hard for many beginners. Unless you have a little understanding about how ```git``` works, you cannot successfully sync files or at least cannot troubleshoot a simple issue.
+Once you figure out how to sync files with Github from your local folders, you will realize that ```prose.io``` is not even required and you may think that you have been following the hard way all this time. But syncing files to Github can be hard for many beginners. Unless you have a little understanding about how ```git``` works, you cannot successfully sync files or at least cannot troubleshoot a simple issue.
 
 This is the reason why I recommend prose.io for beginners. It is simple, easy and GUI!
 
