@@ -42,10 +42,10 @@ Though it is very easy to automatically place ads on all pages and places, I was
 
 I have placed ads on top and bottom of my blog posts and pages. And one more ad appears somewhere in the middle of all the posts. So how did I do this?
 
-### Get responsive adsense code
+### 1. Get responsive adsense code
 The advantage is that it adopts to all screen-size so that you don't have to add media queries and adjust the width.
 
-### Create html files of adsense code
+### 2. Create html files of adsense code
 Create 3 html files with different names inside ```_includes``` folder. Copy paste the adsense code(responsive) that you generated in Adsense. Here is a sample adsense code for the file. Keeping the script tags inside a ```div``` tag is optional.
 
 {% highlight javascript %}
@@ -63,7 +63,7 @@ Create 3 html files with different names inside ```_includes``` folder. Copy pas
 </div>
 {% endhighlight %}
 
-### Call them wherever you need them
+### 3. Call them wherever you need them
 These files can be called anywhere inside the layouts, posts and pages using this line
 <pre>{% raw %}{% include adsense-file-1.html %}{% endraw %}</pre>
 
@@ -83,7 +83,7 @@ layout: default
 
 So this is how you can include adsense ads on all your present and upcoming Jekyll blog posts and pages automatically. This is a neat approach than pasting codes on every single post and page.
 
-### The problem that I haven't solved yet
+### 4. The problem that I haven't solved yet
 
 I want ads to be shown after second paragraph of every post. But so far I couldn't figure out how I can determine paragraph numbers. Eventually I will find it out. If you have a solution then please let me know.
 
