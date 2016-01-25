@@ -48,7 +48,7 @@ The advantage is that it adopts to all screen-size so that you don't have to add
 ### 2. Create html files of adsense code
 Create 3 html files with different names inside ```_includes``` folder. Copy paste the adsense code(responsive) that you generated in Adsense. Here is a sample adsense code for the file. Keeping the script tags inside a ```div``` tag is optional.
 
-{% highlight javascript %}
+{% highlight html %}
 <div>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- text-resp-top -->
