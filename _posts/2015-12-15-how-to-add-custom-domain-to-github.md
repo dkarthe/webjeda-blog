@@ -30,7 +30,7 @@ Name the file as **CNAME** without any extension. Now, inside the CNAME file wri
 ![Adding domain name in CNAME file - github screenshot](/images/adding-domain-name-in-CNAME-file-github.JPG "Adding domain name in CNAME file - github screenshot")
 
 Now commit your file to the repository. Make sure you are still in the gh-pages branch while hitting commit.
-
+{% include adsense-inside-post.html %}
 
 ##Step 2: Adding A record in the DNS Zone Records
 

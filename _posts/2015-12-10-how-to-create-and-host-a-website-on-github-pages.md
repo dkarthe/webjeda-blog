@@ -37,7 +37,7 @@ Github offers two types of web hosting
 
 My tutorial given here is for Project Pages. Got to the bottom to see how you can host using User Pages
 
-
+{% include adsense-inside-post.html %}
 
 ##Step 1: Create a repository
 

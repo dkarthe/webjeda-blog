@@ -50,9 +50,9 @@ Now you should see an option with name **Accounts**. Click on **Add account**.
 ![How to sync folders with Github - Github Desktop Account setup](/images/github-desktop-account-setup.jpg)
 
 Enter your Github credentials and hit Login (choose Github Enterprise if you have an Enterprise account).
+{% include adsense-inside-post.html %}
 
-
-##Step 3: Clone the repository you just created
+##Step 4: Clone the repository you just created
 
 Click on the **+** icon on the left-top corner of Github Desktop. You should see these options.
 
@@ -77,20 +77,20 @@ Remember: Whatever changes you do inside this folder will be reflected in the ap
 
 ![Cloned repository in local folder](/images/cloned-repository-inside-local-folder.jpg)
 
-##Step 4: Copy complete website in local repository
+##Step 5: Copy complete website in local repository
 
 If you have downloaded the file from **Link 1** then open it and extract the contents to a folder. Copy all these files and folders into our locally synced repository.
 
 ![Copy complete website to github repository](/images/copy-complete-website-to-repository.jpg)
 
-##Step 5: Sync to github!
+##Step 6: Sync to github!
 
 Come back to the Github Desktop app and click on **Changes** tab. You should see all the changes you just did, all the files and folders you added etc., Once you are satisfied looking at it, hit commit and wait for the app to sync it with remote (but your) Github repository.
 
 ![Commit changes to Github Desktop](/images/commit-changes-to-github-desktop.jpg)
 
 
-##Step 6: Your website must be hosted on Github Pages now.
+##Step 7: Your website must be hosted on Github Pages now.
 
 Now login to your Github account to see whether your website has been hosted. Navigate to your repository that you just synced. Change the branch to gh-pages and see if the files you synced are present in that branch.
 

@@ -37,7 +37,7 @@ First thing is to import the Polymer elements. Paste these lines to your **head*
 This is just to see if you get the same result. For greater response time you should be using a local copy of these files rather importing from an URL.
 
 And that's about it. If you want some other element, say **paper-toggle-button** 
-
+{% include adsense-inside-post.html %}
 then just replace the **paper-card** with **paper-toggle-button** which would 
 
 be,

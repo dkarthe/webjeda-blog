@@ -7,6 +7,8 @@ Schema
 
 permalink: /:title
 
+// Adsense
+{% include adsense-inside-post.html %}
 
 
 {% highlight css %}

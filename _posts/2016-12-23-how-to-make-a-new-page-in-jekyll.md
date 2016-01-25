@@ -37,6 +37,7 @@ I will be using markdown.
 
 create a new file in the root of repository and call it **about.md**
 
+{% include adsense-inside-post.html %}
 ###Step 2: Add YAML front matter
 YAML(Yet Another Markup Language) lies at the top of the page inside three dashes.
 <pre>

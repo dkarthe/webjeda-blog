@@ -26,7 +26,7 @@ Making it simple has helped a lot of people to start off with Github. I'm glad I
 ![Github pages youtube tutorial positive response](/images/github-pages-tutorial-youtube-positive-response.jpg)
 
 Checkout the playlist at the top to see more comments.
-
+{% include adsense-inside-post.html %}
 
 
 Another thing I found very difficult is choosing the right tools for web development. There are some tools I recommend for new web designers 

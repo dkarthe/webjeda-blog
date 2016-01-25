@@ -86,7 +86,7 @@ The codes will looks somewhat like this
 <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 {% endhighlight %}
 
-
+{% include adsense-inside-post.html %}
 ##Include it in your posts
  Now you can call the file ```fb-like.html``` from wherever you like it just by using this line code. 
  <pre>{% raw %}{% include fb-like.html %}{% endraw %}</pre>

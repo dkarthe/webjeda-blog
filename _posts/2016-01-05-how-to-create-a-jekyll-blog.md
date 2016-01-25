@@ -32,7 +32,7 @@ All the themes you see are inside a certain repository. You just have to copy th
 ![Jekyll theme respository](/images/fork-jekyll-theme-screenshot-2.jpg)
 
 Once you are inside the repository move to next step.
-
+{% include adsense-inside-post.html %}
 ##Fork - A new way of copy pasting!
 
 
