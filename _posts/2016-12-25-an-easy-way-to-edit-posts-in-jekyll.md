@@ -9,7 +9,7 @@ tags: jekyll
 <img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" src="/images/how-to-edit-add-posts-in-jekyll.jpg">
 <a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
-In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be iside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to inserting images. If the image source is a URL then it was easy but if the image is in my local computer folder then there was no way uploading it. I did not know [how to sync files and folders with Github](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}.
+In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be iside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to insert images. If the image source is a URL then it was easy but if the image is in my local computer folder then there was no way uploading it. I did not know [how to sync files and folders with Github](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}.
 
 ## Unable to upload images to Github!
 So I used to upload images to my google drive, then get the URL and put that as a source in the blog. One of those examples here
