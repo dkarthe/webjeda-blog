@@ -77,8 +77,7 @@ I have a total of 3 adsense html files
 
 3. At the top portion of ```page``` layout. Here is how I have used it on ```page``` layout.
 
-{% highlight css %}
----
+{% highlight css %}---
 layout: default
 ---
 <article id="page">
