@@ -8,7 +8,7 @@ tags: [github, jekyll]
 
 <img alt="c10h14n2" title="C10h14n2 film website" itemprop="thumbnailUrl" src="/images/c10h14n2movie-mockup.jpg">
 
-While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser - github.com. Cognizant had learning period of two months in which I googled a lot about it. I was wondered by the contributions people do there. People were creating cool plugins, websites, providing information, documentations and steb by step guide for coders.
+While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser - github.com. Cognizant has a learning period of two months in which I googled a lot about it. I was wondered by the contributions people do there. People were creating cool plugins, websites, providing information, documentations and steb by step guide for coders.
 
 By then I was learning html, css and a little javascript. I used to implement the code I learned into Github Pages to see how it comes out. It was not always a positive result. I had to debug a lot and adapt the code rather copy pasting it. 
 
