@@ -60,7 +60,7 @@ I will be explaining the functions of these files and folders in a different pos
 Just like including header or footer with just a line of code, we can add html files inside ```_includes``` and can spit it out wherever we want it.
 
 ##Let's create a like button
-For facebook like button, you should have a facebook page for your website or business. If you do not have one then [create one here](https://www.facebook.com/pages/create/){:rel='nofollow'}{:target="_blank"}.
+For facebook like button, you should have a facebook page for your website or business. If you do not have one then [create a page here](https://www.facebook.com/pages/create/){:rel='nofollow'}{:target="_blank"}.
 
 Once you are done creating a page, go to [facebook like button creator plugin](https://developers.facebook.com/docs/plugins/like-button){:rel='nofollow'}{:target="_blank"}. You may have to create an app if this is your first time fiddling with facebook developer tools. Create an app using **Add a new app** option and select platform **website**.
 
