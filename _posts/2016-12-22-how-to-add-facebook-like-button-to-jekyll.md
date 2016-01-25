@@ -122,6 +122,6 @@ You can check my page for a like button. I have used the same menthod. But I hav
 
 Make use of ```defer``` on any ```js``` file you want to load at the end. You can also use ```async``` which loads ```js``` along with ```html```.
 
-Let me know if there is a better way to implement like button in Jekyll. Leave a comment if you are stuck in any step.
+Let me know if there is a better way to implement like button in Jekyll. Leave a comment if you are stuck at any step.
 
 Thanks for reading!
