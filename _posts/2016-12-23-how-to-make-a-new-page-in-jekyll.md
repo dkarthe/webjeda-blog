@@ -3,7 +3,7 @@ title: How to make a new page in Jekyll?
 desc: Adding a new page in jekyll is really easy. You can use HTML, Markdown or textile for markup. Learn how to create a page in jekyll and how to manipulate the URL. We will be creating a blank layout for plain html pages.
 keywords: create web page in jekyll, pages in jekyll, new page in jekyll
 author: sharathdt
-tags: jekyll,
+tags: jekyll
 ---
 
 <img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" src="/images/how-to-add-pages-in-jekyll.jpg">
