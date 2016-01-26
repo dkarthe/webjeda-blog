@@ -3,6 +3,7 @@ title: How to add custom domain to Github Pages website?
 desc: Change the ugly looking http://uername.github.io/index.html URL into a yourdomain.com format URL for your project hosted on Github pages. 
 keywords: github custom domain, custom domain github, custom URL github website
 author: sharathdt
+tags: Github-Pages 
 ---
 
 <img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" src="/images/custom-domain-to-github-2.jpg">

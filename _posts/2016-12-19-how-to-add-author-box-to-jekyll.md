@@ -3,6 +3,7 @@ title: Author box to Jekyll blog
 desc: Adding multiple authors like in WordPress to a Jekyll blog is hard. But not anymore. Learn how to add an author box to your Jekyll blog with these easy steps.
 keywords: author box jekyll, author tab jekyll, jekyll author box, jekyll author section
 author: sharathdt
+tags: Jekyll
 ---
 
 <img alt="Author box jekyll" title="Author box for jekyll" itemprop="thumbnailUrl" src="/images/author-box-jekyll.jpg">

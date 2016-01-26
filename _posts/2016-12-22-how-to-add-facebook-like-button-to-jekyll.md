@@ -4,6 +4,7 @@ desc: Adding facebook button on a Jekyll blog site is different compared to HTML
 keywords: facebook like button github pages, like button to jekyll blog
 author: sharathdt
 pulish: true
+tags: Jekyll
 ---
 
 <img alt="" title="" itemprop="thumbnailUrl" src="/images/adding-facebook-like-button-to-jekyll.jpg">
