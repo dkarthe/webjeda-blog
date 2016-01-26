@@ -20,7 +20,7 @@ And also this is not practical. Since you are making a http request, it would ta
 
 
 ## A nice tool to upload images to Github
-Eventually I found out a tool called [prose](http://prose.io){:rel='nofollow'}{:target="_blank"}. It was good, the interface, functionality and even the animations! I wanted something that can upload images to Github. Prose was the saviour.
+Eventually I found out a tool called [prose.io](http://prose.io){:rel='nofollow'}{:target="_blank"}. It was good, the interface, functionality and even the animations! I wanted something that can upload images to Github. Prose was the saviour.
 ![Prose.io jekyll editor screenshot](/images/how-to-use-prose-io-with-jekyll.jpg)
 
 I was really impressed with this webapp with a feature to upload images. All you need is to add these lines of code inside ```_config.yml```. This will solve the problem of prose.io not uploading images!
