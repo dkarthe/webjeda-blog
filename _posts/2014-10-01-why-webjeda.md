@@ -33,3 +33,6 @@ They are old and discontinued but I had a good learning through these websites. 
 I realized (very late though) that web designing is my passion. I kept on learning more about html5. I also started learning Android application development. I never thought I can make it a business but I fully enjoyed making modern websites.
 
 Learning was always there. Even now for a web designer it is hard to figure out how to use github for his/her development. I learned Github through many tutorials and I still feel there is a lot to learn. I will tell you all about it in the next post .
+
+
+{{ site.related_posts }}
