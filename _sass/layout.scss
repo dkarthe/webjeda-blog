@@ -226,6 +226,7 @@ img[title="WebJeda"] {
   }
   a:hover {
     background-color: lighten($main-color, 5%);
+    color: darken($background-color, 45%);
   }
 }
 .page-item {
