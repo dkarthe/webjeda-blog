@@ -15,6 +15,7 @@ When I had to make some changes in Jekyll, I used to write dirty codes in the re
 
 These dirty codes would break my site sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while commiting the changes (big mistake). I can revert back though but I would lose all the changes and posts :(
 
+{% include adsense-inside-post.html %}
 ##Doing it the right way
 Read the [documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information and lot of pages as well. So I thought I would summarise it in this post so that anyone could make use of it.
 
@@ -26,7 +27,7 @@ As depicted in the image, Jekyll does magic on text files converting them into h
 
 Jekyll is simple if you understand what feature is for what purpose. Let us look at the folder structure of Jekyll and what is used for what. The below tree is taken directly from Jekyll documentation.
 
-{% highlight css %}
+{% highlight yaml %}
 
 .
 ├── _config.yml
@@ -68,19 +69,23 @@ Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/
 
 ## Folders
 
-1. **_includes:** This folder is king of like ```#include``` in C-programming. You can include files which are inside this folder into any post or page just by adding this line of code - {% raw %}{% include filename.html %}{% endraw %} replace the ```filename``` to a file inside your ```_includes``` folder.
+1. **_includes:** This folder is kind of like ```#include``` in C-programming. You can include files which are inside this folder into any post or page just by adding this line of code - {% raw %}{% include filename.html %}{% endraw %} replace the ```filename``` to a file inside your ```_includes``` folder.
 
-2. **_layouts:** As the name says this folder contains your blog layouts. It will have ```default```, ```page``` and ```post``` layout by default. You can also create other layouts such as two column, single column etc., There can also be a layout for redirecting pages. 
+2. **_layouts:** As the name says this folder contains your blog layouts. It will have ```default```, ```page``` and ```post``` layout by default. You can also create other layouts such as two column, single column etc., There can also be a layout for redirecting pages. I will talk about it in a different post.
 
-3. **_posts:**
+3. **_posts:** All your blog posts reside here. 
 
-4. **_sass:**
+4. **_sass:** Jekyll supports [Sass preprocessor](http://sass-lang.com/documentation/file.SASS_REFERENCE.html){:rel='nofollow'}{:target="_blank"}. Sass files are included in this folder can be imported to main stylesheet.
 
-5. **_site:**
+5. **_site:** This is the file created by Jekyll to host your website. This folder will have files only compatible for a browser - HTML, CSS, JS, XML etc., This conversion happens by default. You don't have to create this or edit anything inside this foder.
 
-6. **css, images, js:**
+6. **css, images, js:** You can create folders and name then as per your needs. These are some of the common folders used to keep stylesheets, images and JavaScript files.
 
-7. **Other folders:**
+7. **Other folders:** There can be other folders as well. You can name it, say ```project``` and keep html ot markdown files inside it. These files will get a URL ```http://yourdomain/project/filename.html```.
 
+I hope that gives you an insight. This is just an introduction to Jekyll. It looked strange for me in the begnning but once I understood the logic used behind, it all made sense. And since a Jekyll site is made up of lot of different parts, debugging is very easy. When something starts acting up, you'll know exactly where the things have gone wrong. In this blog, I have written about a [lot of things](http://blog.webjeda.com/archive/) I did using Jekyll. Make use of it.
 
+If you get frustrated about something not working then just ask the community. Google things with the suffix 'jekyll'. You will find an answer. You can always ask me here, in the comment section. I will try my best to help you.
+
+Thanks for reading!
 
