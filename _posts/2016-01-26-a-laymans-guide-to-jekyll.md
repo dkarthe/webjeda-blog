@@ -88,7 +88,7 @@ Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/
 
 7. <h3>Other folders:</h3> There can be other folders as well. You can name it, say ```project``` and keep html ot markdown files inside it. These files will get a URL ```http://yourdomain/project/filename.html```.
 
-I hope that gives you an insight. This is just an introduction to Jekyll. It looked strange for me in the begnning but once I understood the logic used behind, it all made sense. And since a Jekyll site is made up of lot of different parts, debugging is very easy. When something starts acting up, you'll know exactly where the things have gone wrong. In this blog, I have written about a [lot of things](http://blog.webjeda.com/archive/) I did using Jekyll. Make use of it.
+I hope that gives you an insight about the structure of Jekyll files and folders. It looked strange for me in the beginning but once I understood the logic used behind, it all made sense. And since a Jekyll site is made up of lot of different parts, debugging is very easy. When something starts acting up, you'll know exactly where the things have gone wrong. In this blog, I have written about a [lot of things](http://blog.webjeda.com/archive/) I did using Jekyll. Make use of it.
 
 If you get frustrated about something not working then just ask the community. Google things with the suffix 'jekyll'. You will find an answer. You can always ask me here, in the comment section. I will try my best to help you.
 
