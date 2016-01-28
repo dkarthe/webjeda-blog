@@ -6,7 +6,7 @@ layout: default
 <ul itemscope="" itemtype="http://schema.org/Blog" id="posts">
 
 	{% for post in paginator.posts %}
-    {% if post.visible!=0 %}
+    {% if post.visible != 0 %}
 
     <div class="w3-card-2"><h1 itemprop="name" class="index-title">{{ post.title }}</h1>
         <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished" >{{ post.date | date_to_string }}</time>
