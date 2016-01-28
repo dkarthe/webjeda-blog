@@ -68,7 +68,7 @@ Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/
 
 ## Folders
 
-1. **_includes:**
+1. **_includes:** This folder is king of like ```#include``` in C-programming. You can include files which are inside this folder into any post or page just by adding this line of code - {% raw %}{% include filename.html %}{% endraw %} replace the ```filename``` to a file inside your ```_includes``` folder.
 
 2. **_layouts:**
 
