@@ -16,7 +16,7 @@ When I had to make some changes in Jekyll, I used to write dirty codes in the re
 
 These dirty codes would break my site, sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while commiting the changes (big mistake). I can revert back though but I would lose all the changes and posts :(
 
-{% include adsense-inside-post.html %}
+
 ##Doing it the right way!
 Read the [documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information (and lot of pages as well). So I thought I would summarise it in this post so that anyone could make use of it. 
 
@@ -59,7 +59,7 @@ Jekyll is simple if you understand what feature is for what purpose. Let us look
 Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel='nofollow'}{:target="_blank"} tab open while reading the below ponits. You should be able to see the following files and folders.
 
 ![Jekyll folder structure](/images/jekyll-folder-structure.jpg)
-
+{% include adsense-inside-post.html %}
 ## Files
 
 1. <h3>_config.yml:</h3> Master configuration file. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates, increments etc., can be difined inside this file. 
