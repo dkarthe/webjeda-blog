@@ -3,6 +3,7 @@ title: A layman's guide to Jekyll
 desc: Jekyll is really simple once you know how it works. You can make your blog do wonders once you know how to play with templates, layouts, loops and curly braces. Here is a layman's Jekyll guide!
 keywords: jekyll tutorial, how jekyll blog works, jekyll blog setup, jekyll working, jekyll guide
 author: sharathdt
+tags: Jekyll
 ---
 
 <img alt="Jekyll Tutorial" title="Jekyll guide" itemprop="thumbnailUrl" src="/images/jekyll-tutorial-screenshot.jpg">
