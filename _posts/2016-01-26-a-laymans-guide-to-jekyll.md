@@ -10,14 +10,14 @@ tags: Jekyll
 
 Jekyll was easy in the beginning. Because I was just adding posts or editing the current ones. But when I had to change the font or color I had to go through the CSS and make changes accordingly. Even this wasn't hard. But if I wanted a new page, a new functionality like adding tags, related posts, share buttons, author box etc., I had no idea how to do it. 
 
-##Why learn Jekyll the right way
+##Why learn Jekyll the right way?
 
 When I had to make some changes in Jekyll, I used to write dirty codes in the respective templates and somehow make it work for a while but if I wanted to make any changes to then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work. This was what I used to do years ago. Half knowledge is worse than no knowledge is true in the case of Jekyll blogs.
 
 These dirty codes would break my site sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while commiting the changes (big mistake). I can revert back though but I would lose all the changes and posts :(
 
 {% include adsense-inside-post.html %}
-##Doing it the right way
+##Doing it the right way!
 Read the [documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information and lot of pages as well. So I thought I would summarise it in this post so that anyone could make use of it.
 
 ## What Jekyll does better?
@@ -68,7 +68,7 @@ Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/
 4. **readme.md:** This is a file where you can describe your project. This will be rendered as html and displayed by default when someone visits your repository on Github. In the sample link I have provided above, see the page displayed at the bottom of repository which has a description of the theme with screenshot. This file is not mandatory.
 
 
-## Folders
+## Folders inside a Jekyll site
 
 1. **_includes:** This folder is kind of like ```#include``` in C-programming. You can include files which are inside this folder into any post or page just by adding this line of code - {% raw %}{% include filename.html %}{% endraw %} replace the ```filename``` to a file inside your ```_includes``` folder.
 
