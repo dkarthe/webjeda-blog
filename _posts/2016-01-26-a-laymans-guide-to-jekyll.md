@@ -67,14 +67,14 @@ Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/
 
 2. <h3>index.html:</h3> This is your homepage in most cases. It can also be in the format ```index.md```. It usually has a _for_ loop to load all the posts. You can make changes to this file and design your index of posts like how I have done the card layout for my blog. Index file may also call ```default``` layout which will be inside ```_layout``` folder. You can also take the whole loop thing off and have a simple introduction page like how [Jekyll official site](jekyllrb.com) has{:rel='nofollow'}{:target="_blank"}.
 
-3. <h3>some.xml:</h3> This file can be your post feed or a sitemap. If you do not have one, you can always [create a sitemap](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog){:target="_blank"} or feed file.
+3. <h3>some.xml:</h3> This file can be your post feeds or a sitemap. If you do not have one, you can always [create a sitemap](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog){:target="_blank"} or a feeds file.
 
 4. <h3>readme.md:</h3> This is a file where you can describe your project. This will be rendered as html and displayed by default when someone visits your repository on Github. In the sample link I have provided above, see the page displayed at the bottom of repository which has a description of the theme with screenshot. This file is not mandatory.
 
 
 ## Folders inside a Jekyll site
 
-1. <h3>_includes:</h3> This folder is kind of like ```#include``` in C-programming. You can include files which are inside this folder into any post or page just by adding this line of code - {% raw %}{% include filename.html %}{% endraw %} replace the ```filename``` to a file inside your ```_includes``` folder.
+1. <h3>_includes:</h3> This folder is kind of like ```#include``` in C-programming. You can include files which are inside this folder into any post or page just by adding this line of code - ```{% raw %}{% include filename.html %}{% endraw %}``` replace the ```filename``` to a file inside your ```_includes``` folder.
 
 2. <h3>_layouts:</h3> As the name says this folder contains your blog layouts. It will have ```default```, ```page``` and ```post``` layout by default. You can also create other layouts such as two column, single column etc., There can also be a layout for redirecting pages. I will talk about it in a different post.
 
