@@ -60,7 +60,8 @@ Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel=
 
 ![Jekyll folder structure](/images/jekyll-folder-structure.jpg)
 {% include adsense-inside-post.html %}
-## Files
+
+## Files inside a Jekyll site
 
 1. <h3>_config.yml:</h3> Master configuration file. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates, increments etc., can be difined inside this file. 
 Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/emerald/gh-pages/_config.yml){:rel='nofollow'}{:target="_blank"} for Emerald Jekyll theme. You can use all the parameters in this file using ```site``` variable. For instance, using ```{% raw %}{{ site.url }}{% endraw %}``` anywhere on the page, post, template will fetch the url variable defined in ```_config.yml```. [Read More](http://jekyllrb.com/docs/configuration/){:rel='nofollow'}{:target="_blank"}.
