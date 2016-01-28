@@ -70,7 +70,7 @@ Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/
 
 1. **_includes:** This folder is king of like ```#include``` in C-programming. You can include files which are inside this folder into any post or page just by adding this line of code - {% raw %}{% include filename.html %}{% endraw %} replace the ```filename``` to a file inside your ```_includes``` folder.
 
-2. **_layouts:**
+2. **_layouts:** As the name says this folder contains your blog layouts. It will have ```default```, ```page``` and ```post``` layout by default. You can also create other layouts such as two column, single column etc., There can also be a layout for redirecting pages. 
 
 3. **_posts:**
 
