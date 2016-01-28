@@ -7,6 +7,7 @@ permalink: /archive/
 <section id="archive">
   <h2><i class="fa fa-leanpub fa-2x"></i> Articles from this year</h2>
 {% for post in site.posts %}
+ {% if post.visible != 0 %}
   {% unless post.next %}
   <ul class="this">
   {% else %}
@@ -19,6 +20,7 @@ permalink: /archive/
   {% endif %}
   {% endunless %}
     <li><time>{{ post.date | date:"%d %b" }}</time>&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
+ {% endif %}  
 {% endfor %}
   </ul>
 </section>
