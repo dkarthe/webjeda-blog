@@ -12,17 +12,21 @@ Jekyll was easy in the beginning. Because I was just adding posts or editing the
 
 ##Why learn Jekyll the right way?
 
-When I had to make some changes in Jekyll, I used to write dirty codes in the respective templates and somehow make it work for a while but if I wanted to make any changes to then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work. This was what I used to do years ago. Half knowledge is worse than no knowledge is true in the case of Jekyll blogs.
+When I had to make some changes in Jekyll, I used to write dirty codes in the respective templates and somehow make it work for a while but if I wanted to make any changes to it then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work. This was what I used to do years ago. Half knowledge is worse than no knowledge is completely true in the case of Jekyll.
 
-These dirty codes would break my site sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while commiting the changes (big mistake). I can revert back though but I would lose all the changes and posts :(
+These dirty codes would break my site, sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while commiting the changes (big mistake). I can revert back though but I would lose all the changes and posts :(
 
 {% include adsense-inside-post.html %}
 ##Doing it the right way!
-Read the [documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information and lot of pages as well. So I thought I would summarise it in this post so that anyone could make use of it.
+Read the [documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information (and lot of pages as well). So I thought I would summarise it in this post so that anyone could make use of it. 
+
+But Once you finish reading this, I suggest you check out the documentation. That gives you rather deep insight than a breif introduction like this one.
 
 ## What Jekyll does better?
 ![Jekyll transforms text to html](/images/jekyll-transforms-text-to-hypertext.jpg)
-As depicted in the image, Jekyll does magic on text files converting them into html files. This is not the only thing it does but it is the job - text transformation. This is the reason Jekyll posts can be written in easily readable markups like markdown, textile etc.,
+
+
+As depicted in the image, Jekyll does magic on text files converting them into html files - text transformation. This is not the only thing it does but for most parts. This is the reason Jekyll posts and pages can be written in easily readable markups like markdown, textile etc.,
 
 ##Understand the structure of Jekyll
 
@@ -58,10 +62,10 @@ Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel=
 
 ## Files
 
-1. <h3>_config.yml:</h3> Master configuration file. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates,increments etc., can be difined inside this file. 
-Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/emerald/gh-pages/_config.yml){:rel='nofollow'}{:target="_blank"} for Emerald Jekyll theme. [Read More](http://jekyllrb.com/docs/configuration/){:rel='nofollow'}{:target="_blank"}. You can use all the parameters in this file using ```site``` variable. For instance, using {% raw %}{{ site.url }}{% endraw %} anywhere on the page, post, template fetches the url variable defined in ```_config.yml```.
+1. <h3>_config.yml:</h3> Master configuration file. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates, increments etc., can be difined inside this file. 
+Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/emerald/gh-pages/_config.yml){:rel='nofollow'}{:target="_blank"} for Emerald Jekyll theme. You can use all the parameters in this file using ```site``` variable. For instance, using ```{% raw %}{{ site.url }}{% endraw %}``` anywhere on the page, post, template will fetch the url variable defined in ```_config.yml```. [Read More](http://jekyllrb.com/docs/configuration/){:rel='nofollow'}{:target="_blank"}.
 
-2. <h3>index.html:</h3> This is your homepage in most cases. It can also be in the format ```index.md```. It usually has a for loop to load all the posts. You can make changes to this  file and design your index of posts like how I have done the card layout for my blog. Index file may also call ```default``` layout which will be inside ```_layout``` folder.
+2. <h3>index.html:</h3> This is your homepage in most cases. It can also be in the format ```index.md```. It usually has a _for_ loop to load all the posts. You can make changes to this file and design your index of posts like how I have done the card layout for my blog. Index file may also call ```default``` layout which will be inside ```_layout``` folder. You can also take the whole loop thing off and have a simple introduction page like how [Jekyll official site](jekyllrb.com) has{:rel='nofollow'}{:target="_blank"}.
 
 3. <h3>some.xml:</h3> This file can be your post feed or a sitemap. If you do not have one, you can always [create a sitemap](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog){:target="_blank"} or feed file.
 
