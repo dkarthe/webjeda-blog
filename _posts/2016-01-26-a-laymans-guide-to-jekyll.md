@@ -58,31 +58,31 @@ Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel=
 
 ## Files
 
-1. **_config.yml:** Master configuration file. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates,increments etc., can be difined inside this file. 
+1. <h3>_config.yml:</h3> Master configuration file. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates,increments etc., can be difined inside this file. 
 Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/emerald/gh-pages/_config.yml){:rel='nofollow'}{:target="_blank"} for Emerald Jekyll theme. [Read More](http://jekyllrb.com/docs/configuration/){:rel='nofollow'}{:target="_blank"}. You can use all the parameters in this file using ```site``` variable. For instance, using {% raw %}{{ site.url }}{% endraw %} anywhere on the page, post, template fetches the url variable defined in ```_config.yml```.
 
-2. **index.html:** This is your homepage in most cases. It can also be in the format ```index.md```. It usually has a for loop to load all the posts. You can make changes to this  file and design your index of posts like how I have done the card layout for my blog. Index file may also call ```default``` layout which will be inside ```_layout``` folder.
+2. <h3>index.html:</h3> This is your homepage in most cases. It can also be in the format ```index.md```. It usually has a for loop to load all the posts. You can make changes to this  file and design your index of posts like how I have done the card layout for my blog. Index file may also call ```default``` layout which will be inside ```_layout``` folder.
 
-3. **some.xml:** This file can be your post feed or a sitemap. If you do not have one, you can always [create a sitemap](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog){:target="_blank"} or feed file.
+3. <h3>some.xml:</h3> This file can be your post feed or a sitemap. If you do not have one, you can always [create a sitemap](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog){:target="_blank"} or feed file.
 
-4. **readme.md:** This is a file where you can describe your project. This will be rendered as html and displayed by default when someone visits your repository on Github. In the sample link I have provided above, see the page displayed at the bottom of repository which has a description of the theme with screenshot. This file is not mandatory.
+4. <h3>readme.md:</h3> This is a file where you can describe your project. This will be rendered as html and displayed by default when someone visits your repository on Github. In the sample link I have provided above, see the page displayed at the bottom of repository which has a description of the theme with screenshot. This file is not mandatory.
 
 
 ## Folders inside a Jekyll site
 
-1. **_includes:** This folder is kind of like ```#include``` in C-programming. You can include files which are inside this folder into any post or page just by adding this line of code - {% raw %}{% include filename.html %}{% endraw %} replace the ```filename``` to a file inside your ```_includes``` folder.
+1. <h3>_includes:</h3> This folder is kind of like ```#include``` in C-programming. You can include files which are inside this folder into any post or page just by adding this line of code - {% raw %}{% include filename.html %}{% endraw %} replace the ```filename``` to a file inside your ```_includes``` folder.
 
-2. **_layouts:** As the name says this folder contains your blog layouts. It will have ```default```, ```page``` and ```post``` layout by default. You can also create other layouts such as two column, single column etc., There can also be a layout for redirecting pages. I will talk about it in a different post.
+2. <h3>_layouts:</h3> As the name says this folder contains your blog layouts. It will have ```default```, ```page``` and ```post``` layout by default. You can also create other layouts such as two column, single column etc., There can also be a layout for redirecting pages. I will talk about it in a different post.
 
-3. **_posts:** All your blog posts reside here. 
+3. <h3>_posts:</h3> All your blog posts reside here. 
 
-4. **_sass:** Jekyll supports [Sass preprocessor](http://sass-lang.com/documentation/file.SASS_REFERENCE.html){:rel='nofollow'}{:target="_blank"}. Sass files are included in this folder can be imported to main stylesheet.
+4. <h3>_sass:</h3> Jekyll supports [Sass preprocessor](http://sass-lang.com/documentation/file.SASS_REFERENCE.html){:rel='nofollow'}{:target="_blank"}. Sass files are included in this folder can be imported to main stylesheet.
 
-5. **_site:** This is the file created by Jekyll to host your website. This folder will have files only compatible for a browser - HTML, CSS, JS, XML etc., This conversion happens by default. You don't have to create this or edit anything inside this foder.
+5. <h3>_site:</h3> This is the file created by Jekyll to host your website. This folder will have files only compatible for a browser - HTML, CSS, JS, XML etc., This conversion happens by default. You don't have to create this or edit anything inside this foder.
 
-6. **css, images, js:** You can create folders and name then as per your needs. These are some of the common folders used to keep stylesheets, images and JavaScript files.
+6. <h3>css, images, js:</h3> You can create folders and name then as per your needs. These are some of the common folders used to keep stylesheets, images and JavaScript files.
 
-7. **Other folders:** There can be other folders as well. You can name it, say ```project``` and keep html ot markdown files inside it. These files will get a URL ```http://yourdomain/project/filename.html```.
+7. <h3>Other folders:</h3> There can be other folders as well. You can name it, say ```project``` and keep html ot markdown files inside it. These files will get a URL ```http://yourdomain/project/filename.html```.
 
 I hope that gives you an insight. This is just an introduction to Jekyll. It looked strange for me in the begnning but once I understood the logic used behind, it all made sense. And since a Jekyll site is made up of lot of different parts, debugging is very easy. When something starts acting up, you'll know exactly where the things have gone wrong. In this blog, I have written about a [lot of things](http://blog.webjeda.com/archive/) I did using Jekyll. Make use of it.
 
