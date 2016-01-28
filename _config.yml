@@ -16,7 +16,7 @@ destination: ./_site
 permalink: /:title
 paginate: 5
 paginate_path: /page:num/
-
+excerpt_separator: <!--more-->
 # Default values
 defaults:
   -
