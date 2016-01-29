@@ -13,7 +13,7 @@ layout: default
   <div itemprop="description" class="card-content">{{ post.desc | strip_html | truncatewords:36 }}</div>
   <div class="card-actions">
       <a itemprop="url" href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"><div class="w3-btn">Read</div>
-     </a>
+     </a><span style="float:right;margin-right:15px;">{{ author.display_name }}</span>
   </div>
 </div>
     {% endif %} 
