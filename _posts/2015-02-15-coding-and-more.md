@@ -6,13 +6,13 @@ keywords: github pages tutorial youtube
 tags: Github-Pages
 ---
 
+<img alt="How to create and host a website on github pages" title="Create and host a website on github pages screenshot" itemprop="thumbnailUrl" src="/images/RGHD-channel-art.jpg">
 
 I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching **Hosting websites on Github**. The best thing about Github is that it hosts your website (only static) rightawayand for free. This is the simplest way to learn web designing. 
 
 <iframe itemscope="" itemprop="video" width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
 
 ##Why teach Github?
-![Github pages tutorial screenshot](/images/RGHD-channel-art.jpg)
 While I was learning Github, I used to go through YouTube videos. But there was not a single guy who teaches it without using CLI. When you run commands on CLI, the output may not be the same for everyone. It depends on the previous installations, dependencies and a correct PATH variable. For starters CLI is a hard nut to crack. So I decided to make it easier for beginners. I do not use CLI in my videos. Everything is done through GUI.
 
 I see a lot of blogs providing useful information on Github pages and Jekyll. But in my blogs i want to give step by step procedure for everything without missing anything in between. This is what I expect from a blog. So that is what I follow.
