@@ -6,10 +6,10 @@ layout: default
 <ul itemscope="" itemtype="http://schema.org/Blog" id="posts">
 	{% for post in paginator.posts %}
     {% if post.visible != 0 %}
-{% assign author = site.authors[page.author] %}
     <div class="w3-card-2"><h1 itemprop="name" class="index-title">{{ post.title }}</h1>
         <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished" >{{ post.date | date_to_string }}</time>
   <div itemprop="description" class="card-content">{{ post.desc | strip_html | truncatewords:36 }}</div>
+  {% assign author = site.authors[page.author] %}
   <div class="card-actions">
       <a itemprop="url" href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"><div class="w3-btn">Read</div>
      </a><span style="float:right;margin-right:15px;">{{ author.display_name }}</span>
