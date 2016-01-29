@@ -19,7 +19,21 @@ permalink: /archive/
   <ul class="past">
   {% endif %}
   {% endunless %}
-    <li><time>{{ post.date | date:"%d %b" }}</time>&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li>
+    {% assign foundImage = 0 %}
+      {% assign images = post.content | split:"<img " %}
+      {% for image in images %}
+        {% if image contains 'src' %}
+
+            {% if foundImage == 0 %}
+                {% assign html = image | split:"/>" | first %}
+    <time>{{ post.date | date:"%d %b" }}</time>&nbsp;<a href="{{ post.url }}"><img width="200" {{ html }} />{{ post.title }}</a>
+     {% assign foundImage = 1 %}
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+    
+    </li>
  {% endif %}  
 {% endfor %}
   </ul>
