@@ -5,10 +5,8 @@ layout: default
 <!-- Posts -->
 <ul itemscope="" itemtype="http://schema.org/Blog" id="posts">
 	{% for post in paginator.posts %}
-    {% if post.visible != 0 %}
-    
-<h1 class="arch-h1">{{ post.title }}</h1>
-    {% endif %} 
+
+    <h1 class="arch-h1">{{ post.title }}</h1>
     {% endfor %}
 
 </ul>
