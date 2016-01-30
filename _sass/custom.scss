@@ -315,6 +315,12 @@ position:relative;-webkit-animation-name:animatebottom;-webkit-animation-duratio
 
 }
 
+@media only screen and (max-device-width: 480px) {
+        img.post-image {
+            float: none;
+        }
+	}
+
 img.post-image {
     float: left;
 }
