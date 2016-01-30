@@ -7,6 +7,7 @@ tags: Jekyll Adsense
 ---
 
 <img alt="adsense on subdomain" title="adsense on Jekyll" itemprop="thumbnailUrl" src="/images/adsense-on-subdomain-adsense-on-Jekyll.jpg">
+
 <a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
 Though I had so many other blogs, none of them got approval for some or the other reason. Actually it is hard to figure out what exactly went wrong. Adsense policies check many parameters for approval. Though Google sends you the reason, they are vague and I almost gave up on Adsense.
