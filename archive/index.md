@@ -27,7 +27,7 @@ permalink: /archive/
 
             {% if foundImage == 0 %}
                 {% assign html = image | split:"/>" | first %}
-    <time>{{ post.date | date:"%d %b" }}</time>&nbsp;<a href="{{ post.url }}">{{ post.title }}<img class="post-image" width="200" {{ html }} /></a>
+    <time class="arch-time">{{ post.date | date:"%d %b" }}<hr class="arch-line" /></time>&nbsp;<a class="arch-a" href="{{ post.url }}">{{ post.title }}<img class="post-image" width="200" {{ html }} />{{ post.desc }}</a>
      {% assign foundImage = 1 %}
             {% endif %}
         {% endif %}
