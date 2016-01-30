@@ -7,25 +7,7 @@ layout: default
 	{% for post in paginator.posts %}
     {% if post.visible != 0 %}
     
-<a href="{{ post.url }}">
-        <!-- <li id="arch-list"> -->
-        <div class="w3-card-4">
-        <div class="arch-a">
-        {% assign foundImage = 0 %}
-          {% assign images = post.content | split:"<img " %}
-          {% for image in images %}
-            {% if image contains 'src' %}
-
-                {% if foundImage == 0 %}
-                    {% assign html = image | split:"/>" | first %}
-        <time class="arch-time">{{ post.date | date:"%d %b" }}</time><h1 class="arch-h1">{{ post.title }}</h1><hr class="arch-hr" /><div class="card-inside"><img class="post-image" width="200" {{ html }} /><p class="arch-para">{{ post.desc }}</p></div>
-         {% assign foundImage = 1 %}
-                        
-          </div>
-        </div>
-        <!-- </li> -->
-        </a>
-   
+<h1 class="arch-h1">{{ post.title }}</h1>
     {% endif %} 
     {% endfor %}
 
