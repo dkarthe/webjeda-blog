@@ -7,7 +7,6 @@ permalink: /archive/
 <section id="archive">
   <h2><i class="fa fa-leanpub fa-2x"></i> Articles from this year</h2>
 {% for post in site.posts %}
- {% if post.visible != 0 %}
   {% unless post.next %}
   <ul class="this">
   {% else %}
@@ -19,27 +18,7 @@ permalink: /archive/
   <ul class="past">
   {% endif %}
   {% endunless %}
-    <a href="{{ post.url }}">
-        <li id="arch-list">
-        <div class="w3-card-4">
-        <div class="arch-a">
-        {% assign foundImage = 0 %}
-          {% assign images = post.content | split:"<img " %}
-          {% for image in images %}
-            {% if image contains 'src' %}
-
-                {% if foundImage == 0 %}
-                    {% assign html = image | split:"/>" | first %}
-        <time class="arch-time">{{ post.date | date:"%d %b" }}</time><h3 class="arch-h1">{{ post.title }}</h3><hr class="arch-hr" /><div class="card-inside"><img class="post-image" width="200" {{ html }} /><p class="arch-para">{{ post.desc }}</p></div>
-         {% assign foundImage = 1 %}
-                {% endif %}
-            {% endif %}
-          {% endfor %}
-          </div>
-        </div>
-        </li>
-        </a>
-     {% endif %}  
-    {% endfor %}
+    <li class="arch-list"><time>{{ post.date | date:"%d %b" }}</time>&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
   </ul>
 </section>
