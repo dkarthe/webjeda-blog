@@ -315,12 +315,7 @@ position:relative;-webkit-animation-name:animatebottom;-webkit-animation-duratio
 
 }
 
-img.post-image {
-    
-            float: none;
-        }
-
-@media (min-width: 500px){img.post-image {float: left;}}
+img.post-image {float: left;}
 
 
 li.arch-list {
@@ -339,17 +334,7 @@ hr.arch-line {
     border-color: rgba(255, 255, 255, 0.29);
 }
 
-.arch-img {
-    text-align: left;
-    float: left;
-    margin: 0 auto;
-}
 
-.arch-a {
-    width: 90%;
-    margin: 0 auto;
-    padding: 15px 5px 5px 5px;
-}
 
 .w3-card-4 {
         margin-bottom: 2em;
