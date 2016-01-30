@@ -316,15 +316,14 @@ position:relative;-webkit-animation-name:animatebottom;-webkit-animation-duratio
 }
 
 img.post-image {
-    margin-left: 0;
-    margin-top: 10px;
+    margin-left: -10px;
 }
 
 li#arch-list {
     margin-bottom: 2em;
     list-style: none;
     border: 1px solid #ccc;
-    padding: 0 0 15px 30px;
+    padding: 10px 15px 15px 15px;
 }
 
 .arch-time {
@@ -334,6 +333,13 @@ li#arch-list {
 }
 
 hr.arch-line {
-     margin-left: -30px;
-    border-color: #FFFFFF;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-color: rgba(255, 255, 255, 0.29);
+}
+
+.arch-img {
+    text-align: left;
+    float: left;
+    margin: 0 auto;
 }
