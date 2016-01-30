@@ -325,11 +325,16 @@ position:relative;-webkit-animation-name:animatebottom;-webkit-animation-duratio
         }
 }
 
-
-
-img.post-image {
-    float: left;
+@media only screen 
+  and (min-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      img.post-image {
+            float: left;
+        }
 }
+
+
 
 li.arch-list {
 list-style: none;
