@@ -20,7 +20,8 @@ permalink: /archive/
   {% endif %}
   {% endunless %}
     <li id="arch-list">
-    <div class="arch-a w3-card-4">
+    <div class="w3-card-4">
+    <div class="arch-a">
     {% assign foundImage = 0 %}
       {% assign images = post.content | split:"<img " %}
       {% for image in images %}
@@ -33,6 +34,7 @@ permalink: /archive/
             {% endif %}
         {% endif %}
       {% endfor %}
+      </div>
     </div>
     </li>
  {% endif %}  
