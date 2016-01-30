@@ -6,15 +6,26 @@ layout: default
 <ul itemscope="" itemtype="http://schema.org/Blog" id="posts">
 	{% for post in paginator.posts %}
     {% if post.visible != 0 %}
-    <div class="w3-card-2"><h1 itemprop="name" class="index-title">{{ post.title }}</h1>
-        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished" >{{ post.date | date_to_string }}</time>
-  <div itemprop="description" class="card-content">{{ post.desc | strip_html | truncatewords:36 }}</div>
-  {% assign author = site.authors[post.author] %}
-  <div class="card-actions">
-      <a itemprop="url" href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"><div class="w3-btn">Read</div>
-     </a><span style="float:right;margin-right:15px;">{{ author.display_name }}</span>
-  </div>
-</div>
+ <a href="{{ post.url }}">
+        <li id="arch-list">
+        <div class="w3-card-4">
+        <div class="arch-a">
+        {% assign foundImage = 0 %}
+          {% assign images = post.content | split:"<img " %}
+          {% for image in images %}
+            {% if image contains 'src' %}
+
+                {% if foundImage == 0 %}
+                    {% assign html = image | split:"/>" | first %}
+        <time class="arch-time">{{ post.date | date:"%d %b" }}</time><h3 class="arch-h1">{{ post.title }}</h3><hr class="arch-hr" /><div class="card-inside"><img class="post-image" width="200" {{ html }} /><p class="arch-para">{{ post.desc }}</p></div>
+         {% assign foundImage = 1 %}
+                {% endif %}
+            {% endif %}
+          {% endfor %}
+          </div>
+        </div>
+        </li>
+        </a>
     {% endif %} 
     {% endfor %}
 
