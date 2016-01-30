@@ -20,6 +20,7 @@ permalink: /archive/
   {% endif %}
   {% endunless %}
     <li id="arch-list">
+    <div class="arch-a">
     {% assign foundImage = 0 %}
       {% assign images = post.content | split:"<img " %}
       {% for image in images %}
@@ -27,12 +28,12 @@ permalink: /archive/
 
             {% if foundImage == 0 %}
                 {% assign html = image | split:"/>" | first %}
-    <time class="arch-time">{{ post.date | date:"%d %b" }}</time><a class="arch-a" href="{{ post.url }}">{{ post.title }}<hr class="arch-line" /><div class="arch-img"><img class="post-image" width="200" {{ html }} /></div><p class="p-arch">{{ post.desc }}</p></a>
+    <time class="">{{ post.date | date:"%d %b" }}</time><a href="{{ post.url }}">{{ post.title }}<hr class="" /><div class=""><img class="post-image" width="200" {{ html }} /></div><p class="">{{ post.desc }}</p></a>
      {% assign foundImage = 1 %}
             {% endif %}
         {% endif %}
       {% endfor %}
-    
+    </div>
     </li>
  {% endif %}  
 {% endfor %}
