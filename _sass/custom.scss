@@ -321,10 +321,7 @@ img.post-image {
 }
 
 li#arch-list {
-/*     margin-bottom: 2em;
-    list-style: none;
-    border: 1px solid #ccc;
-    padding: 10px 15px 15px 15px; */
+list-style: none;
 }
 
 .arch-time {
@@ -348,4 +345,9 @@ hr.arch-line {
 .arch-a {
     width: 90%;
     margin: 0 auto;
+    padding: 15px 5px 5px 5px;
+}
+
+.w3-card-4 {
+        margin-bottom: 2em;
 }
