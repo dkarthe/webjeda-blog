@@ -320,15 +320,7 @@ img.post-image {
             float: none;
         }
 
-@media only screen 
-  and (min-device-width: 500px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-      img.post-image {
-            float: left;
-        }
-}
-
+@media (min-width: 500px){img.post-image {float: left;}}
 
 
 li.arch-list {
