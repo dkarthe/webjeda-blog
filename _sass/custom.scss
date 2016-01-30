@@ -316,8 +316,7 @@ position:relative;-webkit-animation-name:animatebottom;-webkit-animation-duratio
 }
 
 img.post-image {
-   /*  margin-left: -10px;
-    margin-right: 10px; */
+    float: left;
 }
 
 li#arch-list {
@@ -350,4 +349,18 @@ hr.arch-line {
 
 .w3-card-4 {
         margin-bottom: 2em;
+}
+
+p.arch-para {
+       font-size: 1em;
+    text-align: -webkit-center;
+}
+
+h1.arch-h1 {
+    padding: 0;
+
+}
+
+.arch-hr {
+        border-color: rgba(238, 238, 238, 0.24)
 }
