@@ -315,7 +315,7 @@ position:relative;-webkit-animation-name:animatebottom;-webkit-animation-duratio
 
 }
 
-img.post-image {float: left;}
+img.post-image {float: left;margin-right: 10px;}
 
 
 li.arch-list {
@@ -344,7 +344,7 @@ hr.arch-line {
 
 p.arch-para {
        font-size: 1em;
-    text-align: -webkit-center;
+        text-align: left;
 }
 
 h3.arch-h1 {
