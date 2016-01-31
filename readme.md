@@ -1,2 +1,2 @@
 ##Browse the website here
-[Nallikayi Articles](http://articles.nallikayi.com)
+[WebJeda Blog](http://blog.webjeda.com)
