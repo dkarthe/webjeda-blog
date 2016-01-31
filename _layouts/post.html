@@ -3,12 +3,12 @@ layout: default
 ---
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <article itemscope itemtype="http://schema.org/TechArticle"  id="post-page" >
+   {% include  adsense-pt.html %}   
     <a href=""><h2 itemprop="headline">{{ page.title }}</h2></a>
      {% include post-tags.html %}		
 	<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>
 	<div itemprop="articleBody" class="content" >
-	{% include  adsense-pt.html %}   
-		{{ content }}
+			{{ content }}
 	</div>	
 	{% include  fb-like.html %}
 	{% include  share.html %}

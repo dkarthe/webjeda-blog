@@ -1,5 +1,5 @@
 ---
-title: How to make a form in Jekyll website
+title: How to make a contact form in Jekyll website
 desc: Normal forms will not work on Jekyll blog or Github pages website. You have to use something that works for a static website. I have given a simple solution for such problems.
 keywords: form in jekyll, form in jekyll blog, form in a static website, formspree
 author: sharathdt

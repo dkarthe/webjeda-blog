@@ -17,7 +17,7 @@ layout: default
 
                 {% if foundImage == 0 %}
                     {% assign html = image | split:"/>" | first %}
-        <time itemprop="datePublished" class="arch-time">{{ post.date | date:"%d %b %Y" }}</time><h3 itemprop="name" class="arch-h1">{{ post.title }}</h3><hr class="arch-hr" /><div class="card-inside"><img itemprop="thumbnailUrl" class="post-image" width="250" {{ html }} /><p itemprop="description" class="arch-para">{{ post.desc }}</p></div>
+        <time itemprop="datePublished" class="arch-time">{{ post.date | date:"%d %b %Y" }}</time><h3 itemprop="name" class="arch-h1">{{ post.title }}</h3><hr class="arch-hr" /><div class="card-inside"><img itemprop="thumbnailUrl" class="post-image" width="250" {{ html }} /><p itemprop="description" class="arch-para">{{ post.desc | strip_html | truncatewords:36 }}</p></div>
          {% assign foundImage = 1 %}
                 {% endif %}
             {% endif %}
