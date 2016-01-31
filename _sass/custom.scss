@@ -359,3 +359,14 @@ h3.arch-h1 {
 .arch-a {
         padding-top: 5px;
 }
+
+.realted-li {
+    list-style: none;
+    list-style: none;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.realted-li:hover {
+    box-shadow: #eee 0px 0px 4px 1px;   
+}

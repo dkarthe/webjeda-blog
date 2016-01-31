@@ -1,7 +1,7 @@
 ---
-title: Why use Jekyll instead of WordPress?
-desc: Jekyll has many advantages over other CMS like WordPress. I think having a local copy of all your posts gives you a secure feeling which isn't possible in WordPress. Moreover I can customize my Jekyll blog however I want to but for WordPress, you have to stick with a theme. 
-keywords: why jekyll, how jekyll blog works, jekyll blog setup, jekyll working
+title: How to add Related Posts in Jekyll
+desc: It is a good idea to engage your visitors providing another link at the end of your posts. Luckily Jekyll has an option (site variable) to show related posts. Jekyll related posts can be placed at the bottom of all your posts.
+keywords: jekyll related posts, 
 author: sharathdt
 pulish: false
 ---
