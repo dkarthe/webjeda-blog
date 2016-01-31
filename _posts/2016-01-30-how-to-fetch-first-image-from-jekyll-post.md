@@ -7,6 +7,7 @@ tags: Jekyll
 ---
 
 <img alt="fetch images from Jekyll post" title="grab images from Jekyll post" itemprop="thumbnailUrl" src="/images/how-to-fetch-images-from-jekyll-post.jpg">
+
 If you observe the screenshot below, I have used a card-style container to fit in everything. That looks better with proper shadow. The best part is that, it all happens automatically. My idex page grabs the first image from my post and shows it in the list.
 ![How to fetch image from jekyll](/images/how-to-grab-image-from-jekyll-post.jpg)
 
