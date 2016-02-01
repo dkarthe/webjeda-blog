@@ -71,12 +71,12 @@ Open the file to see what is the **baseurl** configured. Usually it is **/emeral
 
 If (only if) you have renamed the repository name to something like **blog** or **something**, change the baseurl as shown below.
 
-{% highlight html linenos %}
+{% highlight html %}
 baseurl:	/blog/
 {% endhighlight %}
 
 
-{% highlight html linenos %}
+{% highlight html %}
 baseurl:	/something/
 {% endhighlight %}
 
