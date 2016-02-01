@@ -51,6 +51,8 @@ This can be used on buttons to make them look awesome! This can give a modern lo
 
 Here is a button with just borders
 
+<button class="border-style">WebJeda</button>
+
 {% highlight html %}
 <button class="border-style">WebJeda</button>
 {% endhighlight %}
