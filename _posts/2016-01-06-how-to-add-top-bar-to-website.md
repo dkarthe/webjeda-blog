@@ -46,7 +46,7 @@ No top bar: [No top bar](http://webjeda.com/No-top-bar/){:rel='nofollow'}{:targe
 Top bar: [Top bar](http://webjeda.com/top-bar/){:rel='nofollow'}{:target="_blank"}
 
 ## Extensible!
-This can be used on buttons to make them look awesome! This can give a modern look to all the elements. One such thing I have noticed is in **gmail** categories.
+This can be used on buttons to make them look awesome! This can give a modern look to almost all the elements. One such thing I have noticed is in **gmail** categories.
 
 ![top border used by google](/images/top-border-used-by-gmail.jpg)
 
