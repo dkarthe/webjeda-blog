@@ -23,7 +23,7 @@ Before creating one, you have to decide how it should be. Because you already ha
 
 They are all different from one another. But ```default``` is generally used in other layouts (recursive) since ```default``` has all the meta, header and footer tags.
 
-###Step 1: create a html page 
+###Step 1: Create a html page 
 
 You can do this in the root of the repository or inside a custom folder, but do not use the folders whose names start with an ```_underscore``` as they are treated special by Jekyll.
 
@@ -33,7 +33,7 @@ Let's make an about page for our Jekyll blog.
 
 * Markup can be html, markdown or textile.
 
-I will be using markdown.
+I will be using markdown since it is easy to write.
 
 create a new file in the root of repository and call it **about.md**
 
@@ -76,11 +76,11 @@ This ```about.md``` page will be rendered as ```about.html``` by the time it bui
 ```http://blog.webjeda.com/about.html```.
 
 
-I don't want my web pages to have any file extension in the URL. So to remove that, I have used ```permalink``` attribution in the front matter.
+I don't want my web pages to have any file extension in the URL. So to remove that, I have used ```permalink``` attribution in the front matter. Now my link will change into ```http://blog.webjeda.com/about/``` which is pretty neat.
 
 You can visit [my about page](/about/){:rel='dofollow'}{:target="_blank"} here.
 
-You can also achieve this without permalinks. Just create a folder in the root with the name ```about``` and create a ```index.md``` file inside it with all the above content. Even now the link will show up as ```http://blog.webjeda.com/about```. This is just like how for my blog jekyll will not show the URL as ```http://blog.webjeda.com/index.html``` because it is umderstood that ```index.html``` is the default file to show when the URL ```http://blog.webjeda.com``` is hit.
+You can also achieve this without permalinks. Just create a folder in the root with the name ```about``` and create a ```index.md``` file inside it with all the above content. Even now the link will show up as ```http://blog.webjeda.com/about```. This is just like how for my blog jekyll will not show the URL as ```http://blog.webjeda.com/index.html``` because it is understood that ```index.html``` is the default file to show when the URL ```http://blog.webjeda.com``` is hit.
 
 
 ### Step 3: Create a plain HTML page in Jekyll

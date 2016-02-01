@@ -1,10 +1,10 @@
 ---
-title: Why use Jekyll instead of WordPress?
-desc: Jekyll has many advantages over other CMS like WordPress. I think having a local copy of all your posts gives you a secure feeling which isn't possible in WordPress. Moreover I can customize my Jekyll blog however I want to but for WordPress, you have to stick with a theme. 
-keywords: why jekyll, how jekyll blog works, jekyll blog setup, jekyll working
+title: Adding comments to Jekyll blog
+desc: Jekyl themes are pretty neat with bare minimum options. But you can extend it by adding whatever you need. WordPress blogs have comments by default. What if we want it in our Jekyll blog as well? We have a cleaner and better option in Jekyll...
+keywords: add comments to jekyll blog, add disqus to jekyll, disqus jekyll
 author: sharathdt
-pulish: false
+Tags: Jekyll SEO
 ---
 
-<img alt="" title="" itemprop="thumbnailUrl" src="/">
+<img alt="how to add comments to jekyll" title="jekyll comments" itemprop="thumbnailUrl" src="/">
 
