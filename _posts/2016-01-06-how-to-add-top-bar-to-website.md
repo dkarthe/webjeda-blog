@@ -9,7 +9,7 @@ tags: Github-Pages Webdesign
 <img alt="How to add colored top bar to website" title="How to add colored top bar to website" itemprop="thumbnailUrl" src="/images/top-bar-on-websites.jpg">
 
 
-As you can see in the screenshot, one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}{:target="_blank"}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
+As you can see in the screenshot, in one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}{:target="_blank"}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
 
 ##Why top bar?
 
