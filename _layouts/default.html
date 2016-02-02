@@ -80,7 +80,7 @@ layout: compress
    
    
     <!-- defer loading main.css and Bootstrap -->
-<!-- <script>
+<script async>
 var cb = function() {
 var l = document.createElement('link'); l.rel = 'stylesheet';
 var m = document.createElement('link'); m.rel = 'stylesheet';
@@ -93,6 +93,6 @@ var raf = requestAnimationFrame || mozRequestAnimationFrame ||
 webkitRequestAnimationFrame || msRequestAnimationFrame;
 if (raf) raf(cb);
 else window.addEventListener('load', cb);
-</script> -->
+</script>
 </body>
 </html>
