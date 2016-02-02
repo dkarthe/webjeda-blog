@@ -8,14 +8,14 @@ tags: Jekyll
 
 <img alt="fetch images from Jekyll post" title="grab images from Jekyll post" itemprop="thumbnailUrl" src="/images/how-to-fetch-images-from-jekyll-post.jpg">
 
-If you observe the screenshot below, I have used a card-style container to fit everything  in. It looks better with proper shadow. My idex page grabs the first image from my post and shows it in the list. The best part is that, images are grabbed automatically from every post of my Jekyll blog.
+If you observe the screenshot below, I have used a card-style container to fit in everything. It looks better with proper shadow. Now my idex page grabs the first image from my post and shows it in the list along with its title. The best part is that, the images are grabbed automatically from every post of my Jekyll blog.
 
 ![How to fetch image from jekyll](/images/how-to-grab-image-from-jekyll-post.jpg)
 
 ##Why fetch image from Jekyll post?
 I always wanted to have a homepage with images representing certain post. Just like WordPress blog page. This seemed almost impossible in Jekyll. But I had hope.
 
-Finally I stumbled across a [stackoverflow answer](http://stackoverflow.com/questions/25463865/in-jekyll-how-do-i-grab-a-posts-first-image){:rel='nofollow'}{:target="_blank"} that helped me achieve this. Now my post index includes a tiny images fetched from particular blog post. So here is how I made this possible.
+Finally I stumbled across a [stackoverflow answer](http://stackoverflow.com/questions/25463865/in-jekyll-how-do-i-grab-a-posts-first-image){:rel='nofollow'}{:target="_blank"} that helped me achieve this. Now my post index includes tiny images fetched from particular blog post. So here is how I made this possible.
 
 ## How to grab the first image?
 
