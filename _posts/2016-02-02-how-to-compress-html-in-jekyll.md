@@ -8,15 +8,15 @@ Tags: Jekyll SEO
 
 <img alt="how to compress html jekyll" title="jekyll compress html" itemprop="thumbnailUrl" src="/images/how-to-minify-jekyll-html.jpg">
 
-There was not a convenient way to minify the whole Jekyll blog html untill I found this cool ```html``` file which does the minifying like a champ. And it doesn't need any coding from your end. Something like a plug and play.
+There was not a single convenient way to minify the whole Jekyll blog markup untill I found this cool ```html``` file which does the minifying like a champ. It  uses pure Liquid code. And it doesn't need any coding from your end. Something like a plug and play.
 
 ## Why do we have to minify HTML?
 
-Speed is a factor to rank high in google search page. Minifying HTML can lead to a increase in around 5% speed. Lighter the website easier to load even on a slow connection. Usual html file consists of a lot of empty spaces. Sometimes you will have comments in between {% raw %}<!-- and -->{% endraw %}, new lines, blank spaces etc., It is good to keep what really matters and omit the rest.
+Speed is a factor to rank high in google search page. Minifying HTML can lead to a increase in speeds around 5%. Lighter the website easier to load even on a slow connection. Usual html file consists of a lot of empty spaces. Sometimes you will have comments in between {% raw %}<!-- and -->{% endraw %}, new lines, blank spaces etc., It is good to keep what really matters and omit the rest.
 
-Though minifying CSS and JS is largely practiced, minifying HTML is not given such an importance. May be because there is not much to minify compared to CSS and JS. But it does help loading your website at a better speed even on 2G connections. Moreover, PageSpeed recomends minifying HTML.
+Though minifying CSS and JS is largely practiced, minifying HTML is not given such an importance. May be because there is not much to minify compared to CSS and JS. But it does help loading your website at a better speed even on 2G connections. Moreover, [PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} recommends minifying HTML.
 
-I have seen huge benefits by minifying my Jekyll blog. What if I tell you that minifying reduces the file size to more than 20%! May be because I have a lot of blank spaces and new lines in the unminifies version. But that's an improvement I shouldn't miss.
+I have seen huge benefits by minifying my Jekyll blog. What if I tell you that minifying reduces the file size to more than 20%! May be because I have a lot of blank spaces and new lines in the unminified version. And that's an improvement I shouldn't miss.
 
 Here are the minifies and unminified files of my last post. They have the same content by the way. You can check the file size by downloading them.
 
@@ -27,7 +27,7 @@ Here are the minifies and unminified files of my last post. They have the same c
 
 ## How to minify Jekyll html?
 
-So far in my tutorials, I have never used command line interface. Not that I hate it but I think it's difficult for beginners to comprahend. You can minify html using ```Grunt``` or ```Gulp``` task runners but for a beginner they might seem alien technologies. And when we are designing an automatic minifier that takes care of everything then why do we need a task runner?! Also I prefer solutions that does not invlolve plugins.
+So far in my tutorials, I have never used command line interface. Not that I hate it but I think it's difficult for beginners to comprahend. Likewise you can minify html using ```Grunt``` or ```Gulp``` task runners but for a beginner they might seem alien technologies. And when we are designing an automatic minifier that takes care of everything then why do we need a task runner?! Also I prefer solutions that does not invlolve plugins.
 
 Now to minify Jekyll blog, 
 
@@ -47,10 +47,12 @@ layout: compress
 
 The ```default.html``` should look something like this after copying the code
 
-<pre>{% raw %}
+{% highlight html %}
+{% raw %}
 ---
 layout: compress
 ---
+{% endraw %}
 <!DOCTYPE html>
 <html>
 .
@@ -58,7 +60,8 @@ layout: compress
 .
 
 </html>
-{% endraw %}</pre>
+{% endhighlight %}
+
 
 
 ### Step 4: 
@@ -66,14 +69,14 @@ Save and commit the changes. By default the ```compress``` layout replaces conti
 
 {% highlight yaml %}
 compress_html:
-  clippings: []
-  comments: []
-  endings: []
-  ignore:
+    clippings: []
+    comments: []
+    endings: []
+    ignore:
     envs: []
-  blanklines: false
-  profile: false
-  startings: []
+    blanklines: false
+    profile: false
+    startings: []
 {% endhighlight %}
 
 
