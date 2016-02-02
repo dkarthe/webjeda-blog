@@ -69,7 +69,7 @@ This is the key to my WebJeda Sharebar.
 
 Create a new ```html``` file inside _includes folder and call it share.html. Copy paste this code.
 
-{% highlight html linenos %}
+{% highlight html %}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <h3>Share this:</h3>
@@ -113,7 +113,7 @@ I have used icons from **font awesome** which is better than loading icons from 
 
 Now copy this line inside your post layout file which will be inside **_layouts** folder. You have to place this line whereever you want the sharebar to appear on your posts.
 
-{% highlight html linenos %}
+{% highlight html %}
 {% raw %}{% include  share.html %}{% endraw %}
 {% endhighlight %}
 
@@ -121,7 +121,7 @@ Now copy this line inside your post layout file which will be inside **_layouts*
 
 I have styled my buttons with the following css. You can change it for your needs.
 
-{% highlight css linenos %}
+{% highlight css %}
 .share-button {
     margin: 0px;
     border: 1px solid #D3D6D2;

@@ -23,7 +23,7 @@ This tutorial explains how to add an author box to jekyll blog posts step by ste
 Create a new ```html``` file inside **_includes** folder, name it **author.html** and copy paste the below code.
 
 
-{% highlight html linenos %}
+{% highlight html %}
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -51,7 +51,7 @@ Create a new ```html``` file inside **_includes** folder, name it **author.html*
 
 Now copy below details into your ```_config.yml``` which is in the root of the repository. Change details accordingly. Here I ahve mentioned only for two authors - **sharathdt** and **sampaths**. You can use any number of authors. Add details of new authors to this file in this format.
 
-{% highlight yaml linenos %}
+{% highlight yaml %}
 authors:
       sharathdt:
         display_name: Sharath Kumar
@@ -82,7 +82,7 @@ Now in your **post** template file, which is inside **_layout** folder add these
 
  Sample **post layout**
  
-{% highlight html linenos %} 
+{% highlight html %} 
 ---
 layout: default
 ---
@@ -110,7 +110,7 @@ layout: default
 ## Step 4: Add author name in all posts
 Now in all your posts which are inside **_post** folder you should add a new attribute called author
 
-{% highlight html linenos %} 
+{% highlight html %} 
 
 
 ---
@@ -130,7 +130,7 @@ Your author box may not be styled as mine but you can style it however you want 
 
 Here is how I have styled it
 
-{% highlight css linenos %} 
+{% highlight css %} 
 
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 

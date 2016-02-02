@@ -29,7 +29,7 @@ Here is how I did it.
 
 First thing is to import the Polymer elements. Paste these lines to your **head** tag.
 
-{% highlight html linenos %}
+{% highlight html %}
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html"/>
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html"/>
 {% endhighlight %}
@@ -43,19 +43,19 @@ then just replace the **paper-card** with **paper-toggle-button** which would
 
 be,
 
-{% highlight html linenos %}
+{% highlight html %}
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-toggle-button/paper-toggle-button.html" />
 {% endhighlight %}
 
 Now you can call the elements inside the body tag and they will be downloaded. 
 
-{% highlight html linenos %}
+{% highlight html %}
 <paper-button>Click Me</paper-button>
 {% endhighlight %}
 
 So what about my jekyll blog index page?
 
-{% highlight html linenos %}
+{% highlight html %}
  <paper-card heading="{% raw %}{{post.title}}{% endraw %}">
  <time datetime="post.date | date_to_xmlschema">{% raw %}{{post.date | date_to_string}}{% endraw %}</time>
  <div class="card-content">{% raw %}{{post.content | strip_html | truncatewords:50}}{% endraw %}</div>
@@ -72,7 +72,7 @@ How I included colored paper button?
 
 Here is the css code for coloring the paper-button.
 
-{% highlight css linenos %} 
+{% highlight css %} 
  paper-button.colored {
      background-color:#26A65B;
      color: #fff;

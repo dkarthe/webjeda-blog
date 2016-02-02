@@ -51,7 +51,7 @@ So the output should look something like this.
 ## Step2: Make it work
 
 If you see the code for the form, **action** and **method** are empty. Formspree suggests you to add an action and method in this format.
-{% highlight html linenos %}
+{% highlight html %}
 
 <form action="//formspree.io/your@email.com" method="POST">
     <p>Name: </p><input type="text" name="name"><br />

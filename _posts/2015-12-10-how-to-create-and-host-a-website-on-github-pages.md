@@ -70,7 +70,7 @@ Inside gh-pages branch you should create a HTML file which has some visible elem
 
 Copy this code inside the index.html file if you are a lazy developer like I am and hit the **Commit** button. (commit is nothing but an enter button!)
 
-{% highlight html linenos %}
+{% highlight html %}
 
 
 <html>
