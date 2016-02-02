@@ -27,9 +27,9 @@ I decided to place an ad on my domain. And just after a day, while I was browsin
 
 So follow the guidelines for approval on subdomain
 
-1. ### It doesn't matter how much content is present in your domain but it should be complaint with Adsense policies.
+1. ###It doesn't matter how much content is present in your domain but it should be complaint with Adsense policies.
 
-2. ### Always apply with your domain name not subdomain(I don't think you can apply with a subdomain)
+2. ###Always apply with your domain name not subdomain(I don't think you can apply with a subdomain)
 
 3. ### Place at least one ad on your domain along with subdomain.
 
