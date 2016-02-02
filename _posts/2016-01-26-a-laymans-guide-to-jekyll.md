@@ -25,7 +25,7 @@ But Once you finish reading this post, I suggest you check out the documentation
 ## What Jekyll does better?
 ![Jekyll transforms text to html](/images/jekyll-transforms-text-to-hypertext.jpg)
 
-As depicted in the image, Jekyll does magic on text files converting them into html files - text transformation. This is not the only thing it does. It actually does some magic! This is the reason Jekyll posts and pages can be written in easily readable markups like markdown, textile etc.,
+As depicted in the image, Jekyll does magic on text files converting them into html files - text transformation. This is not the only thing it does. It actually does some more magic! This is the reason Jekyll posts and pages can be written in easily readable markups like markdown, <strike>textile</strike> (not supported anymore after Jekyll 3.0) etc.,
 
 ##Understand the structure of Jekyll
 
