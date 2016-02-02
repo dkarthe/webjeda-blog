@@ -1,0 +1,86 @@
+---
+title: How to minify Jekyll blog html
+desc: Jekyll - being static - is already fast. But to achieve faster loading speed we can minify the html. Minifying CSS and JS is already in practice and there are many ways to do it. But Jekyll posts and pages are in markdown and you may not be able to minify all of them using a tool. Use this code to minify html and observe the change is loading speed.
+keywords: minify jekyll html, jekyll minify
+author: sharathdt
+Tags: Jekyll SEO
+---
+
+<img alt="how to compress html jekyll" title="jekyll compress html" itemprop="thumbnailUrl" src="/images/how-to-minify-jekyll-html.jpg">
+
+There was not a convenient way to minify the whole Jekyll blog html untill I found this cool ```html``` file which does the minifying like a champ. And it doesn't need any coding from your end. Something like a plug and play.
+
+## Why do we have to minify HTML?
+
+Speed is a factor to rank high in google search page. Minifying HTML can lead to a increase in around 5% speed. Lighter the website easier to load even on a slow connection. Usual html file consists of a lot of empty spaces. Sometimes you will have comments in between {% raw %}<!-- and -->{% endraw %}, new lines, blank spaces etc., It is good to keep what really matters and omit the rest.
+
+Though minifying CSS and JS is largely practiced, minifying HTML is not given such an importance. May be because there is not much to minify compared to CSS and JS. But it does help loading your website at a better speed even on 2G connections. Moreover, PageSpeed recomends minifying HTML.
+
+I have seen huge benefits by minifying my Jekyll blog. What if I tell you that minifying reduces the file size to more than 20%! May be because I have a lot of blank spaces and new lines in the unminifies version. But that's an improvement I shouldn't miss.
+
+Here are the minifies and unminified files of my last post. They have the same content by the way. You can check the file size by downloading them.
+
+[Unminified](/data/view-source_blog.webjeda.com_how-to-fetch-first-image-from-jekyll-post.html){:rel='nofollow'}{:target="_blank"} - 130kb
+
+[Minified](/data/view-source_blog.webjeda.com_how-to-fetch-first-image-from-jekyll-post-minified.html){:rel='nofollow'}{:target="_blank"} - 100kb
+
+
+## How to minify Jekyll html?
+
+So far in my tutorials, I have never used command line interface. Not that I hate it but I think it's difficult for beginners to comprahend. You can minify html using ```Grunt``` or ```Gulp``` task runners but for a beginner they might seem alien technologies. And when we are designing an automatic minifier that takes care of everything then why do we need a task runner?! Also I prefer solutions that does not invlolve plugins.
+
+Now to minify Jekyll blog, 
+
+### Step 1: 
+Go to [this link](http://jch.penibelst.de/){:rel='nofollow'}{:target="_blank"} and download the ```compress.html``` file. It should be under the **Installation** heading. 
+
+### Step 2: 
+Place this html file inside your ```_layout``` folder.
+
+### Step 3: 
+Open ```default.html``` in ```_layouts``` folder and copy the below front matter at the top of the page.
+<pre>{% raw %}
+---
+layout: compress
+---
+{% endraw %}</pre>
+
+The ```default.html``` should look something like this after copying the code
+
+<pre>{% raw %}
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+.
+.
+.
+
+</html>
+{% endraw %}</pre>
+
+
+### Step 4: 
+Save and commit the changes. By default the ```compress``` layout replaces contiguous whitespace with a single whitespace character. But if you want additional options then you can use this snippet inside your ```_config.yml``` file.
+
+{% highlight yaml %}
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+{% endhighlight %}
+
+
+Read all about these settings in the [documentation](http://jch.penibelst.de/){:rel='nofollow'}{:target="_blank"}.
+
+Now all your webpages that directly or inderectly uses the layout ```default``` will be minified. You can exclusively mention for certain pages to minify by adding the front matter given above. 
+
+So I hope this tutorial helped you minify your Jekyll blog. If there is a better way to do this, then please let me know in the comment section.
+
+Thanks for reading!
