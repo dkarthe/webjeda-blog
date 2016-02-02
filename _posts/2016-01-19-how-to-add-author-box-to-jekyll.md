@@ -24,7 +24,6 @@ Create a new ```html``` file inside **_includes** folder, name it **author.html*
 
 
 {% highlight html %}
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <div class="w3-card-2">
@@ -44,7 +43,6 @@ Create a new ```html``` file inside **_includes** folder, name it **author.html*
             </div>
        </div>
     </div>
-    
 {% endhighlight %}
 
 ## Step 2: Add authors in configuration file
@@ -72,8 +70,7 @@ authors:
         facebook: https://www.facebook.com/sirimane.sampath
         twitter: https://twitter.com/sirimane
         github: https://github.com/sirimane/
-        gravatar: https://raw.githubusercontent.com/sharu725/lanyon/gh-pages/public/img/samapths.jpg
-        
+        gravatar: https://raw.githubusercontent.com/sharu725/lanyon/gh-pages/public/img/samapths.jpg        
 {% endhighlight %}
 
 ## Step 3: Include author section in post layout
@@ -82,11 +79,10 @@ Now in your **post** template file, which is inside **_layout** folder add these
 
  Sample **post layout**
  
-{% highlight html %} 
+{% highlight html %}
 ---
 layout: default
 ---
-
 
 <article id="post-page" >
 	    <h2>{% raw %}{{ page.title }}{% endraw %}</h2>		
@@ -102,7 +98,6 @@ layout: default
         
         
 </article>
- 
  {% endhighlight %}
 
 
@@ -110,15 +105,11 @@ layout: default
 ## Step 4: Add author name in all posts
 Now in all your posts which are inside **_post** folder you should add a new attribute called author
 
-{% highlight html %} 
-
-
+{% highlight html %}
 ---
 title: Some Title
 author: sharathdt
 ---
-
-
 {% endhighlight %}
 
 Now your post recognizes the author as **sharathdt** and all the details like author name, author image, author about are updated accordingly. Here is how it looks like in my blog posts
@@ -130,8 +121,7 @@ Your author box may not be styled as mine but you can style it however you want 
 
 Here is how I have styled it
 
-{% highlight css %} 
-
+{% highlight css %}
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
 div#author-content {
@@ -154,8 +144,6 @@ img#image-author {
 #im-ab {
     padding-bottom: 2px;
 }
-
-
 {% endhighlight %}
 
 So that is about adding multiple author section for Jekyll blog. Let me know if you were able to successfully implement this in your Jekyll blog or website. 
