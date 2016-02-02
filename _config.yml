@@ -29,6 +29,7 @@ defaults:
 # Custom variables
 version: "1.1.0"
 disqus: webjeda
+analytics: UA-71358787-1
 
 # Options
 custom_header: false
