@@ -8,22 +8,6 @@ layout: compress
 {% include head.html %}
 
 <body>
-    <!-- defer loading main.css and Bootstrap -->
-<script defer>
-var cb = function() {
-var l = document.createElement('link'); l.rel = 'stylesheet';
-var m = document.createElement('link'); m.rel = 'stylesheet';
-l.href = '/css/main.css';
-m.href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
-var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-var i = document.getElementsByTagName('head')[0]; i.parentNode.insertBefore(m, i);
-};
-var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-webkitRequestAnimationFrame || msRequestAnimationFrame;
-if (raf) raf(cb);
-else window.addEventListener('load', cb);
-</script>
-
 
 	<div id="wrap">
 	  	
@@ -45,7 +29,7 @@ else window.addEventListener('load', cb);
 
    
     <!-- Main content -->
-	  <div id="container">
+	  <div id="container" style="max-width:730px;padding: 0 1.5rem;margin: 0 auto;">
 		  
 		<main>
 
@@ -94,7 +78,22 @@ else window.addEventListener('load', cb);
       {% include script.html %}
     {% include analytics.html %}
    
-   
+       <!-- defer loading main.css and Bootstrap -->
+<script defer>
+var cb = function() {
+var l = document.createElement('link'); l.rel = 'stylesheet';
+var m = document.createElement('link'); m.rel = 'stylesheet';
+l.href = '/css/main.css';
+m.href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+var i = document.getElementsByTagName('head')[0]; i.parentNode.insertBefore(m, i);
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) raf(cb);
+else window.addEventListener('load', cb);
+</script>
+
 
 </body>
 </html>
