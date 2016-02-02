@@ -16,5 +16,7 @@ Speed is a factor to rank high in google search page. Minifying HTML can lead to
 
 Though minifying CSS and JS is largely practiced, minifying HTML is not given such an importance. May be because there is not much to minify compared to CSS and JS. But it does help loading your website at a better speed even on 2G connections. Moreover, PageSpeed recomends minifying HTML.
 
+I have seen huge benefits by minifying my Jekyll blog. What if I tell you that minifying reduces the file size more than 50%! May be because I have a lot of blank spaces and new lines in the unminifies version.
+
 ## How to minify Jekyll html?
 
