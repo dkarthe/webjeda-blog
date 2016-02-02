@@ -20,7 +20,7 @@ First thing is that you should own a domain name. Like I own truejewels.in. You 
 If you already own a domain name and you want to use it, then continue to Step 1.
 
 
-##Step 1: Adding CNAME file to the gh-pages branch.
+## Step 1: Adding CNAME file to the gh-pages branch.
 
 
 Go to the repository where you have hosted your website and click on **New File**
@@ -33,7 +33,7 @@ Name the file as **CNAME** without any extension. Now, inside the CNAME file wri
 Now commit your file to the repository. Make sure you are still in the gh-pages branch while hitting commit.
 {% include adsense-inside-post.html %}
 
-##Step 2: Adding A record in the DNS Zone Records
+## Step 2: Adding A record in the DNS Zone Records
 
 
 Login to the website where you purchased your domain name (Domain Name Registrar). Mine is godaddy, but I think the procedure is similar in any other registrar. Go to your domain and click on something similar to **Manage Domain**
@@ -58,7 +58,7 @@ You can find these Ips [here](https://help.github.com/articles/tips-for-configur
 
 Click on **Finish** and **Save**.
 
-##Step 3: Waiting!
+## Step 3: Waiting!
 
 And that's about it. Do not rush though. It will take a while to propagate. So grab a cup of coffee. Once you are done, hit your URL :) 
 

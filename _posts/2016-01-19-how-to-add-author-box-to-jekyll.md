@@ -18,7 +18,7 @@ This tutorial explains how to add an author box to jekyll blog posts step by ste
 
 **Templating**, **configuration file** and **site variables** are the saviours here.
 
-##Step 1: Make an author box
+## Step 1: Make an author box
 
 Create a new ```html``` file inside **_includes** folder, name it **author.html** and copy paste the below code.
 
@@ -47,7 +47,7 @@ Create a new ```html``` file inside **_includes** folder, name it **author.html*
     
 {% endhighlight %}
 
-##Step 2: Add authors in configuration file
+## Step 2: Add authors in configuration file
 
 Now copy below details into your ```_config.yml``` which is in the root of the repository. Change details accordingly. Here I ahve mentioned only for two authors - **sharathdt** and **sampaths**. You can use any number of authors. Add details of new authors to this file in this format.
 
@@ -76,7 +76,7 @@ authors:
         
 {% endhighlight %}
 
-##Step 3: Include author section in post layout
+## Step 3: Include author section in post layout
 
 Now in your **post** template file, which is inside **_layout** folder add these lines at the end of the post layout as shown in the sample below.
 
@@ -107,7 +107,7 @@ layout: default
 
 
 {% include adsense-inside-post.html %}
-##Step 4: Add author name in all posts
+## Step 4: Add author name in all posts
 Now in all your posts which are inside **_post** folder you should add a new attribute called author
 
 {% highlight html linenos %} 

@@ -16,7 +16,7 @@ A sample website links map
 
 Here is [my blog's Sitemap](http://blog.webjeda.com/sitemap.xml){:rel='dofollow'}
 
-##Why is Sitemap used?
+## Why is Sitemap used?
 
 If your website doesn't have any posts or pages, you may not need a sitemap. But for a blog with several posts, sitemap is necessary (if you want to rank better in search engines). You can submit your sitemap to major search engines like Google, Bing, Yahoo etc., so that their respective bots crawl through your site and index them. Only after indexing, your link appears in search results.
 
@@ -26,7 +26,7 @@ Leaving a link to your sitemap inside your website is also a good idea. Let's sa
 
 I use [SEO-checkup](https://toolbox.seositecheckup.com/apps/seo-checkup){:rel='nofollow'} to see whether my websites complies with common SEO parameters. I found out that I did not have a sitemap by using this app. I will write an elaborated post on some useful online tools to optimize your website to make it fast and search engine friendly.
 
-##How to create a sitemap for Jekyll blog
+## How to create a sitemap for Jekyll blog
 
 In wordpress, creating a sitemap using a plugin is really easy. What if I tell you that creating sitemap in Jekyll is much easier! Jekyll blogs will not have sitemap by default. You can always generate them using a small snippet of code. Add the below code to your **_config.yml** file. This will create a sitemap for you with the link ```/sitemap.xml```.
 
@@ -44,7 +44,7 @@ Here is a video demonstration
 
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/kiBtQClK-XQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
-##The hard way to insert sitemap in Jekyll blog!
+## The hard way to insert sitemap in Jekyll blog!
 You can also list all the links by yourself. Don't worry, we will be using ```ul``` so that it arranges the links  one by one. 
 
 Create a file in the root of the repository and name it **whatever.xml**

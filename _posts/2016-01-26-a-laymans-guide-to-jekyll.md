@@ -10,14 +10,14 @@ tags: Jekyll
 
 Jekyll was easy for me in the beginning. Because I was just adding posts or editing the current ones. But when I had to change the font or color I had to go through the CSS and make changes accordingly. Even this wasn't hard. But if I wanted a new page, a new functionality like adding tags, related posts, share buttons, author box etc., I had no idea how to do it. 
 
-##Why learn Jekyll the right way?
+## Why learn Jekyll the right way?
 
 When I had to make some changes in Jekyll, I used to write dirty codes in the respective template and somehow make it work for a while but if I wanted to make any further changes to it then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work again. This is what I used to do years ago. Half knowledge is worse than no knowledge is completely true in the case of Jekyll.
 
 These dirty codes would break my site, sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while commiting the changes (big mistake). I can always revert back, but I would lose all the changes and posts :(
 
 
-##Doing it the right way!
+## Doing it the right way!
 Read the [documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information (and lot of pages as well). So I thought I would summarise it in this post so that anyone could make use of it. 
 
 But Once you finish reading this post, I suggest you check out the documentation. That gives you rather deep insight than a breif introduction like this one.
@@ -31,7 +31,7 @@ As depicted in the image, Jekyll does magic on text files converting them into h
 
 Jekyll is simple if you understand what feature is for what purpose. Let us look at the folder structure of Jekyll and what is used for what. The below tree is taken directly from Jekyll documentation.
 
-{% highlight css %}
+{% highlight %}
 
 .
 ├── _config.yml

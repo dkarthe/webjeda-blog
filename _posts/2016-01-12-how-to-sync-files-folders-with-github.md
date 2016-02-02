@@ -25,7 +25,7 @@ Download these things before we start
 2. **Link 2:** [HTML5 sample website - Hyperspace](http://html5up.net/hyperspace/download){:target="_blank"}
 
 
-##Step 1: Create a repository and make a gh-pages branch
+## Step 1: Create a repository and make a gh-pages branch
 
 Login to your Github account and create a repository. Name it anything you feel like. I'm calling it **MyFirstWebsite**. Commit once you are done naming it. Now create a **gh-pages** branch in your repository.
 
@@ -34,13 +34,13 @@ Refer to [How to create and host a website](http://blog.webjeda.com/how-to-creat
 Remember - project files can only be hosted using gh-pages branch.
 
 
-##Step 2: Install Github Desktop
+## Step 2: Install Github Desktop
 
 I guess you are smart enought to install a software. Once you are done installing, open the app. You should see something like this.
 
 ![How to sync folders with Github](/images/sync-folders-with-github-desktop-tutorial-screenshot.jpg)
 
-##Step 3: Set up Github account in Github Desktop
+## Step 3: Set up Github account in Github Desktop
 
 Click on the gear icon on the top-right corner and hit **Options...**
 
@@ -53,7 +53,7 @@ Now you should see an option with name **Accounts**. Click on **Add account**.
 Enter your Github credentials and hit Login (choose Github Enterprise if you have an Enterprise account).
 {% include adsense-inside-post.html %}
 
-##Step 4: Clone the repository you just created
+## Step 4: Clone the repository you just created
 
 Click on the **+** icon on the left-top corner of Github Desktop. You should see these options.
 
@@ -78,20 +78,20 @@ Remember: Whatever changes you do inside this folder will be reflected in the ap
 
 ![Cloned repository in local folder](/images/cloned-repository-inside-local-folder.jpg)
 
-##Step 5: Copy complete website in local repository
+## Step 5: Copy complete website in local repository
 
 If you have downloaded the file from **Link 1** then open it and extract the contents to a folder. Copy all these files and folders into our locally synced repository.
 
 ![Copy complete website to github repository](/images/copy-complete-website-to-repository.jpg)
 
-##Step 6: Sync to github!
+## Step 6: Sync to github!
 
 Come back to the Github Desktop app and click on **Changes** tab. You should see all the changes you just did, all the files and folders you added etc., Once you are satisfied looking at it, hit commit and wait for the app to sync it with remote (but your) Github repository.
 
 ![Commit changes to Github Desktop](/images/commit-changes-to-github-desktop.jpg)
 
 
-##Step 7: Your website must be hosted on Github Pages now.
+## Step 7: Your website must be hosted on Github Pages now.
 
 Now login to your Github account to see whether your website has been hosted. Navigate to your repository that you just synced. Change the branch to gh-pages and see if the files you synced are present in that branch.
 
@@ -109,7 +109,7 @@ Success!!
 <iframe itemscope="" itemprop="video" width="100%" height="360" src="https://www.youtube.com/embed/5BSpJ0bpE14?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
-###Want to change the URL to something not ugly?
+### Want to change the URL to something not ugly?
 
 Read: [How to add custom domain to websites hosted on Github Pages](https://blog.webjeda.com/how-to-add-custom-domain-to-github){:target="_blank"}
 

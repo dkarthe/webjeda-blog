@@ -14,7 +14,7 @@ A minimalistic WordPress theme would have done the job, but I wanted something t
 
 Then I came across this Jekyll theme called [Emerald](http://www.jacoporabolini.com/emerald/).	It felt perfect for my blog. I will show you how I implemented this theme. Once you successfully implement this Jekyll theme, please consider donating something to the creator.
 
-##Find a theme that suits your requirement
+## Find a theme that suits your requirement
 
 A theme is important for a good looking blog. Otherwise you can go with the [basic Jekyll theme](http://www.jekyllnow.com/){:rel='nofollow'} form minimal design. But if you are looking for certain layout then you should checkout [Jekyll Themes](http://jekyllthemes.org/){:rel='nofollow'}. You see a lot of themes here but what I suggest is to go with these Jekyll themes
 
@@ -34,7 +34,7 @@ All the themes you see are inside a certain repository. You just have to copy th
 
 Once you are inside the repository move to next step.
 {% include adsense-inside-post.html %}
-##Fork - A new way of copy pasting!
+## Fork - A new way of copy pasting!
 
 
 First thing is logging in to Github and forking the whole [theme repository](https://github.com/KingFelix/emerald){:rel='nofollow'}
@@ -43,7 +43,7 @@ First thing is logging in to Github and forking the whole [theme repository](htt
 
 What **fork** does is that it copies the whole repository as a new repository inside your Github account.
 
-##Check for redirection
+## Check for redirection
 
 Once you hit the fork button, all the files in the remote repository will be copied as a new repository.
 
@@ -58,7 +58,7 @@ change the **username** to your Github user name.
 
 Your blog should be up and running by now. But give it sometime. A maximum of 10 minutes. Jekyll builds a static blog in the meanwhile. If the blog is not up, then take the next step.
 
-##Check for baseurl
+## Check for baseurl
 
 If your blog is showing a 404 error, then you may have to check the baseurl in configuration file.
 Jekyll blog configuration is found inside **_config.yml** file.

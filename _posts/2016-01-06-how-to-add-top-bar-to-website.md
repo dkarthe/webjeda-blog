@@ -11,7 +11,7 @@ tags: Github-Pages Webdesign
 
 As you can see in the screenshot, in one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}{:target="_blank"}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
 
-##Why top bar?
+## Why top bar?
 
 I started considering top bar only after I saw the designers from [Quora](https://www.quora.com){:rel='nofollow'}{:target="_blank"} started using it. And my blog WebJeda had a minimal theme. So I thought why not try it. 
 
@@ -23,7 +23,7 @@ If you have seen Chrome browser on android, they still use this. May be it is us
 
 So here it is giving some valuable information. But what I want is just a constant colored top bar to enhance the visual appearance. It is very easy and can be done with a single line of code!
 
-##what is the code for top bar!
+## what is the code for top bar!
 
 Just copy these lines to your css file and you'll have a top bar! So far we have called this top bar but in reality it is the top border of your body. Normally it is invisible, we are just giving it a size, style and color. Pretty neat. Isn't it? There is not a single extra ```div``` used. So there is no extra load on your website!
 

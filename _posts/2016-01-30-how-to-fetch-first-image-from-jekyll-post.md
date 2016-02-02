@@ -12,7 +12,7 @@ If you observe the screenshot below, I have used a card-style container to fit i
 
 ![How to fetch image from jekyll](/images/how-to-grab-image-from-jekyll-post.jpg)
 
-##Why fetch image from Jekyll post?
+## Why fetch image from Jekyll post?
 I always wanted to have a homepage with images representing certain post. Just like WordPress blog page. This seemed almost impossible in Jekyll. But I had hope.
 
 Finally I stumbled across a [stackoverflow answer](http://stackoverflow.com/questions/25463865/in-jekyll-how-do-i-grab-a-posts-first-image){:rel='nofollow'}{:target="_blank"} that helped me achieve this. Now my post index includes tiny images fetched from particular blog post. So here is how I made this possible.

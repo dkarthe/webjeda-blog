@@ -10,7 +10,7 @@ tags: Jekyll SEO
 
 Many of the Jekyll themes will not include share buttons by default. It is upto you to find a suitable share bar for your website.
 
-##Why share bar for Jekyll blog?
+## Why share bar for Jekyll blog?
 
 If you read a lot over the internet then you know how hard it is to share an article with your friend if it doesn't have any sharing button.
 You have to copy the link from the address bar, go to your email account, type every single detail and send it to an email address. Same thing follows for sharing on social media websites.
@@ -18,7 +18,7 @@ You have to copy the link from the address bar, go to your email account, type e
 It is a good idea to have share buttons at the end of an article. Users may not be willing to copy paste the link but hitting a button is easy! More share is equal to more eyeballs on your article. Shares will drive traffic to your website. So you shouldn't be missing out on a chance to provide users with a share bar.
 
 
-##How to add a share bar?
+## How to add a share bar?
 
 Adding a sharebar is really easy using services like **ShareThis** or **AddtoAny**. They are good. They provide decent buttons with share count. This is what I recommend if you just want a sharebar and you don't care about your website loading speed. I have used ShareThis before and the problem was that it loads a lot of JavaScript files which will slow down the website.
 
@@ -26,14 +26,14 @@ I can always ```defer``` javascript loading but the files that are loaded by Sha
 
 Now I had to make a decission whether to use it or make one for myself. I thought why not make one! I will have the complete design control. So I chose to design it myself.
 
-##Making a share bar without JavaScript
+## Making a share bar without JavaScript
 
 When I decided to make a share bar for my blog WebJeda, I thought of making it ```Js``` free. As a developer - for a fast performing website - you should avoid ```Js``` and lower the number of http requests. With ShareThis, I used to have 5 to 6 ```Js``` files loaded from a remote server and 22 requests were made. This happens when you have many buttons and every button is downloaded remotely!
 
 Once I installed my css only share bar, the request number dropped to 11! That was a huge improvement! But it comes at a cost. I cannot see number of shares anymore. I can always write a code to calculate number of shares based on click event but that will be in the future. For now I'm happy that I have a beautiful sharebar which is made only with html and css. You can see it in the screenshot at the top of the page.
 {% include adsense-inside-post.html %}
 
-##Basics before we dive in
+## Basics before we dive in
 
 
 When I was preparing this share bar, I was facing troubles for sharing the page I'm currently in. Let's say you are in [How to add a sitemap to Jekyll](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/){:target="_blank"} article, the facebook share link should look like ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/```. 
@@ -65,7 +65,7 @@ This works pretty much on all the social media websites. For LinkedIn I also add
 
 This is the key to my WebJeda Sharebar.
 
-##How to implement WebJeda sharebar?
+## How to implement WebJeda sharebar?
 
 Create a new ```html``` file inside _includes folder and call it share.html. Copy paste this code.
 
@@ -117,7 +117,7 @@ Now copy this line inside your post layout file which will be inside **_layouts*
 {% raw %}{% include  share.html %}{% endraw %}
 {% endhighlight %}
 
-##Add style to your share bar
+## Add style to your share bar
 
 I have styled my buttons with the following css. You can change it for your needs.
 

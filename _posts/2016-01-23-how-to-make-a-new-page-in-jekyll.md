@@ -10,20 +10,20 @@ tags: Jekyll
 
 I like Jekyll for its immense power in generating pages! Let's say you want a new html page inside Jekyll, you can create one. Say, you want it to have the same style as your posts, you can do it. Let's say you do not want any styles in it, you can do it. 
 
-##Why should we create a new page on Jekyll?
+## Why should we create a new page on Jekyll?
 
 Jekyll themes do not come with all the bells and rings. You have to add whatever you want and take out whatever you do not need. I wanted a [contact page](/contact/){:rel='dofollow'}{:target="_blank"} for my blog and Jekyll did not have one by default. So I had to create one. Same thing with my [about](/about/){:rel='dofollow'}{:target="_blank"} page.
 
 Many times you may want a home page which do not show list of posts. You may want to show off your projects in the home page. In such cases, you can make your custom pages in Jekyll and use them.
 
 
-##Let's create a html page in Jekyll
+## Let's create a html page in Jekyll
 
 Before creating one, you have to decide how it should be. Because you already have layouts which you can use. Usually you will have a ```default``` layout, ```page``` layout and a ```post``` layout files inside ```_layouts``` folder.
 
 They are all different from one another. But ```default``` is generally used in other layouts (recursive) since ```default``` has all the meta, header and footer tags.
 
-###Step 1: Create a html page 
+### Step 1: Create a html page 
 
 You can do this in the root of the repository or inside a custom folder, but do not use the folders whose names start with an ```_underscore``` as they are treated special by Jekyll.
 
@@ -38,7 +38,7 @@ I will be using markdown since it is easy to write.
 create a new file in the root of repository and call it **about.md**
 
 {% include adsense-inside-post.html %}
-###Step 2: Add YAML front matter
+### Step 2: Add YAML front matter
 YAML(Yet Another Markup Language) lies at the top of the page inside three dashes.
 <pre>
 {% raw %}
@@ -100,7 +100,7 @@ If you have visited my [feed page](/atom.xml){:rel='dofollow'}{:target="_blank"}
 [Raw feed.xml file](https://raw.githubusercontent.com/sharu725/emerald/gh-pages/atom.xml){:rel='nofollow'}{:target="_blank"}
 
 
-##Custom layouts
+## Custom layouts
 
 The fun part about layouts is that you can have your own layout and you can use it in any page you create. Even for plain HTML, you can create a template called ```blank```like this one below inside ```_layouts``` folder.
 

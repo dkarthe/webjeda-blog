@@ -11,7 +11,7 @@ tags: Jekyll SEO
 
 Understanding Jekyll is really important to manipulate the options available to handle different things. Usually all Jekyll themes will have a **header** and a **footer** template inside ```_includes``` folder.
 
-##Basics before implementation
+## Basics before implementation
 
 Most of the Jekyll layouts make use of these templates. If you observe **default** layout inside    the ```_layouts``` folder, you'll see that  at some point they have included header and footer with the following code.
 
@@ -60,7 +60,7 @@ I will be explaining the functions of these files and folders in a different pos
 
 Just like including header or footer with just a line of code, we can add html files inside ```_includes``` and can spit it out wherever we want it.
 
-##Let's create a like button
+## Let's create a like button
 For facebook like button, you should have a facebook page for your website or business. If you do not have one then [create a page here](https://www.facebook.com/pages/create/){:rel='nofollow'}{:target="_blank"}.
 
 Once you are done creating a page, go to [facebook like button creator plugin](https://developers.facebook.com/docs/plugins/like-button){:rel='nofollow'}{:target="_blank"}. You may have to create an app if this is your first time fiddling with facebook developer tools. Create an app using **Add a new app** option and select platform **website**.
@@ -88,7 +88,7 @@ The codes will looks somewhat like this
 {% endhighlight %}
 
 {% include adsense-inside-post.html %}
-##Include it in your posts
+## Include it in your posts
  Now you can call the file ```fb-like.html``` from wherever you like it just by using this line code. 
  <pre>{% raw %}{% include fb-like.html %}{% endraw %}</pre>
  

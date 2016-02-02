@@ -12,10 +12,10 @@ When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. Ho
 
 But Jekyll blogs and websites hosted on github being static, cannot execute ```php``` files. Wait.! Then how do I make a working form in Jekyll blog?
 
-##why use a form?
+## why use a form?
 Every contact page gives a entry form to user using which they can enter the details. Forms can be contact form, subscription form, survey form etc., where user enters some data and that reaches the site owner to make further decisions based on the entry.
 
-##Form on Jekyll
+## Form on Jekyll
 There are few solutions to create a form in Jekyll blog.
 
 1. [Formspree](http://formspree.io)
@@ -28,7 +28,7 @@ Formspree has a restriction 1000 entries/month. It is more than enough for a sta
 
 
 
-##Step 1: Create a form
+## Step 1: Create a form
 
 Let's create a simple form and make it work. I will have only two options for user input - Name and Email. Copy and paste the below form code inside the body tag (or wherever you want the form to be).
 
@@ -48,7 +48,7 @@ So the output should look something like this.
 
 {% include adsense-inside-post.html %}
 
-##Step2: Make it work
+## Step2: Make it work
 
 If you see the code for the form, **action** and **method** are empty. Formspree suggests you to add an action and method in this format.
 {% highlight html linenos %}
@@ -69,7 +69,7 @@ Try to enter something and see if you recieve the mail. For the first time you h
 
 This is the brief process of making a form in github pages website. What if you want to redirect users to a custom web page once they are done submitting the form on Jekyll blog or github pages website?
 
-##Step 3: Custom thank-you page 
+## Step 3: Custom thank-you page 
 After the submission, users are redirected to a formspree thank you page by default. But if you want it to be your own custom thank you page then you can do so adding this code.
 
 {% highlight html %}
@@ -87,7 +87,7 @@ If your form is not secure, it may result in receiving spam mails generated from
 <input type="text" name="_gotcha" style="display:none" />
 {% endhighlight %}
 
-##Step 5: Secure your email
+## Step 5: Secure your email
 When you mention your email in clear text inside your form, email harvesting bots can easily capture it. Which may result in receiving lot of spam mails. So you can use this code to and insert your seperated email. The code will join it later and makes it a meaningful email address. But bots will not recognize this as an email. 
 {% highlight html %}
 <form id="formaction" method="POST">
@@ -101,10 +101,10 @@ When you mention your email in clear text inside your form, email harvesting bot
 </script>
 {% endhighlight %}
 
-##Step 6: Ultra security 
+## Step 6: Ultra security 
 In step 5, your email cannot be read by a bot but a human can obvoiusly connect the dots to make it a meaningful email. If you are paranoid about giving out your email in any way then use this method.
 
-###Encode the whole form!
+### Encode the whole form!
 Logon to [Enkoder](http://hivelogic.com/enkoder/){:rel='nofollow'}{:target="_blank"} and copy paste your entire Formspree form and hit submit. This tool will encode your data to something like this.
 
 {% highlight html %}
@@ -149,7 +149,7 @@ It is actually
 You don't believe me. Checkout my [contact page](/contact/){:target="_blank"} and view source!
 This works like charm. You are not only cheating bots but also human email harvesters. It is not impossible to decode this but it is hard!
 
-##Things to keep in mind
+## Things to keep in mind
 
 Be careful not to include your personal email in form action as it is easily visible when website source is viewed. You can include an alternative email which forwards mails to your personal email. 
 
