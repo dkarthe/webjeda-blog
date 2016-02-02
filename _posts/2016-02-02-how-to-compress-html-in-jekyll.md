@@ -24,7 +24,7 @@ Here are the minifies and unminified files of my last post. They have the same c
 
 [Minified](/data/view-source_blog.webjeda.com_how-to-fetch-first-image-from-jekyll-post-minified.html){:rel='nofollow'}{:target="_blank"} - 100kb
 
-
+{% include adsense-inside-post.html %}
 ## How to minify Jekyll html?
 
 So far in my tutorials, I have never used command line interface. Not that I hate it but I think it's difficult for beginners to comprahend. Likewise you can minify html using ```Grunt``` or ```Gulp``` task runners but for a beginner they might seem alien technologies. And when we are designing an automatic minifier that takes care of everything then why do we need a task runner?! Also I prefer solutions that does not invlolve plugins.
