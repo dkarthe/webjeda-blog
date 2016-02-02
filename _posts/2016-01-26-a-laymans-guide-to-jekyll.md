@@ -31,7 +31,11 @@ As depicted in the image, Jekyll does magic on text files converting them into h
 
 Jekyll is simple if you understand what feature is for what purpose. Let us look at the folder structure of Jekyll and what is used for what. The below tree is taken directly from Jekyll documentation.
 
+<<<<<<< HEAD
 {% highlight %}
+=======
+{% highlight yaml %}
+>>>>>>> parent of 648acfb... no message
 
 .
 ├── _config.yml
