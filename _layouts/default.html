@@ -36,8 +36,7 @@ layout: compress
 			{{ content }}
 
 	  </main>
-		   <!-- Ads 
-   {% include adsense-lb.html %} -->
+
 		  <!-- Pagination links -->
       {% if paginator.total_pages > 1 %}
         <div  itemscope="" itemprop="pagination" class="pagination">
@@ -73,13 +72,14 @@ layout: compress
 	    {% include footer.html %}
 
 	</div>
-           	    
+         		   <!-- Ads -->
+   {% include adsense-lb.html %}   	    
     	    <!-- Script -->
       {% include script.html %}
     {% include analytics.html %}
    
    
-    <!-- defer loading main.css -->
+    <!-- defer loading main.css and Bootstrap -->
 <script>
 var cb = function() {
 var l = document.createElement('link'); l.rel = 'stylesheet';
