@@ -65,7 +65,9 @@
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 .highlight .cp { color: #EF17FB } /* Literal.Number.Integer.Long */
 
-
+.highlight {
+    margin: 0;
+}
 pre {
 
     display:block;
