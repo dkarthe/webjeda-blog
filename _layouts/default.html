@@ -36,7 +36,8 @@ layout: compress
 			{{ content }}
 
 	  </main>
-
+        <!-- Ads -->
+   {% include adsense-lb.html %}  
 		  <!-- Pagination links -->
       {% if paginator.total_pages > 1 %}
         <div  itemscope="" itemprop="pagination" class="pagination">
@@ -72,8 +73,7 @@ layout: compress
 	    {% include footer.html %}
 
 	</div>
-         		   <!-- Ads -->
-   {% include adsense-lb.html %}   	    
+ 	    
     	    <!-- Script -->
       {% include script.html %}
     {% include analytics.html %}
