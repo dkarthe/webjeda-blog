@@ -19,7 +19,6 @@ paginate_path: /page:num/
 
 # Default values
 defaults:
-  -
     scope:
       path: ""
       type: "posts"
