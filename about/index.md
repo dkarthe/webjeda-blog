@@ -19,6 +19,6 @@ Please feel free to ping me on whatsapp if you want a quick response
 **Whatsapp:** <a href="tel:+91 890 447 5972">+91 890 447 5972</a>
 
 
-**Disclaimer:** This website is under constant modification. If you find something isn't right then I might be doing some change in the backend.
+**Disclaimer:** This website is under constant modification. If you find something isn't right then I might be doing some change in the back-end.
 
 

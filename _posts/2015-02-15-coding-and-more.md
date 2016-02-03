@@ -8,7 +8,7 @@ tags: Github-Pages
 
 <img alt="How to create and host a website on github pages" title="Create and host a website on github pages screenshot" itemprop="thumbnailUrl" src="/images/RGHD-channel-art.jpg">
 
-I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching **Hosting websites on Github**. The best thing about Github is that it hosts your website (only static) rightawayand for free. This is the simplest way to learn web designing. 
+I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching **Hosting websites on Github**. The best thing about Github is that it hosts your website (only static) right away and for free. This is the simplest way to learn web designing. 
 
 <iframe itemscope="" itemprop="video" width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
 
@@ -42,12 +42,12 @@ Another thing I found very difficult is choosing the right tools for web develop
 
 [w3schools](www.w3schools.com/){:rel='nofollow'} - they are the best at teaching how to code.
 
-I hope you are wondering why **Sublime text** is not included in the list. I used to prefer Sublime text over Brackets! But for my blog posts I needed a plugin to count the words. It was easy installing it on Brackets. Moreover Brackets has live preview option!  And also inline editing makes it better than any other text editor.
+I hope you are wondering why **Sublime text** is not included in the list. I used to prefer Sublime text over Brackets! But for my blog posts I needed a plugin to count the words. It was easy installing it on Brackets. Moreover Brackets has live preview option!  And also in-line editing makes it better than any other text editor.
 
 I think Github pages is faster than any other conventional web hosting method. But Github cannot execute files in the server. So php files will not run in Github. But you are good to use HTML, CSS and JS. 
 
 
-Jekyll static site generator is another boon to web designers to host their blogs or single page websites. I have created many blogs on jekyll. Actually this blog is completely generated using Jekyll! It almost will never break. Uptime of the websites depends on Github Servers. As an established company, Github is always up and running. I have not faced any major issue so far. I think years ago my blog was down for few seconds.
+Jekyll static site generator is another boon to web designers to host their blogs or single page websites. I have created many blogs on Jekyll. Actually this blog is completely generated using Jekyll! It almost will never break. Uptime of the websites depends on Github Servers. As an established company, Github is always up and running. I have not faced any major issue so far. I think years ago my blog was down for few seconds.
 
 
 Finally what I suggest for new developers is to get familiar with Github and contribute to the community. Thank me later. Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it and learn while doing so.

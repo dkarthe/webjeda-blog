@@ -1,14 +1,14 @@
 ---
 title: How to make a contact form in Jekyll website
 desc: Normal forms will not work on Jekyll blog or Github pages website. You have to use something that works for a static website. I have given a simple solution for such problems.
-keywords: form in jekyll, form in jekyll blog, form in a static website, formspree
+keywords: form in Jekyll, form in Jekyll blog, form in a static website, formspree
 author: sharathdt
 tags: Jekyll
 ---
 
 <img alt="How to make a form in Jekyll website" title="How to make a form in Jekyll website" itemprop="thumbnailUrl" src="/images/how-to-add-form-option-for-jekyll-websites.jpg">
 
-When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. How to add a form to jekyll website which is static?! The backbone of a forms is the ```php``` code which takes in the data and sends it to respective email address.
+When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. How to add a form to Jekyll website which is static?! The backbone of a forms is the ```php``` code which takes in the data and sends it to respective email address.
 
 But Jekyll blogs and websites hosted on github being static, cannot execute ```php``` files. Wait.! Then how do I make a working form in Jekyll blog?
 
@@ -65,7 +65,7 @@ If you see the code for the form, **action** and **method** are empty. Formspree
 
 Whenever a user submits his name and email, the data will be sent to formspree.io website and then formspree sends it back to your email with the details. 
 
-Try to enter something and see if you recieve the mail. For the first time you have to verify your email address. Then on you can recieve mails without any hassle.
+Try to enter something and see if you receive the mail. For the first time you have to verify your email address. Then on you can receive mails without any hassle.
 
 This is the brief process of making a form in github pages website. What if you want to redirect users to a custom web page once they are done submitting the form on Jekyll blog or github pages website?
 
@@ -88,7 +88,7 @@ If your form is not secure, it may result in receiving spam mails generated from
 {% endhighlight %}
 
 ## Step 5: Secure your email
-When you mention your email in clear text inside your form, email harvesting bots can easily capture it. Which may result in receiving lot of spam mails. So you can use this code to and insert your seperated email. The code will join it later and makes it a meaningful email address. But bots will not recognize this as an email. 
+When you mention your email in clear text inside your form, email harvesting bots can easily capture it. Which may result in receiving lot of spam mails. So you can use this code to and insert your separated email. The code will join it later and makes it a meaningful email address. But bots will not recognize this as an email. 
 {% highlight html %}
 <form id="formaction" method="POST">
     <p>Name: </p><input type="text" name="name"><br />
@@ -102,10 +102,10 @@ When you mention your email in clear text inside your form, email harvesting bot
 {% endhighlight %}
 
 ## Step 6: Ultra security 
-In step 5, your email cannot be read by a bot but a human can obvoiusly connect the dots to make it a meaningful email. If you are paranoid about giving out your email in any way then use this method.
+In step 5, your email cannot be read by a bot but a human can obviously connect the dots to make it a meaningful email. If you are paranoid about giving out your email in any way then use this method.
 
 ### Encode the whole form!
-Logon to [Enkoder](http://hivelogic.com/enkoder/){:rel='nofollow'}{:target="_blank"} and copy paste your entire Formspree form and hit submit. This tool will encode your data to something like this.
+Log on to [Enkoder](http://hivelogic.com/enkoder/){:rel='nofollow'}{:target="_blank"} and copy paste your entire Formspree form and hit submit. This tool will encode your data to something like this.
 
 {% highlight html %}
 <script type="text/javascript">
@@ -153,7 +153,7 @@ This works like charm. You are not only cheating bots but also human email harve
 
 Be careful not to include your personal email in form action as it is easily visible when website source is viewed. You can include an alternative email which forwards mails to your personal email. 
 
-Also I don't recommend using formspree if you are asking your users any sensitive data bacause a copy of it is saved in formspree database. But for for general non-sensitive data submission, formspree works like charm.
+Also I don't recommend using formspree if you are asking your users any sensitive data because a copy of it is saved in formspree database. But for for general non-sensitive data submission, formspree works like charm.
 
 Here is a video demonstration
 <iframe itemscope="" itemprop="video" width="100%" height="360" src="https://www.youtube.com/embed/IP6HsgwQkvs?rel=0" frameborder="0" allowfullscreen></iframe>

@@ -1,18 +1,18 @@
 ---
-title: How to minify Jekyll blog html?
+title: How to minify Jekyll blog HTML?
 desc: Jekyll - being static - is already fast. But to achieve faster loading speed we can minify the html. Minifying CSS and JS is already in practice and there are many ways to do it. But Jekyll posts and pages are in markdown and you may not be able to minify all of them using a tool. Use this code to minify html and observe the change is loading speed.
-keywords: minify jekyll html, jekyll minify
+keywords: minify Jekyll html, Jekyll minify
 author: sharathdt
 tags: Jekyll SEO
 ---
 
 <img alt="how to compress html jekyll" title="jekyll compress html" itemprop="thumbnailUrl" src="/images/how-to-minify-jekyll-html.jpg">
 
-There was not a single convenient way to minify the whole Jekyll blog markup untill I found this cool ```html``` file which does the minifying like a champ. It  uses pure Liquid code. And it doesn't need any coding from your end. Something like a plug and play.
+There was not a single convenient way to minify the whole Jekyll blog markup until I found this cool ```html``` file which does the minifying like a champ. It  uses pure Liquid code. And it doesn't need any coding from your end. Something like a plug and play.
 
 ## Why do we have to minify HTML?
 
-Speed is a factor to rank high in google search page. Minifying HTML can lead to a increase in speeds around 5%. Lighter the website easier to load even on a slow connection. Usual html file consists of a lot of empty spaces. Sometimes you will have comments in between {% raw %}<!-- and -->{% endraw %}, new lines, blank spaces etc., It is good to keep what really matters and omit the rest.
+Speed is a factor to rank high in Google search page. Minifying HTML can lead to a increase in speeds around 5%. Lighter the website easier to load even on a slow connection. Usual html file consists of a lot of empty spaces. Sometimes you will have comments in between {% raw %}<!-- and -->{% endraw %}, new lines, blank spaces etc., It is good to keep what really matters and omit the rest.
 
 Though minifying CSS and JS is largely practiced, minifying HTML is not given such an importance. May be because there is not much to minify compared to CSS and JS. But it does help loading your website at a better speed even on 2G connections. Moreover, [PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} recommends minifying HTML.
 
@@ -27,7 +27,7 @@ Here are the minifies and unminified files of my last post. They have the same c
 {% include adsense-inside-post.html %}
 ## How to minify Jekyll html?
 
-So far in my tutorials, I have never used command line interface. Not that I hate it but I think it's difficult for beginners to comprahend. Likewise you can minify html using ```Grunt``` or ```Gulp``` task runners but for a beginner they might seem alien technologies. And when we are designing an automatic minifier that takes care of everything then why do we need a task runner?! Also I prefer solutions that does not invlolve plugins.
+So far in my tutorials, I have never used command line interface. Not that I hate it but I think it's difficult for beginners to comprehend. Likewise you can minify html using ```Grunt``` or ```Gulp``` task runners but for a beginner they might seem alien technologies. And when we are designing an automatic minifier that takes care of everything then why do we need a task runner?! Also I prefer solutions that does not involve plugins.
 
 Now to minify Jekyll blog, 
 
@@ -82,10 +82,10 @@ compress_html:
 
 Read all about these settings in the [documentation](http://jch.penibelst.de/){:rel='nofollow'}{:target="_blank"}.
 
-Now all your webpages that directly or inderectly uses the layout ```default``` will be minified. You can exclusively mention for certain pages to minify by adding the front matter given above. 
+Now all your web-pages that directly or indirectly uses the layout ```default``` will be minified. You can exclusively mention for certain pages to minify by adding the front matter given above. 
 
 So I hope this tutorial helped you minify your Jekyll blog. If there is a better way to do this, then please let me know in the comment section.
 
-**Note:** My disqus comment stopped loading after using this method. So for the time being I'm not using it. So if you are using disqus then do not use this method (foe now).
+**Note:** My disqus comment stopped loading after using this method. So for the time being I'm not using it. So if you are using disqus then do not use this method (for now).
 
 Thanks for reading!

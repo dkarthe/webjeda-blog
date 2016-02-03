@@ -1,7 +1,7 @@
 ---
 title: How to add a sitemap to Jekyll blog
 desc: Submitting sitemap to major search engines is important to rank better on SEO. Jekyll blogs will not have sitemap by default but we can create one using this method. A sitemap is essential for search engines to index your posts and show it on teh search page.
-keywords: sitemap in jekyll blog, jekyll sitemap, sitemap for jekyll
+keywords: sitemap in Jekyll blog, Jekyll sitemap, sitemap for Jekyll
 author: sharathdt
 tags: Jekyll SEO
 ---
@@ -24,7 +24,7 @@ Leaving a link to your sitemap inside your website is also a good idea. Let's sa
 
 [Submit your sitemap to Google](https://www.google.com/webmasters/tools/home?hl=en){:rel='nofollow'} if you already have one. I usually submit my sitemap to Webmaster tools of Google, Bing and Yahoo. 
 
-I use [SEO-checkup](https://toolbox.seositecheckup.com/apps/seo-checkup){:rel='nofollow'} to see whether my websites complies with common SEO parameters. I found out that I did not have a sitemap by using this app. I will write an elaborated post on some useful online tools to optimize your website to make it fast and search engine friendly.
+I use [SEO-checkup](https://toolbox.seositecheckup.com/apps/seo-checkup){:rel='nofollow'} to see whether my websites complies with common SEO parameters. I found out that I did not have a sitemap by using this app. I will write an elaborated post on some useful on-line tools to optimize your website to make it fast and search engine friendly.
 
 ## How to create a sitemap for Jekyll blog
 

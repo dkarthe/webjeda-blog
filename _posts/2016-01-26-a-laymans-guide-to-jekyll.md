@@ -1,7 +1,7 @@
 ---
 title: A layman's guide to Jekyll
 desc: Jekyll is really simple once you know how it works. You can make your blog do wonders once you know how to play with templates, layouts, loops and curly braces. Here is a layman's Jekyll guide! Learn how to get started with Jekyll. Create yourself a clean, minimal and beautiful Jekyll blog. 
-keywords: jekyll tutorial, how jekyll blog works, jekyll blog setup, jekyll working, jekyll guide
+keywords: Jekyll tutorial, how Jekyll blog works, Jekyll blog setup, Jekyll working, Jekyll guide
 author: sharathdt
 tags: Jekyll
 ---
@@ -14,13 +14,13 @@ Jekyll was easy for me in the beginning. Because I was just adding posts or edit
 
 When I had to make some changes in Jekyll, I used to write dirty codes in the respective template and somehow make it work for a while but if I wanted to make any further changes to it then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work again. This is what I used to do years ago. Half knowledge is worse than no knowledge is completely true in the case of Jekyll.
 
-These dirty codes would break my site, sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while commiting the changes (big mistake). I can always revert back, but I would lose all the changes and posts :(
+These dirty codes would break my site, sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while committing the changes (big mistake). I can always revert back, but I would lose all the changes and posts :(
 
 
 ## Doing it the right way!
-Read the [documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information (and lot of pages as well). So I thought I would summarise it in this post so that anyone could make use of it. 
+Read the [documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information (and lot of pages as well). So I thought I would summarize it in this post so that anyone could make use of it. 
 
-But Once you finish reading this post, I suggest you check out the documentation. That gives you rather deep insight than a breif introduction like this one.
+But Once you finish reading this post, I suggest you check out the documentation. That gives you rather deep insight than a brief introduction like this one.
 
 ## What Jekyll does better?
 ![Jekyll transforms text to html](/images/jekyll-transforms-text-to-hypertext.jpg)
@@ -84,7 +84,7 @@ This is also the  first file you should edit when you fork(copy) a new theme. In
 
 4. <h3>_sass:</h3> Jekyll supports [Sass preprocessor](http://sass-lang.com/documentation/file.SASS_REFERENCE.html){:rel='nofollow'}{:target="_blank"}. Sass files are included in this folder can be imported to main stylesheet.
 
-5. <h3>_site:</h3> This is a folder created by Jekyll to host your website. It will have files only compatible for a browser - HTML, CSS, JS, XML etc., This conversion happens by default. You don't have to create this or edit anything inside this foder.
+5. <h3>_site:</h3> This is a folder created by Jekyll to host your website. It will have files only compatible for a browser - HTML, CSS, JS, XML etc., This conversion happens by default. You don't have to create this or edit anything inside this folder.
 
 6. <h3>css, images, js:</h3> You can create folders and name then as per your needs. These are some of the common folders used to keep stylesheets, images and JavaScript files.
 

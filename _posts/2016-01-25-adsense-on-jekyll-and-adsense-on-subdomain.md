@@ -15,11 +15,11 @@ Though I had so many other blogs, none of them got approval for some or the othe
 I had no hopes on this blog either. But I tried my best to deliver the content that somehow helps someone. Many of my posts are actually the problems I faced in figuring out stuff. I think it worked.
 
 ## Adsense on subdomain
-The first problem I faced was applying for adsense using subdomain. My subdomain ```blog.webjeda.com``` cannot be used for applying to Adsense. Google has this policy for a reason. May be you have good content on your subdomain but what if you have bad content in your domain which is non complaiant with Adsense policies. Say some adult content or content related to drugs?
+The first problem I faced was applying for adsense using subdomain. My subdomain ```blog.webjeda.com``` cannot be used for applying to Adsense. Google has this policy for a reason. May be you have good content on your subdomain but what if you have bad content in your domain which is non compliant with Adsense policies. Say some adult content or content related to drugs?
 
 So one thing was sure by the answers on Google Product Forum that **I cannot apply for adsense with a subdomain**. But you can always apply with the domain name though your domain doesn't have much content. For instance my domain [webjeda.com](http://webjeda.com){:target="_blank"} doesn't have much content. It is actually a single page website meant for my business.
 
-So I applied with my domain ```webjeda.com``` and placed ads on my subdomain(only after placing ads, google will check your website for compliance). It did not get an approval for days. I thought it doesn't work. Then I read somewhere that I have to put at least one ad in the main domain to get approved.
+So I applied with my domain ```webjeda.com``` and placed ads on my subdomain(only after placing ads, Google will check your website for compliance). It did not get an approval for days. I thought it doesn't work. Then I read somewhere that I have to put at least one ad in the main domain to get approved.
 {% include adsense-inside-post.html %}
 I can easily place an ad on ```webjeda.com``` but I was afraid that Google will reject it for having no content. But that was my last hope anyway. There was actually another alternative. Moving the blog to a new domain. I was in no mood to move all my contents in the subdomain to a new domain. That's not just practical.
 

@@ -1,7 +1,7 @@
 ---
 title: How to create a Jekyll blog
-desc: I created this beautiful looking jekyll blog by forking a repository. You can also fork it to make it yours.  Jekyll is a simple blog generator. You can use this as a static site builder.
-keywords: cerate jekyll blog, blogging on jekyll, github blogging
+desc: I created this beautiful looking Jekyll blog by forking a repository. You can also fork it to make it yours.  Jekyll is a simple blog generator. You can use this as a static site builder.
+keywords: cerate Jekyll blog, blogging on Jekyll, github blogging
 author: sharathdt
 tags: Jekyll
 ---
@@ -28,7 +28,7 @@ A theme is important for a good looking blog. Otherwise you can go with the [bas
 
 These are some pretty well built themes I recommend. You can change the look and scheme though. Let's take a look at how to implement [Emerald theme](http://www.jacoporabolini.com/emerald/){:rel='nofollow'}.
 
-All the themes you see are inside a certain repository. You just have to copy these files and change it accordingly to make it yours (but keep the licence file as it is). So if you see Emerald theme, it has a link in it's navigation which says **Project on Github**. That link will lead you to the theme repository.
+All the themes you see are inside a certain repository. You just have to copy these files and change it accordingly to make it yours (but keep the license file as it is). So if you see Emerald theme, it has a link in it's navigation which says **Project on Github**. That link will lead you to the theme repository.
 
 ![Jekyll theme respository](/images/fork-jekyll-theme-screenshot-2.jpg)
 

@@ -1,6 +1,6 @@
 ---
 title: How to add custom domain to Github Pages website?
-desc: Using github custom domain change the ugly looking uername.github.io URL into a yourdomain.com URL. Learn how to add custom domain to github pages. You can also add a new domain to your Jekyll blog using this method.
+desc: Using github custom domain change the ugly looking username.github.io URL into a yourdomain.com URL. Learn how to add custom domain to github pages. You can also add a new domain to your Jekyll blog using this method.
 keywords: github custom domain, custom domain github, custom URL github website
 author: sharathdt
 tags: Github-Pages SEO
@@ -11,7 +11,7 @@ tags: Github-Pages SEO
 
 Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain name to Github here in simple steps.
 
-You may have a website hosted on Github Pages whch has a URL that looks similar to [http://sharu725.github.io/index.html](http://sharu725.github.io). But what you want is something like [http://webjeda.com](http://webjeda.com){:rel='dofollow'}. So how to change it to a custom domain like webjeda.com?
+You may have a website hosted on Github Pages which has a URL that looks similar to [http://sharu725.github.io/index.html](http://sharu725.github.io). But what you want is something like [http://webjeda.com](http://webjeda.com){:rel='dofollow'}. So how to change it to a custom domain like webjeda.com?
 
 If you do not have a website yet, then refer to my post on [How to create a website and host it on github pages](http://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/)
 
@@ -52,7 +52,7 @@ Now click on **Add Record** and add an **A** record with following configuration
 **Points to:** 192.30.252.153 or 192.30.252.154
 
 These IPs belong to Github using which your website will be served on your domain name. They will not change anytime soon (at least that's what I believe). If that is the case then many websites hosted using Github Pages will go down all of a sudden.
-You can find these Ips [here](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/){:rel='nofollow'}. You can use any one of them or both. I guess they have two for redundency. So for 100% availability, use both. In order to use both Ips, you have to add another **A** record with the second IP address.
+You can find these Ips [here](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/){:rel='nofollow'}. You can use any one of them or both. I guess they have two for redundancy. So for 100% availability, use both. In order to use both IPs, you have to add another **A** record with the second IP address.
 
 ![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-3.JPG "Adding A record to DNS Zone Records - github screenshot")
 
@@ -62,7 +62,7 @@ Click on **Finish** and **Save**.
 
 And that's about it. Do not rush though. It will take a while to propagate. So grab a cup of coffee. Once you are done, hit your URL :) 
 
-Propagation can take a long time and it can be in different speeds in different geolocations. So try using a [proxy site](https://www.proxysite.com/){:rel='nofollow'} to see if it has propagated in different countries. Try servers from different countries.
+Propagation can take a long time and it can be in different speeds in different geo-locations. So try using a [proxy site](https://www.proxysite.com/){:rel='nofollow'} to see if it has propagated in different countries. Try servers from different countries.
 
 
 Here is a video demonstration

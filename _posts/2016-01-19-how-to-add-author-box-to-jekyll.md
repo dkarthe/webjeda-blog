@@ -1,7 +1,7 @@
 ---
 title: Author box to Jekyll blog
 desc: Adding multiple authors like in WordPress to a Jekyll blog is hard. But not anymore. Learn how to add an author box to your Jekyll blog with these easy steps. You can also create author section for your Jekyll blog using this method.
-keywords: author box jekyll, author tab jekyll, jekyll author box, jekyll author section
+keywords: author box Jekyll, author tab Jekyll, Jekyll author box, Jekyll author section
 author: sharathdt
 tags: Jekyll
 ---
@@ -14,9 +14,9 @@ I can make a template, add it to every post manually and change author name, ima
 
 There should be a provision where you just mention authors name in the post and that should be enough for the post to update itself with particular author details.
 
-This tutorial explains how to add an author box to jekyll blog posts step by step.
+This tutorial explains how to add an author box to Jekyll blog posts step by step.
 
-**Templating**, **configuration file** and **site variables** are the saviours here.
+**Templating**, **configuration file** and **site variables** are the saviors here.
 
 ## Step 1: Make an author box
 
@@ -47,7 +47,7 @@ Create a new ```html``` file inside **_includes** folder, name it **author.html*
 
 ## Step 2: Add authors in configuration file
 
-Now copy below details into your ```_config.yml``` which is in the root of the repository. Change details accordingly. Here I ahve mentioned only for two authors - **sharathdt** and **sampaths**. You can use any number of authors. Add details of new authors to this file in this format.
+Now copy below details into your ```_config.yml``` which is in the root of the repository. Change details accordingly. Here I have mentioned only for two authors - **sharathdt** and **sampaths**. You can use any number of authors. Add details of new authors to this file in this format.
 
 {% highlight yaml %}
 authors:
@@ -114,7 +114,7 @@ author: sharathdt
 
 Now your post recognizes the author as **sharathdt** and all the details like author name, author image, author about are updated accordingly. Here is how it looks like in my blog posts
 
-![Author box for jekyll](/images/author-section-jekyll-sample.jpg)
+![Author box for Jekyll](/images/author-section-jekyll-sample.jpg)
 
 
 Your author box may not be styled as mine but you can style it however you want it to be. I have used w3-css cards for card style.

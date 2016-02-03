@@ -8,7 +8,7 @@ tags: Jekyll
 
 <img alt="fetch images from Jekyll post" title="grab images from Jekyll post" itemprop="thumbnailUrl" src="/images/how-to-fetch-images-from-jekyll-post.jpg">
 
-If you observe the screenshot below, I have used a card-style container to fit in everything. It looks better with proper shadow. Now my idex page grabs the first image from my post and shows it in the list along with its title. The best part is that, the images are grabbed automatically from every post of my Jekyll blog.
+If you observe the screenshot below, I have used a card-style container to fit in everything. It looks better with proper shadow. Now my index page grabs the first image from my post and shows it in the list along with its title. The best part is that, the images are grabbed automatically from every post of my Jekyll blog.
 
 ![How to fetch image from jekyll](/images/how-to-grab-image-from-jekyll-post.jpg)
 
@@ -19,7 +19,7 @@ Finally I stumbled across a [stackoverflow answer](http://stackoverflow.com/ques
 
 ## How to grab the first image?
 
-Here is the exact code mentioned in the answer. This will just give you a list of all the first images from all your posts. Make sure you do not have any other embedded video or flash(which has ```src``` attribute) file before your first image. This might result in wrong behaviour of the code. It may grab the video or some other file instead of the image.
+Here is the exact code mentioned in the answer. This will just give you a list of all the first images from all your posts. Make sure you do not have any other embedded video or flash(which has ```src``` attribute) file before your first image. This might result in wrong behavior of the code. It may grab the video or some other file instead of the image.
 
 What I suggest is to have an image in the very beginning of the post like I have in my posts or at least after a paragraph. Make sure it is not too wide or way too tall. I keep most of my featured images in **800x500** ratio. 
 {% include adsense-inside-post.html %}
@@ -79,7 +79,7 @@ I have made changes to the above code to get a nice index of posts with title, d
 
 You may have to style it the way you want. I'm not providing the styling details but I hope you can figure that out. You can use w3-css for card layout. It is also available from Bootstrap and Polymer. You can make your own raised box style by fiddling with box-shadow a little bit.
 
-## Love for Jekyll (no offence WordPress)
+## Love for Jekyll (no offense WordPress)
 This feature gave me a hope that things are indeed possible with Jekyll. I see people migrating from Jekyll to WordPress for certain features. For instance [kanishkkunal](https://codingtips.kanishkkunal.in/jekyll-to-wordpress/){:rel='nofollow'}{:target="_blank"} who writes real good articles on Jekyll moved from Jekyll to WordPress. He has his reasons. But some writers(including myself) find Jekyll to be easier and comfortable than WordPress, for example Vito Botta. He writes his frustrations in this [article](http://vitobotta.com/migrating-from-wordpress-to-jekyll-part-one-why-i-gave-up-on-wordpress/){:rel='nofollow'}{:target="_blank"} while using WorPress to write posts. I found all the points he made to be true. WordPress post writing interface sucks real bad. There should have been a local editing option.
 
 Writing a post in WordPress itself is a mess. I like to use a text editor like Brackets or Sublime to write my posts. I can always write in an editor and copy paste it to the WordPress editor page but it is not practical. On the bright side, Jekyll supports Markdown. I love it. It's easy and editor friendly. So I think I'm sticking with Jekyll for a long time. But again it depends on one's priorities. There are not many plugins available for Jekyll.

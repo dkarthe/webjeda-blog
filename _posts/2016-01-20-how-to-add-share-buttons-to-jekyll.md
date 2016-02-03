@@ -1,7 +1,7 @@
 ---
 title: Share bar for Jekyll without using Javascript!
 desc: Reducing the use of JavaScript results in a faster loading speed. Here is a guide on how to add a social share bar to Jekyll blogs. You can copy paste the code and it should work! Many Jekyll themes do not offer a good share bar. So I thought of making one for myself!
-keywords: share bar without javascript, jekyll share buttons, share buttons for jekyll blog
+keywords: share bar without javascript, Jekyll share buttons, share buttons for Jekyll blog
 author: sharathdt
 tags: Jekyll SEO
 ---
@@ -24,7 +24,7 @@ Adding a sharebar is really easy using services like **ShareThis** or **AddtoAny
 
 I can always ```defer``` javascript loading but the files that are loaded by ShareThis are remote. So I don't even have an option to add ```defer``` or ```async```. So I thought of saving the remote ```Js``` files to my local directory and call it from there! That didn't work out very well as there were session variables used and they started to throw ```Js``` errors.
 
-Now I had to make a decission whether to use it or make one for myself. I thought why not make one! I will have the complete design control. So I chose to design it myself.
+Now I had to make a decision whether to use it or make one for myself. I thought why not make one! I will have the complete design control. So I chose to design it myself.
 
 ## Making a share bar without JavaScript
 
@@ -111,7 +111,7 @@ Create a new ```html``` file inside _includes folder and call it share.html. Cop
 
 I have used icons from **font awesome** which is better than loading icons from local files.
 
-Now copy this line inside your post layout file which will be inside **_layouts** folder. You have to place this line whereever you want the sharebar to appear on your posts.
+Now copy this line inside your post layout file which will be inside **_layouts** folder. You have to place this line wherever you want the sharebar to appear on your posts.
 
 {% highlight html %}
 {% raw %}{% include  share.html %}{% endraw %}

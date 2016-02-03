@@ -36,7 +36,7 @@ Remember - project files can only be hosted using gh-pages branch.
 
 ## Step 2: Install Github Desktop
 
-I guess you are smart enought to install a software. Once you are done installing, open the app. You should see something like this.
+I guess you are smart enough to install a software. Once you are done installing, open the app. You should see something like this.
 
 ![How to sync folders with Github](/images/sync-folders-with-github-desktop-tutorial-screenshot.jpg)
 
@@ -59,7 +59,7 @@ Click on the **+** icon on the left-top corner of Github Desktop. You should see
 
 ![How to sync folders with Github - Github Desktop clone screenshot](/images/clone-repository-to-local-folder-github-desktop.jpg)
 
-Click on clone. Github should list all your repository available for cloning. Select the repository you just created. In my case - **MyFirstWebsite**. Then hit the checkmark below which says **Clone MyFirstWebsite**    
+Click on clone. Github should list all your repository available for cloning. Select the repository you just created. In my case - **MyFirstWebsite**. Then hit the check-mark below which says **Clone MyFirstWebsite**    
 
 ![Github Desktop clone screenshot](/images/clone-repository-to-local-folder-github-desktop-2.jpg)
 
