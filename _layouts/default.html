@@ -33,7 +33,9 @@
 
 	  </main>
         <!-- Ads -->
-   {% include adsense-lb.html %}  
+      {% if page.pagetype != 0 %}
+           {% include adsense-lb.html %}  
+       {% endif %}
 		  <!-- Pagination links -->
       {% if paginator.total_pages > 1 %}
         <div  itemscope="" itemprop="pagination" class="pagination">
