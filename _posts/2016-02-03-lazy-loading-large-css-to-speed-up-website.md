@@ -11,7 +11,7 @@ tags: Jekyll SEO
 
 ## Why lazy load css?
 
-Along with loading JavaScript after the document, you should also load big css files at the end. This makes your website superfast. Because the main content loads first. So even on a slow connection, the content will be available for the user.
+Along with loading JavaScript at the end of the document, you should also load big css files at the end. This makes your website superfast. Because the main content loads first. So even on a slow connection, the content will be available for the user.
 
 In this method the content loads without any style and then the stylesheet loads followed by JavaScript. You may have observed this while browsing my website. This is important for a user with a slow connection. Content(visible stuff) should load at the very beginning. Style(css) and scripts(js) can wait.
 
@@ -24,7 +24,7 @@ After testing in [PageSpeed](https://developers.google.com/speed/pagespeed/insig
 
 ## How to load CSS at the end?
 
-This is possible if I declare my link tag at the end of the document. But it is advised to place link tags in the head section. So I'm using a script to place the link tag( linking css) in the head section.
+This is possible if I declare my link tag at the end of the document. But it is advised by w3c to place link tags only in the head section. So I'm using a script to place the link tag( linking css) in the head section.
 
 {% highlight html %}
 
