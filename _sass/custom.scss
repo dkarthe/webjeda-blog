@@ -383,3 +383,22 @@ h3.arch-h1 {
     border: 1px solid #41A720;
     border-radius: 2px;
 }
+
+
+
+
+.gsc-results-wrapper-overlay {
+    padding:0;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+@media (min-width: 940px) {
+    padding: 30px;
+    width: 70%;
+    position: fixed;
+    top: 5%;
+    left: 12%;
+}
