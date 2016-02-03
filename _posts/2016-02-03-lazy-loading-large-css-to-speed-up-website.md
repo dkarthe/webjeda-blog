@@ -52,11 +52,11 @@ If you observe the script tag carefully, I have added ```defer``` attribute to i
 
 ## Problems I faced while lazy loading css
 
-This problem occured because I have adsense. My adsense code is responsive. It adjusts to the screen-size mentioned in the media query. Ans the media query is inside ```main.css``` which I have made to load at the very end!
+This problem occurred because I have adsense. My adsense code is responsive. It adjusts to the screen-size mentioned in the media query. And the media query is inside ```main.css``` which I have made to load at the very end!
 
 Adsense script loads before ```main.css``` and assumes that the screen is full width whereas my content is not full width. My content only goes in the center leaving some gap on both left and right sides. But adsense has already assumed that it is full screen and adjusts its ad size to full screen and hence the ad flows out of the content.
 
-I struggled hard to tackle this. And afte a while I realized that I can define the width of my content with inline-css even before the adsense code loads! Thus avoiding it to overflow.
+I struggled hard to tackle this. And after a while I realized that I can define the width of my content with inline-css even before the adsense code loads! Thus avoiding it to overflow.
 
 {% highlight html %}
   <div id="container" style="max-width:730px;padding: 0 1.5rem;margin: 0 auto;">
@@ -68,7 +68,7 @@ I struggled hard to tackle this. And afte a while I realized that I can define t
 So that solved the problem :)
 
 
-I hope this articel has helped you to speed up your website. Let me know how it went. Leave a comment if you have any suggestion. I would be happy to implement it.
+I hope this article has helped you to speed up your website. Let me know how it went. Leave a comment if you have any suggestion. I would be happy to implement it.
 
 
 Thanks for reading!
