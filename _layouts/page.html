@@ -2,6 +2,8 @@
 layout: default
 ---
 <article id="page">
+{% if page.adallow != 0 %}
 	{% include adsense-lb.html %}
+{% endif %}
   {{ content }}
 </article>
