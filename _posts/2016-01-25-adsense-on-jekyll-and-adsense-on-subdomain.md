@@ -91,11 +91,11 @@ layout: default
 
 
 ### 4. Where not to show adsense code
-It is against the policy to show adsense code on 404 page, blank page or a page which doesn't have much useful content. So I decided not to include adsense on about, contact, 404 pages. 
+It is against the Adsense policy to show adsense ads on 404 page, blank page or a page which doesn't have much content. So I decided not to include adsense on about, contact, 404 page etc., 
 
-But how? I have defined adsense files in default, page and post layouts. So any page using any of these layouts would automatically get adsense in it.
+But how? I have defined adsense files in default, page and post layouts. So any page using any of these layouts would automatically get adsense ads in it.
 
-Then it hit me. I can add a front matter and write a condition not to include those pages! Here I have added a front matter attribute called ```adallow: 0``` to all those pages where I don't want my adsense code to appear.
+Then it hit me. I can add a front matter and write a condition not to include those pages! Here I have added a front matter attribute called ```adallow: 0``` to all those pages in which I don't want my adsense ads to appear.
 
 This is how the front matter in my about page looks like
 
@@ -116,12 +116,10 @@ And here is the condition for the adsense code.
    {% raw %}{% endif %}{% endraw %}
 {% endhighlight %}
 
-The condition says, if the adallow value for a page is not zero then include the adsense! Pretty clever isn't it?!
+The condition says, if the adallow value for a page is not zero then include the adsense code! Pretty clever isn't it?!
 
 So this is how you can include adsense ads on all your present and upcoming Jekyll blog posts and pages automatically. This is a neat approach than pasting codes on every single post and page.
 
-### 5. The problem that I haven't solved yet
-
-I want ads to be shown after second paragraph of every post. But so far I couldn't figure out how I can determine paragraph numbers. Eventually I will find it out. If you have a solution then please let me know.
+Let me know how you have implemented adsense ads in Jekyll. If there is a better way, I would be happy to implement it.
 
 Thanks for reading!
