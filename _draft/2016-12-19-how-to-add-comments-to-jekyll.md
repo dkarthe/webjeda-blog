@@ -1,10 +1,54 @@
 ---
-title: Why use Jekyll instead of WordPress?
-desc: Jekyll has many advantages over other CMS like WordPress. I think having a local copy of all your posts gives you a secure feeling which isn't possible in WordPress. Moreover I can customize my Jekyll blog however I want to but for WordPress, you have to stick with a theme. 
-keywords: why jekyll, how jekyll blog works, jekyll blog setup, jekyll working
+title: Adding comments to Jekyll blog
+desc: Jekyl themes are pretty neat with bare minimum options. But you can always extend it by adding whatever you need. WordPress blogs have comments by default. What if we want it in our Jekyll blog as well? We have a cleaner and better option in Jekyll...
+keywords: add comments to Jekyll blog, add disqus to Jekyll, disqus Jekyll
 author: sharathdt
-pulish: false
+Tags: Jekyll SEO
 ---
 
-<img alt="" title="" itemprop="thumbnailUrl" src="/">
+<img alt="how to add comments to jekyll" title="jekyll comments" itemprop="thumbnailUrl" src="/">
 
+## Why should we add comment section?
+
+## WordPress has an upperhand
+
+There are many ways to do this. I will be discussing about two major ones among them.
+
+1. Disqus
+
+<div id="disqus_thread"></div>
+<script defer>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//DISQUS-SHORTNAME.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<script defer id="dsq-count-scr" src="//DISQUS-SHORTNAME.disqus.com/count.js" async></script>
+
+
+2. Google Plus
+
+<script src="https://apis.google.com/js/plusone.js">
+</script>
+<div class="g-comments"
+  data-href="http://yourwebsite.com{{  page.url }}"
+  data-width="642"
+  data-first_party_property="BLOGGER"
+  data-view_type="FILTERED_POSTMOD">
+</div>
