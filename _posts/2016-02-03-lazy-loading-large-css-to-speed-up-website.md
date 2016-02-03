@@ -1,6 +1,6 @@
 ---
 title: Lazy loading CSS
-desc: Loading JavaScript at the end is common but for a faster website one should load big CSS files at the end as well. Learn how to defer CSS loading which makes your website superfast. 
+desc: Loading JavaScript at the end is common but for a faster website one should load big CSS files at the end as well. Learn how to defer CSS loading which makes your website superfast. PageSpeed is a tool by google where you can find the website speed.
 keywords: defer css, lazy load css, load css at the end
 author: sharathdt
 tags: Jekyll SEO
