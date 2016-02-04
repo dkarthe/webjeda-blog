@@ -11,7 +11,7 @@ tags: Jekyll SEO
 
 ## Why lazy load css?
 
-Along with loading JavaScript at the end of the document, you should also load big css files at the end. This makes your website superfast. Because the main content loads first. So even on a slow connection, the content will be available for the user.
+Along with loading JavaScript at the end of the document, you should also load big css files at the end. This makes your website superfast. Because the main content loads first. So even on a slow connection, the content will be available for the user. And also faster the website SEO friendly it is.
 
 In this method the content loads without any style and then the stylesheet loads followed by JavaScript. You may have observed this while browsing my website. This is important for a user with a slow connection. Content(visible stuff) should load at the very beginning. Style(css) and scripts(js) can wait.
 

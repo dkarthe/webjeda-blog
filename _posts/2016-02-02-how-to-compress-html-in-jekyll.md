@@ -8,7 +8,7 @@ tags: Jekyll SEO
 
 <img alt="how to compress html jekyll" title="jekyll compress html" itemprop="thumbnailUrl" src="/images/how-to-minify-jekyll-html.jpg">
 
-There was not a single convenient way to minify the whole Jekyll blog markup until I found this cool ```html``` file which does the minifying like a champ. It  uses pure Liquid code. And it doesn't need any coding from your end. Something like a plug and play.
+There was not a single convenient way to minify the whole Jekyll blog markup until I found this cool ```html``` file which does the minifying like a champ. It  uses pure Liquid code. And it doesn't need any coding from your end. Something like a plug and play. Website loading speed is also one among 200 other parameters Google considers for SEO.
 
 ## Why do we have to minify HTML?
 
