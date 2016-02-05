@@ -1,9 +1,9 @@
 ---
-title: How I managed to integrate Polymer in my Jekyll blog
+title: Integrate Polymer in Jekyll Blog
 desc: Polymer elements are really cool to work with. I have a tutorial to include Polymer elements in simple steps. Polymer is an ambitious project from Google which might take off a lot of burden on web designers and developers.
 keywords: polymer Jekyll, polymer github pages, polymer and github
 author: sharathdt
-tags: Jekyll
+tags: Jekyll Web-Design
 ---
 
 <img alt="How I managed to integrate Polymer with github pages jekyll" title="How I managed to integrate Polymer with github pages jekyll" itemprop="thumbnailUrl" src="/images/github-pages-polymer.JPG">

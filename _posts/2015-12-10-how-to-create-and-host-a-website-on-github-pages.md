@@ -1,9 +1,9 @@
 ---
-title: How to create and host a website on Github Pages?
+title: Create and Host a Website on Github Pages
 desc: Learn how to create a website on Github and host it for free using Github Pages. This can be used to host your projects and portfolio websites easily without spending a dime. You can also host blogs for free on Github Pages.
 keywords: create a website on github, github pages website, host website on github, github web hosting
 author: sharathdt
-tag: Github-Pages
+tag: Github-Pages Web-Design
 ---
 
 <img alt="How to create and host a website on github pages" title="Create and host a website on github pages screenshot" itemprop="thumbnailUrl" src="/images/how-to-make-a-website-on-github.jpg">

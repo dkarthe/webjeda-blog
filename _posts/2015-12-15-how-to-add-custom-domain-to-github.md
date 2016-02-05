@@ -1,5 +1,5 @@
 ---
-title: How to add custom domain to Github Pages website?
+title: Adding Custom Domain to Github Pages Website
 desc: Using github custom domain change the ugly looking username.github.io URL into a yourdomain.com URL. Learn how to add custom domain to github pages. You can also add a new domain to your Jekyll blog using this method.
 keywords: github custom domain, custom domain github, custom URL github website
 author: sharathdt

@@ -1,9 +1,9 @@
 ---
-title: How to add or edit posts in Jekyll
+title: Add or Edit Jekyll Posts through a Browser
 desc: For beginners an easy online editing option is beneficial. Learn how to add posts, edit posts and other Jekyll files online through prose.io in this tutorial. Also find out how to upload images using prose.io! This can be really helpful when you are out on trip and have an urge to write a Jekyll post.
 keywords: edit post in Jekyll, edit page in Jekyll, add post in Jekyll
 author: sharathdt
-tags: Jekyll
+tags: Jekyll Web-Design
 ---
 
 <img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" src="/images/how-to-edit-add-posts-in-jekyll.jpg">

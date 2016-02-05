@@ -1,5 +1,5 @@
 ---
-title: How to minify Jekyll blog HTML?
+title: Minify Jekyll Blog HTML
 desc: Jekyll - being static - is already fast. But to achieve faster loading speed we can minify the html. Minifying CSS and JS is already in practice and there are many ways to do it. But Jekyll posts and pages are in markdown and you may not be able to minify all of them using a tool. Use this code to minify html and observe the change is loading speed.
 keywords: minify Jekyll html, Jekyll minify
 author: sharathdt
