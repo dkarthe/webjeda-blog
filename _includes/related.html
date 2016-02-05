@@ -3,7 +3,7 @@
           <ul class="related-posts">
             {% for post in site.related_posts limit:3 %}
               <a href="{{ post.url }}"><li class="realted-li">
-                  <p><strong>{{ post.title }}</strong>&nbsp;<small>{{ post.date | date_to_string }}</small></p>
+                  <strong>{{ post.title }}</strong>&nbsp;&nbsp;<small>{{ post.date | date_to_string }}</small>
               </li></a>
             {% endfor %}
           </ul>
