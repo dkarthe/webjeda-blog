@@ -40,7 +40,6 @@
 {% else %}
 <meta name="twitter:title" content="{{ site.title }}">
 {% endif %}
-
 {% if page.desc %}
 <meta name="twitter:description" content="{{ page.desc }}">
 {% else %}
@@ -50,19 +49,20 @@
 <meta name="twitter:creator" content="@sharathdt">
 <meta name="twitter:card" content="summary">
 
-<!--Apple touch icons-->
+    <!--Apple touch icons-->
 <link rel="apple-touch-icon" href="/img/apple-touch-icon-iphone-60x60.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-touch-icon-ipad-76x76.png">
 <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-iphone-retina-120x120.png">
 <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-ipad-retina-152x152.png">
 
-<!-- RSS -->
+    <!-- RSS -->
 <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />  
-<!-- Favicon -->
+    <!-- Favicon -->
 <link rel="icon" href="/img/favicon.ico">
-<!-- Language Tag -->
+    <!-- Language Tag -->
 <link rel="alternate" href="{{ site.url }}{{ page.url }}" hreflang="en-us" />
-<!-- Bing Auth-->
+    <!-- Bing Auth-->
 <meta name="msvalidate.01" content="9A4C187133260C06C0F9C821178FB3A0" />
-<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <!-- Canonical -->
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
