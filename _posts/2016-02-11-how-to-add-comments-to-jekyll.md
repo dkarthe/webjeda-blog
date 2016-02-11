@@ -17,40 +17,40 @@ It depends on your requirement. What kind of users you have and if you don't car
 
 ## WordPress has an upper hand
 
-WordPress comes with a nice default comment box. You can get other ones through plugins if you don't like the default one. But if you want to place the comment box a little above than the position it is already in then you are in trouble!
+WordPress comes with a nice default comment box and you can get other ones through plugins if you don't like the default one. But if you want to place the comment box a little above than the position it is already in then you are in trouble!
 
 Editing plugins is really hard unless you are an expert in ```php``` and know where to look for the changes. I have tried it and I can tell you that it is not a good experience.
 
-WordPress comments otherwise works great, you have nothing to code and most of the bloggers use it. But if you have made a choice to move from WordPress to Jekyll (which I would really appreciate) then you can install one of these comment boxes in your blog posts.
+WordPress comments otherwise works great, you have nothing to code and most of the bloggers use it. But if you have made a choice to move from WordPress to Jekyll (which I would really appreciate) then you can install one of these comment boxes in your blog.
 
 I can guarantee you that they are easy to implement. And you will have the full control of how they look and behave (for the most parts). So let's dive right in.
 
 
-There are many ways to add comment box to Jekyll. I will be discussing about only the major ones among them.
+There are many ways to add comment box to Jekyll. I will be discussing only the major ones.
 
-1. Disqus
+**1. Disqus**
 
-2. Google
+**2. Google**
 
-3. Facebook
+**3. Facebook**
 
 
 ## 1. Disqus
-Disqus has been my favorite so far. It is simple, minimal and robust. I haven't found any problem with this one. I recommend this than any other comment box for Jekyll.
+Disqus has been my favorite so far. It is simple, minimal and robust. I haven't faced any problem with this one so far. I recommend Disqus than any other comment box for Jekyll.
 
 ![adding disqus comments to Jekyll blog](/images/how-to-add-comments-to-jekyll-blog.jpg)
 
-The best part of Disqus is that it allows users to comment using facebook, twitter, Google plus or just using an email address!
+The best part of Disqus is that it allows users to comment using facebook, twitter, Google plus or just using an email address! Moreover, if you have a bunch of blogs, you can have different comment boxes for them and manage it from a signle account!
 
 ![adding disqus comments to Jekyll blog](/images/how-add-disqus-to-jekyll-blog.jpg)
 
 Here are the steps to implement Disqus comment box in your Jekyll blog.
 
 ### Step 1: Sign up
-This step is pretty much for all the comment boxes. You can [sign up for Disqus](https://disqus.com/profile/signup/){:rel='nofollow'}{:target="_blank"} with your email, facebook, twitter or Google plus. After signing up, you may have to verify your email address if you have signed up with an email.
+This step is pretty common for all the comment boxes. You can [sign up for Disqus](https://disqus.com/profile/signup/){:rel='nofollow'}{:target="_blank"} with your email, facebook, twitter or Google plus. After signing up, you may have to verify your email address if you have signed up with an email.
 
 ### Step 2: Set up Disqus
-Once you login, you should see a gear icon on the top-right corder. Click on it and you'll get a drop-down with one of the options saying "Add Disqus to Site".
+Once you login, you should see a gear icon on the top-right corder. Click on it and you'll get a drop-down with one of the options saying **Add Disqus to Site**.
 ![adding disqus comments to jekyll blog](/images/how-add-disqus-comments-to-jekyll-blog-2.jpg)
 
 If it shows you a page with the heading "Engage" then click on 'start using engage'. Now you should see a screen as shown below.
@@ -92,11 +92,17 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endhighlight %}
 
-Insert this code whereever you want the comment box to appear. 
-[](#step4)
+Insert this code whereever you want the comment box to appear.
+
+If you want to show the number of comments anywhere on the website then you can use this code.
+
+{% highlight html %}
+<script defer id="dsq-count-scr" src="//webjeda-sample.disqus.com/count.js" async></script>
+{% endhighlight %}
+
 ## Step 4: Making use of Jekyll templates
 
-Create a new ```html``` file with the name **disqus.html** inside **_includes** folder, paste the above code inside it and save. Now you can call this file anywhere in your Jekyll website with the following code
+It is not feasible to copy this code to every other blog post. That is the reason why we are creating a template. Create a new ```html``` file with the name **disqus.html** inside **_includes** folder, paste the above code inside it and save. Now you can call this file anywhere in your Jekyll website with the following code
 
 <pre>{% raw %}{% include disqus.html %}{% endraw %}</pre>
 
@@ -120,15 +126,32 @@ layout: default
 </article>
 {% endhighlight %}
 
-And now you should have a comment box below every single blog post.
+And now you should have a comment box below every single blog post. But what if you don't want comments on certain blog posts?!
 
+Front matter and liquid tags can help us solve this problem.
 
-If you want to show the number of comments anywhere on the website then you can use this code.
+Add this front matter to the blog posts on which you do not want comments.
 
-{% highlight html %}
-<script defer id="dsq-count-scr" src="//webjeda-sample.disqus.com/count.js" async></script>
+---
+layout: post
+title: some title
+comments: 0
+---
+
+Now in the **post** layout, add the following code
+<article id="post-page" >
+    <a href=""><h2>{% raw %}{{ page.title }}{% endraw %}</h2></a>
+	<time>{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
+	<div class="content" >
+			{% raw %}{{ content }}{% endraw %}
+	</div>	
+
+ {% if post.comments != 0 %}
+	{% raw %}{% include  disqus.html %}{% endraw %}
+ {% endif %}
+ 
+</article>
 {% endhighlight %}
-
 
 ## 2. Google Plus
 Google has a very minimal and elegant comment box. I have no doubt that it looks better than Disqus but it is just for Google users. One must have Google plus account to comment.
