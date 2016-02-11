@@ -55,7 +55,7 @@ Once you login, you should see a gear icon on the top-right corder. Click on it 
 
 If it shows you a page with the heading "Engage" then click on 'start using engage'. Now you should see a screen as shown below.
 
-![adding disqus comments to Jekyll blog](/how-add-disqus-comments-to-jekyll-blog-3.jpg)
+![adding disqus comments to Jekyll blog](images/how-add-disqus-comments-to-jekyll-blog-3.jpg)
 
 This is where you can choose a **shortname** for your comment box which we will be using in the next step. I'm giving my shortname as **webjeda-sample**
 
@@ -63,7 +63,7 @@ This is where you can choose a **shortname** for your comment box which we will 
 ### Step 3: Get the Disqus code
 Now select the platform as [**Universal code**](https://webjeda-sample.disqus.com/admin/settings/universalcode/){:rel='nofollow'}{:target="_blank"} and you should be redirected to the page having the actual code.
 
-![adding disqus comments to jekyll blog](/how-add-disqus-comments-to-jekyll-blog-4.jpg)
+![adding disqus comments to jekyll blog](/images/how-add-disqus-comments-to-jekyll-blog-4.jpg)
 
 Here is a sample Universal code (script) that can be inserted into any html page.
 
@@ -150,9 +150,9 @@ Here is the code to implement Google comments on Jekyll posts. Follow the same p
 
 Here variables should be
 
-{% raw %}{{ site. url }}{% endraw %} = http://blog.webjeda.com
+<pre>{% raw %}{{ site. url }}{% endraw %} = http://blog.webjeda.com</pre>
 
-{% raw %}{{ page.url }}{% endraw %} = /how-to-add-comments-to-jekyll/
+<pre>{% raw %}{{ page.url }}{% endraw %} = /how-to-add-comments-to-jekyll/</pre>
 
 
 ## 3. Facebook Comments
