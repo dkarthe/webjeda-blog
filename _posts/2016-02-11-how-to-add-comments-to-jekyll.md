@@ -40,7 +40,7 @@ Disqus has been my favorite so far. It is simple, minimal and robust. I haven't 
 
 ![adding disqus comments to Jekyll blog](/images/how-to-add-comments-to-jekyll-blog.jpg)
 
-The best part of Disqus is that it allows users to comment using facebook, twitter, Google plus or just using an email address! Moreover, if you have a bunch of blogs, you can have different comment boxes for them and manage it from a signle account!
+The best part of Disqus is that it allows users to comment using facebook, twitter, Google plus or just using an email address! Moreover, if you have a bunch of blogs, you can have different comment boxes for them and manage it from a single account!
 
 ![adding disqus comments to Jekyll blog](/images/how-add-disqus-to-jekyll-blog.jpg)
 
@@ -51,7 +51,7 @@ This step is pretty common for all the comment boxes. You can [sign up for Disqu
 
 ### Step 2: Set up Disqus
 Once you login, you should see a gear icon on the top-right corder. Click on it and you'll get a drop-down with one of the options saying **Add Disqus to Site**.
-![adding disqus comments to jekyll blog](/images/how-add-disqus-comments-to-jekyll-blog-2.jpg)
+![adding disqus comments to Jekyll blog](/images/how-add-disqus-comments-to-jekyll-blog-2.jpg)
 
 If it shows you a page with the heading "Engage" then click on 'start using engage'. Now you should see a screen as shown below.
 
@@ -92,7 +92,7 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endhighlight %}
 
-Insert this code whereever you want the comment box to appear.
+Insert this code wherever you want the comment box to appear.
 
 If you want to show the number of comments anywhere on the website then you can use this code.
 
@@ -133,7 +133,7 @@ And now you should have a comment box below every single blog post. But what if 
 Front matter and liquid tags can help us solve this problem.
 
 Add this front matter to the blog posts on which you do not want comments.
-{% highlight yml %}
+{% highlight css %}
 ---
 layout: post
 title: some title
