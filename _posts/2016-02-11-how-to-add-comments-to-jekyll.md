@@ -131,13 +131,13 @@ And now you should have a comment box below every single blog post. But what if 
 Front matter and liquid tags can help us solve this problem.
 
 Add this front matter to the blog posts on which you do not want comments.
-
+{% highlight yml %}
 ---
 layout: post
 title: some title
 comments: 0
 ---
-
+{% endhighlight %}
 Now in the **post** layout, add the following code
 {% highlight html %}
 <article id="post-page" >
