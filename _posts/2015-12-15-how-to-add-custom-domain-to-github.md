@@ -8,6 +8,8 @@ tags: Github-Pages SEO
 
 <img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" src="{{ site.url }}/images/custom-domain-to-github-2.jpg">
 
+## Why should we use a custom domain?
+Having a third-party domain like ```username.github.io``` is fine. But a domain name adds credibility to your product or service. Having a domain name is also important for SEO. Search engines like a domain name rather a free subdomain obtained from a third-party. So buy a domain name, it doesn't cost much and it can help you build a brand.
 
 Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain name to Github here in simple steps.
 
