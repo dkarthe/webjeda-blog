@@ -156,7 +156,7 @@ Now in the **post** layout, add the following code
 </article>
 {% endhighlight %}
 
-Add <pre>comments: 0</pre> to all the posts where you do not want to display the comment box. You can use this for other comment boxes as well.
+Add {% highlight css %} comments: 0 {% endhighlight %} to all the posts where you do not want to display the comment box. You can use this for other comment boxes as well.
 
 ## 2. Google Plus
 Google has a very minimal and elegant comment box. I have no doubt that it looks better than Disqus but it is just for Google users. One must have Google plus account to comment.
