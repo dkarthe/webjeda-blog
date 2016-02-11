@@ -55,7 +55,7 @@ Once you login, you should see a gear icon on the top-right corder. Click on it 
 
 If it shows you a page with the heading "Engage" then click on 'start using engage'. Now you should see a screen as shown below.
 
-![adding disqus comments to Jekyll blog](images/how-add-disqus-comments-to-jekyll-blog-3.jpg)
+![adding disqus comments to Jekyll blog](/images/how-add-disqus-comments-to-jekyll-blog-3.jpg)
 
 This is where you can choose a **shortname** for your comment box which we will be using in the next step. I'm giving my shortname as **webjeda-sample**
 
