@@ -139,6 +139,7 @@ comments: 0
 ---
 
 Now in the **post** layout, add the following code
+{% highlight html %}
 <article id="post-page" >
     <a href=""><h2>{% raw %}{{ page.title }}{% endraw %}</h2></a>
 	<time>{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
