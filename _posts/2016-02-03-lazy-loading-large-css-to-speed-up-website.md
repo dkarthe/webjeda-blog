@@ -6,7 +6,7 @@ author: sharathdt
 tags: Jekyll SEO Web-Design
 ---
 
-<img alt="" title="" itemprop="thumbnailUrl" src="/images/lazy-load-css-for-fast-website.jpg">
+<img alt="" title="" itemprop="thumbnailUrl" src="{{ site.url }}/images/lazy-load-css-for-fast-website.jpg">
 <a target="_blank" rel="nofollow" href="http://www.freepik.com/free-vector/cartoon-animals_802878.htm">Designed by Freepik</a>
 
 ## Why lazy load css?

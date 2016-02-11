@@ -6,7 +6,7 @@ author: sharathdt
 tags: Github-Pages Web-Design
 ---
 
-<img alt="How to sync folders with Github" title="How to sync folders with Github" itemprop="thumbnailUrl" src="/images/sync-local-folders-with-github.jpg">
+<img alt="How to sync folders with Github" title="How to sync folders with Github" itemprop="thumbnailUrl" src="{{ site.url }}/images/sync-local-folders-with-github.jpg">
 
 In my initial days of using Github I used to see repositories filled with folders, files and what not. I used to wonder how the hell these people are uploading folders to Github! 
 
@@ -38,17 +38,17 @@ Remember - project files can only be hosted using gh-pages branch.
 
 I guess you are smart enough to install a software. Once you are done installing, open the app. You should see something like this.
 
-![How to sync folders with Github](/images/sync-folders-with-github-desktop-tutorial-screenshot.jpg)
+![How to sync folders with Github]({{ site.url }}/images/sync-folders-with-github-desktop-tutorial-screenshot.jpg)
 
 ## Step 3: Set up Github account in Github Desktop
 
 Click on the gear icon on the top-right corner and hit **Options...**
 
-![How to sync folders with Github](/images/github-desktop-settings.jpg)
+![How to sync folders with Github]({{ site.url }}/images/github-desktop-settings.jpg)
 
 Now you should see an option with name **Accounts**. Click on **Add account**.
 
-![How to sync folders with Github - Github Desktop Account setup](/images/github-desktop-account-setup.jpg)
+![How to sync folders with Github - Github Desktop Account setup]({{ site.url }}/images/github-desktop-account-setup.jpg)
 
 Enter your Github credentials and hit Login (choose Github Enterprise if you have an Enterprise account).
 {% include adsense-inside-post.html %}
@@ -57,17 +57,17 @@ Enter your Github credentials and hit Login (choose Github Enterprise if you hav
 
 Click on the **+** icon on the left-top corner of Github Desktop. You should see these options.
 
-![How to sync folders with Github - Github Desktop clone screenshot](/images/clone-repository-to-local-folder-github-desktop.jpg)
+![How to sync folders with Github - Github Desktop clone screenshot]({{ site.url }}/images/clone-repository-to-local-folder-github-desktop.jpg)
 
 Click on clone. Github should list all your repository available for cloning. Select the repository you just created. In my case - **MyFirstWebsite**. Then hit the check-mark below which says **Clone MyFirstWebsite**    
 
-![Github Desktop clone screenshot](/images/clone-repository-to-local-folder-github-desktop-2.jpg)
+![Github Desktop clone screenshot]({{ site.url }}/images/clone-repository-to-local-folder-github-desktop-2.jpg)
 
 You may have to choose a local folder where you want the repository to be downloaded. I usually choose **Documents** folder. Select a folder, click on Ok and wait for the app to sync your repository.
 
 Now change the branch to **gh-pages** as shown in the screenshot.
 
-![How to sync folders with Github - Change branch in Github Desktop](/images/change-branch-in-github-desktop.jpg)
+![How to sync folders with Github - Change branch in Github Desktop]({{ site.url }}/images/change-branch-in-github-desktop.jpg)
 
 Now right click on the repository listed on the left side and choose **Open in Explorer**
 
@@ -76,30 +76,30 @@ It will open an Explorer window with just a ```.git``` folder inside it.
 
 Remember: Whatever changes you do inside this folder will be reflected in the app.
 
-![Cloned repository in local folder](/images/cloned-repository-inside-local-folder.jpg)
+![Cloned repository in local folder]({{ site.url }}/images/cloned-repository-inside-local-folder.jpg)
 
 ## Step 5: Copy complete website in local repository
 
 If you have downloaded the file from **Link 1** then open it and extract the contents to a folder. Copy all these files and folders into our locally synced repository.
 
-![Copy complete website to github repository](/images/copy-complete-website-to-repository.jpg)
+![Copy complete website to github repository]({{ site.url }}/images/copy-complete-website-to-repository.jpg)
 
 ## Step 6: Sync to github!
 
 Come back to the Github Desktop app and click on **Changes** tab. You should see all the changes you just did, all the files and folders you added etc., Once you are satisfied looking at it, hit commit and wait for the app to sync it with remote (but your) Github repository.
 
-![Commit changes to Github Desktop](/images/commit-changes-to-github-desktop.jpg)
+![Commit changes to Github Desktop]({{ site.url }}/images/commit-changes-to-github-desktop.jpg)
 
 
 ## Step 7: Your website must be hosted on Github Pages now.
 
 Now login to your Github account to see whether your website has been hosted. Navigate to your repository that you just synced. Change the branch to gh-pages and see if the files you synced are present in that branch.
 
-![ How to sync folders with Github - Successfully synced files and folders with Github](/images/successfully-synced-folders-in-github.jpg)
+![ How to sync folders with Github - Successfully synced files and folders with Github]({{ site.url }}/images/successfully-synced-folders-in-github.jpg)
 
 Now click on settings and look for **Github Pages** section where you will see a green check mark with a ugly looking URL next to it. Hit that URL. You should see your website hosted!
 
-![How to sync folders with Github - Hosting a complete website on Github Pages](/images/hosting-a-complete-website-on-github-pages.jpg)
+![How to sync folders with Github - Hosting a complete website on Github Pages]({{ site.url }}/images/hosting-a-complete-website-on-github-pages.jpg)
 
 Here is the final URL: [MyFirstWebsite](http://redgadget.github.io/MyFirstWebsite/){:target="_blank"} and a video demonstration.
 

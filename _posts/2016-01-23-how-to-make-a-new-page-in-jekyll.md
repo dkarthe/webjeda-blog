@@ -6,7 +6,7 @@ author: sharathdt
 tags: Jekyll
 ---
 
-<img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" src="/images/how-to-add-pages-in-jekyll.jpg">
+<img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-add-pages-in-jekyll.jpg">
 
 I like Jekyll for its immense power in generating pages! Let's say you want a new html page inside Jekyll, you can create one. Say, you want it to have the same style as your posts, you can do it. Let's say you do not want any styles in it, you can do it. 
 

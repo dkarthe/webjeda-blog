@@ -6,7 +6,7 @@ author: sharathdt
 tags: Github-Pages SEO
 ---
 
-<img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" src="/images/custom-domain-to-github-2.jpg">
+<img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" src="{{ site.url }}/images/custom-domain-to-github-2.jpg">
 
 
 Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain name to Github here in simple steps.
@@ -24,11 +24,11 @@ If you already own a domain name and you want to use it, then continue to Step 1
 
 
 Go to the repository where you have hosted your website and click on **New File**
-![Adding a CNAME file to github screenshot](/images/adding-CNAME-file-to-github-repository.JPG "Adding a CNAME file to github screenshot")
+![Adding a CNAME file to github screenshot]({{ site.url }}/images/adding-CNAME-file-to-github-repository.JPG "Adding a CNAME file to github screenshot")
 
 Name the file as **CNAME** without any extension. Now, inside the CNAME file write your domain name(that you own). I have written ``` truejewls.in ```
 
-![Adding domain name in CNAME file - github screenshot](/images/adding-domain-name-in-CNAME-file-github.JPG "Adding domain name in CNAME file - github screenshot")
+![Adding domain name in CNAME file - github screenshot]({{ site.url }}/images/adding-domain-name-in-CNAME-file-github.JPG "Adding domain name in CNAME file - github screenshot")
 
 Now commit your file to the repository. Make sure you are still in the gh-pages branch while hitting commit.
 {% include adsense-inside-post.html %}
@@ -38,11 +38,11 @@ Now commit your file to the repository. Make sure you are still in the gh-pages 
 
 Login to the website where you purchased your domain name (Domain Name Registrar). Mine is godaddy, but I think the procedure is similar in any other registrar. Go to your domain and click on something similar to **Manage Domain**
 
-![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github.JPG "Adding A record to DNS Zone Records - github screenshot")
+![Adding A record to DNS Zone Records - github screenshot]({{ site.url }}/images/Adding-A-record-to-DNS-github.JPG "Adding A record to DNS Zone Records - github screenshot")
 
 Now go to **DNS Zone File** option. This is where all your records reside. 
 
-![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-2.JPG "Adding A record to DNS Zone Records - github screenshot")
+![Adding A record to DNS Zone Records - github screenshot]({{ site.url }}/images/Adding-A-record-to-DNS-github-2.JPG "Adding A record to DNS Zone Records - github screenshot")
 
 Now click on **Add Record** and add an **A** record with following configuration
 
@@ -54,7 +54,7 @@ Now click on **Add Record** and add an **A** record with following configuration
 These IPs belong to Github using which your website will be served on your domain name. They will not change anytime soon (at least that's what I believe). If that is the case then many websites hosted using Github Pages will go down all of a sudden.
 You can find these Ips [here](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/){:rel='nofollow'}. You can use any one of them or both. I guess they have two for redundancy. So for 100% availability, use both. In order to use both IPs, you have to add another **A** record with the second IP address.
 
-![Adding A record to DNS Zone Records - github screenshot](/images/Adding-A-record-to-DNS-github-3.JPG "Adding A record to DNS Zone Records - github screenshot")
+![Adding A record to DNS Zone Records - github screenshot]({{ site.url }}/images/Adding-A-record-to-DNS-github-3.JPG "Adding A record to DNS Zone Records - github screenshot")
 
 Click on **Finish** and **Save**.
 

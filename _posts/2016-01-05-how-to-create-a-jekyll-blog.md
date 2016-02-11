@@ -6,7 +6,7 @@ author: sharathdt
 tags: Jekyll Web-Design
 ---
 
-<img alt="How to create a website using Github pages" title="How to create a website using Github pages" itemprop="thumbnailUrl" src="/images/how-to-create-a-blog-on-github-pages.jpg">
+<img alt="How to create a website using Github pages" title="How to create a website using Github pages" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-create-a-blog-on-github-pages.jpg">
 
 When I had this idea to create a web designing blog, I thought of making it in WordPress. For some reason I didn't like the same look of WordPress themes. Many of them are distracting. I was looking for something totally content oriented.
 
@@ -30,7 +30,7 @@ These are some pretty well built themes I recommend. You can change the look and
 
 All the themes you see are inside a certain repository. You just have to copy these files and change it accordingly to make it yours (but keep the license file as it is). So if you see Emerald theme, it has a link in it's navigation which says **Project on Github**. That link will lead you to the theme repository.
 
-![Jekyll theme respository](/images/fork-jekyll-theme-screenshot-2.jpg)
+![Jekyll theme respository]({{ site.url }}/images/fork-jekyll-theme-screenshot-2.jpg)
 
 Once you are inside the repository move to next step.
 {% include adsense-inside-post.html %}
@@ -39,7 +39,7 @@ Once you are inside the repository move to next step.
 
 First thing is logging in to Github and forking the whole [theme repository](https://github.com/KingFelix/emerald){:rel='nofollow'}
 
-![Fork a repository](/images/fork-jekyll-theme-screenshot.JPG)
+![Fork a repository]({{ site.url }}/images/fork-jekyll-theme-screenshot.JPG)
 
 What **fork** does is that it copies the whole repository as a new repository inside your Github account.
 
@@ -49,7 +49,7 @@ Once you hit the fork button, all the files in the remote repository will be cop
 
 Now once it is in that repository, check whether it has any CNAME file inside it.
 
-![CNAME in repository](/images/CNAME-in-repository.JPG)
+![CNAME in repository]({{ site.url }}/images/CNAME-in-repository.JPG)
 
 If there is one, then delete the URL inside it and commit. If there isn't one, then no problem.
 
@@ -63,11 +63,11 @@ Your blog should be up and running by now. But give it sometime. A maximum of 10
 If your blog is showing a 404 error, then you may have to check the baseurl in configuration file.
 Jekyll blog configuration is found inside **_config.yml** file.
 
-![_config.yml in repository](/images/config.yml-in-repository.jpg)
+![_config.yml in repository]({{ site.url }}/images/config.yml-in-repository.jpg)
 
 Open the file to see what is the **baseurl** configured. Usually it is **/emerald/** for emerald theme.
 
-![inside _config.yml in repository](/images/inside-config.yml-jekyll-blog.JPG)
+![inside _config.yml in repository]({{ site.url }}/images/inside-config.yml-jekyll-blog.JPG)
 
 If (only if) you have renamed the repository name to something like **blog** or **something**, change the baseurl as shown below.
 

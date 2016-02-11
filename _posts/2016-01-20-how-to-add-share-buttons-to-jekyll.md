@@ -6,7 +6,7 @@ author: sharathdt
 tags: Jekyll SEO
 ---
 
-<img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" src="/images/share-bar-to-jekyll.jpg">
+<img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" src="{{ site.url }}/images/share-bar-to-jekyll.jpg">
 
 Many of the Jekyll themes will not include share buttons by default. It is upto you to find a suitable share bar for your website.
 
@@ -44,7 +44,7 @@ But how to do this 'change of URL' for every page. One way was to use ```window.
 
 Here is an image explaining site variables for the link [How to create a Jekyll blog](http://blog.webjeda.com/how-I-created-webjeda-blog/){:target="_blank"}. You can check the site description by viewing the source. These variables are mentioned inside ```_config.yml``` file.
 
-![How to use site variables in Jekyll](/images/jekyll-site-variables-and-how-to-use-them.jpg)
+![How to use site variables in Jekyll]({{ site.url }}/images/jekyll-site-variables-and-how-to-use-them.jpg)
 
 See all the [variables here](http://jekyllrb.com/docs/variables/){:rel='nofollow'}{:target="_blank"}
 
@@ -132,7 +132,7 @@ I have styled my buttons with the following css. You can change it for your need
 {% endhighlight %}
 
 Currently I'm using this share bar for my blog. At the end of this article you see a sharebar which uses the same code.
-![webjeda share bar for jekyll](/images/how-to-add-share-bar-to-jekyll-blog.jpg)
+![webjeda share bar for jekyll]({{ site.url }}/images/how-to-add-share-bar-to-jekyll-blog.jpg)
 
 So this is how you can implement only css, javaScript free WebJeda sharebar. If you were able to implement this in your blog then please leave a link in the comment.
 

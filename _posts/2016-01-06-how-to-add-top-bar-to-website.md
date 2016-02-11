@@ -6,7 +6,7 @@ author: sharathdt
 tags: Github-Pages Web-Design
 ---
 
-<img alt="How to add colored top bar to website" title="How to add colored top bar to website" itemprop="thumbnailUrl" src="/images/top-bar-on-websites.jpg">
+<img alt="How to add colored top bar to website" title="How to add colored top bar to website" itemprop="thumbnailUrl" src="{{ site.url }}/images/top-bar-on-websites.jpg">
 
 
 As you can see in the screenshot, in one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}{:target="_blank"}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
@@ -19,7 +19,7 @@ I remember YouTube using a red top bar to show how the progress of page loading.
 {% include adsense-inside-post.html %}
 If you have seen Chrome browser on android, they still use this. May be it is using a different code but visually similar to that we use in websites.
 
-![Android chrome browser top loading bar](/images/android-chrome-browser-using-top-bar-screenshot.jpg)
+![Android chrome browser top loading bar]({{ site.url }}/images/android-chrome-browser-using-top-bar-screenshot.jpg)
 
 So here it is giving some valuable information. But what I want is just a constant colored top bar to enhance the visual appearance. It is very easy and can be done with a single line of code!
 
@@ -48,12 +48,11 @@ Top bar: [Top bar](http://webjeda.com/top-bar/){:rel='nofollow'}{:target="_blank
 ## Extensible!
 This can be used on buttons to make them look awesome! This can give a modern look to almost all the elements. One such thing I have noticed is in **gmail** categories.
 
-![top border used by google](/images/top-border-used-by-gmail.jpg)
+![top border used by google]({{ site.url }}/images/top-border-used-by-gmail.jpg)
 
 Here is a button with just borders
 
 <button class="border-style">WebJeda</button>
-
 
 Here is the HTML code..
 

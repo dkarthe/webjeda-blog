@@ -6,7 +6,7 @@ author: sharathdt
 tags: Jekyll
 ---
 
-<img alt="Author box jekyll" title="Author box for jekyll" itemprop="thumbnailUrl" src="/images/author-box-jekyll.jpg">
+<img alt="Author box jekyll" title="Author box for jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/author-box-jekyll.jpg">
 
 I run a blog called [Nallikayi Articles](https://articles.nallikayi.com){:target="_blank"} where I choose the best articles from authors and post it. But the real hurdle was to add different author section at the bottom of the article for every post. 
 
@@ -114,7 +114,7 @@ author: sharathdt
 
 Now your post recognizes the author as **sharathdt** and all the details like author name, author image, author about are updated accordingly. Here is how it looks like in my blog posts
 
-![Author box for Jekyll](/images/author-section-jekyll-sample.jpg)
+![Author box for Jekyll]({{ site.url }}/images/author-section-jekyll-sample.jpg)
 
 
 Your author box may not be styled as mine but you can style it however you want it to be. I have used w3-css cards for card style.

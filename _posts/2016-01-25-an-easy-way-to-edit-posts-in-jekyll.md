@@ -6,7 +6,7 @@ author: sharathdt
 tags: Jekyll Web-Design
 ---
 
-<img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" src="/images/how-to-edit-add-posts-in-jekyll.jpg">
+<img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-edit-add-posts-in-jekyll.jpg">
 <a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
 In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be inside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to insert images. If the image source is a URL then it was easy but if the image is in my local computer folder then there was no way uploading it. I did not know [how to sync files and folders with Github](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}.
@@ -21,7 +21,7 @@ And also this is not practical. Since you are making a http request, it would ta
 
 ## A nice tool to upload images to Github
 Eventually I found out a tool called [prose.io](http://prose.io){:rel='nofollow'}{:target="_blank"}. It was good, the interface, functionality and even the animations! I wanted something that can upload images to Github. Prose was the Saviour.
-![Prose.io jekyll editor screenshot](/images/how-to-use-prose-io-with-jekyll.jpg)
+![Prose.io jekyll editor screenshot]({{ site.url }}/images/how-to-use-prose-io-with-jekyll.jpg)
 
 I was really impressed with this webapp with a feature to upload images. All you need is to add these lines of code inside ```_config.yml```. This will solve the problem of prose.io not uploading images!
 
@@ -69,7 +69,7 @@ prose:
 
 Image upload window on prose.io
 
-![Upload images to github using prose](/images/upload-image-to-github-using-prose.jpg)
+![Upload images to github using prose]({{ site.url }}/images/upload-image-to-github-using-prose.jpg)
 
 Let's say you have a non-jekyll website hosted on Github Pages. Prose.io can be used to edit that as well! But you have to create a ```_prose.yml``` file in the root of your repo and copy paste the same code!
 

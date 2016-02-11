@@ -6,7 +6,7 @@ keywords: github pages tutorial youtube
 tags: Github-Pages
 ---
 
-<img alt="How to create and host a website on github pages" title="Create and host a website on github pages screenshot" itemprop="thumbnailUrl" src="/images/RGHD-channel-art.jpg">
+<img alt="How to create and host a website on github pages" title="Create and host a website on github pages screenshot" itemprop="thumbnailUrl" src="{{ site.url }}/images/RGHD-channel-art.jpg">
 
 I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching **Hosting websites on Github**. The best thing about Github is that it hosts your website (only static) right away and for free. This is the simplest way to learn web designing. 
 
@@ -24,7 +24,7 @@ and then [sync a complete website using this tutorial](http://blog.webjeda.com/h
 
 
 Making it simple has helped a lot of people to start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few in the screenshots below
-![Github pages youtube tutorial positive response](/images/github-pages-tutorial-youtube-positive-response.jpg)
+![Github pages youtube tutorial positive response]({{ site.url }}/images/github-pages-tutorial-youtube-positive-response.jpg)
 
 Checkout the playlist at the top to see more comments.
 {% include adsense-inside-post.html %}

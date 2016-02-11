@@ -6,7 +6,7 @@ author: sharathdt
 tags: Jekyll
 ---
 
-<img alt="Jekyll Tutorial" title="Jekyll guide" itemprop="thumbnailUrl" src="/images/jekyll-tutorial-screenshot.jpg">
+<img alt="Jekyll Tutorial" title="Jekyll guide" itemprop="thumbnailUrl" src="{{ site.url }}/images/jekyll-tutorial-screenshot.jpg">
 
 Jekyll was easy for me in the beginning. Because I was just adding posts or editing the current ones. But when I had to change the font or color I had to go through the CSS and make changes accordingly. Even this wasn't hard. But if I wanted a new page, a new functionality like adding tags, related posts, share buttons, author box etc., I had no idea how to do it. 
 
@@ -23,7 +23,7 @@ Read the [documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel
 But Once you finish reading this post, I suggest you check out the documentation. That gives you rather deep insight than a brief introduction like this one.
 
 ## What Jekyll does better?
-![Jekyll transforms text to html](/images/jekyll-transforms-text-to-hypertext.jpg)
+![Jekyll transforms text to html]({{ site.url }}/images/jekyll-transforms-text-to-hypertext.jpg)
 
 As depicted in the image, Jekyll does magic on text files converting them into html files - text transformation. This is not the only thing it does. It actually does some more magic! This is the reason Jekyll posts and pages can be written in easily readable markups like markdown, <strike>textile</strike> (not supported anymore after Jekyll 3.0) etc.,
 
@@ -59,7 +59,7 @@ Jekyll is simple if you understand what feature is for what purpose. Let us look
 
 Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel='nofollow'}{:target="_blank"} tab open while reading the below ponits. You should be able to see the following files and folders.
 
-![Jekyll folder structure](/images/jekyll-folder-structure.jpg)
+![Jekyll folder structure]({{ site.url }}/images/jekyll-folder-structure.jpg)
 
 ## Files inside a Jekyll site
 

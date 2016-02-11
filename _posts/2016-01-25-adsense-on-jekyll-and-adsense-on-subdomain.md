@@ -6,7 +6,7 @@ author: sharathdt
 tags: Jekyll Adsense
 ---
 
-<img alt="adsense on subdomain" title="adsense on Jekyll" itemprop="thumbnailUrl" src="/images/adsense-on-subdomain-adsense-on-Jekyll.jpg">
+<img alt="adsense on subdomain" title="adsense on Jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/adsense-on-subdomain-adsense-on-Jekyll.jpg">
 
 <a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
