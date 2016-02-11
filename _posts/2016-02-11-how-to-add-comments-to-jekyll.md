@@ -146,9 +146,9 @@ Now in the **post** layout, add the following code
 			{% raw %}{{ content }}{% endraw %}
 	</div>	
 
- {% if post.comments != 0 %}
+ {% raw %}{% if post.comments != 0 %}{% endraw %}
 	{% raw %}{% include  disqus.html %}{% endraw %}
- {% endif %}
+ {% raw %}{% endif %}{% endraw %}
  
 </article>
 {% endhighlight %}
