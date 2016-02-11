@@ -6,7 +6,7 @@ keywords: webjeda, webjeda founder
 tags: Github-Pages Jekyll
 ---
 
-<img alt="webjeda" title="why webjeda" itemprop="thumbnailUrl" src="/img/webjeda-logo-big.jpg">
+<img alt="webjeda" title="why webjeda" itemprop="thumbnailUrl" src="{{ site.url }}/img/webjeda-logo-big.jpg">
 
 While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser - [github.com](https://github.com){:rel='nofollow'}{:target="_blank"}. Cognizant has a learning period of two months in which I googled a lot about it. I was wondered by the contributions people do there. People were creating cool plugins, websites, providing information, documentations and step by step guide for coders.
 
