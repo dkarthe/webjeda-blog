@@ -11,6 +11,8 @@ tags: Github-Pages SEO
 ## Why should we use a custom domain?
 Having a third-party domain like ```username.github.io``` is fine. But a domain name adds credibility to your product or service. Having a domain name is also important for SEO. Search engines like a domain name rather a free subdomain obtained from a third-party. So buy a domain name, it doesn't cost much and it can help you build a brand.
 
+I own 12 domains by the time of writing this article. If you have a good domain name in hand, you can always sell it if somebody wants it. May be you can recover everything you spent on it.
+
 Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain name to Github here in simple steps.
 
 You may have a website hosted on Github Pages which has a URL that looks similar to [http://sharu725.github.io/index.html](http://sharu725.github.io). But what you want is something like [http://webjeda.com](http://webjeda.com){:rel='dofollow'}. So how to change it to a custom domain like webjeda.com?
