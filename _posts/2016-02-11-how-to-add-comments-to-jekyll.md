@@ -99,10 +99,11 @@ If you want to show the number of comments anywhere on the website then you can 
 {% highlight html %}
 <script defer id="dsq-count-scr" src="//webjeda-sample.disqus.com/count.js" async></script>
 {% endhighlight %}
+
+
 <div id="step4"></div>
 
-
-## Step 4: Making use of Jekyll templates
+### Step 4: Making use of Jekyll templates
 
 It is not feasible to copy this code to every other blog post. That is the reason why we are creating a template. Create a new ```html``` file with the name **disqus.html** inside **_includes** folder, paste the above code inside it and save. Now you can call this file anywhere in your Jekyll website with the following code
 
