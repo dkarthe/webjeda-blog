@@ -8,7 +8,7 @@ tags: Jekyll Web-Design
 
 <img alt="How to create a website using Github pages" title="How to create a website using Github pages" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-create-a-blog-on-github-pages.jpg">
 
-When I had this idea to create a web designing blog, I thought of making it in WordPress. For some reason I didn't like the same look of WordPress themes. Many of them are distracting. I was looking for something totally content oriented.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>When I had this idea to create a web designing blog, I thought of making it in WordPress. For some reason I didn't like the same look of WordPress themes. Many of them are distracting. I was looking for something totally content oriented.
 
 A minimalistic WordPress theme would have done the job, but I wanted something that can load faster. Jekyll - a static site generator - is a lot faster and very secure. But Jekyll themes are very limited. You cannot actually get the exact design you want like you get in WordPress.
 
