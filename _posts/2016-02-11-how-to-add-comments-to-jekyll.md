@@ -14,6 +14,8 @@ There comes our comment box to the rescue. But there are a lot of them. You have
 
 It depends on your requirement. What kind of users you have and if you don't care about user reactions then there is no need to keep a comment box!
 
+
+
 ## WordPress has an upper hand
 
 WordPress comes with a nice default comment box and you can get other ones through plugins if you don't like the default one. But if you want to place the comment box a little above than the position it is already in then you are in trouble!
@@ -24,7 +26,7 @@ WordPress comments otherwise works great, you have nothing to code and most of t
 
 I can guarantee you that they are easy to implement. And you will have the full control of how they look and behave (for the most parts). So let's dive right in.
 
-
+{% include adsense-inside-post.html %}
 There are many ways to add comment box to Jekyll. I will be discussing only the major ones.
 
 **1. Disqus**
