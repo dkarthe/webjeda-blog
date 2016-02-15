@@ -8,7 +8,7 @@ tags: Jekyll Web-Design
 
 <img alt="How to make a form in Jekyll website" title="How to make a form in Jekyll website" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-add-form-option-for-jekyll-websites.jpg">
 
-When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. How to add a form to Jekyll website which is static?! The backbone of a forms is the ```php``` code which takes in the data and sends it to respective email address.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. How to add a form to Jekyll website which is static?! The backbone of a forms is the ```php``` code which takes in the data and sends it to respective email address.
 
 But Jekyll blogs and websites hosted on github being static, cannot execute ```php``` files. Wait.! Then how do I make a working form in Jekyll blog?
 

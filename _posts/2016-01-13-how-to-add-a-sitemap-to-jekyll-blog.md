@@ -7,7 +7,7 @@ tags: Jekyll SEO
 ---
 
 <img alt="How to add sitemap to Jekyll blog" title="How to add sitemap to Jekyll blog" itemprop="thumbnailUrl" src="{{ site.url }}/images/add-sitemap-to-Jekyll-github-pages.jpg">
-In one of my previous posts I wrote on [How to create a Jekyll Blog](http://blog.webjeda.com/how-I-created-webjeda-blog). If you have created a blog for yourself or if you already have a Jekyll blog then go through this tutorial.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In one of my previous posts I wrote on [How to create a Jekyll Blog](http://blog.webjeda.com/how-I-created-webjeda-blog). If you have created a blog for yourself or if you already have a Jekyll blog then go through this tutorial.
 
 A sitemap is a list of links of all your web pages. Sitemap will be in ```.xml``` format. A sitemap helps search engine bots to crawl through your website. Sitemap will also have metadata such as date of a post, pages, last modified date and how often it was updated etc., It looks like your **feed.xml** file. 
 

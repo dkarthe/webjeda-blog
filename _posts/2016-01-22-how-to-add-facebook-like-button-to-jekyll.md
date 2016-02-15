@@ -9,7 +9,7 @@ tags: Jekyll SEO
 
 <img alt="" title="" itemprop="thumbnailUrl" src="{{ site.url }}/images/adding-facebook-like-button-to-jekyll.jpg">
 
-Understanding Jekyll is really important to manipulate the options available to handle different things. Usually all Jekyll themes will have a **header** and a **footer** template inside ```_includes``` folder.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Understanding Jekyll is really important to manipulate the options available to handle different things. Usually all Jekyll themes will have a **header** and a **footer** template inside ```_includes``` folder.
 
 ## Basics before implementation
 

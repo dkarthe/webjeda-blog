@@ -8,7 +8,7 @@ tags: Jekyll SEO
 
 <img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" src="{{ site.url }}/images/share-bar-to-jekyll.jpg">
 
-Many of the Jekyll themes will not include share buttons by default. It is upto you to find a suitable share bar for your website.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Many of the Jekyll themes will not include share buttons by default. It is upto you to find a suitable share bar for your website.
 
 ## Why share bar for Jekyll blog?
 

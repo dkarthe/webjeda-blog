@@ -8,7 +8,7 @@ tags: Github-Pages Web-Design
 
 <img alt="How to sync folders with Github" title="How to sync folders with Github" itemprop="thumbnailUrl" src="{{ site.url }}/images/sync-local-folders-with-github.jpg">
 
-In my initial days of using Github I used to see repositories filled with folders, files and what not. I used to wonder how the hell these people are uploading folders to Github! 
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In my initial days of using Github I used to see repositories filled with folders, files and what not. I used to wonder how the hell these people are uploading folders to Github! 
 
 It is only after some tutorials I realized that it is indeed very easy. The day I found out how to upload folders was one of the happiest days because I knew one thing for sure, uploading files = uploading a complete website :)
 

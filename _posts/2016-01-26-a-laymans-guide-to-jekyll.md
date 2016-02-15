@@ -8,7 +8,7 @@ tags: Jekyll
 
 <img alt="Jekyll Tutorial" title="Jekyll guide" itemprop="thumbnailUrl" src="{{ site.url }}/images/jekyll-tutorial-screenshot.jpg">
 
-Jekyll was easy for me in the beginning. Because I was just adding posts or editing the current ones. But when I had to change the font or color I had to go through the CSS and make changes accordingly. Even this wasn't hard. But if I wanted a new page, a new functionality like adding tags, related posts, share buttons, author box etc., I had no idea how to do it. 
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll was easy for me in the beginning. Because I was just adding posts or editing the current ones. But when I had to change the font or color I had to go through the CSS and make changes accordingly. Even this wasn't hard. But if I wanted a new page, a new functionality like adding tags, related posts, share buttons, author box etc., I had no idea how to do it. 
 
 ## Why learn Jekyll the right way?
 

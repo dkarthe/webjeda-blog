@@ -10,7 +10,7 @@ tags: Jekyll Adsense
 
 <a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
-Though I had so many other blogs, none of them got approval for some or the other reason. Actually it is hard to figure out what exactly went wrong. Adsense policies check many parameters for approval. Though Google sends you the reason, they are vague and I almost gave up on Adsense.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Though I had so many other blogs, none of them got approval for some or the other reason. Actually it is hard to figure out what exactly went wrong. Adsense policies check many parameters for approval. Though Google sends you the reason, they are vague and I almost gave up on Adsense.
 
 I had no hopes on this blog either. But I tried my best to deliver the content that somehow helps someone. Many of my posts are actually the problems I faced in figuring out stuff. I think it worked.
 

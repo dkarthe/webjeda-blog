@@ -8,7 +8,7 @@ tags: Github-Pages Jekyll
 
 <img alt="webjeda" title="why webjeda" itemprop="thumbnailUrl" src="{{ site.url }}/img/webjeda-logo-big.jpg">
 
-While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser - [github.com](https://github.com){:rel='nofollow'}{:target="_blank"}. Cognizant has a learning period of two months in which I googled a lot about it. I was wondered by the contributions people do there. People were creating cool plugins, websites, providing information, documentations and step by step guide for coders.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>While I was working at Cognizant Technology Solutions I always used to have a tab open on my internet browser - [github.com](https://github.com){:rel='nofollow'}{:target="_blank"}. Cognizant has a learning period of two months in which I googled a lot about it. I was wondered by the contributions people do there. People were creating cool plugins, websites, providing information, documentations and step by step guide for coders.
 
 By then I was learning HTML, CSS and a little JavaScript. I used to implement the code I learned into **Github Pages** to see how it comes out. It was not always a positive result. I had to debug a lot and adapt the code rather copy pasting it. 
 

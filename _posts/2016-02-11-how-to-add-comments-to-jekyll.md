@@ -8,8 +8,7 @@ tags: Jekyll SEO
 
 <img alt="how to add comments to jekyll" title="jekyll comments" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-add-comment-box-to-jekyll-blog.jpg">
 
-## Why should we add comment section?
-When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them an option to express!?
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them an option to express!?
 
 There comes our comment box to the rescue. But there are a lot of them. You have to choose the one that suits your website. Suppose if you are active only on facebook, you can choose facebook comment box. If you have Google users as your readers then it would be a wise option to put a Google comment box. 
 

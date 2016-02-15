@@ -8,7 +8,7 @@ tags: Jekyll
 
 <img alt="fetch images from Jekyll post" title="grab images from Jekyll post" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-fetch-images-from-jekyll-post.jpg">
 
-If you observe the screenshot below, I have used a card-style container to fit in everything. It looks better with proper shadow. Now my index page grabs the first image from my post and shows it in the list along with its title. The best part is that, the images are grabbed automatically from every post of my Jekyll blog.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>If you observe the screenshot below, I have used a card-style container to fit in everything. It looks better with proper shadow. Now my index page grabs the first image from my post and shows it in the list along with its title. The best part is that, the images are grabbed automatically from every post of my Jekyll blog.
 
 ![How to fetch image from jekyll]({{ site.url }}/images/how-to-grab-image-from-jekyll-post.jpg)
 
