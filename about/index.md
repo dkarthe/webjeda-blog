@@ -23,3 +23,4 @@ Please feel free to ping me on whatsapp if you want a quick response
 **Disclaimer:** This website is under constant modification. If you find something isn't right then I might be doing some change in the back-end.
 
 
+<p class="centered" itemprop="copyrightHolder"><a id="foot" target="_blank" href="http://webjeda.com"><img alt="Built by WebJeda" id="footimg" src="/img/built-by-webjeda.svg"></a></p>
