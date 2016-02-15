@@ -50,7 +50,7 @@ Here are the steps to implement Disqus comment box in your Jekyll blog.
 This step is pretty common for all the comment boxes. You can [sign up for Disqus](https://disqus.com/profile/signup/){:rel='nofollow'}{:target="_blank"} with your email, facebook, twitter or Google plus. After signing up, you may have to verify your email address if you have signed up with an email.
 
 ### Step 2: Set up Disqus
-Once you login, you should see a gear icon on the top-right corder. Click on it and you'll get a drop-down with one of the options saying **Add Disqus to Site**.
+Once you login, you should see a gear icon on the top-right corner. Click on it and you'll get a drop-down with one of the options saying **Add Disqus to Site**.
 ![adding disqus comments to Jekyll blog]({{ site.url }}/images/how-add-disqus-comments-to-jekyll-blog-2.jpg)
 
 If it shows you a page with the heading "Engage" then click on 'start using engage'. Now you should see a screen as shown below.
