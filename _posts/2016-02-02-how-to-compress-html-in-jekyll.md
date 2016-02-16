@@ -86,6 +86,9 @@ Now all your web-pages that directly or indirectly uses the layout ```default```
 
 So I hope this tutorial helped you minify your Jekyll blog. If there is a better way to do this, then please let me know in the comment section.
 
-**Note:** My disqus comment stopped loading after using this method. So for the time being I'm not using it. So if you are using disqus then do not use this method (for now).
+<div class="note">
+<h3>Note:</h3>
+<p>My disqus comment stopped loading after using this method. So for the time being I'm not using it. So if you are using disqus then do not use this method (for now).</p>
+</div>
 
 Thanks for reading!
