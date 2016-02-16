@@ -193,12 +193,13 @@ Add the below front-matter to all the posts where you do not want to display the
 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
 */
 /*
-var shortname = {% raw %}{{ site.disqus_shortname }}{% endraw %}
+
 var disqus_config = function () {
 this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */
+var shortname = {% raw %}{{ site.disqus_shortname }}{% endraw %}
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
 
@@ -211,8 +212,10 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endhighlight %}
 
+
+
 **_config.yml**
-{% highlight css %}
+{% highlight yml %}
 
 .
 .
