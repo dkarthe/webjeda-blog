@@ -176,6 +176,53 @@ Now in the **post** layout, add the following code
 Add the below front-matter to all the posts where you do not want to display the comment box. You can use this for other comment boxes as well.
 {% highlight css %} comments: 0 {% endhighlight %} 
 
+
+<div class="tips">
+ <h3>Pro tips</h3>   
+    <p>
+        If you want to implement Disqus using site variable which replaces Disqus shortname then use the code given below inside <code>disqus.html</code>. And inside <code>_config.yml</code> add an attribute called disqus_shortname which defines your disqus shortname.
+    </p>
+</div>
+
+**disqus.html**
+{% highlight html %}
+<div id="disqus_thread"></div>
+<script defer>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var shortname = {% raw %}{{ site.disqus_shortname }}{% endraw %}
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endhighlight %}
+
+**_config.yml**
+{% highlight css %}
+
+.
+.
+disqus_shortname: webjeda-sample
+.
+.
+
+{% endhighlight %} 
+
+
 ## 2. Google Plus
 Google has a very minimal and elegant comment box. I have no doubt that it looks better than Disqus but it is just for Google users. One must have Google plus account to comment.
 
