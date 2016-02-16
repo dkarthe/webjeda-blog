@@ -105,7 +105,7 @@ If you want to show the number of comments anywhere on the website then you can 
 <div id="step4"></div><br><br>
 
 
-
+<div class="warning">
 <h3 style="color:#e74c3c">Warning</h3>
 Disqus may not work as expected if you have compress.html active to [compress jekyll html](http://blog.webjeda.com/how-to-compress-html-in-jekyll/){:rel='dofollow'}{:target="_blank"}.
 
@@ -117,6 +117,7 @@ But Matt Cutts from Google tweeted that the Google bot (crawler) can now index *
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 So there is still hope for Disqus comments to get indexed by Google.
+</div>
 
 ### Step 4: Making use of Jekyll templates
 
