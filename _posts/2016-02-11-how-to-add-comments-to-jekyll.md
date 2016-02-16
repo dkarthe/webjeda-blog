@@ -104,7 +104,7 @@ If you want to show the number of comments anywhere on the website then you can 
 
 <div id="step4"></div>
 
-#### Warning
+<h4 style="color:#e74c3c">Warning</h4>
 Disqus may not work as expected if you have compress.html active to [compress jekyll html](http://blog.webjeda.com/how-to-compress-html-in-jekyll/){:rel='dofollow'}{:target="_blank"}.
 
 And also Google does not index Disqus blog many times. If you are very serious about your comments to be indexed then you may have to look for other options or follow [this question](https://help.disqus.com/customer/en/portal/articles/762307-why-isn-t-google-indexing-my-comments-){:rel='nofollow'}{:target="_blank"}.
