@@ -111,12 +111,12 @@ If you want to show the number of comments anywhere on the website then you can 
 
 And also Google does not index Disqus blog many times. If you are very serious about your comments to be indexed then you may have to look for other options or follow <a href="https://help.disqus.com/customer/en/portal/articles/762307-why-isn-t-google-indexing-my-comments-" rel="nofollow" target="_blank">this question</a>.
 
-But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <strong>some</strong> dynamic comments!
+But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <strong>some</strong> dynamic comments!</p>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Googlebot keeps getting smarter. Now has the ability to execute AJAX/JS to index some dynamic comments <a href="http://t.co/NsTvJExd">http://t.co/NsTvJExd</a></p>&mdash; Matt Cutts (@mattcutts) <a href="https://twitter.com/mattcutts/status/131425949597179904">November 1, 2011</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-So there is still hope for Disqus comments to get indexed by Google.</p>
+<p>So there is still hope for Disqus comments to get indexed by Google.</p>
 </div>
 
 ### Step 4: Making use of Jekyll templates
