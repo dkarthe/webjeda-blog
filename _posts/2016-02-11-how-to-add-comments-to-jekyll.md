@@ -107,6 +107,13 @@ If you want to show the number of comments anywhere on the website then you can 
 #### Warning
 Disqus may not work as expected if you have compress.html active to [compress jekyll html](http://blog.webjeda.com/how-to-compress-html-in-jekyll/){:rel='dofollow'}{:target="_blank"}.
 
+And also Google does not index Disqus blog many times. If you are very serious about your comments to be indexed then you may have to look for other options or follow [this question](https://help.disqus.com/customer/en/portal/articles/762307-why-isn-t-google-indexing-my-comments-){:rel='nofollow'}{:target="_blank"}.
+
+But Matt Cutts from Google tweeted that the Google bot (crawler) can now index **some** dynamic comments!
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Googlebot keeps getting smarter. Now has the ability to execute AJAX/JS to index some dynamic comments <a href="http://t.co/NsTvJExd">http://t.co/NsTvJExd</a></p>&mdash; Matt Cutts (@mattcutts) <a href="https://twitter.com/mattcutts/status/131425949597179904">November 1, 2011</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### Step 4: Making use of Jekyll templates
 
 It is not feasible to copy this code to every other blog post. That is the reason why we are creating a template. Create a new ```html``` file with the name **disqus.html** inside **_includes** folder, paste the above code inside it and save. Now you can call this file anywhere in your Jekyll website with the following code
