@@ -180,7 +180,7 @@ Add the below front-matter to all the posts where you do not want to display the
 <div class="tips">
  <h3>Pro tips</h3>   
     <p>
-        If you want to implement Disqus using site variable which replaces Disqus shortname then use the code given below inside <code>disqus.html</code>. And inside <code>_config.yml</code> add an attribute called disqus_shortname which defines your disqus shortname.
+        If you want to implement Disqus using site variable which replaces Disqus shortname then use the code given below inside <strong>disqus.html</strong>. And inside <strong>_config.yml</strong> add an attribute called disqus_shortname which defines your disqus shortname.
     </p>
 </div>
 
