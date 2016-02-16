@@ -19,3 +19,5 @@ permalink: /:title
 {% raw %}
 Hello, my name is {{name}}.
 {% endraw %}
+
+style="color:#e74c3c"
