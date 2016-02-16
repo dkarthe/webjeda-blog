@@ -114,6 +114,8 @@ But Matt Cutts from Google tweeted that the Google bot (crawler) can now index *
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Googlebot keeps getting smarter. Now has the ability to execute AJAX/JS to index some dynamic comments <a href="http://t.co/NsTvJExd">http://t.co/NsTvJExd</a></p>&mdash; Matt Cutts (@mattcutts) <a href="https://twitter.com/mattcutts/status/131425949597179904">November 1, 2011</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+So there is still hope for Disqus comments to get indexed by Google.
+
 ### Step 4: Making use of Jekyll templates
 
 It is not feasible to copy this code to every other blog post. That is the reason why we are creating a template. Create a new ```html``` file with the name **disqus.html** inside **_includes** folder, paste the above code inside it and save. Now you can call this file anywhere in your Jekyll website with the following code
