@@ -102,16 +102,16 @@ If you want to show the number of comments anywhere on the website then you can 
 {% endhighlight %}
 
 
-<div id="step4"></div><br><br>
+<div id="step4"></div><br>
 
 
 <div class="warning">
-<h3 style="color:#e74c3c">Warning</h3>
-Disqus may not work as expected if you have compress.html active to [compress jekyll html](http://blog.webjeda.com/how-to-compress-html-in-jekyll/){:rel='dofollow'}{:target="_blank"}.
+<h3>Warning</h3>
+Disqus may not work as expected if you have compress.html active to <a href="http://blog.webjeda.com/how-to-compress-html-in-jekyll/" rel="nofollow" target="_blank">compress jekyll html</a>.
 
-And also Google does not index Disqus blog many times. If you are very serious about your comments to be indexed then you may have to look for other options or follow [this question](https://help.disqus.com/customer/en/portal/articles/762307-why-isn-t-google-indexing-my-comments-){:rel='nofollow'}{:target="_blank"}.
+And also Google does not index Disqus blog many times. If you are very serious about your comments to be indexed then you may have to look for other options or follow <a href="https://help.disqus.com/customer/en/portal/articles/762307-why-isn-t-google-indexing-my-comments-" rel="nofollow" target="_blank">this question</a>.
 
-But Matt Cutts from Google tweeted that the Google bot (crawler) can now index **some** dynamic comments!
+But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <strong>some</strong> dynamic comments!
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Googlebot keeps getting smarter. Now has the ability to execute AJAX/JS to index some dynamic comments <a href="http://t.co/NsTvJExd">http://t.co/NsTvJExd</a></p>&mdash; Matt Cutts (@mattcutts) <a href="https://twitter.com/mattcutts/status/131425949597179904">November 1, 2011</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
