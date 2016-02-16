@@ -12,7 +12,7 @@ tags: Jekyll SEO
 
 There comes our comment box to the rescue. But there are a lot of them. You have to choose the one that suits your website. Suppose if you are active only on facebook, you can choose facebook comment box. If you have Google users as your readers then it would be a wise option to put a Google comment box. 
 
-It depends on your requirement. What kind of users you have and if you don't care about user reactions then there is no need to keep a comment box!
+It depends on your requirement. What kind of users you have and suppose if you don't care about user reactions then there is no need to keep a comment box!
 
 
 
@@ -103,6 +103,9 @@ If you want to show the number of comments anywhere on the website then you can 
 
 
 <div id="step4"></div>
+
+#### Warning
+Disqus may not work as expected if you have compress.html active to [compress jekyll html](http://blog.webjeda.com/how-to-compress-html-in-jekyll/){:rel='dofollow'}{:target="_blank"}.
 
 ### Step 4: Making use of Jekyll templates
 
