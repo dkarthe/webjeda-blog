@@ -6,7 +6,7 @@ layout: default
 <ul itemscope="" itemtype="http://schema.org/Blog" id="posts">
 	{% for post in paginator.posts %}
     {% if post.visible != 0 %}
- <a itemprop="url"  href="{{ post.url }}">
+ <a itemprop="url"  href="{{ site.url }}{{ post.url }}">
         <li class="arch-list">
         <div class="w3-card-4">
         <div class="arch-a">

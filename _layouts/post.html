@@ -3,7 +3,7 @@ layout: default
 ---
 <article itemscope itemtype="http://schema.org/TechArticle"  id="post-page" >
    {% include  adsense-pt.html %}   
-    <a href=""><h2 itemprop="headline">{{ page.title }}</h2></a>
+    <a itemprop="url" href="{{ site.url }}{{ page.url }}"><h2 itemprop="headline">{{ page.title }}</h2></a>
      {% include post-tags.html %}		
 	<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>
 	<div itemprop="articleBody" class="content" >
