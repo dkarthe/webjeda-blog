@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+desc: WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions. Learn all about us here.
 permalink: /about/
 adallow: 0
 ---
