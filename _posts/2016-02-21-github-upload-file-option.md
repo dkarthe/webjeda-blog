@@ -1,5 +1,5 @@
 ---
-title: New feature from Github to upload files and folders
+title: Github Upload Option
 desc: For years Github users had a hard time uploading files to github repository but now github has provided an option to upload files and folders directly into the repository.
 keywords: upload files to github, github upload files folders, github drag and drop upload
 author: sharathdt
