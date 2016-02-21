@@ -11,7 +11,7 @@ tags: Github
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Today Github has announced a feature which I was looking forward to from years. Uploading files and folders directly to Github repositories is now a reality. I'm wondering why did it take so many years for Github to add this option.
 
 ## Why this update is crucial?
-Years ago I used a manage a Jekyll blog hosted on Github Pages. It was beautiful, fast and responsive but the only problem I had was uploading files and folders. I wasn't so good at command line interface so I used prose to upload images and edit my posts. That was easy but setting up prose is still not an easy task.
+Years ago I used to manage a Jekyll blog hosted on Github Pages. It was beautiful, fast and responsive but the only problem I had was uploading files and folders. I wasn't so good at command line interface so I used prose to upload images and edit my posts. That was easy but setting up prose is still not an easy task.
 
 Now with the direct upload option, all that trouble is gone. Any project file, zip file or a complete folder can be uploaded into the repository in just one commit. This will impact a lot for those who manage Jekyll blogs like myself. 
 
