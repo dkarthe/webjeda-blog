@@ -92,7 +92,7 @@ This is also the  first file you should edit when you fork(copy) a new theme. In
 
 I hope that gives you an insight about the structure of Jekyll files and folders. It looked strange for me in the beginning but once I understood the logic used behind, it all made sense. And since a Jekyll site is made up of lot of different parts, debugging is very easy. When something starts acting up, you'll know exactly where the things have gone wrong. In this blog, I have written about a [lot of things](http://blog.webjeda.com/archive/) I did using Jekyll. Make use of it.
 
-If you get frustrated about something not working then just ask the community. Google things with the suffix 'jekyll'. You will find an answer. You can always ask me here, in the comment section. I will try my best to help you.
+If you get frustrated about something is not working then just ask the community. Google things with the suffix **jekyll**. You will find an answer. You can always ask me here, in the comment section. I will try my best to help you.
 
 Thanks for reading!
 
