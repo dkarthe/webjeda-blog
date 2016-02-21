@@ -33,7 +33,7 @@ Jekyll is simple if you understand what feature is for what purpose. Let us look
 
 
 <pre>
-
+<code>
 .
 .
 ├── _config.yml
@@ -54,7 +54,7 @@ Jekyll is simple if you understand what feature is for what purpose. Let us look
 ├── _site
 ├── .jekyll-metadata
 └── index.html
-
+</code>
 </pre>
 
 Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel='nofollow'}{:target="_blank"} tab open while reading the below ponits. You should be able to see the following files and folders.
