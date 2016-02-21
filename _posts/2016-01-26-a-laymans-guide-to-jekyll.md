@@ -32,7 +32,7 @@ As depicted in the image, Jekyll does magic on text files converting them into h
 Jekyll is simple if you understand what feature is for what purpose. Let us look at the folder structure of Jekyll and what is used for what. The below tree is taken directly from Jekyll documentation.
 
 
-{% highlight ruby %}
+<pre>
 
 .
 .
@@ -55,7 +55,7 @@ Jekyll is simple if you understand what feature is for what purpose. Let us look
 ├── .jekyll-metadata
 └── index.html
 
-{% endhighlight %}
+</pre>
 
 Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel='nofollow'}{:target="_blank"} tab open while reading the below ponits. You should be able to see the following files and folders.
 
