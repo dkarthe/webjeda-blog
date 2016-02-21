@@ -27,12 +27,12 @@ But Once you finish reading this post, I suggest you check out the documentation
 
 As depicted in the image, Jekyll does magic on text files converting them into html files - text transformation. This is not the only thing it does. It actually does some more magic! This is the reason Jekyll posts and pages can be written in easily readable markups like markdown, <strike>textile</strike> (not supported anymore after Jekyll 3.0) etc.,
 
-##Understand the structure of Jekyll
+## Understand the structure of Jekyll
 
 Jekyll is simple if you understand what feature is for what purpose. Let us look at the folder structure of Jekyll and what is used for what. The below tree is taken directly from Jekyll documentation.
 
 
-{% highlight yaml %}
+{% highlight %}
 
 .
 .
