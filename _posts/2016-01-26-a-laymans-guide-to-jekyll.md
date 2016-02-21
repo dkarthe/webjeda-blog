@@ -63,15 +63,15 @@ Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel=
 
 ## Files inside a Jekyll site
 
-1. <h3>_config.yml:</h3> This is the master configuration file. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates, increments etc., can be difined inside this file. 
-Refer this [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/emerald/gh-pages/_config.yml){:rel='nofollow'}{:target="_blank"} of Emerald Jekyll theme. You can use all the parameters in this file using ```site``` variable. For instance, using ```{% raw %}{{ site.url }}{% endraw %}``` anywhere on the page, post, template will fetch the url variable defined in ```_config.yml```. [Read More](http://jekyllrb.com/docs/configuration/){:rel='nofollow'}{:target="_blank"}.
+1. <h3>_config.yml:</h3> Master configuration file. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates, increments etc., can be difined inside this file. 
+Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/emerald/gh-pages/_config.yml){:rel='nofollow'}{:target="_blank"} for Emerald Jekyll theme. You can use all the parameters in this file using ```site``` variable. For instance, using ```{% raw %}{{ site.url }}{% endraw %}``` anywhere on the page, post, template will fetch the url variable defined in ```_config.yml```. [Read More](http://jekyllrb.com/docs/configuration/){:rel='nofollow'}{:target="_blank"}.
 This is also the  first file you should edit when you fork(copy) a new theme. In order to make your blog work, you should mention the ```baseurl```. Read: [How to create a Jekyll blog](http://blog.webjeda.com/how-to-create-a-jekyll-blog/){:target="_blank"} for more.
 {% include adsense-inside-post.html %}
-2. <h3>index.html:</h3> This is your homepage in most cases. It can also be in the format ```index.md```. It usually has a _for_ loop to load all the posts. You can make changes to this file and design your index of posts like how I have designed a card layout for my blog. Index file may also call ```default``` layout which will be inside ```_layout``` folder. You can also take the whole loop thing off and have a simple introduction page like how [Jekyll official site](jekyllrb.com){:rel='nofollow'}{:target="_blank"} has.
+2. <h3>index.html:</h3> This is your homepage in most cases. It can also be in the format ```index.md```. It usually has a _for_ loop to load all the posts. You can make changes to this file and design your index of posts like how I have done the card layout for my blog. Index file may also call ```default``` layout which will be inside ```_layout``` folder. You can also take the whole loop thing off and have a simple introduction page like how [Jekyll official site](jekyllrb.com){:rel='nofollow'}{:target="_blank"} has.
 
-3. <h3>some.xml:</h3> It can have any name. I'm concerned about its extension - ```.xml```. This file can be your post feeds or a sitemap. If you do not have one, you can always [create a sitemap](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog){:target="_blank"} or a feeds file.
+3. <h3>some.xml:</h3> This file can be your post feeds or a sitemap. If you do not have one, you can always [create a sitemap](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog){:target="_blank"} or a feeds file.
 
-4. <h3>readme.md:</h3> This is a file where you can describe your project. This will be rendered as a html file and displayed by default when someone visits your repository on Github. Click on this link [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel='nofollow'}{:target="_blank"}. At the bottom of the repository you will see a description of the theme with a screenshot. README is used to introduce your project, installation methods (if it is a software), usage etc., This file is not mandatory though.
+4. <h3>readme.md:</h3> This is a file where you can describe your project. This will be rendered as a html file and displayed by default when someone visits your repository on Github. In the sample link I have provided above, see the page displayed. At the bottom of the repository you will see a description of the theme with a screenshot. This file is not mandatory though.
 
 
 ## Folders inside a Jekyll site
@@ -92,7 +92,7 @@ This is also the  first file you should edit when you fork(copy) a new theme. In
 
 I hope that gives you an insight about the structure of Jekyll files and folders. It looked strange for me in the beginning but once I understood the logic used behind, it all made sense. And since a Jekyll site is made up of lot of different parts, debugging is very easy. When something starts acting up, you'll know exactly where the things have gone wrong. In this blog, I have written about a [lot of things](http://blog.webjeda.com/archive/) I did using Jekyll. Make use of it.
 
-If you get frustrated about something not working then just ask the community. Google things with the suffix **jekyll**. You will find an answer. You can always ask me here, in the comment section. I will try my best to help you.
+If you get frustrated about something not working then just ask the community. Google things with the suffix 'jekyll'. You will find an answer. You can always ask me here, in the comment section. I will try my best to help you.
 
 Thanks for reading!
 
