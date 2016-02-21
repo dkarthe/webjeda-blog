@@ -1,7 +1,7 @@
 ---
 title: Grab Images from Jekyll Post
-desc: Featured images in WordPress is something I always wanted for my Jekyll blog as well. I liked how images to show up on the index page automatically. But I had no idea how to fetch images from Jekyll posts. Now my blog index uses this method through which the images are grabbed automatically from Jekyll posts. 
-keywords: fetch images from Jekyll post, grab images from Jekyll post, get images from post Jekyll
+desc: Featured images in WordPress is something I always wanted for my Jekyll blog. I liked how images to show up on the index page automatically. But I had no idea how to fetch images from Jekyll posts. Jekyll post images can be fetched using this tutorial. 
+keywords: fetch images from Jekyll post, grab images from Jekyll post, get images from post Jekyll, jekyll post images
 author: sharathdt
 tags: Jekyll
 ---
