@@ -25,7 +25,7 @@ Click on **Upload files** button which is on the top of your repository.
 Now you should see the below screen where you can drag and drop files
 ![github drag and drop files to upload]({{ site.url }}/images/github-upload-files-folders-2.jpg)
 
-Once you drop the files or folders inside, click on **Commit**! 
+Once you drop the files or folders inside, let it upload and click on **Commit**! 
 
 That's all. Now check your repository whether the uploaded files and folders are showing up.
 ![github drag and drop files to upload]({{ site.url }}/images/github-upload-files-folders-3.jpg)
