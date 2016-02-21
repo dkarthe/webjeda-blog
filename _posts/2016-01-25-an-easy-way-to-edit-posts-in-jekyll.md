@@ -12,6 +12,11 @@ tags: Jekyll Web-Design
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be inside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to insert images. If the image source is a URL then it was easy but if the image is in my local computer folder then there was no way uploading it. I did not know [how to sync files and folders with Github](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}.
 
 ## Unable to upload images to Github!
+
+<div class="note">
+   <h3>Update</h3>
+    <p>Github finally has a direct upload option where you can upload files and folders just by draggind and droppping! Read <a target="_blank" href="http://blog.webjeda.com/github-upload-file-option/" ><strong>Github Upload Option</strong></a></p>
+</div>
 As I was unable to upload images to Github I used to upload images to my Google drive, then get the URL of the image and put that as a source in the blog. One of those examples here
 [Image from google](https://lh3.googleusercontent.com/-j3S-KX7DwQ0/VDi4p2xTzVI/AAAAAAAAAGo/_PP4-udRS4c/s550-no/moto-hint-story-pairit-us.jpg){:rel='nofollow'}{:target="_blank"}.
 There is another way to do this by creating issue in Github where you can drag and drop an image, get the URL and use it as source. But I doubt its reliability.
