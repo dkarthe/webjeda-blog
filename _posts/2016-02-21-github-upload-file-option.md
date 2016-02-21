@@ -18,17 +18,17 @@ Now with the direct upload option, all that trouble is gone. Any project file, z
 ## How to upload files and folders?
 
 Click on **Upload files** button which is on the top of your repository.
-![Upload files and folder to github](/images/github-upload-files-folders.jpg)
+![Upload files and folder to github]({{ site.url }}/images/github-upload-files-folders.jpg)
 
-![github upload option button](/images/github-upload-files-folders-button.jpg)
+![github upload option button]({{ site.url }}/images/github-upload-files-folders-button.jpg)
 
 Now you should see the below screen where you can drag and drop files
-![github drag and drop files to upload](images/github-upload-files-folders-2.jpg)
+![github drag and drop files to upload]({{ site.url }}/images/github-upload-files-folders-2.jpg)
 
 Once you drop the files or folders inside, click on **Commit**! 
 
 That's all. Now check your repository whether the uploaded files and folders are showing up.
-![github drag and drop files to upload](images/github-upload-files-folders-3.jpg)
+![github drag and drop files to upload]({{ site.url }}/images/github-upload-files-folders-3.jpg)
 
 Thanks for reading!
 
