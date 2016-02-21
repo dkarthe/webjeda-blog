@@ -15,7 +15,7 @@ tags: Jekyll Web-Design
 
 <div class="note">
    <h3>Update</h3>
-    <p>Github finally has a direct upload option where you can upload files and folders just by draggind and droppping! Read <a target="_blank" href="http://blog.webjeda.com/github-upload-file-option/" ><strong>Github Upload Option</strong></a></p>
+    <p>Github finally has a direct upload option where you can upload files and folders just by drag-and-drop! Read <a target="_blank" href="http://blog.webjeda.com/github-upload-file-option/" ><strong>Github Upload Option</strong></a></p>
 </div>
 As I was unable to upload images to Github I used to upload images to my Google drive, then get the URL of the image and put that as a source in the blog. One of those examples here
 [Image from google](https://lh3.googleusercontent.com/-j3S-KX7DwQ0/VDi4p2xTzVI/AAAAAAAAAGo/_PP4-udRS4c/s550-no/moto-hint-story-pairit-us.jpg){:rel='nofollow'}{:target="_blank"}.
