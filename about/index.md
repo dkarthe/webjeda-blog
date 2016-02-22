@@ -14,7 +14,7 @@ WebJeda is a web designing company based in Bengaluru. Designing beautiful respo
 
 My name is Sharath and I'm the author of this blog. I had no plans to turn this passion for web designing into a business. But when you love what you do, why not do it for living?! I have put a lot of effort to build this blog. First thing you notice is that it is minimal. I believe more decorations lead to distractions. So you don't see any bells and rings than the main content in my posts. Second thing you notice is that it is fast. Because, again no bells and rings. It is responsive for hand held devices. 
 
-Most of these articles are also in video format. Make sure to check out my <a target="_blank" href="https://www.youtube.com/channel/UCbOO7d0vVo0kIrkd7m32irg" ><i class="fa fa-youtube-square"></i>&nbsp;YouTube channel</a>
+Most of these articles are also in video format. Check out my <a target="_blank" href="https://www.youtube.com/channel/UCbOO7d0vVo0kIrkd7m32irg" ><i class="fa fa-youtube-square"></i>&nbsp;YouTube channel</a>
 
 There are a number of ways to reach out to me, here are a few.
 
