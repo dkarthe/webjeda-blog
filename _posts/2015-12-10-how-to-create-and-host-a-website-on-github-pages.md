@@ -120,9 +120,13 @@ See a video demonstration here
 
 <iframe itemscope="" itemprop="video" width="100%" height="360" src="https://www.youtube.com/embed/bwThn0rxv7M?rel=0" frameborder="0" allowfullscreen></iframe>
 
-### User Pages Guide: 
-To host your website in user pages, follow the same procedure mentioned above but you have to name the repository in this format _username.github.io_ and keep all the website files inside master branch. In my case it is redgadgets.github.io where I was hosting my tech blog **RedGadgets**
 
+<div class="tips">
+<h3>User Pages Guide</h3>
+<p>
+To host your website in user pages, follow the same procedure mentioned above but you have to name the repository in this format <strong>username.github.io</strong> and keep all the website files inside master branch. In my case it is redgadgets.github.io where I was hosting my tech blog <strong>RedGadgets</strong>
+</p>
+</div>
 
 Don't forget to post the link of your website created on Github Pages. And ask me if you are stuck in any of the steps above.
 
