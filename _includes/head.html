@@ -65,4 +65,6 @@
 <meta name="msvalidate.01" content="9A4C187133260C06C0F9C821178FB3A0" />
     <!-- Canonical -->
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+
+<link rel="amphtml" href="{{ page.id | append:'/index.html' | prepend: site.baseurl | prepend: site.url }}">
 </head>
