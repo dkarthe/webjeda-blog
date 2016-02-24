@@ -118,7 +118,9 @@ But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <
 
 <p>So there is still hope for Disqus comments to get indexed by Google.</p>
 </div>
-<div id="step4"></div><br>
+<div id="step4"></div><br />
+
+
 ### Step 4: Making use of Jekyll templates
 
 It is not feasible to copy this code to every other blog post. That is the reason why we are creating a template. Create a new ```html``` file with the name **disqus.html** inside **_includes** folder, paste the above code inside it and save. Now you can call this file anywhere in your Jekyll website with the following code
