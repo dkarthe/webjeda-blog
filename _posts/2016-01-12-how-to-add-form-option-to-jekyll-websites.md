@@ -102,7 +102,7 @@ When you mention your email in clear text inside your form, email harvesting bot
 {% endhighlight %}
 
 ## Step 6: Ultra security 
-In step 5, your email cannot be read by a bot but a human can obviously connect the dots to make it a meaningful email. If you are paranoid about giving out your email in any way then use this method.
+In step 5, your email cannot be read by a bot but a human can obviously connect the dots to make it a meaningful email address. If you are paranoid about giving out your email in any way then use this method.
 
 ### Encode the whole form!
 Log on to [Enkoder](http://hivelogic.com/enkoder/){:rel='nofollow'}{:target="_blank"} and copy paste your entire Formspree form and hit submit. This tool will encode your data to something like this.
