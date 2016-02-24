@@ -1,12 +1,12 @@
 ---
 title: How to Create a Beautiful Jekyll Blog?
-desc: I created this beautiful looking Jekyll blog by forking a repository. You can also fork it to make it yours.  Jekyll is a simple blog generator. You can use this as a static site builder.
+desc: I created this beautiful looking Jekyll blog by forking a repository. You can also fork it to make it yours. Jekyll is a simple blog generator. The community is growing and number of plugins is also growing. I have moved all my blogs to Jekyll!
 keywords: cerate Jekyll blog, blogging on Jekyll, github blogging
 author: sharathdt
 tags: Jekyll Web-Design
 ---
 
-<img alt="How to create a website using Github pages" title="How to create a website using Github pages" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-create-a-blog-on-github-pages.jpg">
+<img alt="How to create a website using Github blog" title="How to create a website using Github pages" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-create-a-blog-on-github-pages.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>When I had this idea to create a web designing blog, I thought of making it in WordPress. For some reason I didn't like the same look of WordPress themes. Many of them are distracting. I was looking for something totally content oriented.
 
@@ -99,6 +99,6 @@ Here is a video demonstration
 <iframe itemscope="" itemprop="video" width="100%" height="310" src="https://www.youtube.com/embed/U0idtvxVo9I?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
-And don't forget to leave the link of your newly created blog, in the comment section.
+And don't forget to leave the link of your newly created github blog, in the comment section.
 
 Thanks for reading!
