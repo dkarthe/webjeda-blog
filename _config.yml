@@ -37,14 +37,14 @@ reverse: false
 #optimization
 #compress.html
 compress_html:
-  clippings: []
-  comments: []
-  endings: []
+  clippings: [div, p, ul, td, h1, h2]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
   ignore:
-    envs: []
+    envs: [local]
   blanklines: false
   profile: false
-  startings: []
+  startings: [html, head, body]
   
   
     
