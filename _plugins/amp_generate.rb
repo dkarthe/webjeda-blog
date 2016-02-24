@@ -21,10 +21,10 @@ module Jekyll
     priority :low
     def generate(site)
       site.posts.docs.each do |post|
-        index = AmpPost.new(site, site.source, post.id, post)
-        index.render(site.layouts, site.site_payload)
-        index.write(site.dest)
-        site.pages << index
+        amp = AmpPost.new(site, site.source, post.id, post)
+        amp.render(site.layouts, site.site_payload)
+        amp.write(site.dest)
+        site.pages << amp
       end
     end
   end
