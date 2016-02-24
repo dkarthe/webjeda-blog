@@ -91,4 +91,11 @@ So I hope this tutorial helped you minify your Jekyll blog. If there is a better
 <p>My disqus comment stopped loading after using this method. So for the time being I'm not using it. So if you are using disqus then do not use this method (for now).</p>
 </div>
 
+<div class="tips">
+    <h3>Update</h3>
+    <p>
+        Disqus started to work after cleaning up unnecessary comments inside disqus.html. Now it is working fine! Here is the <a href="https://raw.githubusercontent.com/sharu725/emerald/gh-pages/_includes/disqus.html" target="_blank" ><strong>raw file</strong></a>.
+    </p>
+</div>
+
 Thanks for reading!
