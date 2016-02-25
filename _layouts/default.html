@@ -98,19 +98,19 @@ webkitRequestAnimationFrame || msRequestAnimationFrame;
 if (raf) raf(cb);
 else window.addEventListener('load', cb);
 </script>
-
 <script> 
   
   window.onload = function(){ 
+  
     setTimeout(function() { 
       
       var ad = document.querySelector("ins.adsbygoogle");
-
+      
       if (ad && ad.innerHTML.replace(/\s/g, "").length == 0) {
 
         ad.style.cssText = 'display:block !important'; 
-
-        ad.innerHTML = 'You seem to have adblock. Ads are the only way I earn to manage this website.';
+        
+        ad.innerHTML = 'Need a website? Cehck out webjeda.com';
       
       }
       
@@ -118,6 +118,5 @@ else window.addEventListener('load', cb);
   }; 
   
 </script>
-
 </body>
 </html>
