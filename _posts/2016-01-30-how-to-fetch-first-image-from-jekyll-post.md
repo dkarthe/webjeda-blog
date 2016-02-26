@@ -13,11 +13,11 @@ tags: Jekyll
 ![How to fetch image from jekyll]({{ site.url }}/images/how-to-grab-image-from-jekyll-post.jpg)
 
 ## Why fetch image from Jekyll post?
-I always wanted to have a homepage with images representing certain post. Just like WordPress blog page. This seemed almost impossible in Jekyll. But I had hope.
+I always wanted to have a homepage with a list of posts with their respective images. Just like a WordPress blog page. This seemed almost impossible in Jekyll. But I had hope.
 
 Finally I stumbled across a [stackoverflow answer](http://stackoverflow.com/questions/25463865/in-jekyll-how-do-i-grab-a-posts-first-image){:rel='nofollow'}{:target="_blank"} that helped me achieve this. Now my post index includes tiny images fetched from particular blog post. So here is how I made this possible.
 
-## How to grab the first image?
+## How to grab the first image in Jekyll?
 
 Here is the exact code mentioned in the answer. This will just give you a list of all the first images from all your posts. Make sure you do not have any other embedded video or flash(which has ```src``` attribute) file before your first image. This might result in wrong behavior of the code. It may grab the video or some other file instead of the image.
 
