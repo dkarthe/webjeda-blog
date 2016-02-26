@@ -53,7 +53,7 @@ Jekyll static site generator is another boon to web designers to host their blog
 
 
 Finally what I suggest for new developers is to get familiar with Github and contribute to the community. Thank me later. Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it and learn while doing so.
-
+<div>
 {% for post in site.related_posts limit:5 %}
   {% assign match = false %}
   {% for tags in post.tags %}
@@ -65,3 +65,4 @@ Finally what I suggest for new developers is to get familiar with Github and con
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}                       
 {% endfor %}
+</div>
