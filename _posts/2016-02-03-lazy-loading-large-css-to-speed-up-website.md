@@ -13,11 +13,15 @@ tags: Jekyll SEO Web-Design
 
 Along with loading JavaScript at the end of the document, you should also load big css files at the end. This makes your website superfast. Because the main content loads first. So even on a slow connection, the content will be available for the user. And also faster the website SEO friendly it is.
 
-In this method the content loads without any style and then the stylesheet loads followed by JavaScript. You may have observed this while browsing my website. This is important for a user with a slow connection. Content(visible stuff) should load at the very beginning. Style(css) and scripts(js) can wait.
+Many a times - on a slow connection - a user may wait for a maximum of 5 to 6 seconds and if the website is blank and still busy loading your **head tag** with a huge ```css``` file, user may hit the back button!
 
-This ensures that even if the style or script fails to load, user can still read the content (if the content is text). You can also [minify your blog for faster loading](/how-to-compress-html-in-jekyll).
+You just lost a potential subscriber or even customer if you are selling something. Using a pre-loader like I did on [my website](http://webjeda.com){:target="_blank"} can engage the users for a few more seconds but not forever. So you should not make your users wait for the main content.
 
-What I did was, I put a script at the end of the html document to insert the css link tag only after loading the document. This was helpful because my ```main.css``` is a huge file and also fontawesome stylesheet that loads from a CDN.
+In this method of lazy loading css the content loads without any style and then the stylesheet loads followed by JavaScript. You may have observed this while browsing my website. This is important for a user with a slow connection. Content(visible stuff) should load at the very beginning. Style(css) and scripts(js) can wait.
+
+This ensures that even if the style or script fails to load, user can still read the content (if the content is text). You can also [minify your blog for faster loading](/how-to-compress-html-in-jekyll){:target="_blank"}.
+
+What I did was, I put a script at the end of the html document to insert the css **link tag** only after loading the document. This was helpful because my ```main.css``` is a huge file and also fontawesome stylesheet that loads from a CDN.
 
 After testing in [PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} I found that my website is faster than ever! Do use this tool to find out what is slowing down your website.
 
@@ -56,7 +60,10 @@ This problem occurred because I have adsense. My adsense code is responsive. It 
 
 Adsense script loads before ```main.css``` and assumes that the screen is full width whereas my content is not full width. My content only goes in the center leaving some gap on both left and right sides. But adsense has already assumed that it is full screen and adjusts its ad size to full screen and hence the ad flows out of the content.
 
-I struggled hard to tackle this. And after a while I realized that I can define the width of my content with inline-css even before the adsense code loads! Thus avoiding it to overflow.
+
+## Inline critical CSS
+
+I struggled hard to tackle this. And after a while I realized that I can define the width of my content with inline-css even before the adsense code loads! Thus avoiding it to overflow. You can inline any style that you think is reqired in the beginning.
 
 {% highlight html %}
   <div id="container" style="max-width:730px;padding: 0 1.5rem;margin: 0 auto;">
@@ -65,9 +72,9 @@ I struggled hard to tackle this. And after a while I realized that I can define 
         </main>
 {% endhighlight %}
 
-So that solved the problem :) You can in-line important css this way. When the css file is made to load at the end, your content will not have any styling which means the content may show up on the left side of the screen for a fraction of a second, some SVGs and images may show up in their full size.
+So that solved the problem :) You can in-line important css this way. When the css file is made to load at the end, your content will not have any styling which means the content may show up on the left side of the screen for a fraction of a second, fonts appear with a dfault web-font and some SVGs and images may show up in their full size.
 
-To avoid this, in-line some of the css which makes everything look smooth. Do not in-line too much css though. Your users shouldn't get an impression that you do not know how to use css.
+To avoid this, in-line some of the css which makes everything look smooth. Do not in-line too much css though. It is not a good practice and also your users shouldn't get an impression that you do not know how to use css.
 
 
 I hope this article has helped you to speed up your website. Let me know how it went. Leave a comment if you have any suggestion. I would be happy to implement it.
