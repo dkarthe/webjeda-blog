@@ -42,7 +42,7 @@ But it is a good way to let users know about your latest articles. It can be imp
 
 The out put should look like the screenshot below
 
-![Related posts jekyll](/images/realted-posts-jekyll.jpg)
+![Related posts jekyll](/images/related-posts-jekyll.jpg)
 
 
 ## How to add Previous-Next Post links in Jekyll?
