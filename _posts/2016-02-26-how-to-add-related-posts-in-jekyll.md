@@ -12,7 +12,7 @@ tags: Jekyll
 
 This was hectic when I have more articles. May be there is a plugin in WordPress that can do the job, but I was fed up with too many plugins! But in Jekyll we have a nice little variables ```page.previous```and ```page.next``` which does the job without breaking a sweat.
 
-## Why use Related Previous-Next Navigation in Jekyll?
+## Why use Related Prev-Next Navigation in Jekyll?
 
 Finding content on your blog should be a piece of cake for visitors. Let's say a new visitor is checking out an article on your website about how to begin with **Angular JS**. You have made a lot of research to write this article leaving no stone unturned. And your article is the best resource the visitor can get anywhere in the internet. Let's say you put the same efforts to write all your posts (I know you don't) and your articles are really helpful to learn the next steps in Angular.
 
