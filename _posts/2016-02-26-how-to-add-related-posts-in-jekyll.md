@@ -8,7 +8,7 @@ tags: Jekyll
 
 <img alt="How to Add Related or Previous-Next Post Link in Jelyll" title="next pervious post jekyll" itemprop="thumbnailUrl" src="/images/adding-related-previous-next-link-to-jekyll.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>A long time ago I was writing 4 parts onWordPress installation tutorial. At the end of every article I had to leave the next and/or previous article link. I used to do it manually say "To read my next article on useful plugins read [part 2]()" 
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>A long time ago I was writing 4 parts onWordPress installation tutorial. At the end of every article I had to leave the next and/or previous article link. I used to do it manually say "To read my next article on useful plugins read [part 2](#)" 
 
 This was hectic when I have more articles. May be there is a plugin in WordPress that can do the job, but I was fed up with too many plugins! But in Jekyll we have a nice little variables ```page.previous```and ```page.next``` which does the job without breaking a sweat.
 
