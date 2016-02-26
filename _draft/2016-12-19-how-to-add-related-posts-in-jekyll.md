@@ -1,10 +1,10 @@
 ---
-title: Why use Jekyll instead of WordPress?
-desc: Jekyll has many advantages over other CMS like WordPress. I think having a local copy of all your posts gives you a secure feeling which isn't possible in WordPress. Moreover I can customize my Jekyll blog however I want to but for WordPress, you have to stick with a theme. 
-keywords: why jekyll, how jekyll blog works, jekyll blog setup, jekyll working
+title: How to Add Related or Previous-Next Post Link in Jelyll?
+desc: It is a good idea to give your users an options to checkout more at the end of an article. If they like your current article, then there is a good chance that they would like to browse through your website. Add a related post or add next previous link to Jekyll articles using this method. 
+keywords: add related post jekyll, jekyll related post, next pervious post jekyll
 author: sharathdt
-pulish: false
 ---
 
-<img alt="" title="" itemprop="thumbnailUrl" src="/">
+<img alt="How to Add Related or Previous-Next Post Link in Jelyll" title="next pervious post jekyll" itemprop="thumbnailUrl" src="/images/adding-related-previous-next-link-to-jekyll.jpg">
 
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border">
