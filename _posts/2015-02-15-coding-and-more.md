@@ -56,11 +56,13 @@ Finally what I suggest for new developers is to get familiar with Github and con
 
 <div class="related">
           <h2>Related Posts</h2>
-          <ul class="related-posts">
+          <ul>
             {% for post in site.related_posts limit:3 %}
-              <a href="{{ post.url }}"><li class="realted-li">
+              <a href="{{ post.url }}">
+                 <li>
                   <h3>{{ post.title }}&nbsp;&nbsp;{{ post.date | date_to_string }}</h3>
-              </li></a>
+                 </li>
+              </a>
             {% endfor %}
           </ul>
 </div>
