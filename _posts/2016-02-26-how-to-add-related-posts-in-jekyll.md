@@ -45,7 +45,7 @@ The out put should look like the screenshot below
 ![Related posts jekyll](/images/related-posts-jekyll.jpg)
 
 
-## How to add Previous-Next Post links in Jekyll?
+## How to add Prev-Next Post links in Jekyll?
 
 I think it is a better thing to insert 'Previous-Next Post link' after an article than 'related'. If you are writing articles on or around only one topic then this is ideal since you always write related articles and if there is a process which has many parts in it and you are writing those parts in consecutive articles then also next and previous post links is the best choice.
 
