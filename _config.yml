@@ -1,6 +1,6 @@
 # Site settings
 title: WebJeda | A modern web development blog
-description: "WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions"
+description: "WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions. Contact us for modern, fast and responsive websites"
 url: http://blog.webjeda.com
 author:
   name: "Sharath Kumar"
@@ -46,7 +46,11 @@ compress_html:
   profile: false
   startings: [html, head, body]
   
-  
+#collection
+collections:
+  angular:
+    output: true
+    permalink: /angular/:title/
     
 authors:
       sharathdt:
