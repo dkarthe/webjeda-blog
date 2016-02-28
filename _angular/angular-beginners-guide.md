@@ -1,10 +1,9 @@
 ---
-id: 600
-title: Tools I use to teach chess
+title: Angular - Explain me like I'm five
 date: 2015-08-17T20:19:04+00:00
 author: Sharath
 layout: page
-guid: http://kidschessworld.com/?p=600
+published: false
 categories:
   - Blog
 ---

@@ -102,9 +102,6 @@ If you want to show the number of comments anywhere on the website then you can 
 {% endhighlight %}
 
 
-
-
-
 <div class="warning">
 <h3>Warning</h3>
 <p>Disqus may not work as expected if you have compress.html active to <a href="http://blog.webjeda.com/how-to-compress-html-in-jekyll/" rel="nofollow" target="_blank">compress jekyll html</a>.
@@ -118,16 +115,18 @@ But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <
 
 <p>So there is still hope for Disqus comments to get indexed by Google.</p>
 </div>
+
+
 <div id="step4"></div><br />
 
 
 ### Step 4: Making use of Jekyll templates
 
-It is not feasible to copy this code to every other blog post. That is the reason why we are creating a template. Create a new ```html``` file with the name **disqus.html** inside **_includes** folder, paste the above code inside it and save. Now you can call this file anywhere in your Jekyll website with the following code
+It is not feasible to copy this code to every other blog post. That is the reason why we are creating a template. Create a new ```html``` file inside **_includes** folder, name it **disqus.html** paste the above code inside it and save. Now you can call this file anywhere in your Jekyll website with the following liquid tag.
 
 <pre>{% raw %}{% include disqus.html %}{% endraw %}</pre>
 
-I want comment box to appear at the bottom of all my posts. So you should add the above include line to post layout which will be inside **_layouts** folder.
+If you want the comment box to appear at the bottom of all my posts, you should add the above include liquid tag to post layout which will be inside **_layouts** folder.
 
 A sample post layout with disqus would look like this
 
@@ -141,10 +140,8 @@ layout: default
 	<div class="content" >
 			{% raw %}{{ content }}{% endraw %}
 	</div>	
-
-	{% raw %}{% include  disqus.html %}{% endraw %}
-
 </article>
+	{% raw %}{% include  disqus.html %}{% endraw %}
 {% endhighlight %}
 
 And now you should have a comment box below every single blog post. But what if you don't want comments on certain blog posts?!
