@@ -87,12 +87,12 @@
                     {% assign html = image | split:"/>" | first %}
                     <meta property="og:image" content={{ html | remove:'href=' }} />
  {% assign foundImage = 1 %}
-                {% break %}
+               
                 {% endif %}
             {% endif %}
           {% endfor %}
          {% endfor %}
-
+ {% break %}
 
 
 
