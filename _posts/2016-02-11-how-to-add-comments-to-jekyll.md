@@ -1,6 +1,6 @@
 ---
 title: Adding comments to Jekyll blog
-desc: Jekyll themes are pretty neat with bare minimum options. But you can always extend it by adding whatever you need. WordPress blogs have comments by default. What if we want it in our Jekyll blog as well? We have a cleaner and better option in Jekyll...
+desc: Jekyll themes are pretty neat with bare minimum options. Jekyll blog comments is not included by default. WordPress blogs have comments by default. What if we want it in our Jekyll blog as well? We have a cleaner and better option in Jekyll...
 keywords: add comments to Jekyll blog, add disqus to Jekyll, disqus Jekyll
 author: sharathdt
 tags: Jekyll SEO
@@ -37,13 +37,13 @@ There are many ways to add comment box to Jekyll. I will be discussing only the 
 
 
 ## 1. Disqus
-Disqus has been my favorite so far. It is simple, minimal and robust. I haven't faced any problem with this one so far. I recommend Disqus than any other comment box for Jekyll.
+Disqus has been my favorite so far. It is simple, minimal and robust. I haven't faced any problem with this one so far. I recommend Disqus than any other Jekyll blog comments tool.
 
-![adding disqus comments to Jekyll blog]({{ site.url }}/images/how-to-add-comments-to-jekyll-blog.jpg)
+![adding disqus comments box Jekyll blog]({{ site.url }}/images/how-to-add-comments-to-jekyll-blog.jpg)
 
 The best part of Disqus is that it allows users to comment using facebook, twitter, Google plus or just using an email address! Moreover, if you have a bunch of blogs, you can have different comment boxes for them and manage it from a single account!
 
-![adding disqus comments to Jekyll blog]({{ site.url }}/images/how-add-disqus-to-jekyll-blog.jpg)
+![adding disqus jekyll blog comments]({{ site.url }}/images/how-add-disqus-to-jekyll-blog.jpg)
 
 Here are the steps to implement Disqus comment box in your Jekyll blog.
 
@@ -122,7 +122,7 @@ But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <
 
 ### Step 4: Making use of Jekyll templates
 
-It is not feasible to copy this code to every other blog post. That is the reason why we are creating a template. Create a new ```html``` file inside **_includes** folder, name it **disqus.html** paste the above code inside it and save. Now you can call this file anywhere in your Jekyll website with the following liquid tag.
+It is not feasible to copy this code to every other blog post. That is the reason why we are creating a template. Create a new ```html``` file inside **_includes** folder, name it **disqus.html** paste the above code inside it and save. Now you can call this file anywhere in your Jekyll website with the following liquid tag to show Jekyll blog comments.
 
 <pre>{% raw %}{% include disqus.html %}{% endraw %}</pre>
 
@@ -228,7 +228,7 @@ disqus_shortname: webjeda-sample
 ## 2. Google Plus
 Google has a very minimal and elegant comment box. I have no doubt that it looks better than Disqus but it is just for Google users. One must have Google plus account to comment.
 
-![how to add Google comment box to Jekyll blog]({{ site.url }}/images/how-to-add-google-comment-box-to-jekyll.jpg)
+![how to add Google jekyll blog comments]({{ site.url }}/images/how-to-add-google-comment-box-to-jekyll.jpg)
 
 Here is the code to implement Google comments on Jekyll posts. Follow the same procedure we followed in step 4 od adding Disqus to Jekyll blog.
 
@@ -255,7 +255,7 @@ Before adding facebook comments, you may have to create an app in facebook. I ha
 
 After creating an app log on to [comments plugin page](https://developers.facebook.com/docs/plugins/comments){:rel='nofollow'}{:target="_blank"}. 
 
-![How to add facebook comments to Jekyll blog]({{ site.url }}/images/how-add-facebook-comments-to-jekyll-blog.jpg)
+![How to add facebook jekyll blog comments]({{ site.url }}/images/how-add-facebook-comments-to-jekyll-blog.jpg)
 
 Here you can specify your requirements like width, number of posts to appear, color-scheme etc., and hit get code.
 
@@ -282,7 +282,6 @@ Use the same method I discussed in [**step 4**](#step4) of disqus comments.
 
 Finally, adding a comment box to Jekyll is easy and it can be useful for a good SEO signal if you are using a social-network comment box like facebook or Google plus. 
 
-Let me know if you were able to set up the comment box successfully. Comment if you have any suggestions.
+Let me know if you were able to set up Jekyll blog comments successfully. Comment if you have any suggestions.
 
 Thanks for reading!
-

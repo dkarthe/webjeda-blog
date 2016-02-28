@@ -17,8 +17,8 @@ When I had to make some changes in Jekyll, I used to write dirty codes in the re
 These dirty codes would break my site, sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while committing the changes (big mistake). I can always revert back, but I would lose all the changes and posts :(
 
 
-## Doing it the right way!
-Read the [documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information (and lot of pages as well). So I thought I would summarize it in this post so that anyone could make use of it. 
+## How to use jekyll?
+When I sarted using Jekyll, I used get a lot of 404 errors, page build errors, liquid tag errors, page rendering errors and what not. The mistake I did was not spending a little time to know how Jekyll works. I was over enthusiastic may be. But it did hurt me in the long run. So if you are just starting off with Jekyll or you do not know how to use Jekyll then please start with the [official documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information (and lot of pages as well). So I thought I would summarize it in this post so that anyone could make use of it. 
 
 But Once you finish reading this post, I suggest you check out the documentation. That gives you rather deep insight than a brief introduction like this one.
 
