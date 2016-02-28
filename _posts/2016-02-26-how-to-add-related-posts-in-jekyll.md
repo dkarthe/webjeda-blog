@@ -66,9 +66,11 @@ Here is the code how I have implemented previous next links in my Jekyll blog.
   {% raw %}{% endif %}{% endraw %}
 </div>
 {% endhighlight %}
-That should look somewhat like this
+That should look some what like the below screenshot.
 
 ![Related Previous-Next Navigation in Jekyll](/images/how-to-add-related-next-previous-post-to-jekyll.jpg)
+
+Remember, the latest post will not have ```page.next``` since it is the last post and likewise the first post will not have ```page.previous```.
 
 May be you have to style the links so that they appear in two directions or at least a little apart.
 
