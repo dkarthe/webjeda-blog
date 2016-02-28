@@ -4,6 +4,7 @@ desc: Featured images in WordPress is something I always wanted for my Jekyll bl
 keywords: fetch images from Jekyll post, grab images from Jekyll post, get images from post Jekyll, jekyll post images
 author: sharathdt
 tags: Jekyll
+image: how-to-fetch-images-from-jekyll-post.jpg
 ---
 
 <img alt="fetch images from Jekyll post" title="grab images from Jekyll post" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-fetch-images-from-jekyll-post.jpg">

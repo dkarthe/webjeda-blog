@@ -4,6 +4,7 @@ desc: Submitting sitemap to major search engines is important to rank better on 
 keywords: sitemap in Jekyll blog, Jekyll sitemap, sitemap for Jekyll
 author: sharathdt
 tags: Jekyll SEO
+image: add-sitemap-to-Jekyll-github-pages.jpg
 ---
 
 <img alt="How to add sitemap to Jekyll blog" title="How to add sitemap to Jekyll blog" itemprop="thumbnailUrl" src="{{ site.url }}/images/add-sitemap-to-Jekyll-github-pages.jpg">

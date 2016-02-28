@@ -4,6 +4,7 @@ desc: Adding a new page in Jekyll is really easy. You can use HTML or Markdown f
 keywords: create web page in Jekyll, pages in Jekyll, new page in Jekyll
 author: sharathdt
 tags: Jekyll
+image: how-to-add-pages-in-jekyll.jpg
 ---
 
 <img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-add-pages-in-jekyll.jpg">

@@ -4,6 +4,7 @@ desc: Loading JavaScript at the end is common but for a faster website one shoul
 keywords: defer css, lazy load css, load css at the end
 author: sharathdt
 tags: Jekyll SEO Web-Design
+image: lazy-load-css-for-fast-website.jpg
 ---
 
 <img alt="" title="" itemprop="thumbnailUrl" src="{{ site.url }}/images/lazy-load-css-for-fast-website.jpg">

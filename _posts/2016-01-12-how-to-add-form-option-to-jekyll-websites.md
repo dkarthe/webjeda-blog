@@ -4,6 +4,7 @@ desc: Normal forms will not work on Jekyll blog or Github pages website. You hav
 keywords: form in Jekyll, form in Jekyll blog, form in a static website, formspree
 author: sharathdt
 tags: Jekyll Web-Design
+image: how-to-add-form-option-for-jekyll-websites.jpg
 ---
 
 <img alt="How to make a form in Jekyll website" title="How to make a form in Jekyll website" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-add-form-option-for-jekyll-websites.jpg">

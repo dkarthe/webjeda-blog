@@ -10,23 +10,13 @@ layout: default
         <li class="arch-list">
         <div class="w3-card-4">
         <div class="arch-a">
-        {% assign foundImage = 0 %}
-          {% assign images = post.content | split:"<img " %}
-          {% for image in images %}
-            {% if image contains 'src' %}
-
-                {% if foundImage == 0 %}
-                    {% assign html = image | split:"/>" | first %}
-        <time itemprop="datePublished" class="arch-time">{{ post.date | date:"%d %b %Y" }}</time><h3 itemprop="name" class="arch-h1">{{ post.title }}</h3><hr class="arch-hr" /><div class="card-inside"><img itemprop="thumbnailUrl" class="post-image" width="250" {{ html }} /><p itemprop="description" class="arch-para">{{ post.desc | strip_html | truncatewords:36 }}</p></div>
-         {% assign foundImage = 1 %}
-                {% endif %}
-            {% endif %}
-          {% endfor %}
-          </div>
+        <time itemprop="datePublished" class="arch-time">{{ post.date | date:"%d %b %Y" }}</time><h3 itemprop="name" class="arch-h1">{{ post.title }}</h3><hr class="arch-hr" /><div class="card-inside"><img itemprop="thumbnailUrl" class="post-image" width="250" src="/thumbs-small/{{ post.image }}" /><p itemprop="description" class="arch-para">{{ post.desc | strip_html | truncatewords:36 }}</p></div>
+        </div>
         </div>
         </li>
         </a>
     {% endif %} 
     {% endfor %}
-
 </ul>
+
+

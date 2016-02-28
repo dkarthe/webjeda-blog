@@ -4,6 +4,7 @@ desc: Creating files inside Github repository is easy but what if you have lot o
 keywords: upload folders to github, sync files and folders with github
 author: sharathdt
 tags: Github-Pages Web-Design
+image: sync-local-folders-with-github.jpg
 ---
 
 <img alt="How to sync folders with Github" title="How to sync folders with Github" itemprop="thumbnailUrl" src="{{ site.url }}/images/sync-local-folders-with-github.jpg">

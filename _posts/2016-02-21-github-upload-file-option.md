@@ -4,9 +4,10 @@ desc: For years Github users had a hard time uploading files to github repositor
 keywords: upload files to github, github upload files folders, github drag and drop upload
 author: sharathdt
 tags: Github
+image: upload-option-github.jpg
 ---
 
-<img alt="how to add comments to jekyll" title="jekyll comments" itemprop="thumbnailUrl" src="{{ site.url }}/images/upload-option-github.jpg">
+<img alt="how to upload files and folder in github" title="github upload option" itemprop="thumbnailUrl" src="{{ site.url }}/images/upload-option-github.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Today Github has announced a feature which I was looking forward to from years. Uploading files and folders directly to Github repositories is now a reality. I'm wondering why did it take so many years for Github to add this option.
 

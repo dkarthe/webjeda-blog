@@ -4,9 +4,10 @@ desc: Jekyll themes are pretty neat with bare minimum options. Jekyll blog comme
 keywords: add comments to Jekyll blog, add disqus to Jekyll, disqus Jekyll
 author: sharathdt
 tags: Jekyll SEO
+image: how-to-add-comment-box-to-jekyll-blog.jpg
 ---
 
-<img alt="how to add comments to jekyll" title="jekyll comments" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-add-comment-box-to-jekyll-blog.jpg">
+<img alt="how to add comments to jekyll" title="jekyll blog comments" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-add-comment-box-to-jekyll-blog.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them an option to express!?
 

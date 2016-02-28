@@ -4,6 +4,7 @@ desc: Related posts is a way to keep your users hooked to checkout more content 
 keywords: add related post jekyll, jekyll related post, next previous post jekyll
 author: sharathdt
 tags: Jekyll
+image: adding-related-previous-next-link-to-jekyll.jpg
 ---
 
 <img alt="How to Add Related or Previous-Next Post Link in Jelyll" title="next pervious post jekyll" itemprop="thumbnailUrl" src="/images/adding-related-previous-next-link-to-jekyll.jpg">

@@ -4,6 +4,7 @@ desc: Top bars are beautiful looking lines at the top of a website. See how I ha
 keywords: top bar, website top line, top border of website, top colored line in websites
 author: sharathdt
 tags: Github-Pages Web-Design
+image: top-bar-on-websites.jpg
 ---
 
 <img alt="How to add colored top bar to website" title="How to add colored top bar to website" itemprop="thumbnailUrl" src="{{ site.url }}/images/top-bar-on-websites.jpg">

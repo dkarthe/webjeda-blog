@@ -4,6 +4,7 @@ desc: Adding multiple authors like in WordPress to a Jekyll blog is hard. But no
 keywords: author box Jekyll, author tab Jekyll, Jekyll author box, Jekyll author section
 author: sharathdt
 tags: Jekyll
+image: author-box-jekyll.jpg
 ---
 
 <img alt="Author box jekyll" title="Author box for jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/author-box-jekyll.jpg">

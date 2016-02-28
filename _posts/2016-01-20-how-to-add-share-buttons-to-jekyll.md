@@ -4,6 +4,7 @@ desc: Reducing the use of JavaScript results in a faster loading speed. Here is 
 keywords: share bar without javascript, Jekyll share buttons, share buttons for Jekyll blog
 author: sharathdt
 tags: Jekyll SEO
+image: share-bar-to-jekyll.jpg
 ---
 
 <img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" src="{{ site.url }}/images/share-bar-to-jekyll.jpg">

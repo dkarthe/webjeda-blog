@@ -4,6 +4,7 @@ desc: While I was working at Cognizant Technology Solutions I always used to hav
 author: sharathdt
 keywords: webjeda, webjeda founder
 tags: Github-Pages Jekyll
+image: webjeda-logo-big.jpg
 ---
 
 <img alt="webjeda" title="why webjeda" itemprop="thumbnailUrl" src="{{ site.url }}/img/webjeda-logo-big.jpg">

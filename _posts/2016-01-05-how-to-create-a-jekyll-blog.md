@@ -4,6 +4,7 @@ desc: I created this beautiful looking Jekyll blog by forking a repository. You 
 keywords: cerate Jekyll blog, blogging on Jekyll, github blogging
 author: sharathdt
 tags: Jekyll Web-Design
+image: how-to-create-a-blog-on-github-pages.jpg
 ---
 
 <img alt="How to create a website using Github blog" title="How to create a website using Github pages" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-create-a-blog-on-github-pages.jpg">

@@ -5,9 +5,10 @@ keywords: facebook like button github pages, like button to Jekyll blog
 author: sharathdt
 pulish: true
 tags: Jekyll SEO
+image: adding-facebook-like-button-to-jekyll.jpg
 ---
 
-<img alt="" title="" itemprop="thumbnailUrl" src="{{ site.url }}/images/adding-facebook-like-button-to-jekyll.jpg">
+<img alt="adding-facebook-like-button-to-jekyll" title="adding-facebook-like-button-to-jekyll.jpg" itemprop="thumbnailUrl" src="{{ site.url }}/images/adding-facebook-like-button-to-jekyll.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Understanding Jekyll is really important to manipulate the options available to handle different things. Usually all Jekyll themes will have a **header** and a **footer** template inside ```_includes``` folder.
 

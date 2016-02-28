@@ -4,9 +4,10 @@ desc: Jekyll is really simple once you know how it works. You can make your blog
 keywords: Jekyll tutorial, how Jekyll blog works, Jekyll blog setup, Jekyll working, Jekyll guide
 author: sharathdt
 tags: Jekyll
+image: jekyll-tutorial-screenshot.jpg
 ---
 
-<img alt="Jekyll Tutorial" title="Jekyll guide" itemprop="thumbnailUrl" src="{{ site.url }}/images/jekyll-tutorial-screenshot.jpg">
+<img alt="Jekyll blog Tutorial" title="Jekyll blog guide" itemprop="thumbnailUrl" src="{{ site.url }}/images/jekyll-tutorial-screenshot.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll was easy for me in the beginning. Because I was just adding posts or editing the current ones. But when I had to change the font or color I had to go through the CSS and make changes accordingly. Even this wasn't hard. But if I wanted a new page, a new functionality like adding tags, related posts, share buttons, author box etc., I had no idea how to do it. 
 

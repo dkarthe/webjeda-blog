@@ -4,6 +4,7 @@ desc: Jekyll-being static-is already fast. But to achieve faster loading speed w
 keywords: minify Jekyll html, Jekyll minify, jekyll html minify
 author: sharathdt
 tags: Jekyll SEO
+image: how-to-minify-jekyll-html.jpg
 ---
 
 <img alt="how to compress html jekyll" title="jekyll compress html" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-minify-jekyll-html.jpg">

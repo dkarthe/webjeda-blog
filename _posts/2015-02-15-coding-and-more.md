@@ -4,9 +4,10 @@ desc: I have started teaching how to make websites for budding web designers. I 
 author: sharathdt
 keywords: github pages tutorial youtube
 tags: Github-Pages
+image: webjeda-channel-art.jpg
 ---
 
-<img alt="How to create and host a website on github pages" title="Create and host a website on github pages screenshot" itemprop="thumbnailUrl" src="{{ site.url }}/images/RGHD-channel-art.jpg">
+<img alt="How to create and host a website on github pages" title="Create and host a website on github pages screenshot" itemprop="thumbnailUrl" src="{{ site.url }}/images/webjeda-channel-art.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching **Hosting websites on Github**. The best thing about Github is that it hosts your website (only static) right away and for free. This is the simplest way to learn web designing. 
 

@@ -4,6 +4,7 @@ desc: Adsense ads on this subdomain happened only after a deep research about ad
 Keywords: adsense on subdomain, adsense on Jekyll
 author: sharathdt
 tags: Jekyll Adsense
+image: adsense-on-subdomain-adsense-on-Jekyll.jpg
 ---
 
 <img alt="adsense on subdomain" title="adsense on Jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/adsense-on-subdomain-adsense-on-Jekyll.jpg">

@@ -4,6 +4,7 @@ desc: Using github custom domain change the ugly looking username.github.io URL 
 keywords: github custom domain, custom domain github, custom URL github website
 author: sharathdt
 tags: Github-Pages SEO
+image: custom-domain-to-github-2.jpg
 ---
 
 <img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" src="{{ site.url }}/images/custom-domain-to-github-2.jpg">

@@ -4,6 +4,7 @@ desc: Polymer elements are really cool to work with. I have a tutorial to includ
 keywords: polymer Jekyll, polymer github pages, polymer and github
 author: sharathdt
 tags: Jekyll Web-Design
+image: github-pages-polymer.JPG
 ---
 
 <img alt="How I managed to integrate Polymer with github pages jekyll" title="How I managed to integrate Polymer with github pages jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/github-pages-polymer.JPG">
