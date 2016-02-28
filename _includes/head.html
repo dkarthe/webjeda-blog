@@ -32,8 +32,14 @@
 <meta property="article:publisher" content="http://www.facebook.com/webjeda" />
 <meta property="article:author" content="https://www.facebook.com/sharu725" />
 <meta property="article:published_time" content="{{ page.date }}" />
-
-<meta property="article:tag" content="{{ page.tag }}" />
+{% if post %}
+    {% assign tags = post.tags %}
+  {% else %}
+    {% assign tags = page.tags %}
+  {% endif %}
+  {% for tag in tags %}
+<meta property="article:tag" content="{{ tag }}" />
+{% unless forloop.last %},{% endunless %}
 {% if page.desc %}
 <meta property="og:description" content="{{ page.desc }}">
 {% else %}
