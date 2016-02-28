@@ -18,14 +18,16 @@ These dirty codes would break my site, sometimes leading to undesirable results.
 
 
 ## How to use jekyll?
-When I sarted using Jekyll, I used get a lot of 404 errors, page build errors, liquid tag errors, page rendering errors and what not. The mistake I did was not spending a little time to know how Jekyll works. I was over enthusiastic may be. But it did hurt me in the long run. So if you are just starting off with Jekyll or you do not know how to use Jekyll then please start with the [official documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information (and lot of pages as well). So I thought I would summarize it in this post so that anyone could make use of it. 
+When I started using Jekyll, I used get a lot of 404 errors, page build errors, liquid tag errors, page rendering errors and what not. The mistake I did was not spending a little time to know how Jekyll works. I was over enthusiastic may be. But it did hurt me in the long run. 
+
+So if you are just starting off with Jekyll or you do not know how to use Jekyll then please start with the [official documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right path. It has a lot of information (and lot of pages as well). So I thought I would summarize it in this post so that anyone could make use of it. 
 
 But Once you finish reading this post, I suggest you check out the documentation. That gives you rather deep insight than a brief introduction like this one.
 
 ## What Jekyll does better?
 ![Jekyll transforms text to html]({{ site.url }}/images/jekyll-transforms-text-to-hypertext.jpg)
 
-As depicted in the image, Jekyll does magic on text files converting them into html files - text transformation. This is not the only thing it does. It actually does some more magic! This is the reason Jekyll posts and pages can be written in easily readable markups like markdown, <strike>textile</strike> (not supported anymore after Jekyll 3.0) etc.,
+As depicted in the image, Jekyll does magic on text files converting them into html files - text transformation. This is not the only thing it does. It actually does some more magic! This is the reason Jekyll posts and pages can be written in easily readable markups like markdown, <strike>textile</strike> (not supported anymore after Jekyll 3.0 update) etc.,
 
 ## Understand the structure of Jekyll
 
