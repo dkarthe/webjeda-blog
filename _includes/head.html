@@ -77,7 +77,7 @@
 <link rel="canonical" href="{{ page.url | prepend: site.url }}">
 
 
-{% if page.layout == 'post' %}
+{% for post in site.posts %}
  {% assign foundImage = 0 %}
  {% assign images = post.content | split:"<img " %}
           {% for image in images %}
@@ -87,10 +87,11 @@
                     {% assign html = image | split:"/>" | first %}
                     <meta property="og:image" content={{ html | remove:'href=' }} />
  {% assign foundImage = 1 %}
+                {% break %}
                 {% endif %}
             {% endif %}
           {% endfor %}
-         {% endif %}
+         {% endfor %}
 
 
 
