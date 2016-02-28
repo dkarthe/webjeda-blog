@@ -76,24 +76,4 @@
     <!-- Canonical -->
 <link rel="canonical" href="{{ page.url | prepend: site.url }}">
 
-
-{% for post in site.posts %}
- {% assign foundImage = 0 %}
- {% assign images = post.content | split:"<img " %}
-          {% for image in images %}
-            {% if image contains 'src' %}
-
-                {% if foundImage == 0 %}
-                    {% assign html = image | split:"/>" | first %}
-                    <meta property="og:image" content={{ html | remove:'href=' }} />
- {% assign foundImage = 1 %}
-               
-                {% endif %}
-            {% endif %}
-          {% endfor %}
-         {% endfor %}
-
-
-
-
 </head>
