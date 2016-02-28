@@ -39,7 +39,7 @@
   {% endif %}
   {% for tag in tags %}
 <meta property="article:tag" content="{{ tag }}" />
-{% unless forloop.last %},{% endunless %}
+{% unless forloop.last %},{% endunless %}  {% endfor %}
 {% if page.desc %}
 <meta property="og:description" content="{{ page.desc }}">
 {% else %}
