@@ -5,9 +5,9 @@
 <meta name="generator" content="Jekyll">
 
 {% if page.desc %}
-<meta itemprop="description" name="description" content="{{ page.desc }}" />
+<meta itemprop="description" name="description" content="{{ page.desc | truncate: 160 }}" />
 {% else %}
-<meta itemprop="description" name="description" content="{{ site.description }}" />
+<meta itemprop="description" name="description" content="{{ site.description | truncate: 160  }}" />
 {% endif %}
 
 {% if page.keywords %}
