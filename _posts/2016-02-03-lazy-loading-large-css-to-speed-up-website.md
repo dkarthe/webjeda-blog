@@ -23,7 +23,7 @@ In this method of lazy loading css the content loads without any style and then 
 This ensures that even if the style or script fails to load, user can still read the content (if the content is text). You can also [minify your blog for faster loading](/how-to-compress-html-in-jekyll){:target="_blank"}.
 
 What I did was, I put a script at the end of the html document to insert the css **link tag** only after loading the document. This was helpful because my ```main.css``` is a huge file and also fontawesome stylesheet that loads from a CDN.
-
+{% include adsense-inside-post.html %}
 After testing in [PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} I found that my website is faster than ever! Do use this tool to find out what is slowing down your website.
 
 
