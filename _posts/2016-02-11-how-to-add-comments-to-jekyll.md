@@ -16,7 +16,6 @@ There comes our comment box to the rescue. But there are a lot of them. You have
 It depends on your requirement. What kind of users you have and suppose if you don't care about user reactions then there is no need to keep a comment box!
 
 
-
 ## WordPress has an upper hand
 
 WordPress comes with a nice default comment box and you can get other ones through plugins if you don't like the default one. But if you want to place the comment box a little above than the position it is already in then you are in trouble!

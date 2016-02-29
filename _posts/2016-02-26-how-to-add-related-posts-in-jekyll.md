@@ -16,7 +16,7 @@ Manually linking articles was hectic when I have more articles. May be there is 
 ## Why use Related Prev-Next Navigation in Jekyll?
 
 Finding content on your blog should be easy for visitors. Let's say a new visitor is checking out an article on your website about **how to begin with Angular JS**. You have made a lot of research to write this article leaving no stone unturned. And your article is the best resource the visitor can get anywhere on the internet. 
-
+{% include adsense-inside-post.html %}
 Let's also assume that you put the same efforts to write all your posts (I know you don't) and your articles are really helpful to learn Angular JS step by step. There is a **83%**(yes this is from How I Met Your Mother) chance that the user is going to check more of your content. You should give him/her an easy access to other content of yours right after the current article!
 
 Adding next-previous post link or related post link is a good way to engage your audience with more useful content and if the articles are good then they may turn into subscribers.
