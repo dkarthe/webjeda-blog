@@ -501,3 +501,38 @@ h3.arch-h1 {
 .PageNavigation {
     padding: 1em 0 2em 0;
 }
+
+.contact-ul {
+        display: inline-block;
+         padding-left: 0;   
+}
+
+.contact-li {
+    list-style: none;
+    padding: 15px;
+    border: 1px solid #eee;
+}
+
+.contact-label {
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.contact-textarea {
+    height: 10em;
+    width: 100%;
+}
+
+
+
+input#submit {
+        width: 5em;
+        height: 2em;
+}    
+
+input {
+    width: 100%;
+    border: 1px solid rgba(0, 170, 85, 0.27);
+    padding: 5px;
+    border-radius: 4px;
+}

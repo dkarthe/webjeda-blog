@@ -13,21 +13,21 @@ If you have a great story to share, tale to tell, do not hesitate to leave a mes
     <form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token=b6d4be9b039b666b3311e1ddcbfb577c" method="POST" enctype="multipart/form-data">
         <ul class="contact-ul">
             <li class="contact-li">
-                <label for="name">Your Name:</label>
+                <label class="contact-label" for="name">Your Name:</label>
                 <input type="text" placeholder="Your name" id="name" name="name" tabindex="1"/>
             </li>
             <li class="contact-li">
-                <label for="email">Your Email:</label>
+                <label class="contact-label" for="email">Your Email:</label>
                 <input type="email" placeholder="Your email" id="email" name="email" tabindex="2"/>
             </li>
             <li class="contact-li">
-                <label for="message">Message:</label>
-                <textarea placeholder="Your message" id="message" name="message" tabindex="3"></textarea>
+                <label class="contact-label" for="message">Message:</label>
+                <textarea class="contact-textarea" placeholder="Your message" id="message" name="message" tabindex="3"></textarea>
             </li>
             
         </ul>
         
-        
+        <br />
         <input type="submit" value="Send" id="submit"/>
         <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
         
