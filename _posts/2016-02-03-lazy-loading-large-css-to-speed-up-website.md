@@ -1,6 +1,6 @@
 ---
 title: Lazy Loading CSS
-desc: Loading JavaScript at the end is common but for a faster website one should load big CSS files at the end as well. Learn how to defer CSS loading which makes your website superfast. PageSpeed is a tool by google where you can find the website speed.
+desc: Loading JavaScript at the end is common but for a faster website one should load big CSS files at the end as well. Learn how to defer CSS loading which makes your website super-fast. PageSpeed is a tool by Google where you can find the website speed.
 keywords: defer css, lazy load css, load css at the end
 author: sharathdt
 tags: Jekyll SEO Web-Design
@@ -12,7 +12,7 @@ image: lazy-load-css-for-fast-website.jpg
 
 ## Why lazy load css?
 
-Along with loading JavaScript at the end of the document, you should also load big css files at the end. This makes your website superfast. Because the main content loads first. So even on a slow connection, the content will be available for the user. And also faster the website SEO friendly it is.
+Along with loading JavaScript at the end of the document, you should also load big css files at the end. This makes your website super-fast. Because the main content loads first. So even on a slow connection, the content will be available for the user. And also faster the website SEO friendly it is.
 
 Many a times - on a slow connection - a user may wait for a maximum of 5 to 6 seconds and if the website is blank and still busy loading your **head tag** with a huge ```css``` file, user may hit the back button!
 
@@ -50,7 +50,7 @@ else window.addEventListener('load', cb);
 
 {% endhighlight %}
 
-The above code loads two CSS files. One is local (main.css) and the other is remote (font-awesome.min.css). You can make use of this code and change it accordingly. Make sure you edit the path properly.
+The above code loads two CSS files. One is local (```main.css```) and the other is remote (```font-awesome.min.css```). You can make use of this code and change it accordingly. Make sure you edit the path properly.
 
 
 If you observe the script tag carefully, I have added ```defer``` attribute to it. This will load this script at the very end. You can change this to ```async``` if you want it to load along with the content. Test it out and see which one works best for you.
@@ -64,7 +64,7 @@ Adsense script loads before ```main.css``` and assumes that the screen is full w
 
 ## Inline critical CSS
 
-I struggled hard to tackle this. And after a while I realized that I can define the width of my content with inline-css even before the adsense code loads! Thus avoiding it to overflow. You can inline any style that you think is reqired in the beginning.
+I struggled hard to tackle this. And after a while I realized that I can define the width of my content with inline-css even before the adsense code loads! Thus avoiding it to overflow. You can inline any style that you think is required in the beginning.
 
 {% highlight html %}
   <div id="container" style="max-width:730px;padding: 0 1.5rem;margin: 0 auto;">
@@ -73,7 +73,7 @@ I struggled hard to tackle this. And after a while I realized that I can define 
         </main>
 {% endhighlight %}
 
-So that solved the problem :) You can in-line important css this way. When the css file is made to load at the end, your content will not have any styling which means the content may show up on the left side of the screen for a fraction of a second, fonts appear with a dfault web-font and some SVGs and images may show up in their full size.
+So that solved the problem :) You can in-line important css this way. When the css file is made to load at the end, your content will not have any styling which means the content may show up on the left side of the screen for a fraction of a second, fonts appear with a default web-font and some SVGs and images may show up in their full size.
 
 To avoid this, in-line some of the css which makes everything look smooth. Do not in-line too much css though. It is not a good practice and also your users shouldn't get an impression that you do not know how to use css.
 

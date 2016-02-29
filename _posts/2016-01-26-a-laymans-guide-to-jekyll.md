@@ -60,7 +60,7 @@ Jekyll is simple if you understand what feature is for what purpose. Let us look
 </code>
 </pre>
 
-Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel='nofollow'}{:target="_blank"} tab open while reading the below ponits. You should be able to see the following files and folders.
+Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel='nofollow'}{:target="_blank"} tab open while reading the below points. You should be able to see the following files and folders.
 
 ![Jekyll folder structure]({{ site.url }}/images/jekyll-folder-structure.jpg)
 
@@ -98,4 +98,3 @@ I hope that gives you an insight about the structure of Jekyll files and folders
 If you get frustrated about something is not working then just ask the community. Google things with the suffix **jekyll**. You will find an answer. You can always ask me here, in the comment section. I will try my best to help you.
 
 Thanks for reading!
-

@@ -13,22 +13,23 @@ image: how-to-minify-jekyll-html.jpg
 
 ## Why do we have to minify HTML?
 
-Speed is a factor to rank high in Google search page. Minifying HTML can lead to a increase in speeds around 5%. Lighter the website easier to load even on a slow connection. Usual html file consists of a lot of empty spaces. Sometimes you will have comments in between {% raw %}<!-- and -->{% endraw %}, new lines, blank spaces etc., It is good to keep what really matters and omit the rest.
+Speed is a factor to rank high in Google search page. Minifying HTML can lead to an increase in speeds around 5% or more. Lighter the website easier to load even on a slow connection. Usually, html file consists of a lot of empty spaces, comments in between {% raw %}<!-- and -->{% endraw %}, new lines, blank spaces etc., It is good to keep what really matters and omit the rest.
 
-Though minifying CSS and JS is largely practiced, minifying HTML is not given such an importance. May be because there is not much to minify compared to CSS and JS. But it does help loading your website at a better speed even on 2G connections. Moreover, [PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} recommends minifying HTML.
+Though minifying CSS and JS is largely practiced, minifying HTML is not given such an importance. May be because there is not much to minify compared to static files like CSS and JS. But it does help loading your website at a better speed even on 2G connections. Moreover, [PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} recommends minifying HTML.
 
-I have seen huge benefits by minifying my Jekyll blog. What if I tell you that minifying reduces the file size to more than 20%! May be because I have a lot of blank spaces and new lines in the unminified version. And that's an improvement I shouldn't miss.
+I have seen huge benefits by minifying my Jekyll blog. What if I tell you that minifying reduces the file size by more than 20%! May be because I have a lot of blank spaces and new lines in the unminified version. And that's an improvement I shouldn't be missing.
 
-Here are the minifies and unminified files of my last post. They have the same content by the way. You can check the file size by downloading them.
+Here are the minified and unminified files of my last post. They have the same content by the way. You can check the file size by downloading them.
 
 [Unminified](/data/view-source_blog.webjeda.com_how-to-fetch-first-image-from-jekyll-post.html){:rel='nofollow'}{:target="_blank"} - 130kb
 
 [Minified](/data/view-source_blog.webjeda.com_how-to-fetch-first-image-from-jekyll-post-minified.html){:rel='nofollow'}{:target="_blank"} - 100kb
 
 {% include adsense-inside-post.html %}
+
 ## How to minify Jekyll html?
 
-So far in my tutorials, I have never used command line interface. Not that I hate it but I think it's difficult for beginners to comprehend. Likewise you can minify html using ```Grunt``` or ```Gulp``` task runners but for a beginner they might seem alien technologies. And when we are designing an automatic minifier that takes care of everything then why do we need a task runner?! Also I prefer solutions that does not involve plugins.
+So far in my tutorials, I have never used command line interface. Not that I hate it but I think it's difficult for beginners to comprehend. Likewise you can minify html using ```Grunt``` or ```Gulp``` task runners but for a beginner they might seem alien technologies. And when we are using an automatic minifier that takes care of everything then why do we need a task runner?! And also I prefer solutions that does not involve plugins.
 
 Now to minify Jekyll blog, 
 
@@ -39,7 +40,8 @@ Go to [this link](http://jch.penibelst.de/){:rel='nofollow'}{:target="_blank"} a
 Place this html file inside your ```_layout``` folder.
 
 ### Step 3: 
-Open ```default.html``` in ```_layouts``` folder and copy the below front matter at the top of the page.
+Open ```default.html``` in ```_layouts``` folder and copy the below front matter at the top of the page. If you do not have ```default.html``` then use a top level layout which is used in all pages.
+
 <pre>{% raw %}
 ---
 layout: compress
@@ -89,13 +91,13 @@ So I hope this tutorial helped you minify your Jekyll blog. If there is a better
 
 <div class="warning">
 <h3>Warning</h3>
-<p>My disqus comment stopped loading after using this method. So for the time being I'm not using it. So if you are using disqus then do not use this method (for now).</p>
+<p>My disqus comment stopped loading after using this method. So for the time being I'm not using it. If you are using disqus then do not use this method (for now).</p>
 </div>
 
 <div class="tips">
     <h3>Update</h3>
     <p>
-        Disqus started to work after cleaning up unnecessary comments inside disqus.html. Now it is working fine! Here is the <a href="https://raw.githubusercontent.com/sharu725/emerald/gh-pages/_includes/disqus.html" target="_blank" ><strong>raw file</strong></a>.
+        Disqus started to work after cleaning up unnecessary comments inside disqus.html. Here is the <a href="https://raw.githubusercontent.com/sharu725/emerald/gh-pages/_includes/disqus.html" target="_blank" ><strong>raw file</strong></a>.
     </p>
 </div>
 
