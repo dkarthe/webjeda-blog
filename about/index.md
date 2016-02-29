@@ -20,9 +20,8 @@ Most of these articles are also in video format. Check out my <a target="_blank"
 
 **There are a number of ways to reach out to me, here are a few.**
 
-For easy notification on a new article you can subscribe or like our <a target="_blank" href="https://www.facebook.com/webjeda" ><i class="fa fa-facebook-square"></i>&nbsp;facebook page</a> 
-We are also on <a target="_blank" href="https://www.twitter.com/webjeda" ><i class="fa fa-twitter-square"></i>&nbsp;twitter!</a>
-I heard Google Plus is no more but I still have a <a target="_blank" href="https://plus.google.com/b/111361987929035019038/?pageId=111361987929035019038" ><i class="fa fa-google-plus-square"></i>&nbsp;Google Page</a>
+For easy notification on a new article you can subscribe or like our <a target="_blank" href="https://www.facebook.com/webjeda" ><i class="fa fa-facebook-square"></i>&nbsp;facebook page</a>. 
+We are also on <a target="_blank" href="https://www.twitter.com/webjeda" ><i class="fa fa-twitter-square"></i>&nbsp;twitter!</a> and I heard Google Plus is no more but I still have a <a target="_blank" href="https://plus.google.com/b/111361987929035019038/?pageId=111361987929035019038" ><i class="fa fa-google-plus-square"></i>&nbsp;Google Page</a>
 
 Please feel free to ping me on whatsapp if you want a quick response
 
