@@ -32,4 +32,4 @@ If you are looking for a modern, fast loading, visually appealing website then [
 **Disclaimer:** This website is under constant modification. If you find something isn't right then I might be doing some change in the back-end.
 
 
-<p class="centered" itemprop="copyrightHolder"><a id="foot" target="_blank" href="http://webjeda.com"><img alt="Built by WebJeda" id="footimg" src="/img/built-by-webjeda.svg"></a></p><br /><br />
+<p class="centered" itemprop="copyrightHolder"><a id="foot" target="_blank" href="http://webjeda.com"><img alt="Built by WebJeda" id="footimg" src="/img/built-by-webjeda.svg"></a></p><br />
