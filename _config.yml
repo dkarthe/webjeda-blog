@@ -37,7 +37,7 @@ reverse: false
 #optimization
 #compress.html
 compress_html:
-  clippings: [div, p, ul, td, h1, h2]
+  clippings: [div, p, ul, td, h1, h2, h3, h4,link, meta, span, footer, nav, a, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
   comments: ["<!-- ", " -->"]
   endings: [all]
   ignore:
