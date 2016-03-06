@@ -60,7 +60,7 @@ Now in a new tab log in to your registrar (in my case godaddy), navigate to add 
 
 ![free email hosting for domain setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-8.jpg)
 
-Finally click on **Save changes**. Do not close the window though, we need it for <a href="step9">Step 9</a>
+Finally click on **Save changes**. Do not close the window though, we need it for <a href="#step9">Step 9</a>
 
 ### Step 8:
 Now come back to the **ZOHO Domain Setup** tab and click on the **Verify CNAME** button which will be at the bottom of the page. If not successful then give it some time. You should see the below message once you successfully verify your doamin.
@@ -72,7 +72,7 @@ Now come back to the **ZOHO Domain Setup** tab and click on the **Verify CNAME**
 You are not done yet. Once you choose a ```username```, skip to **Configure Email Delivery**. You should see a table with MX records.
 ![free email hosting for domain setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-10.jpg)
 
-Now we have to be enter these **Mail Exchange** records in our registrar. Use the same procedure as you did in <a href="step7">Step 7</a> but this time select Add record >> MX. There are two records to be added. That is for redundancy I guess.
+Now we have to be enter these **Mail Exchange** records in our registrar. Use the same procedure as you did in <a href="#step7">Step 7</a> but this time select Add record >> MX. There are two records to be added. That is for redundancy I guess.
 
 ![free email hosting for domain setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-11.jpg)
 
