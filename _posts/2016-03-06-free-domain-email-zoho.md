@@ -18,7 +18,7 @@ In a way it was easy to handle all the emails from one place but my inbox starte
 
 Another thing that matters is credibility. Let's say you have a domain called ```truejewels.in``` where you sell jewelery online and you are using an email ```john321@gmail.com``` along with it. When you send email to a customer about the confirmation of an order with this email id, do you think they trust you that you are from **Truejewels**?
 
-What if your email id was john@truejewels.in? That gives them an affirmation that you really are associated with **Truejewels**. I'm going to give you a tutorial where you can get a free custom domain email by ZOHO. You will get a fully functional email setup.
+What if your email id was ```john@truejewels.in```? That gives the customer an affirmation that you really are associated with **Truejewels**. I'm going to give you a tutorial where you can get a free custom domain email by ZOHO. You will get a fully functional email setup.
 
 The best part about ZOHO mail is that you don't always have to login to the mailbox to check the mail. You can simply setup forward for your mails in custom domain email to get them in your personal email.
 
