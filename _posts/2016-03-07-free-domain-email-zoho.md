@@ -14,9 +14,9 @@ tags: Web-Design
 
 Website owners do not give much importance to owning a domain level email. This is true in the case of many beginners and was true in my case as well. I used to have a gmail account for all the email communications and form pages.
 
-In a way it was easy to handle all the emails from one place but my inbox started to clutter with spam. It is a headache to cleanup inbox everytime I was bombarded with spam mails. 
+In a way it was easy to handle all the emails from one place but my inbox started to clutter with spam. It is a headache to cleanup inbox every time I was bombarded with spam mails. 
 
-Another thing that matters is credibility. Let's say you have a domain called ```truejewels.in``` where you sell jewellery online and you are using an email ```john321@gmail.com``` along with it. When you send email to a customer about the confirmation of an order with this email id, do you think they trust you that you are from **Truejewels**?
+Another thing that matters is credibility. Let's say you have a domain called ```truejewels.in``` where you sell jewelery online and you are using an email ```john321@gmail.com``` along with it. When you send email to a customer about the confirmation of an order with this email id, do you think they trust you that you are from **Truejewels**?
 
 What if your email id was john@truejewels.in? That gives them an affirmation that you really are associated with **Truejewels**. I'm going to give you a tutorial where you can get a free custom domain email by ZOHO. You will get a fully functional email setup.
 
@@ -32,7 +32,7 @@ After signing up and verifying the email they send, go to [ZOHO home page](https
 [free email hosting for domain ](/images/setup-custom-domain-email-with-ZOHO.jpg)
 
 ### Step 2: Select Package
-Select the **LITE** plan by clickng on **Choose** button below it.
+Select the **LITE** plan by clicking on **Choose** button below it.
 ![free email for domain](/images/setup-custom-domain-email-with-ZOHO-2.jpg)
 
 ### Step 3: Add Domain
@@ -44,7 +44,7 @@ You will be redirected to **Confirm Details** page where you have to click on **
 ![free email hosting for domain](/images/setup-custom-domain-email-with-ZOHO-4.jpg)
 
 ### Step 5:
-This is the crucial part where you have to verify your ownership for the domain. Select your domain registrar from the dropdown menu. If you don't see your registrar in the list, then select others.
+This is the crucial part where you have to verify your ownership for the domain. Select your domain registrar from the drop-down menu. If you don't see your registrar in the list, then select others.
 ![free email hosting for domain](/images/setup-custom-domain-email-with-ZOHO-5.jpg)
 
 ### Step 6: 
@@ -72,7 +72,7 @@ Now come back to the **ZOHO Domain Setup** tab and click on the **Verify CNAME**
 You are not done yet. Once you choose a ```username```, skip to **Configure Email Delivery**. You should see a table with MX records.
 ![free email hosting for domain setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-10.jpg)
 
-Now we have to be enter these **Mail Exchange** records in our registrar. Use the same procedure as you did in <a href="step7">Step 7</a> but this time select Add record >> MX. There are two records to be added. That is for redundency I guess.
+Now we have to be enter these **Mail Exchange** records in our registrar. Use the same procedure as you did in <a href="step7">Step 7</a> but this time select Add record >> MX. There are two records to be added. That is for redundancy I guess.
 
 ![free email hosting for domain setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-11.jpg)
 
@@ -93,5 +93,5 @@ Only one free domain email can be set up with ZOHO. What if you own many domains
 
 <div class="tips">
 <h3>Tips</h3>
-<p>What if you want custom email for multiple domains? If you sign up to ZOHO with a gmail id say, john@gmail.com then you can also sign up for another account with j.ohn@gmail.com. Because google considers both the addresses to be the same but not other services! So with one gmail account you can sign up many accounts! Thank me later</p>
+<p>What if you want custom email for multiple domains? If you sign up to ZOHO with a gmail id say, john@gmail.com then you can also sign up for another account with j.ohn@gmail.com. Because Google considers both the addresses to be the same but not other services! So with one gmail account you can sign up many accounts! Thank me later</p>
 </div>
