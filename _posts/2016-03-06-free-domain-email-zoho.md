@@ -93,5 +93,5 @@ Only one free domain email can be set up with ZOHO. What if you own many domains
 
 <div class="tips">
 <h3>Tips</h3>
-<p>What if you want custom email for multiple domains? If you sign up to ZOHO with a gmail id say, john@gmail.com then you can also sign up for another account with j.ohn@gmail.com. Because Google considers both the addresses to be the same but not other services! So with one gmail account you can sign up many accounts! Thank me later</p>
+<p>What if you want custom email for multiple domains? If you sign up to ZOHO with a gmail id say, john@gmail.com then you can also sign up for another account with j.ohn@gmail.com. Because Google considers both the addresses to be the same but not ZOHO! So with one gmail account you can sign up many accounts! Thank me later</p>
 </div>
