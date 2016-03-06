@@ -8,7 +8,7 @@ tags: Web-Design
 ---
 
 <img alt="setup a free custom domain email" title="free custom domain email" itemprop="thumbnailUrl" src="{{ site.url }}/images/domain-email-free.jpg">
-[Image Credits](http://federalgraphics.ca/){:rel='nofollow'}{:target="_blank"}
+Image Credits[Federal Graphics](http://federalgraphics.ca/){:rel='nofollow'}{:target="_blank"}
 
 ## Why obtain a domain email?
 
