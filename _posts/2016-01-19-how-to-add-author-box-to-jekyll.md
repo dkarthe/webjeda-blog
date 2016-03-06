@@ -103,6 +103,8 @@ layout: default
 
 
 {% include adsense-inside-post.html %}
+
+
 ## Step 4: Add author name in all posts
 Now in all your posts which are inside **_post** folder you should add a new attribute called author
 
