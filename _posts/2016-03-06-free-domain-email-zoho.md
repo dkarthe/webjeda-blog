@@ -1,5 +1,5 @@
 ---
-title: How to get free domain email
+title: How to get free domain email using ZOHO
 desc: Owning a domain is easy but owning a custom email account in the domain name is not. Now with ZOHO it is easy to obtain a free domain email. Learn how to setup a domain email free with ZOHO.
 keywords: 
 author: sharathdt
