@@ -28,7 +28,8 @@ Since we are using ZOHO for setting up a free custom email, it is necessary to h
 
 ### Step 1: Log in to ZOHO
 After signing up and verifying the email they send, go to [ZOHO home page](https://home.zoho.com/home){:rel='nofollow'}{:target="_blank"} and click on **mail**.
-[free email hosting for domain ](/images/setup-custom-domain-email-with-ZOHO.jpg)
+
+![free email hosting for domain ](/images/setup-custom-domain-email-with-ZOHO.jpg)
 
 ### Step 2: Select Package
 Select the **LITE** plan by clicking on **Choose** button below it.
@@ -56,8 +57,8 @@ Once you select your option (in my case it was **others**) you should see a tabl
 Now in a new tab log in to your registrar (in my case godaddy), navigate to add a CNAME with the Name value which is similar to
 <pre>zb14572708</pre>
 and Host value
-<pre>zmverify.zoho.com</pre>
-, click Finish.
+<pre>zmverify.zoho.com</pre>, click Finish.
+
 ![free domain email setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-7.jpg)
 
 ![free email hosting for domain setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-8.jpg)
@@ -93,7 +94,7 @@ Now add your personal email and verify with the email they send to your personal
 Only one free domain email can be set up with ZOHO. What if you own many domains? Well, you can take a glance at **Tips** but I don't recommend it.
 <div class="tips">
 <h3>Tips</h3>
-What if you want custom email for multiple domains? If you sign up to ZOHO with a gmail id say, john@gmail.com then you can also sign up for another account with j.ohn@gmail.com. Because Google considers both the addresses to be the same but not ZOHO! So with one gmail account, you can sign up many accounts! Thank me later
+<p>What if you want custom email for multiple domains? If you sign up to ZOHO with a gmail id say, john@gmail.com then you can also sign up for another account with j.ohn@gmail.com. Because Google considers both the addresses to be the same but not ZOHO! So with one gmail account, you can sign up many accounts! Thank me later</p>
 </div>
 
 This is how we can create free domain email with ZOHO. If you liked this article then hit like on my facebook page.
