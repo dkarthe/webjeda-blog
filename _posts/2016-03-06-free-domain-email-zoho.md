@@ -43,17 +43,17 @@ Enter the domain you own in the input field where it says **Add Domain**.
 You will be redirected to **Confirm Details** page where you have to click on **Setup yourdomain.com in ZOHO**
 ![free email hosting for domain](/images/setup-custom-domain-email-with-ZOHO-4.jpg)
 
-### Step 5:
+### Step 5: Verify Domain Ownership
 This is the crucial part where you have to verify your ownership for the domain. Select your domain registrar from the drop-down menu. If you don't see your registrar in the list, then select others.
 ![free email hosting for domain](/images/setup-custom-domain-email-with-ZOHO-5.jpg)
 
-### Step 6:
+### Step 6: Obtain CNAME details
 Once you select your option (in my case it was **others**) you should see a table with **Name** and **Destination**.
 ![free email hosting for domain](/images/setup-custom-domain-email-with-ZOHO-6.jpg)
 <div id="step7"></div>
 &nbsp;
 
-### Step 7:
+### Step 7: CNAME set up for ZOHO
 Now in a new tab log in to your registrar (in my case godaddy), navigate to add a CNAME with the Name value which is similar to
 <pre>zb14572708</pre>
 and Host value
@@ -71,7 +71,7 @@ Now come back to the **ZOHO Domain Setup** tab and click on the **Verify CNAME**
 <div id="step9"></div>
 &nbsp;
 
-### Step 9:
+### Step 9: MX records for sending and recieving mails
 You are not done yet. Once you choose a ```username```, skip to **Configure Email Delivery**. You should see a table with MX records.
 ![free email hosting for domain setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-10.jpg)
 {% include adsense-inside-post.html %}
@@ -79,10 +79,10 @@ Now we have to enter these **Mail Exchange** records in our registrar. Use the s
 
 ![free domain email setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-11.jpg)
 
-### Step 10:
+### Step 10: Success!
 You are good to access your emails in [ZOHO mail](https://mail.zoho.com/){:rel='nofollow'}{:target="_blank"}. You can send and receive mails to this mailbox. Check if it is working by sending a mail from a different email account and once you receive it, reply to the mail. If everything is working fine then go to the next step.
 
-### Final step ( I swear)
+### Final step ( I swear) : Email forwarding
 It is hard to always login to ZOHO mail and check for mails. A better way is to get the mails received by ZOHO to your personal mail. This is pretty easy. Once you login to ZOHO mailbox, click on gear icon at the top-right corner. Then click on settings.
 ![email forwarding in ZOHO mail](/images/setup-custom-domain-email-with-ZOHO-12.jpg)
 
