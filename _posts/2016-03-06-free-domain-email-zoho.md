@@ -31,27 +31,33 @@ Since we are using ZOHO for setting up a free custom email, it is necessary to h
 After signing up and verifying the email they send, go to [ZOHO home page](https://home.zoho.com/home){:rel='nofollow'}{:target="_blank"} and click on **mail**.
 [free email hosting for domain ](/images/setup-custom-domain-email-with-ZOHO.jpg)
 
+
 ### Step 2: Select Package
 Select the **LITE** plan by clicking on **Choose** button below it.
 ![free email for domain](/images/setup-custom-domain-email-with-ZOHO-2.jpg)
+
 
 ### Step 3: Add Domain
 Enter the domain you own in the input field where it says **Add Domain**.
 ![free email hosting for domain](/images/setup-custom-domain-email-with-ZOHO-3.jpg)
 
+
 ### Step 4: Confirm Details
 You will be redirected to **Confirm Details** page where you have to click on **Setup yourdomain.com in ZOHO**
 ![free email hosting for domain](/images/setup-custom-domain-email-with-ZOHO-4.jpg)
+
 
 ### Step 5:
 This is the crucial part where you have to verify your ownership for the domain. Select your domain registrar from the drop-down menu. If you don't see your registrar in the list, then select others.
 ![free email hosting for domain](/images/setup-custom-domain-email-with-ZOHO-5.jpg)
 
+
 ### Step 6: 
 Once you select your option (in my case it was **others**) you should see a table with **Name** and **Destination**.
 ![free email hosting for domain](/images/setup-custom-domain-email-with-ZOHO-6.jpg)
 
-<div id="step7"></div>
+<div id="step7"></div><br />
+
 
 ### Step 7:
 Now in a new tab log in to your registrar (in my case godaddy), navigate to add a CNAME with the Name value which is similar to 
@@ -62,11 +68,12 @@ Now in a new tab log in to your registrar (in my case godaddy), navigate to add 
 
 Finally click on **Save changes**. Do not close the window though, we need it for <a href="#step9">Step 9</a>
 
+
 ### Step 8:
 Now come back to the **ZOHO Domain Setup** tab and click on the **Verify CNAME** button which will be at the bottom of the page. If not successful then give it some time. You should see the below message once you successfully verify your doamin.
 ![free email hosting for domain setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-9.jpg)
 
-<div id="step9"></div>
+<div id="step9"></div><br />
 
 ### Step 9: 
 You are not done yet. Once you choose a ```username```, skip to **Configure Email Delivery**. You should see a table with MX records.
@@ -76,8 +83,10 @@ Now we have to be enter these **Mail Exchange** records in our registrar. Use th
 
 ![free email hosting for domain setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-11.jpg)
 
+
 ### Step 10:
-You are good to access your mails in [ZOHO mail](https://mail.zoho.com/){:rel='nofollow'}{:target="_blank"}.
+You are good to access your mails in [ZOHO mail](https://mail.zoho.com/){:rel='nofollow'}{:target="_blank"}. You can send and receive mails to this mailbox. Check if it is working by sending a mail from a different email account and once you receive it, reply to the mail. If everything is working fine then go to the next step.
+
 
 ### Final step ( I swear)
 It is hard to always login to ZOHO mail and check for mails. A better way is to get the mails received by ZOHO to your personal mail. This is pretty easy. Once you login to ZOHO mailbox, click on gear icon at the top-right corner. Then click on settings.
