@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Thank you
 permalink: /thank-you/
 adallow: 0
