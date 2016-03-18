@@ -7,7 +7,7 @@ layout: default
        <a class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">
        
           <div class="card">
-                <img  class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/{{ post.image }}" width="300" />
+                <img  class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/{{ post.image }}" width="300" height="auto" />
                 <div class="card-footer">
                     <h6 class="post-index-title">{{ post.title }}</h6>
                 <p class="post-excerpt">{{ post.desc | truncate: 160 }}</p>
