@@ -304,10 +304,16 @@ time {
         #go-top {
         display:none;
         }
+
+    
+}
+
+@media only screen and (max-width: 700px) {
+            
         .fa.fa-pull-left {
         font-size: 170%;
         }
-    
+
 }
 
 
