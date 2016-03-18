@@ -5,8 +5,6 @@ Schema
 
 <img alt="c10h14n2" title="C10h14n2 film website" itemprop="thumbnailUrl" src="/images/c10h14n2movie-mockup.png">
 
-permalink: /:title
-
 // Adsense
 {% include adsense-inside-post.html %}
 
@@ -21,3 +19,29 @@ Hello, my name is {{name}}.
 {% endraw %}
 
 style="color:#e74c3c"
+
+==================================
+
+Add id: {: #with-an-id}
+Add classes: {: .class1 .class2}
+Inline Css: This is *red*{: style="color: red"}.
+
+A link: A [link](http://kramdown.gettalong.org "hp") to the homepage.
+
+Abbreviation: 
+This is an HTML
+example.
+
+*[HTML]: Hyper Text Markup Language
+
+Notes: 
+
+This is a text with a
+footnote[^1].
+
+[^1]: And here is the definition.
+
+
+
+
+<span class="hint--bottom hint--bounce" data-hint="A Web-Developement Blog"><div id="logo"></div></span>
