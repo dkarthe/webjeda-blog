@@ -7,10 +7,13 @@ tags: Jekyll Web-Design
 image: how-to-add-form-option-for-jekyll-websites.jpg
 ---
 
-<img alt="How to make a form in Jekyll website" title="How to make a form in Jekyll website" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-add-form-option-for-jekyll-websites.jpg">
+<img alt="How to make a form in Jekyll website" title="How to make a form in Jekyll website" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-add-form-option-for-jekyll-websites.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. How to add a form to Jekyll website which is static?! The backbone of a forms is the ```php``` code which takes in the data and sends it to respective email address.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Normal forms will not work on Jekyll blog or Github pages website. You have to use something that works for a static website. I have given a simple solution for such problems.
+{: .intro}
 
+When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. How to add a form to Jekyll website which is static?! The backbone of a forms is the ```php``` code which takes in the data and sends it to respective email address.
+{: .clear}
 But Jekyll blogs and websites hosted on github being static, cannot execute ```php``` files. Wait.! Then how do I make a working form in Jekyll blog?
 
 ## why use a form?
@@ -42,10 +45,12 @@ Let's create a simple form and make it work. I will have only two options for us
 {% endhighlight %}
 
 
+![Sample Jekyll form]({{ site.url }}/images/form-sample-screenshot.JPG)
+{: .right .half}
 
 So the output should look something like this.
 
-![Sample Jekyll form]({{ site.url }}/images/form-sample-screenshot.JPG)
+<div class="clear"></div>
 
 {% include adsense-inside-post.html %}
 
@@ -156,11 +161,8 @@ Be careful not to include your personal email in form action as it is easily vis
 
 Also I don't recommend using formspree if you are asking your users any sensitive data because a copy of it is saved in formspree database. But for for general non-sensitive data submission, formspree works like charm.
 
-Here is a video demonstration
-<iframe itemscope="" itemprop="video" width="100%" height="360" src="https://www.youtube.com/embed/IP6HsgwQkvs?rel=0" frameborder="0" allowfullscreen></iframe>
-
-
-
-And don't forget to leave the link of your website with newly created form, in the comment section.
+<iframe itemscope="" itemprop="video" width="100%" height="360" class="right half" src="https://www.youtube.com/embed/IP6HsgwQkvs?rel=0" frameborder="0" allowfullscreen></iframe>
+Here is a video demonstration. And don't forget to leave the link of your website with newly created form, in the comment section.
 
 Thanks for reading!
+{: .clear}

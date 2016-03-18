@@ -7,12 +7,13 @@ tags: Jekyll
 image: how-to-add-pages-in-jekyll.jpg
 ---
 
-<img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-add-pages-in-jekyll.jpg">
+<img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-add-pages-in-jekyll.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>I like Jekyll for its immense power in generating pages! Let's say you want a new html page inside Jekyll, you can create one. Say, you want it to have the same style as your posts, you can do it. Let's say you do not want any styles in it, you can do it. 
+{: .intro}
 
 ## Why should we create a new page on Jekyll?
-
+{: .clear}
 Jekyll themes do not come with all the bells and rings. You have to add whatever you want and take out whatever you do not need. I wanted a [contact page](/contact/){:rel='dofollow'}{:target="_blank"} for my blog and Jekyll did not have one by default. So I had to create one. Same thing with my [about](/about/){:rel='dofollow'}{:target="_blank"} page.
 
 Many times you may want a home page which do not show list of posts. You may want to show off your projects in the home page. In such cases, you can make your custom pages in Jekyll and use them.

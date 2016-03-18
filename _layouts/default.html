@@ -1,141 +1,22 @@
----
-layout: compress
----
-<!--<pre>
 
-                   __                      __              
-                  /\ \       __           /\ \             
- __  __  __     __\ \ \____ /\_\     __   \_\ \     __     
-/\ \/\ \/\ \  /'__`\ \ '__`\\/\ \  /'__`\ /'_` \  /'__`\   
-\ \ \_/ \_/ \/\  __/\ \ \L\ \\ \ \/\  __//\ \L\ \/\ \L\.\_ 
- \ \___x___/'\ \____\\ \_,__/_\ \ \ \____\ \___,_\ \__/.\_\
-  \/__//__/   \/____/ \/___//\ \_\ \/____/\/__,_ /\/__/\/_/
-                            \ \____/                       
-                             \/___/                        
-                                                           
-                                                           
-                                                           
-                                                           
-                                                           
-                                                            
-
-</pre>-->
 <!DOCTYPE html>
 <html>
+    <div id="container">
+          {% include head.html %}
 
-{% include head.html %}
+          <body>
+            <div id="top"></div>
 
-<body>
-    
-    <div id="wrap">
-	  	
-	  	<!-- Navigation -->
-	  	{% include menu.html %}
-    
-    <!-- Icon menu -->
-	  <a href="#" {% if site.reverse == true %}id="nav-menu-left"{% else %}id="nav-menu"{% endif %}>
-	  	<div id="menu"></div>
-	  </a>
+            {% include header.html %}
 
-      <!-- Header -->
-      {% if site.custom_header == true %}
-        {% include header-custom.html %}
-      {% else %}
-        {% include header.html %}
-      {% endif %}
-    
-
-   
-    <!-- Main content -->
-	  <div id="container" style="max-width:730px;padding: 0 1.5rem;margin: 0 auto;">
-		  
-		<main>
-             <gcse:searchresults></gcse:searchresults>
-            <style>.gsc-control-cse {border-color: rgba(0, 0, 0, 0);background-color: rgba(0, 0, 0, 0);}
-                    input.gsc-search-button {border-color: #f1f1f1;background-color: #307BAD;}
-                    form.gsc-search-box {margin-left: 5px;width: 95%;}
-            </style> 
-			{{ content }}
-
-	  </main>
-        <!-- Ads -->
-      {% if page.adallow != 0 %}
-           {% include adsense-lb.html %}  
-       {% endif %}
-		  <!-- Pagination links -->
-      {% if paginator.total_pages > 1 %}
-        <div  itemscope="" itemprop="pagination" class="pagination">
-          {% if paginator.previous_page == 1 %}
-            <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
-          {% elsif paginator.previous_page%}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
-          {% else %}
-            <span class="page-item">&laquo;</span>
-          {% endif %}
-        
-          {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-              <span class="page-item">{{ page }}</span>
-            {% elsif page == 1 %}
-              <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">{{ page }}</a>
-            {% else %}
-              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page-item">{{ page }}</a>
-            {% endif %}
-          {% endfor %}
-        
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&raquo;</a>
-          {% else %}
-            <span class="page-item">&raquo;</span>
-          {% endif %}
-        </div>
-        {% endif %}
-
-	  </div>
-	    
-            <!-- subscribe -->
-	    {% include rss-link.html %}
-
-	</div>
- 	    
-    	    <!-- Script -->
-      {% include script.html %}
-    {% include analytics.html %}
-    {% include search.html %}
-       <!-- defer loading main.css and Bootstrap -->
-<script async>
-var cb = function() {
-var l = document.createElement('link'); l.rel = 'stylesheet';
-var m = document.createElement('link'); m.rel = 'stylesheet';
-l.href = '/css/main.css';
-m.href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
-var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-var i = document.getElementsByTagName('head')[0]; i.parentNode.insertBefore(m, i);
-};
-var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-webkitRequestAnimationFrame || msRequestAnimationFrame;
-if (raf) raf(cb);
-else window.addEventListener('load', cb);
-</script>
-<script> 
+{{ content }}
   
-  window.onload = function(){ 
-  
-    setTimeout(function() { 
-      
-      var ad = document.querySelector("ins.adsbygoogle");
-      
-      if (ad && ad.innerHTML.replace(/\s/g, "").length == 0) {
-
-        ad.style.cssText = "display:block !important; visibility:visible !important;text-decoration:none !important;font-family: inherit;font-size: 1.25em;color: #0a5;"; 
-              
-        ad.innerHTML = "You seem to have an Adblock running. Ads are not cool but that's what keeps my website runnning. I would really appreciate if you could whitelist my website in Adblock";
-      
-      }
-      
-    }, 2000);
-  }; 
-  
-</script>
-</body>
+             {% include footer.html %}
+             
+                    <!-- defer loading main.css and Bootstrap -->
+<script async src="/js/css-def.js"></script>
+<script src="/js/ad-rep.js"></script>
+          </body>
+    </div>
 </html>
+

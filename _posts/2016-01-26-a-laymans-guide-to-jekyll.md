@@ -7,12 +7,13 @@ tags: Jekyll
 image: jekyll-tutorial-screenshot.jpg
 ---
 
-<img alt="Jekyll blog Tutorial" title="Jekyll blog guide" itemprop="thumbnailUrl" src="{{ site.url }}/images/jekyll-tutorial-screenshot.jpg">
+<img alt="Jekyll blog Tutorial" title="Jekyll blog guide" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/jekyll-tutorial-screenshot.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll was easy for me in the beginning. Because I was just adding posts or editing the current ones. But when I had to change the font or color I had to go through the CSS and make changes accordingly. Even this wasn't hard. But if I wanted a new page, a new functionality like adding tags, related posts, share buttons, author box etc., I had no idea how to do it. 
+{: .intro}
 
 ## Why learn Jekyll the right way?
-
+{: .clear}
 When I had to make some changes in Jekyll, I used to write dirty codes in the respective template and somehow make it work for a while but if I wanted to make any further changes to it then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work again. This is what I used to do years ago. Half knowledge is worse than no knowledge is completely true in the case of Jekyll.
 
 These dirty codes would break my site, sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while committing the changes (big mistake). I can always revert back, but I would lose all the changes and posts :(
@@ -26,7 +27,7 @@ So if you are just starting off with Jekyll or you do not know how to use Jekyll
 But Once you finish reading this post, I suggest you check out the documentation. That gives you rather deep insight than a brief introduction like this one.
 
 ## What Jekyll does better?
-![Jekyll transforms text to html]({{ site.url }}/images/jekyll-transforms-text-to-hypertext.jpg)
+![Jekyll transforms text to html]({{ site.url }}/images/jekyll-transforms-text-to-hypertext.jpg){: .full}
 
 As depicted in the image, Jekyll does magic on text files converting them into html files - text transformation. This is not the only thing it does. It actually does some more magic! This is the reason Jekyll posts and pages can be written in easily readable markups like markdown, <strike>textile</strike> (not supported anymore after Jekyll 3.0 update) etc.,
 
@@ -60,12 +61,14 @@ Jekyll is simple if you understand what feature is for what purpose. Let us look
 </code>
 </pre>
 
-Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel='nofollow'}{:target="_blank"} tab open while reading the below points. You should be able to see the following files and folders.
 
 ![Jekyll folder structure]({{ site.url }}/images/jekyll-folder-structure.jpg)
+{: .right .small}
+Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel='nofollow'}{:target="_blank"} tab open while reading the below points. You should be able to see the following files and folders.
+
 
 ## Files inside a Jekyll site
-
+{: .clear}
 1. <h3>_config.yml:</h3> Master configuration file. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates, increments etc., can be difined inside this file. 
 Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/emerald/gh-pages/_config.yml){:rel='nofollow'}{:target="_blank"} for Emerald Jekyll theme. You can use all the parameters in this file using ```site``` variable. For instance, using ```{% raw %}{{ site.url }}{% endraw %}``` anywhere on the page, post, template will fetch the url variable defined in ```_config.yml```. [Read More](http://jekyllrb.com/docs/configuration/){:rel='nofollow'}{:target="_blank"}.
 This is also the  first file you should edit when you fork(copy) a new theme. In order to make your blog work, you should mention the ```baseurl```. Read: [How to create a Jekyll blog](http://blog.webjeda.com/how-to-create-a-jekyll-blog/){:target="_blank"} for more.

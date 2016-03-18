@@ -1,7 +1,38 @@
-<header id="header" style="text-align: center;"itemscope itemtype="http://schema.org/WPHeader">
-	<a href="{{ site.baseurl }}">
-		<img src="data:image/png;base64,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" alt="webJeda Logo">
-	  <h1>webjeda</h1>
-	</a>
-	<hr id="line">
+<header class="site-header">
+
+  <div class="wrapper">
+
+      <a class="site-title" href="{{ site.baseurl }}/"><span class="hint--bottom hint--bounce" data-hint="A Web-Developement Blog"><div id="logo"></div></span></a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg style="width: 36px" viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+
+       <!--  {% for my_page in site.pages %}
+         {% if my_page.inmenu != 0 %}
+              {% if my_page.title %}
+                  <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+              {% endif %}
+          {% endif %}
+        {% endfor %} -->
+                 
+                  <a class="page-link about" href="/about/">About</a>
+                  <a class="page-link archive" href="/archive/">Archive</a>
+                  <a class="page-link contact" href="/contact/">Contact</a>
+                  <a class="page-link pricing" target="_blank" href="http://price.webjeda.com/"><small>Pricing</small></a>
+                  <a class="page-link sitemap" target="_blank" href="/sitemap.xml"><small>Sitemap</small></a>
+                  <a class="page-link search" href="/search/"><small>Search</small></a>
+      </div>
+
+    </nav>
+ 
+  </div>
+
 </header>

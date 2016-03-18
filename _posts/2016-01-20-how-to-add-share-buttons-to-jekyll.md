@@ -7,12 +7,13 @@ tags: Jekyll SEO
 image: share-bar-to-jekyll.jpg
 ---
 
-<img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" src="{{ site.url }}/images/share-bar-to-jekyll.jpg">
+<img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/share-bar-to-jekyll.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Many of the Jekyll themes will not include share buttons by default. It is upto you to find a suitable share bar for your website.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Reducing the use of JavaScript results in a faster loading speed. Here is a guide on how to add a social share bar to Jekyll blogs. You can copy paste the code and it should work! Many of the Jekyll themes will not include share buttons by default. It is upto you to find a suitable share bar for your website. So I thought of making one for myself!
+{: .intro}
 
 ## Why share bar for Jekyll blog?
-
+{: .clear}
 If you read a lot over the internet then you know how hard it is to share an article with your friend if it doesn't have any sharing button.
 You have to copy the link from the address bar, go to your email account, type every single detail and send it to an email address. Same thing follows for sharing on social media websites.
 
@@ -41,27 +42,30 @@ When I was preparing this share bar, I was facing troubles for sharing the page 
 
 And if you are in [How to add an author box](http://blog.webjeda.com/how-to-add-author-box-to-jekyll) article then it should change to ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/how-to-add-author-box-to-jekyll```.
 
-But how to do this 'change of URL' for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables**! the {% raw %}{{ stuff }}{% endraw %}inside!.
-
-Here is an image explaining site variables for the link [How to create a Jekyll blog](http://blog.webjeda.com/how-I-created-webjeda-blog/){:target="_blank"}. You can check the site description by viewing the source. These variables are mentioned inside ```_config.yml``` file.
 
 ![How to use site variables in Jekyll]({{ site.url }}/images/jekyll-site-variables-and-how-to-use-them.jpg)
+{: .right .half}
+
+But how to do this 'change of URL' for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables**! the ```{% raw %}{{ stuff }}{% endraw %}``` inside!.
+
+Here is an image explaining site variables for the link [How to create a Jekyll blog](http://blog.webjeda.com/how-I-created-webjeda-blog/){:target="_blank"}. You can check the site description by viewing the source. These variables are mentioned inside ```_config.yml``` file.
 
 See all the [variables here](http://jekyllrb.com/docs/variables/){:rel='nofollow'}{:target="_blank"}
 
 Then I changed the facebook share link to the following which works for all pages!
+{: .clear}
 
-```https://www.facebook.com/``````sharer/sharer.php?u={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}```
+```https://www.facebook.com/sharer/sharer.php?u={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}```
 
 How cool is that!
 
 I can do the same thing for twitter share link
 
-```https://twitter.com/home?``````status={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}```
+```https://twitter.com/home?status={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}```
 
 This works pretty much on all the social media websites. For LinkedIn I also added title and description of the page.
 
-```https://www.linkedin.com/``````shareArticle?mini=true&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}``````&title={% raw %}{{ page.title }}{% endraw %}&summary={% raw %}{{ page.desc }}{% endraw %}&source=webjeda```
+```https://www.linkedin.com/shareArticle?mini=true&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}&title={% raw %}{{ page.title }}{% endraw %}&summary={% raw %}{{ page.desc }}{% endraw %}&source=webjeda```
 
 
 This is the key to my WebJeda Sharebar.
@@ -133,8 +137,8 @@ I have styled my buttons with the following css. You can change it for your need
 {% endhighlight %}
 
 Currently I'm using this share bar for my blog. At the end of this article you see a sharebar which uses the same code.
-![webjeda share bar for jekyll]({{ site.url }}/images/how-to-add-share-bar-to-jekyll-blog.jpg)
+![webjeda share bar for jekyll]({{ site.url }}/images/how-to-add-share-bar-to-jekyll-blog.jpg){: .full}
 
-So this is how you can implement only css, javaScript free WebJeda sharebar. If you were able to implement this in your blog then please leave a link in the comment.
+So this is how you can implement only css and javaScript free WebJeda sharebar. If you were able to implement this in your blog then please leave a link in the comment.
 
 Thanks for reading!

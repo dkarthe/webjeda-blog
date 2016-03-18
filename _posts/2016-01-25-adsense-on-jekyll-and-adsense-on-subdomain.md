@@ -7,13 +7,14 @@ tags: Jekyll Adsense
 image: adsense-on-subdomain-adsense-on-Jekyll.jpg
 ---
 
-<img alt="adsense on subdomain" title="adsense on Jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/adsense-on-subdomain-adsense-on-Jekyll.jpg">
-
-<a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
+<img alt="adsense on subdomain" title="adsense on Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adsense-on-subdomain-adsense-on-Jekyll.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Though I had so many other blogs, none of them got approval for some or the other reason. Actually it is hard to figure out what exactly went wrong. Adsense policies check many parameters for approval. Though Google sends you the reason, they are vague and I almost gave up on Adsense.
+{: .intro}
+<a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
 I had no hopes on this blog either. But I tried my best to deliver the content that somehow helps someone. Many of my posts are actually the problems I faced in figuring out stuff. I think it worked.
+{: .clear}
 
 ## Adsense on subdomain
 The first problem I faced was applying for adsense using subdomain. My subdomain ```blog.webjeda.com``` cannot be used for applying to Adsense. Google has this policy for a reason. May be you have good content on your subdomain but what if you have bad content in your domain which is non compliant with Adsense policies. Say some adult content or content related to drugs?

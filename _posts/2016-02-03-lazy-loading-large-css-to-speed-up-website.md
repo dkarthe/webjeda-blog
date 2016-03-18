@@ -7,11 +7,15 @@ tags: Jekyll SEO Web-Design
 image: lazy-load-css-for-fast-website.jpg
 ---
 
-<img alt="" title="" itemprop="thumbnailUrl" src="{{ site.url }}/images/lazy-load-css-for-fast-website.jpg">
+<img alt="" title="" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/lazy-load-css-for-fast-website.jpg">
+
+
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Loading JavaScript at the end is common but for a faster website one should load big CSS files at the end as well. Learn how to defer CSS loading which makes your website super-fast. Also learn how to test your website for speed.
+{: .intro}
 <a target="_blank" rel="nofollow" href="http://www.freepik.com/free-vector/cartoon-animals_802878.htm">Designed by Freepik</a>
 
 ## Why lazy load css?
-
+{: .clear}
 Along with loading JavaScript at the end of the document, you should also load big css files at the end. This makes your website super-fast. Because the main content loads first. So even on a slow connection, the content will be available for the user. And also faster the website SEO friendly it is.
 
 Many a times - on a slow connection - a user may wait for a maximum of 5 to 6 seconds and if the website is blank and still busy loading your **head tag** with a huge ```css``` file, user may hit the back button!
@@ -20,11 +24,13 @@ You just lost a potential subscriber or even customer if you are selling somethi
 
 In this method of lazy loading css the content loads without any style and then the stylesheet loads followed by JavaScript. You may have observed this while browsing my website. This is important for a user with a slow connection. Content(visible stuff) should load at the very beginning. Style(css) and scripts(js) can wait.
 
-This ensures that even if the style or script fails to load, user can still read the content (if the content is text). You can also [minify your blog for faster loading](/how-to-compress-html-in-jekyll){:target="_blank"}.
+This ensures that even if the style or script fails to load, user can still read the content (if the content is text). You can also [minify your blog for faster loading](/how-to-compress-html-in-jekyll/){:target="_blank"}.
 
 What I did was, I put a script at the end of the html document to insert the css **link tag** only after loading the document. This was helpful because my ```main.css``` is a huge file and also fontawesome stylesheet that loads from a CDN.
 {% include adsense-inside-post.html %}
 After testing in [PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} I found that my website is faster than ever! Do use this tool to find out what is slowing down your website.
+
+Another very good tool to analyaze website loading time is [GT Metrix](https://gtmetrix.com/){:rel='nofollow'}{:target="_blank"}. This tool will give you a deep analysis on why your website is slow and provides optimized files to use.
 
 
 ## How to load CSS at the end?
@@ -50,7 +56,7 @@ else window.addEventListener('load', cb);
 
 {% endhighlight %}
 
-The above code loads two CSS files. One is local (```main.css```) and the other is remote (```font-awesome.min.css```). You can make use of this code and change it accordingly. Make sure you edit the path properly.
+The above code loads two CSS files. One is local ```main.css``` and the other is remote ```font-awesome.min.css```. You can make use of this code and change it accordingly. Make sure you edit the path properly.
 
 
 If you observe the script tag carefully, I have added ```defer``` attribute to it. This will load this script at the very end. You can change this to ```async``` if you want it to load along with the content. Test it out and see which one works best for you.

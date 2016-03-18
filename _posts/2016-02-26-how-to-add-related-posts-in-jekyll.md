@@ -7,11 +7,13 @@ tags: Jekyll
 image: adding-related-previous-next-link-to-jekyll.jpg
 ---
 
-<img alt="How to Add Related or Previous-Next Post Link in Jelyll" title="next pervious post jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/adding-related-previous-next-link-to-jekyll.jpg">
+<img alt="How to Add Related or Previous-Next Post Link in Jelyll" title="next pervious post jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adding-related-previous-next-link-to-jekyll.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>A long time ago I was writing 4 parts on WordPress installation tutorial. At the end of every article I had to leave the next or previous article link. I used to do it manually in this way "To read my next article on useful WordPress plugins read [part 2](#)" 
+{: .intro}
 
 Manually linking articles was hectic when I have more articles. May be there is a plugin in WordPress that can do the job, but I was fed up with too many plugins! But in Jekyll we have nice little variables ```page.previous```and ```page.next``` which does the job without breaking a sweat.
+{: .clear}
 
 ## Why use Related Prev-Next Navigation in Jekyll?
 
@@ -46,7 +48,7 @@ Here is the code I have used on my [chess blog](http://kidschessworld.com){:targ
 
 The out put should look like the screenshot below
 
-![Related posts jekyll]({{ site.url }}/images/related-posts-jekyll.jpg)
+![Related posts jekyll]({{ site.url }}/images/related-posts-jekyll.jpg){: .full}
 
 
 ## How to add Prev-Next Post links in Jekyll?
@@ -69,7 +71,7 @@ Here is the code how I have implemented previous next links in my Jekyll blog.
 {% endhighlight %}
 That should look some what like the below screenshot.
 
-![Related Previous-Next Navigation in Jekyll]({{ site.url }}/images/how-to-add-related-next-previous-post-to-jekyll.jpg)
+![Related Previous-Next Navigation in Jekyll]({{ site.url }}/images/how-to-add-related-next-previous-post-to-jekyll.jpg){: .full}
 
 Remember, the latest post will not have ```page.next``` since it is the last post and likewise the first post will not have ```page.previous```.
 

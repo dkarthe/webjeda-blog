@@ -5,17 +5,16 @@ author: sharathdt
 keywords: github pages tutorial youtube
 tags: Github-Pages
 image: webjeda-channel-art.jpg
+layout: post
 ---
 
-<img alt="How to create and host a website on github pages" title="Create and host a website on github pages screenshot" itemprop="thumbnailUrl" src="{{ site.url }}/images/webjeda-channel-art.jpg">
+<img alt="How to create and host a website on github pages" title="Create and host a website on github pages screenshot" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/webjeda-channel-art.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching **Hosting websites on Github**. The best thing about Github is that it hosts your website (only static) right away and for free. This is the simplest way to learn web designing. 
-
-<iframe itemscope="" itemprop="video" width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
-
-
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>I have started teaching how to make websites for budding web designers. I have posted the playlist here. Take a look. I have started off with teaching **Hosting websites on Github**. The best thing about Github is that it hosts your website (only static) right away and for free. This is the simplest way to learn web designing.
+{: .intro}
 
 ## Why teach Github?
+{: .clear}
 While I was learning Github, I used to go through YouTube videos. But there was not a single guy who teaches it without using CLI. When you run commands on CLI, the output may not be the same for everyone. It depends on the previous installations, dependencies and a correct PATH variable. For starters CLI is a hard nut to crack. So I decided to make it easier for beginners. I do not use CLI in my videos. Everything is done through GUI.
 
 I see a lot of blogs providing useful information on Github pages and Jekyll. But in my blogs i want to give step by step procedure for everything without missing anything in between. This is what I expect from a blog. So that is what I follow.
@@ -27,9 +26,9 @@ and then [sync a complete website using this tutorial](http://blog.webjeda.com/h
 
 
 Making it simple has helped a lot of people to start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few in the screenshots below
-![Github pages youtube tutorial positive response]({{ site.url }}/images/github-pages-tutorial-youtube-positive-response.jpg)
+![Github pages youtube tutorial positive response]({{ site.url }}/images/github-pages-tutorial-youtube-positive-response.jpg){: .full}
 
-Checkout the playlist at the top to see more comments.
+Checkout the playlist at the bottom to see more comments.
 {% include adsense-inside-post.html %}
 
 
@@ -51,6 +50,9 @@ I think Github pages is faster than any other conventional web hosting method. B
 
 
 Jekyll static site generator is another boon to web designers to host their blogs or single page websites. I have created many blogs on Jekyll. Actually this blog is completely generated using Jekyll! It almost will never break. Uptime of the websites depends on Github Servers. As an established company, Github is always up and running. I have not faced any major issue so far. I think years ago my blog was down for few seconds.
+
+<iframe itemscope="" class="left half" itemprop="video" width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
+
 
 
 Finally what I suggest for new developers is to get familiar with Github and contribute to the community. Thank me later. Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it and learn while doing so.

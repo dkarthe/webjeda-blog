@@ -1,0 +1,319 @@
+//columns start
+p.left {
+    float: left;
+    text-align: justify;
+    margin-bottom: 1em;
+
+}
+
+img.left {
+    float: left;
+    text-align: justify;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+.left {
+    float: left;
+    text-align: justify;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+
+
+img.right {
+    float: right;
+    text-align:left;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+.right {
+    float: right;
+    text-align:left;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+p.right {
+    float: right;
+    text-align:left;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+
+.adjust {
+    
+      
+}
+
+.intro {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: $brand-color;
+}
+
+.full {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.half {
+    width: 50%;
+    border-radius: 4px;
+}
+
+
+.large {
+    width: 70%;
+    border-radius: 4px;
+}
+
+.small {
+    width: 25%;
+    border-radius: 4px;
+}
+//columns end
+.noborder {
+    border:none !important;
+}
+
+
+
+
+.contact-details {    
+    color: #666;
+    padding-left: 7em;
+    margin-top: 6em;
+}
+.contact-details p {    
+        font-size: 1em;
+    margin-bottom:0;
+}
+
+.about-me p {
+    margin-top: 16em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 1em;
+    margin-bottom: 0;
+    padding-bottom:0;
+    color: #999;
+}
+
+
+#main-contact-form {
+    padding-left: 7em;
+    
+}
+
+
+.warning {
+    background-color: #EC706C;
+    border-left: 5px solid #D24D57;
+    border-radius: 0 4px 4px 0;
+    padding: 5px 5px 5px 15px;
+    margin: 2em 0 2em 0;
+    color: #eee;
+    text-shadow: 1px 1px 5px #aaa;
+    font-size: 0.9em;
+}
+
+.note {
+    background-color: #E0C442;
+    border-left: 5px solid #B78C11;
+    border-radius: 0 4px 4px 0;
+    padding: 5px 5px 5px 15px;
+    margin: 2em 0 2em 0;
+    color: #eee;
+    text-shadow: 1px 1px 5px #aaa;
+    font-size: 0.9em;
+}
+
+.tips {
+    background-color: #22A7F0;
+    border-left: 5px solid #4183D7;
+    border-radius: 0 4px 4px 0;
+    padding: 5px 5px 5px 15px;
+    margin: 2em 0 2em 0;
+    color: #eee;
+    text-shadow: 1px 1px 5px #aaa;
+    font-size: 0.9em;
+}
+
+
+
+.warning p, .note p, .tips p {
+   color: #eee;        
+}
+
+.warning a{
+    color: #fff;
+}
+
+.warning a:hover{
+    color: #eee;
+}
+
+
+
+.note a {
+    color: #fff;   
+}
+
+.note a:hover {
+    color: #eee;   
+}
+
+.warning h3, .note h3, .tips h3 {
+    color: #eee;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+.tips a {
+    color: #fff;   
+}
+
+.tips a:hover {
+    color: #eee;   
+}
+
+//warning ends
+
+
+
+time {
+       color: #aaa;
+       float: right;
+}
+
+.this, .past, .arch-list {
+    list-style: none;
+}
+
+.next {
+    float: right;
+}
+
+.prev {
+    margin-bottom: 1em;
+}
+
+.PageNavigation {
+    margin:0 auto;
+    width:100%;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+#go-top {
+    float: right;
+    transition-duration: 1s;
+    margin-right: -4em;
+}
+
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: justify; 
+  font-size: 16px;
+  li {
+    display: inline-block;
+    margin: 0 12px 12px 0; 
+  }
+}
+
+
+
+
+@include media-query($on-palm) {
+
+        p.left, p.right, img.left,img.right, .left, .right {
+            float: none;
+            text-align:left;
+            margin-left: 0em;
+            margin-bottom: 1em;
+
+        }
+        
+        .clear {
+            clear: both;
+        }
+
+        .intro {
+            font-size: 1.1em;
+            font-weight: 300;
+            color: $brand-color;
+        }
+
+        .full {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .half {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+
+        .large {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .small {
+            width: 100%;
+            border-radius: 4px;
+        }
+        
+        .PageNavigation {
+        margin:0 auto;
+        width:94%;
+        font-size: 1em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+        }
+
+        #go-top {
+        display:none;
+        }
+        
+        .contact-details {    
+        color: #666;
+        padding-left: 0em;
+        margin-top: 0em;
+        }
+    
+        #donate-form {
+        margin-top: 0em;
+        text-align: center;
+
+        }
+    
+    
+
+}
+
+@media only screen and (max-width: 700px) {
+
+        #go-top {
+        display:none;
+        }
+    
+    
+}
+
+
+
+
+

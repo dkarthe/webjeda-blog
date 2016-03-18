@@ -1,8 +1,7 @@
 <nav itemscope itemtype="http://schema.org/SiteNavigationElement" {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
 	<div id="nav-list">
 		<!-- <a itemprop="url" href="{{ site.baseurl }}"><span itemprop="name">Home</span></a> -->
-		<div id="gsearch" class="search-bar"><gcse:searchbox></gcse:searchbox></div>
-		<!-- Nav pages -->
+				<!-- Nav pages -->
 	  {% for page in site.pages %}
 	    {% if page.layout == "page" %}
          {% if page.inmenu != 0 %}

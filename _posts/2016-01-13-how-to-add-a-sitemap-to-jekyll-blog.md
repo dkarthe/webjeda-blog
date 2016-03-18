@@ -7,18 +7,24 @@ tags: Jekyll SEO
 image: add-sitemap-to-Jekyll-github-pages.jpg
 ---
 
-<img alt="How to add sitemap to Jekyll blog" title="How to add sitemap to Jekyll blog" itemprop="thumbnailUrl" src="{{ site.url }}/images/add-sitemap-to-Jekyll-github-pages.jpg">
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In one of my previous posts I wrote on [How to create a Jekyll Blog](http://blog.webjeda.com/how-I-created-webjeda-blog). If you have created a blog for yourself or if you already have a Jekyll blog then go through this tutorial.
+<img alt="How to add sitemap to Jekyll blog" title="How to add sitemap to Jekyll blog" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/add-sitemap-to-Jekyll-github-pages.jpg">
 
-A sitemap is a list of links of all your web pages. Sitemap will be in ```.xml``` format. A sitemap helps search engine bots to crawl through your website. Sitemap will also have metadata such as date of a post, pages, last modified date and how often it was updated etc., It looks like your **feed.xml** file. 
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Submitting sitemap to major search engines is important to rank better on SEO. Jekyll blogs will not have sitemap by default but we can create one using this method. A sitemap is essential for search engines to index your posts and show it on teh search page.
+{: .intro}
 
-A sample website links map
+
+In one of my previous posts I wrote on [How to create a Jekyll Blog](http://blog.webjeda.com/how-I-created-webjeda-blog). If you have created a blog for yourself or if you already have a Jekyll blog then go through this tutorial.
+{: .clear}
+
 ![Sitemap of a website]({{ site.url }}/images/how-to-add-sitemap-to-jekyll.jpg)
+{: .right .half}
+A sitemap is a list of links of all your web pages. Sitemap will be in ```.xml``` format. A sitemap helps search engine bots to crawl through your website. Sitemap will also have metadata such as date of a post, pages, last modified date and how often it was updated etc., It looks like your **feed.xml** file. 
 
 Here is [my blog's Sitemap](http://blog.webjeda.com/sitemap.xml){:rel='dofollow'}
 
-## Why is Sitemap used?
 
+## Why is Sitemap used?
+{: .clear}
 If your website doesn't have any posts or pages, you may not need a sitemap. But for a blog with several posts, sitemap is necessary (if you want to rank better in search engines). You can submit your sitemap to major search engines like Google, Bing, Yahoo etc., so that their respective bots crawl through your site and index them. Only after indexing, your link appears in search results.
 
 Leaving a link to your sitemap inside your website is also a good idea. Let's say someone refers to a post of yours in their well ranked blog. There are chances that a bot will crawl that link and land on your post. You shouldn't miss a chance of giving the link of your sitemap when the bot is crawling your post! If you are looking for where the hell I have included my sitemap link, then please look inside my navigation toggle :)
@@ -41,16 +47,14 @@ Here is my [_config.yml](https://raw.githubusercontent.com/sharu725/emerald/gh-p
 {% include adsense-inside-post.html %}
 Now commit the changes and hit the URL yourwebsite.com/sitemap.xml. You should see all your links listed there.
 
+<iframe width="100%" height="360" class="left half" src="https://www.youtube.com/embed/kiBtQClK-XQ?rel=0" frameborder="0" allowfullscreen></iframe>
 Here is a video demonstration
 
-<iframe width="100%" height="360" src="https://www.youtube.com/embed/kiBtQClK-XQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
 
 ## The hard way to insert sitemap in Jekyll blog!
-You can also list all the links by yourself. Don't worry, we will be using ```ul``` so that it arranges the links  one by one. 
-
-Create a file in the root of the repository and name it **whatever.xml**
-
-Copy this code inside it
+{: .clear}
+You can also list all the links by yourself. Don't worry, we will be using ```ul``` so that it arranges the links  one by one. Create a file in the root of the repository and name it **whatever.xml**. Copy this code inside it
 
 {% highlight html %}---
 ---

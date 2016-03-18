@@ -1,18 +1,36 @@
 ---
 layout: default
 ---
-<article itemscope itemtype="http://schema.org/TechArticle"  id="post-page" >
-   {% include  adsense-pt.html %}   
-    <a itemprop="url" href="{{ site.url }}{{ page.url }}"><h2 itemprop="headline">{{ page.title }}</h2></a>
-     {% include post-tags.html %}		
-	<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>
-	<div itemprop="articleBody" class="content" >
-			{{ content }}
-	</div>
-	</article>	
-	{% include  fb-like.html %}
-	{% include  share.html %}
-	{% include youtube.html %}
-	{% include  author.html %}
-    {% include  next-previous.html %}
-	{% include  disqus.html %}
+<div class="page-content">
+             <style>
+                 .page-content {
+                     margin: 0 auto;
+                     max-width: 75%;
+                 }
+                </style>
+
+
+    <div class="main-content">
+                   
+
+        <article itemscope itemtype="http://schema.org/TechArticle"  id="post-page" >
+           {% include  adsense-pt.html %}   
+            <a itemprop="url" class="post-link" href="{{ site.url }}{{ page.url }}"><h2 itemprop="headline" id="post-title">{{ page.title }}</h2></a>
+
+            <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>
+            {% include post-tags.html %}	
+            <div itemprop="articleBody" class="content" >
+                    {{ content }}
+            </div>
+            </article>	
+            {% include share.html %}
+            {% include next-previous.html %}
+            <div class="clear"></div>
+            {% include disqus.html %}
+
+        <br /><a href="#top" ><div id="go-top"><span class="hint--top hint--bounce" data-hint="Go to top"><img src="/img/rocket-go-top.png" alt="go to top"></span></div></a>
+
+
+    </div>
+</div>
+{% include rss-link.html %}

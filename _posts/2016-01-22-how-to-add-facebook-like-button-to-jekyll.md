@@ -7,21 +7,21 @@ tags: Jekyll SEO
 image: adding-facebook-like-button-to-jekyll.jpg
 ---
 
-<img alt="adding-facebook-like-button-to-jekyll" title="adding-facebook-like-button-to-jekyll.jpg" itemprop="thumbnailUrl" src="{{ site.url }}/images/adding-facebook-like-button-to-jekyll.jpg">
+<img alt="adding-facebook-like-button-to-jekyll" title="adding-facebook-like-button-to-jekyll.jpg" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adding-facebook-like-button-to-jekyll.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Understanding Jekyll is really important to manipulate the options available to handle different things. Usually all Jekyll themes will have a **header** and a **footer** template inside ```_includes``` folder.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Adding facebook button on a Jekyll blog site is different compared to HTML sites. This is because Jekyll blogs have an advantage of including html files which are inside _includes folder. We are taking advantage of this option!
+{: .intro}
+
+Understanding Jekyll is really important to manipulate the options available to handle different things. Usually all Jekyll themes will have a **header** and a **footer** template inside ```_includes``` folder.
+{: .clear}
 
 ## Basics before implementation
 
 Most of the Jekyll layouts make use of these templates. If you observe **default** layout inside    the ```_layouts``` folder, you'll see that  at some point they have included header and footer with the following code.
 
-<pre>{% raw %}
-{% include header.html %}
-{% endraw %}</pre>
-
-<pre>{% raw %}
-{% include footer.html %}
-{% endraw %}</pre>
+```{% raw %}{% include header.html %}{% endraw %}```
+<br />
+```{% raw %}{% include footer.html %}{% endraw %}```
 
 This kind of templating can be done with any html file inside ```_includes``` folder. 
 
@@ -67,7 +67,7 @@ Once you are done creating a page, go to [facebook like button creator plugin](h
 
 In the URL input, paste your facebook page URL and select width (this is important while using it on a responsive website), check or uncheck other options based on your requirement and hit **Get code**
 
-![like button to website]({{ site.url }}/images/how-to-add-facebook-like-button-to-jekyll.jpg)
+![like button to website]({{ site.url }}/images/how-to-add-facebook-like-button-to-jekyll.jpg){: .full}
 
 Now create a html file inside ```_includes```, name it ```fb-like.html``` and copy paste both the codes in it. Save the file.
 The codes will looks somewhat like this

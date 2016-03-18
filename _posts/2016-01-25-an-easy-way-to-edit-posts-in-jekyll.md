@@ -7,13 +7,15 @@ tags: Jekyll Web-Design
 image: how-to-edit-add-posts-in-jekyll.jpg
 ---
 
-<img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-edit-add-posts-in-jekyll.jpg">
-<a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
+<img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-edit-add-posts-in-jekyll.jpg">
+
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be inside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to insert images. If the image source is a URL then it was easy but if the image is in my local computer folder then there was no way uploading it. I did not know [how to sync files and folders with Github](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}.
+{: .intro}
+<a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
 ## Unable to upload images to Github!
-
+{: .clear}
 <div class="note">
    <h3>Update</h3>
     <p>Github finally has a direct upload option where you can upload files and folders just by drag-and-drop! Read <a target="_blank" href="http://blog.webjeda.com/github-upload-file-option/" ><strong>Github Upload Option</strong></a></p>
@@ -26,10 +28,13 @@ And also this is not practical. Since you are making a http request, it would ta
 
 
 ## A nice tool to upload images to Github
-Eventually I found out a tool called [prose.io](http://prose.io){:rel='nofollow'}{:target="_blank"}. It was good, the interface, functionality and even the animations! I wanted something that can upload images to Github. Prose was the Saviour.
 ![Prose.io jekyll editor screenshot]({{ site.url }}/images/how-to-use-prose-io-with-jekyll.jpg)
+{: .right .half}
+Eventually I found out a tool called [prose.io](http://prose.io){:rel='nofollow'}{:target="_blank"}. It was good, the interface, functionality and even the animations! I wanted something that can upload images to Github. Prose was the Saviour.
 
-I was really impressed with this webapp with a feature to upload images. All you need is to add these lines of code inside ```_config.yml```. This will solve the problem of prose.io not uploading images!
+I was really impressed with this webapp with a feature to upload images. All you need is to add these lines of code given below inside ```_config.yml```. This will solve the problem of prose.io not uploading images!
+
+<div class="clear"></div>
 
 {% highlight yaml %}
 
@@ -73,17 +78,18 @@ prose:
 
 {% include adsense-inside-post.html %}
 
-Image upload window on prose.io
-
 ![Upload images to github using prose]({{ site.url }}/images/upload-image-to-github-using-prose.jpg)
+{: .right .large}
+Image upload window on prose.io
 
 Let's say you have a non-jekyll website hosted on Github Pages. Prose.io can be used to edit that as well! But you have to create a ```_prose.yml``` file in the root of your repo and copy paste the same code!
 
 I was happy that I found an option to completely edit my Jekyll posts online. 
-
+{: .clear}
 Now in the above snippet, you can change the ```rooturl:``` to any folder you want. I have chosen ```_posts``` because that is the folder I often navigate to edit or add new posts.
 
 ## Why prose.io?
+
 Once you figure out how to sync files with Github from your local folders, you will realize that ```prose.io``` is not even required and you may think that you have been following the hard way all this time. But syncing files to Github can be hard for many beginners. Unless you have a little understanding about how ```git``` works, you cannot successfully sync files or at least cannot troubleshoot a simple issue.
 
 This is the reason why I recommend prose.io for beginners. It is simple, easy and GUI!

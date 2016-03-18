@@ -7,13 +7,14 @@ tags: Jekyll
 image: how-to-fetch-images-from-jekyll-post.jpg
 ---
 
-<img alt="fetch images from Jekyll post" title="grab images from Jekyll post" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-fetch-images-from-jekyll-post.jpg">
+<img alt="fetch images from Jekyll post" title="grab images from Jekyll post" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-fetch-images-from-jekyll-post.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>If you observe the screenshot below, I have used a card-style container to fit in everything. It looks better with proper shadow. Now my index page grabs the first image from my post and shows it in the list along with its title. The best part is that, the images are grabbed automatically from every post of my Jekyll blog.
+{: .intro}
 
-![How to fetch image from jekyll]({{ site.url }}/images/how-to-grab-image-from-jekyll-post.jpg)
 
 ## Why fetch image from Jekyll post?
+{: .clear}
 I always wanted to have a homepage with a list of posts with their respective images. Just like a WordPress blog page. This seemed almost impossible in Jekyll. But I had hope.
 
 Finally I stumbled across a [stackoverflow answer](http://stackoverflow.com/questions/25463865/in-jekyll-how-do-i-grab-a-posts-first-image){:rel='nofollow'}{:target="_blank"} that helped me achieve this. Now my post index includes tiny images fetched from particular blog post. So here is how I made this possible.
@@ -79,6 +80,8 @@ I have made changes to the above code to get a nice index of posts with title, d
 {% endhighlight %}
 
 You may have to style it the way you want. I'm not providing the styling details but I hope you can figure that out. You can use w3-css for card layout. It is also available from Bootstrap and Polymer. You can make your own raised box style by fiddling with box-shadow a little bit.
+
+![How to fetch image from jekyll]({{ site.url }}/images/how-to-grab-image-from-jekyll-post.jpg){: .full}
 
 ## Love for Jekyll (no offense WordPress)
 This feature gave me a hope that things are indeed possible with Jekyll. I see people migrating from Jekyll to WordPress for certain features. For instance [kanishkkunal](https://codingtips.kanishkkunal.in/jekyll-to-wordpress/){:rel='nofollow'}{:target="_blank"} who writes real good articles on Jekyll moved from Jekyll to WordPress. He has his reasons. But some writers(including myself) find Jekyll to be easier and comfortable than WordPress, for example Vito Botta. He writes his frustrations in this [article](http://vitobotta.com/migrating-from-wordpress-to-jekyll-part-one-why-i-gave-up-on-wordpress/){:rel='nofollow'}{:target="_blank"} while using WorPress to write posts. I found all the points he made to be true. WordPress post writing interface sucks real bad. There should have been a local editing option.

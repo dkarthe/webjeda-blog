@@ -7,22 +7,27 @@ tags: Github-Pages Web-Design
 image: top-bar-on-websites.jpg
 ---
 
-<img alt="How to add colored top bar to website" title="How to add colored top bar to website" itemprop="thumbnailUrl" src="{{ site.url }}/images/top-bar-on-websites.jpg">
+<img alt="How to add colored top bar to website" title="How to add colored top bar to website" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/top-bar-on-websites.jpg">
 
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>As shown in the screenshot, in one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}{:target="_blank"}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Top bars are beautiful looking lines at the top of a website. See how I have implemented it in my websites. A colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
+{: .intro}
 
+As shown in the screenshot, in one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}{:target="_blank"}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
+{: .clear}
 ## Why top bar?
 
 I started considering top bar only after I saw the designers from [Quora](https://www.quora.com){:rel='nofollow'}{:target="_blank"} started using it. And my blog WebJeda had a minimal theme. So I thought why not try it. 
 
 I remember YouTube using a red top bar to show how the progress of page loading. That was only for a while and <strike>for some reason they stopped it.</strike> But it seems like they are still using it! You can see it when you click on a video link. Actually it is a great idea to show the users how much page has been loaded without any distractions. By the time I'm writing this blog <a rel="nofollow" href="https://www.freecharge.in" alt="Freecharge">Freecharge</a> is using the top bar as a progress indicator. It must be a ```div``` on top with a 1 pixel border but looks like body top border.
 {% include adsense-inside-post.html %}
-If you have seen Chrome browser on android, they still use this. May be it is using a different code but visually similar to that we use in websites.
 
 ![Android chrome browser top loading bar]({{ site.url }}/images/android-chrome-browser-using-top-bar-screenshot.jpg)
+{: .right .half}
+If you have seen Chrome browser on android, they still use this. May be it is using a different code but visually similar to that we use in websites.
 
 So here it is giving some valuable information. But what I want is just a constant colored top bar to enhance the visual appearance. It is very easy and can be done with a single line of code!
+{: .clear}
 
 ## what is the code for top bar!
 
@@ -47,13 +52,28 @@ No top bar: [No top bar](http://webjeda.com/No-top-bar/){:rel='nofollow'}{:targe
 Top bar: [Top bar](http://webjeda.com/top-bar/){:rel='nofollow'}{:target="_blank"}
 
 ## Extensible!
+![top border used by google]({{ site.url }}/images/top-border-used-by-gmail.jpg)
+{: .right .half}
 This can be used on buttons to make them look awesome! This can give a modern look to almost all the elements. One such thing I have noticed is in **gmail** categories.
 
-![top border used by google]({{ site.url }}/images/top-border-used-by-gmail.jpg)
+
 
 Here is a button with just borders
+{: .clear}
 
 <button class="border-style">WebJeda</button>
+
+<style>
+.border-style {
+    font-size: 18px;
+    color: #41A720;
+    margin: 0;
+    padding: 10px 25px 10px 25px;
+    background-color: transparent;
+    border: 1px solid #41A720;
+    border-radius: 2px;
+}
+</style>
 
 Here is the HTML code..
 
@@ -61,7 +81,7 @@ Here is the HTML code..
 <button class="border-style">WebJeda</button>
 {% endhighlight %}
 
-.. and CSS code
+.. and CSS
 
 {% highlight css %}
 button.border-style {

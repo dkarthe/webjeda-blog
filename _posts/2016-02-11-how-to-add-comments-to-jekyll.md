@@ -7,11 +7,13 @@ tags: Jekyll SEO
 image: how-to-add-comment-box-to-jekyll-blog.jpg
 ---
 
-<img alt="how to add comments to jekyll" title="jekyll blog comments" itemprop="thumbnailUrl" src="{{ site.url }}/images/how-to-add-comment-box-to-jekyll-blog.jpg">
+<img alt="how to add comments to jekyll" title="jekyll blog comments" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-add-comment-box-to-jekyll-blog.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them an option to express!?
+{: .intro}
 
 There comes our comment box to the rescue. But there are a lot of them. You have to choose the one that suits your website. Suppose if you are active only on facebook, you can choose facebook comment box. If you have Google users as your readers then it would be a wise option to put a Google comment box. 
+{: .clear}
 
 It depends on your requirement. What kind of users you have and suppose if you don't care about user reactions then there is no need to keep a comment box!
 
@@ -39,11 +41,11 @@ There are many ways to add comment box to Jekyll. I will be discussing only the 
 ## 1. Disqus
 Disqus has been my favorite so far. It is simple, minimal and robust. I haven't faced any problem with this one so far. I recommend Disqus than any other Jekyll blog comments tool.
 
-![adding disqus comments box Jekyll blog]({{ site.url }}/images/how-to-add-comments-to-jekyll-blog.jpg)
+![adding disqus comments box Jekyll blog]({{ site.url }}/images/how-to-add-comments-to-jekyll-blog.jpg){: .full}
 
 The best part of Disqus is that it allows users to comment using facebook, twitter, Google plus or just using an email address! Moreover, if you have a bunch of blogs, you can have different comment boxes for them and manage it from a single account!
 
-![adding disqus jekyll blog comments]({{ site.url }}/images/how-add-disqus-to-jekyll-blog.jpg)
+![adding disqus jekyll blog comments]({{ site.url }}/images/how-add-disqus-to-jekyll-blog.jpg){: .full}
 
 Here are the steps to implement Disqus comment box in your Jekyll blog.
 
@@ -51,20 +53,27 @@ Here are the steps to implement Disqus comment box in your Jekyll blog.
 This step is pretty common for all the comment boxes. You can [sign up for Disqus](https://disqus.com/profile/signup/){:rel='nofollow'}{:target="_blank"} with your email, facebook, twitter or Google plus. After signing up, you may have to verify your email address if you have signed up with an email.
 
 ### Step 2: Set up Disqus
-Once you login, you should see a gear icon on the top-right corner. Click on it and you'll get a drop-down with one of the options saying **Add Disqus to Site**.
 ![adding disqus comments to Jekyll blog]({{ site.url }}/images/how-add-disqus-comments-to-jekyll-blog-2.jpg)
+{: .right .small}
+Once you login, you should see a gear icon on the top-right corner. Click on it and you'll get a drop-down with one of the options saying **Add Disqus to Site**.
 
 If it shows you a page with the heading "Engage" then click on 'start using engage'. Now you should see a screen as shown below.
 
-![adding disqus comments to Jekyll blog]({{ site.url }}/images/how-add-disqus-comments-to-jekyll-blog-3.jpg)
+<div class="clear"></div>
 
+![adding disqus comments to Jekyll blog]({{ site.url }}/images/how-add-disqus-comments-to-jekyll-blog-3.jpg)
+{: .left .half}
 This is where you can choose a **shortname** for your comment box which we will be using in the next step. I'm giving my shortname as **webjeda-sample**
 
 
 ### Step 3: Get the Disqus code
-Now select the platform as [**Universal code**](https://webjeda-sample.disqus.com/admin/settings/universalcode/){:rel='nofollow'}{:target="_blank"} and you should be redirected to the page having the actual code.
+{: .clear}
 
 ![adding disqus comments to jekyll blog]({{ site.url }}/images/how-add-disqus-comments-to-jekyll-blog-4.jpg)
+{: .right .half}
+Now select the platform as [**Universal code**](https://webjeda-sample.disqus.com/admin/settings/universalcode/){:rel='nofollow'}{:target="_blank"} and you should be redirected to the page having the actual code.
+
+<div class="clear"></div>
 
 Here is a sample Universal code (script) that can be inserted into any html page.
 
@@ -228,7 +237,7 @@ disqus_shortname: webjeda-sample
 ## 2. Google Plus
 Google has a very minimal and elegant comment box. I have no doubt that it looks better than Disqus but it is just for Google users. One must have Google plus account to comment.
 
-![how to add Google jekyll blog comments]({{ site.url }}/images/how-to-add-google-comment-box-to-jekyll.jpg)
+![how to add Google jekyll blog comments]({{ site.url }}/images/how-to-add-google-comment-box-to-jekyll.jpg){: .full}
 
 Here is the code to implement Google comments on Jekyll posts. Follow the same procedure we followed in step 4 od adding Disqus to Jekyll blog.
 
@@ -245,17 +254,20 @@ Here is the code to implement Google comments on Jekyll posts. Follow the same p
 
 Here variables should be in this format
 
-<pre>{% raw %}{{ site. url }}{% endraw %} = http://blog.webjeda.com</pre>
+```{% raw %}{{ site. url }}{% endraw %} = http://blog.webjeda.com```
 
-<pre>{% raw %}{{ page.url }}{% endraw %} = /how-to-add-comments-to-jekyll/</pre>
+```{% raw %}{{ page.url }}{% endraw %} = /how-to-add-comments-to-jekyll/```
 
 
 ## 3. Facebook Comments
-Before adding facebook comments, you may have to create an app in facebook. I have explained the steps in [How to add facebook like button to Jekyll](http://blog.webjeda.com/how-to-add-facebook-like-button-to-jekyll/){:rel='dofollow'}{:target="_blank"}. 
-
-After creating an app log on to [comments plugin page](https://developers.facebook.com/docs/plugins/comments){:rel='nofollow'}{:target="_blank"}. 
 
 ![How to add facebook jekyll blog comments]({{ site.url }}/images/how-add-facebook-comments-to-jekyll-blog.jpg)
+{: .right .large}
+Before adding facebook comments, you may have to create an app in facebook. I have explained the steps in [How to add facebook like button to Jekyll](http://blog.webjeda.com/how-to-add-facebook-like-button-to-jekyll/){:rel='dofollow'}{:target="_blank"}. 
+
+<div class="clear"></div>
+
+After creating an app log on to [comments plugin page](https://developers.facebook.com/docs/plugins/comments){:rel='nofollow'}{:target="_blank"}. 
 
 Here you can specify your requirements like width, number of posts to appear, color-scheme etc., and hit get code.
 
