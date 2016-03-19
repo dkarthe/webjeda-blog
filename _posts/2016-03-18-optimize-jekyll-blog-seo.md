@@ -20,7 +20,7 @@ layout: post
 
 I used WordPress for a long time. If you ask me which one among WordPress and Jekyll is good for SEO, I would shout out WordPress without a pause. 
 
-It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast and Schema Creator, WordPress is almost unbeatable by Jekyll. Ok  wait, but Why I'm praising WordPress so much? 
+It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast and Schema Creator, WordPress is almost unbeatable by Jekyll. Ok  wait, why am I praising WordPress so much? 
 
 At the moment we have Jekyll 3.0 and a small [list of plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them.
 
@@ -37,27 +37,27 @@ Google takes around 200 parameters into account in ranking a web page. But befor
 
 ## Let's dive into Jekyll SEO
 
-We have to take care of some basic things that help you index your website on Google. How do you know whether your website is linked already? Google ```site:yourwebsite.com```. If you see your website then you are already indexed. Check if the links you see in search result are working. 
+We have to take care of some basic things that help us index our website on Google. How do we know whether our website is indexed already? It's easy, just Google ```site:yourwebsite.com```. If you see your website links then you are already indexed. Check if the links you see in search result are working. 
 
 I have given the important parameters (among around 200 of them) your Jekyll blog should have to index and rank better in Google.
 
-1. Title & Description
+**1. Title & Description**
 
-2. URL Structure
+**2. URL Structure**
 
-3. Sitemap
+**3. Sitemap**
 
-4. Image alt Tags
+**4. Image alt Tags**
 
-5. Connecting with Social Media
+**5. Connecting with Social Media**
 
-6. Open graph and Twitter cards in Jekyll
+**6. Open graph and Twitter cards in Jekyll**
 
-7. Favicon & Touch icons
+**7. Favicon & Touch icons**
 
-8. Canonical URL
+**8. Canonical URL**
 
-9. Responsiveness (mobile friendly layout)
+**9. Responsiveness (mobile friendly layout)**
 
 
 The list is big, so is the article! But follow these and I can assure you that your blog will be 60% optimized for SEO already. The rest depends on your efforts on content creation, link building , marketing etc.,
