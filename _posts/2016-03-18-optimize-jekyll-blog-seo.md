@@ -57,7 +57,7 @@ I have given the important parameters (among around 200 of them) your Jekyll blo
 
 8. Canonical URL
 
-9.Responsiveness (mobile friendly layout)
+9. Responsiveness (mobile friendly layout)
 
 
 The list is big, so is the article! But follow these and I can assure you that your blog will be 60% optimized for SEO already. The rest depends on your efforts on content creation, link building , marketing etc.,
@@ -248,7 +248,7 @@ You can add many other tags if you like by referring to [Open Graph](http://ogp.
 
 
 ## 7. Favicon & Touch icons
-![Favicon Jekyll SEO](/images/favicon-jekyll-seo.jpg)
+![Favicon Jekyll SEO](/images/favicon-jekyll-seo.JPG)
 {: .right .half}
 A favicon is a ```.ico``` file of width & height usually not more than 100px. This is what most of the users remember of your site. It should represent your website in some way so that when a user sees this favicon in his bookmark bar, he should reconcile that it is your website.
 
