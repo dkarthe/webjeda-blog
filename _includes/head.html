@@ -36,8 +36,9 @@
 {% else %}<meta property="og:description" content="{{ site.description }}">{% endif %}
  
 	 <!-- Twitter Cards -->
- {% if page.title %}	 
+	 
 <meta name="twitter:card" content="summary_large_image"/>
+ {% if page.title %}
 <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
 <meta name="twitter:title" content="{{ site.title }}">
@@ -52,10 +53,10 @@
 <meta name="twitter:card" content="summary">
    
     <!--Apple touch icons-->
-<link rel="apple-touch-icon" href="/img/apple-touch-icon-iphone-60x60.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/img/apple-touch-icon-ipad-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-iphone-retina-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-ipad-retina-152x152.png">
+<link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-iphone-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-ipad-76x76.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-iphone-retina-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad-retina-152x152.png">
    
     <!-- RSS -->
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />  

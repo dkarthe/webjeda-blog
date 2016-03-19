@@ -189,9 +189,12 @@ Also be sure to use related alt tag. This helps search engines to know what's in
 
 Connecting to social media can be achieved by having a share option at the bottom of your posts. Read [How to add a share box to Jekyll](http://blog.webjeda.com/how-to-add-share-buttons-to-jekyll/){:target="_blank"}.
 
+
+## 6. Open graph and Twitter casrds in Jekyll
 A better way to optimize your social sharing is by adding Open Graph and Twitter Cards tag to your ```head``` section.
 
 Open Graph tags for Jekyll
+{% highlight html %}{% raw %}
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 {% if page.title %}	
@@ -210,15 +213,28 @@ Open Graph tags for Jekyll
 {% else %}
 <meta property="og:description" content="{{ site.description }}">
 {% endif %}
-
+{% endraw %}{% endhighlight %}
 
 
 
 
 Twitter Card tags for Jekyll
-
-
-
+{% highlight html %}
+ {% if page.title %}	 
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+<meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.desc %}
+<meta name="twitter:description" content="{{ page.desc }}">
+{% else %}
+<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+<meta name="twitter:site" content="@webjeda" />
+<meta name="twitter:creator" content="@sharathdt">
+<meta name="twitter:card" content="summary">
+{% endhighlight %}
 
 
 

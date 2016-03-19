@@ -9,6 +9,7 @@ layout: post
 ---
 
 <img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/custom-domain-to-github-2.jpg">
+
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Using github custom domain change the ugly looking username.github.io URL into a yourdomain.com URL. Learn how to add custom domain to github pages. You can also add a new domain to your Jekyll blog using this method.
 {: .intro}
 

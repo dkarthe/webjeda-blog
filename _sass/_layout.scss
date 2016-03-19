@@ -50,6 +50,7 @@ body > #container { height: auto; min-height: 100%; }
             margin-right: 1em;
         } */
     }
+
     .page-link:hover{
            color: #333;           
     }
@@ -450,6 +451,7 @@ section#archive {
     font-weight: 300;
 }
 
+ 
 .about:hover {
     border-bottom: 4px solid #3498db;
 }
@@ -458,21 +460,26 @@ section#archive {
     border-bottom: 4px solid #40d47e;
 }
 
+
 .contact:hover {
     border-bottom: 4px solid #f1c40f;
 }
+
 
 .pricing:hover {
     border-bottom: 2px solid #3a5269;
 }
 
+
 .sitemap:hover {
     border-bottom: 2px solid #9b59b6;
 }
 
+
 .subscribe:hover {
     border-bottom: 2px solid #e67e22
 }
+
 
 .search:hover  {
     border-bottom: 2px solid #e74c3c;

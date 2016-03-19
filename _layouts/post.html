@@ -28,7 +28,7 @@ layout: default
            {% include  adsense-pt.html %}   
             <a itemprop="url" class="post-link" href="{{ site.url }}{{ page.url }}"><h2 itemprop="headline" id="post-title">{{ page.title }}</h2></a>
 
-            <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>
+            <span class="time-auth"><time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>&nbsp;&#45;&nbsp;{% assign auth_name = site.authors[page.author] %}{{ auth_name.display_name }}</span>
             {% include post-tags.html %}	
             <div itemprop="articleBody" class="content" >
                     {{ content }}
