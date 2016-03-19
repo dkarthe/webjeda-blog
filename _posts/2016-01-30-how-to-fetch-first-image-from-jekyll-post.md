@@ -9,9 +9,10 @@ image: how-to-fetch-images-from-jekyll-post.jpg
 
 <img alt="fetch images from Jekyll post" title="grab images from Jekyll post" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-fetch-images-from-jekyll-post.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>If you observe the screenshot below, I have used a card-style container to fit in everything. It looks better with proper shadow. Now my index page grabs the first image from my post and shows it in the list along with its title. The best part is that, the images are grabbed automatically from every post of my Jekyll blog.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Featured images in WordPress is something I always wanted for my Jekyll blog. I liked how images to show up on the index page automatically. But I had no idea how to fetch images from Jekyll posts. Jekyll post images can be fetched using this tutorial.
 {: .intro}
 
+If you observe this blog's homepage, you'll see that I have used a card-style container to fit in everything. It looks better with a proper shadow. Now my index page grabs the first image(now it uses a different way to fetch images) from my post and shows it in the list along with its title. The best part is that, the images are grabbed automatically from every post of my Jekyll blog.
 
 ## Why fetch image from Jekyll post?
 {: .clear}
