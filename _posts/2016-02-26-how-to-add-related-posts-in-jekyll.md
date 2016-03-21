@@ -9,16 +9,19 @@ image: adding-related-previous-next-link-to-jekyll.jpg
 
 <img alt="How to Add Related or Previous-Next Post Link in Jelyll" title="next pervious post jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adding-related-previous-next-link-to-jekyll.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>A long time ago I was writing 4 parts on WordPress installation tutorial. At the end of every article I had to leave the next or previous article link. I used to do it manually in this way "To read my next article on useful WordPress plugins read [part 2](#)" 
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>**Related posts** is a way to keep your users hooked to checkout more content from your website. If they like your current article, then there is a good chance that they would like to browse more of your site. Add a related post or add next previous link to Jekyll articles using this method. 
 {: .intro}
 
-Manually linking articles was hectic when I have more articles. May be there is a plugin in WordPress that can do the job, but I was fed up with too many plugins! But in Jekyll we have nice little variables ```page.previous```and ```page.next``` which does the job without breaking a sweat.
+A long time ago I was writing 4 parts on WordPress installation tutorial. At the end of every article I had to leave the next or previous article link. I used to do it manually in this way "To read my next article on useful WordPress plugins read [part 2](#)" 
 {: .clear}
+
+Manually linking articles was hectic when I have more articles. May be there is a plugin in WordPress that can do the job, but I was fed up with too many plugins! But in Jekyll we have nice little variables ```page.previous```and ```page.next``` which does the job without breaking a sweat.
+
 
 ## Why use Related Prev-Next Navigation in Jekyll?
 
-Finding content on your blog should be easy for visitors. Let's say a new visitor is checking out an article on your website about **how to begin with Angular JS**. You have made a lot of research to write this article leaving no stone unturned. And your article is the best resource the visitor can get anywhere on the internet. 
-{% include adsense-inside-post.html %}
+Finding content on your blog should be easy to your visitors. Let's say a new visitor is checking out an article on your website about **How to begin with Angular JS**. You have made a lot of research to write this article leaving no stone unturned. And your article is the best resource the visitor can get anywhere on the internet. 
+
 Let's also assume that you put the same efforts to write all your posts (I know you don't) and your articles are really helpful to learn Angular JS step by step. There is a **83%**(yes this is from How I Met Your Mother) chance that the user is going to check more of your content. You should give him/her an easy access to other content of yours right after the current article!
 
 Adding next-previous post link or related post link is a good way to engage your audience with more useful content and if the articles are good then they may turn into subscribers.
@@ -50,7 +53,7 @@ The out put should look like the screenshot below
 
 ![Related posts jekyll]({{ site.url }}/images/related-posts-jekyll.jpg){: .full}
 
-
+{% include adsense-inside-post.html %}
 ## How to add Prev-Next Post links in Jekyll?
 
 I think it is a better thing to insert **Previous-Next Post link** after an article than **related post link**. If you are writing articles around only one topic then this is ideal since you always write related articles. 

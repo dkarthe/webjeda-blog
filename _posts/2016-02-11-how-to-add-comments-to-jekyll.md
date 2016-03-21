@@ -9,20 +9,22 @@ image: how-to-add-comment-box-to-jekyll-blog.jpg
 
 <img alt="how to add comments to jekyll" title="jekyll blog comments" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-add-comment-box-to-jekyll-blog.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them an option to express!?
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll themes are pretty neat with bare minimum options. Jekyll blog comments is not included by default. WordPress blogs have comments by default. What if we want it in our Jekyll blog as well? We have a cleaner and better options in Jekyll.
 {: .intro}
 
-There comes our comment box to the rescue. But there are a lot of them. You have to choose the one that suits your website. Suppose if you are active only on facebook, you can choose facebook comment box. If you have Google users as your readers then it would be a wise option to put a Google comment box. 
+When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them an option to express!?
 {: .clear}
 
-It depends on your requirement. What kind of users you have and suppose if you don't care about user reactions then there is no need to keep a comment box!
+There comes our comment box to the rescue. But there are a lot of them. You have to choose the one that suits your website. Suppose if you are active only on facebook, you can choose facebook comment box. If you have Google users as your readers then it would be a wise option to put a Google comment box. 
+
+It depends on your requirements. What kind of users you have. Suppose if you don't care about user reactions then there is no need to keep a comment box!
 
 
 ## WordPress has an upper hand
 
 WordPress comes with a nice default comment box and you can get other ones through plugins if you don't like the default one. But if you want to place the comment box a little above than the position it is already in then you are in trouble!
 
-Editing plugins is really hard unless you are an expert in ```php``` and know where to look for the changes. I have tried it and I can tell you that it is not a good experience.
+Editing plugins in WordPress is really hard unless you are an expert in ```php``` and know where to look for the changes. I have tried it and I can tell you that it is not a good experience.
 
 WordPress comments otherwise works great, you have nothing to code and most of the bloggers use it. But if you have made a choice to move from WordPress to Jekyll (which I would really appreciate) then you can install one of these comment boxes in your blog.
 

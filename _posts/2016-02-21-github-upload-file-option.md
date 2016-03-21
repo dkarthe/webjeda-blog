@@ -9,11 +9,14 @@ image: upload-option-github.jpg
 
 <img alt="how to upload files and folder in github" title="github upload option" itemprop="thumbnailUrl" class="left half noborder" src="/images/upload-option-github.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Today Github has announced a feature which I was looking forward to from years. Uploading files and folders directly to Github repositories is now a reality. I'm wondering why did it take so many years for Github to add this option.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>For years Github users had a hard time uploading files to github repositories but now github has provided an option to upload files and folders directly into repositories! Jekyll bloggers are also happy with this update. Now they can write a complete blog post with media directly in a browser!
 {: .intro}
 
-## Why this update is crucial?
+Today Github has announced a feature which I was looking forward to from years. Uploading files and folders directly to Github repositories is now a reality. I'm wondering why did it take so many years for Github to add this option.
 {: .clear}
+
+## Why this update is crucial?
+
 Years ago I used to manage a Jekyll blog hosted on Github Pages. It was beautiful, fast and responsive but the only problem I had was uploading files and folders. I wasn't so good at command line interface so I used [prose](http://prose.io){:rel='nofollow'}{:target="_blank"} to upload images and edit my posts. That was easy but setting up prose is still not an easy task.
 
 
@@ -41,6 +44,8 @@ That's all. Now check your repository whether the uploaded files and folders are
 
 Ok, what if we want to change a file? You can find the file and change it in a browser or do all the changes necessary and push it all together using [how to sync files and folders to Github](http://blog.webjeda.com/how-to-sync-files-folders-with-github/) method.
 
+Editing files (posts) in github repository is fine but for a better user interface, [use prose.io](/an-easy-way-to-edit-posts-in-jekyll/).
+{: .clear}
 
 Thanks for reading!
-{: .clear}
+
