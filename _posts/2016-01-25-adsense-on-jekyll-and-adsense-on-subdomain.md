@@ -9,7 +9,7 @@ image: adsense-on-subdomain-adsense-on-Jekyll.jpg
 
 <img alt="adsense on subdomain" title="adsense on Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adsense-on-subdomain-adsense-on-Jekyll.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Though I had so many blogs, none of them got approval for some or the other reason. Actually it was hard to figure out what exactly was going wrong. Adsense policies check many parameters for approval. Though Google sends you the reason, they are vague and I almost gave up on Adsense.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Though I had many blogs, none of them got approval for some or the other reason. Actually it was hard to figure out what exactly was going wrong. Adsense policies check many parameters for approval. Though Google sends you the reason, they are vague and I almost gave up on Adsense.
 {: .intro}
 <a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
