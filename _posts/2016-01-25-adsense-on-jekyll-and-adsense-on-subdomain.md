@@ -9,7 +9,7 @@ image: adsense-on-subdomain-adsense-on-Jekyll.jpg
 
 <img alt="adsense on subdomain" title="adsense on Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adsense-on-subdomain-adsense-on-Jekyll.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Though I had so many other blogs, none of them got approval for some or the other reason. Actually it is hard to figure out what exactly went wrong. Adsense policies check many parameters for approval. Though Google sends you the reason, they are vague and I almost gave up on Adsense.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Though I had so many blogs, none of them got approval for some or the other reason. Actually it was hard to figure out what exactly was going wrong. Adsense policies check many parameters for approval. Though Google sends you the reason, they are vague and I almost gave up on Adsense.
 {: .intro}
 <a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
@@ -19,13 +19,13 @@ I had no hopes on this blog either. But I tried my best to deliver the content t
 ## Adsense on subdomain
 The first problem I faced was applying for adsense using subdomain. My subdomain ```blog.webjeda.com``` cannot be used for applying to Adsense. Google has this policy for a reason. May be you have good content on your subdomain but what if you have bad content in your domain which is non compliant with Adsense policies. Say some adult content or content related to drugs?
 
-So one thing was sure by the answers on Google Product Forum that **I cannot apply for adsense with a subdomain**. But you can always apply with the domain name though your domain doesn't have much content. For instance my domain [webjeda.com](http://webjeda.com){:target="_blank"} doesn't have much content. It is actually a single page website meant for my business.
+So one thing was sure by the answers on Google Product Forum that **I cannot apply for adsense with a subdomain**. But I can always apply with the domain name even if it doesn't have much content. For instance my domain [webjeda.com](http://webjeda.com){:target="_blank"} doesn't have many pages. It is actually a single page website meant for my business.
 
 So I applied with my domain ```webjeda.com``` and placed ads on my subdomain(only after placing ads, Google will check your website for compliance). It did not get an approval for days. I thought it doesn't work. Then I read somewhere that I have to put at least one ad in the main domain to get approved.
 {% include adsense-inside-post.html %}
 I can easily place an ad on ```webjeda.com``` but I was afraid that Google will reject it for having no content. But that was my last hope anyway. There was actually another alternative. Moving the blog to a new domain. I was in no mood to move all my contents in the subdomain to a new domain. That's not just practical.
 
-I decided to place an ad on my domain. And just after a day, while I was browsing my blog ```blog.webjeda.com``` I saw ads showing up. Because the ads I placed initially were still there. As it was showing blank spaces before approval, I forgot to take them off. But after seeing the ads I was really happy that finally something happened!
+I decided to place an ad on my domain. And just after a day, while I was browsing my blog ```blog.webjeda.com``` I saw ads showing up. It was showing blank spaces before approval. But after seeing the ads I was really happy that finally something happened!
 
 So follow the guidelines for approval on subdomain
 
@@ -49,7 +49,7 @@ I have placed ads on top and bottom of my blog posts and pages. And one more ad 
 The advantage is that it adopts to all screen-size so that you don't have to add media queries and adjust the width.
 
 ### 2. Create html files of adsense code
-Create 3 html files with different names inside ```_includes``` folder. Copy paste the adsense code(responsive) that you generated in Adsense. Here is a sample adsense code for the file. Keeping the script tags inside a ```div``` tag is optional.
+Create 3 html files with different names inside ```_includes``` folder(you can place only 3 ads per page. But this is not a hard and fast rule). Copy paste the adsense code(responsive) that you generated in Adsense. Here is a sample adsense code for the file. Keeping the script tags inside a ```div``` tag is optional.
 
 {% highlight html %}
 <div>
@@ -85,7 +85,7 @@ I have a total of 3 adsense html files
 layout: default
 ---
 <article id="page">
-	{% raw %}{% include adsense-lb.html %}{% endraw %}
+	{% raw %}{% include adsense-file-1.html %}{% endraw %}
   {% raw %}{{ content }}{% endraw %}
 
 </article>
