@@ -259,7 +259,7 @@ Touch icons are basically for hand-held touch devices. They show up in the brows
 ![Touch icons Jekyll seo](/images/touch-icons-jekyll-seo.jpg)
 {: .left .half}
 This is how an android browser shows touch-icons when you bookmark a website or visit a website very often. 
-If there is no icon available then it shows the first letter of the domain.
+If there is no icon available then it shows default icon or first letter of the domain.
 
 Use the below code to implement touch icons.
 {: .clear}
