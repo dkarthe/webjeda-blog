@@ -250,7 +250,7 @@ You can add many other tags if you like by referring to [Open Graph](http://ogp.
 ## 7. Favicon & Touch icons
 ![Favicon Jekyll SEO](/images/favicon-jekyll-seo.JPG)
 {: .right .half}
-A favicon is a ```.ico``` file of width & height usually not more than 100px. This is what most of the users remember of your site. It should represent your website in some way so that when a user sees this favicon in his bookmark bar, he should reconcile that it is your website.
+A favicon is a ```.ico``` file usually of the dimensions 16x16. This is what most of the users remember of your site. It should represent your website in some way so that when a user sees this favicon in his bookmark bar, he should reconcile that it is your website.
 
 
 Touch icons are basically for hand-held touch devices. They show up in the browser homepage when you bookmark a website.
