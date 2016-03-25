@@ -31,7 +31,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-timezone: Asia/Kolkata
+timezone: Asia/Calcutta
 
 
 # Custom variables
