@@ -14,22 +14,22 @@ image: jekyll-tutorial-screenshot.jpg
 
 ## Why learn Jekyll the right way?
 {: .clear}
-When I had to make some changes in Jekyll, I used to write dirty codes in the respective template and somehow make it work for a while but if I wanted to make any further changes to it then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work again. This is what I used to do years ago. _Half knowledge is worse than no knowledge_ is completely true in the case of Jekyll.
+When I had to make some changes in Jekyll, I used to write dirty codes in the respective template and somehow make it work for a while but if I wanted to make any further changes to it then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work again. This is what I used to do years ago. _Half knowledge is worse than no knowledge_ was completely true in my case.
 
-These dirty codes would break my site, sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while committing the changes (big mistake). I can always revert back, but I would lose all the changes and posts :(
+These dirty codes would break my site, leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while committing the changes (big mistake). I can always revert back, but I would lose all the changes and posts :(
 
 
 ## How to use jekyll?
-When I started using Jekyll, I used get a lot of 404 errors, page build errors, liquid tag errors, page rendering errors and what not. The mistake I did was not spending a little time to know how Jekyll works. I was over enthusiastic may be. But it did hurt me in the long run. 
+When I started using Jekyll, I used get a lot of **404 errors**, **page build errors**, **liquid tag errors**, **page rendering errors** and what not. The mistake I did was not spending a little time to know how Jekyll works. I was over enthusiastic may be. But it did hurt me in the long run. 
 
-So if you are just starting off with Jekyll or you do not know how to use Jekyll then please start with the [official documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right track. It has a lot of information (and lot of pages as well). So I thought I would summarize it in this post so that anyone could make use of it for a basic Jekyll blog designing. 
+If you are just starting off with Jekyll or you do not know how to use Jekyll then please start with the [official documentation provided by Jekyll](http://jekyllrb.com/docs/home/){:rel='nofollow'}{:target="_blank"}. This will set you on the right track. It has a lot of information (and lot of pages as well). So I thought I would summarize it in this post so that anyone could make use of it for a basic Jekyll blog designing. 
 
 But once you finish reading this post, I suggest you check out the documentation. It will give you a rather deep insight than just a brief introduction like this one.
 
 ## What Jekyll does better?
 ![Jekyll transforms text to html]({{ site.url }}/images/jekyll-transforms-text-to-hypertext.jpg){: .full}
 
-As depicted in the image, Jekyll does magic on text files converting them into html files - which is technically called as **text transformation**. This is not the only thing Jekyll does. Jekyll actually does some more magic! This is the reason Jekyll posts and pages can be written in easily readable markups like [markdown](https://daringfireball.net/projects/markdown/basics){:rel='nofollow'}{:target="_blank"}, <strike>textile</strike> (not supported anymore after Jekyll 3.0 update) etc.,
+As depicted in the image(pardon my photoshop skills), Jekyll does magic on text files converting them into html files - which is technically called as **"**text transformation**"**. This is not the only thing Jekyll does. Jekyll actually does some more magic like templating, pagination, syntax highlighting,  etc., And also, Jekyll posts and pages can be written in easily readable markups like [markdown](https://daringfireball.net/projects/markdown/basics){:rel='nofollow'}{:target="_blank"}, <strike>textile</strike> (not supported anymore after Jekyll 3.0 update) etc.,
 
 ## Understand the structure of Jekyll
 
