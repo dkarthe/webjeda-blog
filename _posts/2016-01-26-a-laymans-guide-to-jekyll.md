@@ -9,12 +9,12 @@ image: jekyll-tutorial-screenshot.jpg
 
 <img alt="Jekyll blog Tutorial" title="Jekyll blog guide" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/jekyll-tutorial-screenshot.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll was easy for me in the beginning. Because I was just adding posts or editing the current ones. But when I had to change the font or color I had to go through the CSS and make changes accordingly. Even this wasn't hard. But if I wanted a new page, a new functionality like adding tags, related posts, share buttons, author box etc., I had no idea how to do it. 
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll was easy for me in the beginning. Because I was just adding posts or editing the current ones. But when I had to change the font or color I had to go through the CSS and make changes accordingly. Even that wasn't hard. But if I wanted a new page, a new functionality like adding tags, related posts, share buttons, author box etc., I had no idea how to do it. 
 {: .intro}
 
 ## Why learn Jekyll the right way?
 {: .clear}
-When I had to make some changes in Jekyll, I used to write dirty codes in the respective template and somehow make it work for a while but if I wanted to make any further changes to it then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work again. This is what I used to do years ago. Half knowledge is worse than no knowledge is completely true in the case of Jekyll.
+When I had to make some changes in Jekyll, I used to write dirty codes in the respective template and somehow make it work for a while but if I wanted to make any further changes to it then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work again. This is what I used to do years ago. _Half knowledge is worse than no knowledge_ is completely true in the case of Jekyll.
 
 These dirty codes would break my site, sometimes leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while committing the changes (big mistake). I can always revert back, but I would lose all the changes and posts :(
 
