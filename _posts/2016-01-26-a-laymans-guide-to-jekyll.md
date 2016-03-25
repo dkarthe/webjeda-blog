@@ -69,7 +69,7 @@ Keep this [sample Jekyll repository](https://github.com/KingFelix/emerald){:rel=
 
 ## Files inside a Jekyll site
 {: .clear}
-1. <h3>_config.yml:</h3> Master configuration file. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates, increments etc., can be difined inside this file. 
+1. <h3>_config.yml:</h3> Master configuration file **_confog.yml*** is the DNA of a Jekyll project. You can define your site configurations inside this file. From simple things such as title, url, author etc., to complex things such as ssl certificates, increments etc., can be difined inside this file. 
 Here is a [sample _config.yml file](https://raw.githubusercontent.com/Redgadget/emerald/gh-pages/_config.yml){:rel='nofollow'}{:target="_blank"} for Emerald Jekyll theme. You can use all the parameters in this file using ```site``` variable. For instance, using ```{% raw %}{{ site.url }}{% endraw %}``` anywhere on the page, post, template will fetch the url variable defined in ```_config.yml```. [Read More](http://jekyllrb.com/docs/configuration/){:rel='nofollow'}{:target="_blank"}.
 This is also the  first file you should edit when you fork(copy) a new theme. In order to make your blog work, you should mention the ```baseurl```. Read: [How to create a Jekyll blog](http://blog.webjeda.com/how-to-create-a-jekyll-blog/){:target="_blank"} for more.
 {% include adsense-inside-post.html %}
