@@ -3,24 +3,25 @@
   
    <div class="column-left">
         <div class="built">
-            <p>All rights reserved by <a href="http://webjeda.com" target="_blank" >WebJeda</a></p>
+            <p>All rights reserved by <span class="hint--top hint--bounce" data-hint="Business website"><a href="http://webjeda.com" target="_blank" >WebJeda</a></span></p>
         </div>
    </div>
 
    <div class="column-center">
   
         <div id="footer-icons"> 
-              <a href="{{ site.facebook }}" target="_blank" ><i class="footer-icon fa fa-facebook-official fa"></i></a>
-              <a href="{{ site.twitter }}" target="_blank" ><i class="footer-icon fa fa-twitter fa"></i></a>
-              <a href="{{ site.github}}" target="_blank" ><i class="footer-icon fa fa-github-alt fa"></i></a>
-              <a href="{{ site.youtube }}" target="_blank" ><i class="footer-icon fa fa-youtube fa"></i></a>
-              <a href="{{ site.email }}" ><i class="footer-icon fa fa-envelope fa"></i></a>
+              <span class="hint--top hint--bounce" data-hint="facebook"><a href="{{ site.facebook }}" target="_blank" ><i class="footer-icon fa fa-facebook-official fa"></i></a></span>
+              <span class="hint--top hint--bounce" data-hint="twitter"><a href="{{ site.twitter }}" target="_blank" ><i class="footer-icon fa fa-twitter fa"></i></a></span>
+              <span class="hint--top hint--bounce" data-hint="github"><a href="{{ site.github}}" target="_blank" ><i class="footer-icon fa fa-github-alt fa"></i></a></span>
+                  <span class="hint--top hint--bounce" data-hint="youtube"><a href="{{ site.youtube }}" target="_blank" ><i class="footer-icon fa fa-youtube fa"></i></a></span>
+                  <span class="hint--top hint--bounce" data-hint="email"><a href="{{ site.email }}" ><i class="footer-icon fa fa-envelope fa"></i></a></span>
         </div>
 
    </div>
    
    
    <div class="column-right">
+           
             <form id="donate-form" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
                     <input type="hidden" name="cmd" value="_cart">
                     <input type="hidden" name="business" value="sharu725@gmail.com">
@@ -35,7 +36,8 @@
                     <input type="hidden" name="shipping" value="0.00">
                     <input type="hidden" name="add" value="1">
                     <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
-                    <input type="image" src="/img/Buy-me-a-coffee.svg" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+                    <span class="hint--top hint--bounce hint--success" data-hint="I would appreciate it!">
+                    <input type="image" src="/img/Buy-me-a-coffee.svg" border="0" name="submit" alt="PayPal – The safer, easier way to pay online."></span>
                     <img alt="" border="0" style="display:none;" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
             </form>
   

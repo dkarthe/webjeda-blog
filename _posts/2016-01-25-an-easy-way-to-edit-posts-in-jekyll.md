@@ -10,7 +10,7 @@ image: how-to-edit-add-posts-in-jekyll.jpg
 <img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-edit-add-posts-in-jekyll.jpg">
 
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be inside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to insert images. If the image source is a URL then it was easy but if the image is in my local computer folder then there was no way uploading it. I did not know [how to sync files and folders with Github](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be inside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to insert images. If the image source is a URL then it was easy but if the image was inside my local computer folder then there was no way uploading it. I did not know [**how to sync files and folders with Github**](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}.
 {: .intro}
 <a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
@@ -21,18 +21,18 @@ image: how-to-edit-add-posts-in-jekyll.jpg
     <p>Github finally has a direct upload option where you can upload files and folders just by drag-and-drop! Read <a target="_blank" href="http://blog.webjeda.com/github-upload-file-option/" ><strong>Github Upload Option</strong></a></p>
 </div>
 As I was unable to upload images to Github I used to upload images to my Google drive, then get the URL of the image and put that as a source in the blog. One of those examples here
-[Image from google](https://lh3.googleusercontent.com/-j3S-KX7DwQ0/VDi4p2xTzVI/AAAAAAAAAGo/_PP4-udRS4c/s550-no/moto-hint-story-pairit-us.jpg){:rel='nofollow'}{:target="_blank"}.
-There is another way to do this by creating issue in Github where you can drag and drop an image, get the URL and use it as source. But I doubt its reliability.
+[Image from google drive](https://lh3.googleusercontent.com/-j3S-KX7DwQ0/VDi4p2xTzVI/AAAAAAAAAGo/_PP4-udRS4c/s550-no/moto-hint-story-pairit-us.jpg){:rel='nofollow'}{:target="_blank"}.
+There is another way to do this by creating an issue in Github where you can drag and drop an image, get the URL and use it as source. But I doubt its reliability.
 
-And also this is not practical. Since you are making a http request, it would take a longer time to load the page. I was not aware of these things. That was my workaround for not being able to upload files to Github.
+And also this is not practical. Since you are making a http request, it would take a longer time to load the page. I was not aware of these things. But, that was my workaround for not being able to upload files to Github.
 
 
 ## A nice tool to upload images to Github
 ![Prose.io jekyll editor screenshot]({{ site.url }}/images/how-to-use-prose-io-with-jekyll.jpg)
 {: .right .half}
-Eventually I found out a tool called [prose.io](http://prose.io){:rel='nofollow'}{:target="_blank"}. It was good, the interface, functionality and even the animations! I wanted something that can upload images to Github. Prose was the Saviour.
+Eventually I found a tool called [prose.io](http://prose.io){:rel='nofollow'}{:target="_blank"}. It is good, the interface, functionality and even the animations! I wanted something that can upload images to Github. Prose was the Saviour.
 
-I was really impressed with this webapp with a feature to upload images. All you need is to add these lines of code given below inside ```_config.yml```. This will solve the problem of prose.io not uploading images!
+I was really impressed with this webapp with a feature to upload images. But it will not upload images by default. To make it work, you need to add these lines of code given below inside ```_config.yml```. This will solve the problem of prose.io not uploading images!
 
 <div class="clear"></div>
 
@@ -90,14 +90,14 @@ Now in the above snippet, you can change the ```rooturl:``` to any folder you wa
 
 ## Why prose.io?
 
-Once you figure out how to sync files with Github from your local folders, you will realize that ```prose.io``` is not even required and you may think that you have been following the hard way all this time. But syncing files to Github can be hard for many beginners. Unless you have a little understanding about how ```git``` works, you cannot successfully sync files or at least cannot troubleshoot a simple issue.
+Once you figure out [**how to sync files and folders with Github from your local folders**](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}, you will realize that ```prose.io``` is not even required and you may think that you have been following the hard way all this time. But syncing files to Github can be hard for many beginners. Unless you have a little understanding about how ```git``` works, you cannot successfully sync files or at least cannot troubleshoot a simple issue.
 
 This is the reason why I recommend prose.io for beginners. It is simple, easy and GUI!
 
-In situations where you are using a chromebook, there isn't any convenient way to sync Github files locally. May be in the future Github will release apps for **Chrome Os** and **Android** but for now there is no option. 
+And also in situations where you are using a chromebook, there isn't any convenient way to sync Github files locally. May be in the future Github will release apps for **Chrome Os** and **Android** but for now there is no option. 
 
-And also while traveling you may just have a smart-phone or a tablet with you. In such case you will appreciate prose.io!
+While traveling you may just have a smart-phone or a tablet with you. In such cases you will appreciate **prose.io**!
 
-I'm searching for a reliable Android app that can edit Jekyll posts. Let me know if you find one.
+I'm searching for a reliable Android app that can edit Jekyll posts but had no luck. Let me know if you find one.
 
 Thanks for reading!
