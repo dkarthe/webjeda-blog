@@ -42,6 +42,8 @@ You should receive an email with the token similar to this one
 Your form api token is c7b404f97b2e45f982ffed4995bf42af
 {% endhighlight %}
 
+{% include adsense-inside-post.html %}
+
 ### Step 2: Create a form
 ![Jekyll subscribe form](/images/jekyll-subscribe-form.jpg)
 {: .right}
