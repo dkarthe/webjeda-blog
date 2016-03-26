@@ -6,7 +6,7 @@ permalink: /contact/
 adallow: 0
 ---
 
-I would love to hear from you. Any query, any suggestion or feedback would be great! If you have a great story to share, tale to tell, do not hesitate to leave a message.
+I would love to hear from you. Any query, any suggestion or feedback would be great! If you need a website, blog or portfolio site then please leave a message.
 
 
 

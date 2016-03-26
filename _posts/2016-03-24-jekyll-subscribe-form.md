@@ -1,5 +1,5 @@
 ---
-title: How to create a subscribe form for Jekyll?
+title: How to create a subscribe form for Jekyll that actually works!?
 desc: Subscribe form for Jekyll was not available because all forms tend to work with php code to send emails. But with this method we can add a subscribe form for Jekyll websites which works out of the box.
 keywords: 
 author: sharathdt
@@ -10,20 +10,22 @@ layout: post
 
 <img alt="jekyll subscribe form" title="subscribe form Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/jekyll-subscribe-form.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Subscribe form for Jekyll was not available because all forms tend to work with php code to send emails. But with this method we can add a subscribe form for Jekyll websites which works out of the box. I'm another step closer to compete with WordPress blogs!
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Subscribe form for Jekyll was not available because all forms tend to work with ```php``` code to send emails. But with this method we can add a subscribe form for Jekyll websites which works out of the box. I'm another step closer to compete with WordPress blogs!
 {: .intro}
 
 ## Why use a subscribe form?
 {: .clear}
 Subscribe form is used basically to collect visitors' emails to provide them an update of new articles every time you post a new one. Also, a good way to get some initial traffic to a new post. 
 
-Many bloggers use the mailing list for affiliate marketing. I don't think it is a bad thing. If a user is interested in the stuff blogger is selling then it is a win-win. 
+Many bloggers use the mailing list for affiliate marketing. I don't think it is a bad idea. If a user is interested in the stuff blogger is selling, then it is a win-win. 
 
-WordPress has too many plugins that can do the job without breaking a sweat. But, after moving all my blogs from WordPress to Jekyll I had to find an alternative for subscribe forms.
+WordPress has an advantage with many plugins that can do the job without breaking a sweat. But, after moving all my blogs from WordPress to Jekyll I had to find an alternative for subscribe forms.
 
-What I'm showing here is an email collector. So it just collects users' emails. I think that is what a basic subscriber form does. You can also setup an auto-reply option.
+This is one of those things I always wanted in Jekyll but did not know how to execute. This idea hit me while I was having a shower! Initially, I tried to create a form with [FormSpree](http://formspree.com){:rel='nofollow'}{:target="_blank"} similar to [how I created a contact form](/how-to-add-form-option-to-jekyll-websites/){:target="_blank"}. It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on a specific page but not for all pages. What clicked to me in the shower is that SimpleForm can be used to make a contact form which works on all pages!
 
-But before collecting emails you should have an email id. It is better if you have a domain email. If you don't have one, then get a [free domain email using zoho](/free-domain-email-zoho/){:target="_blank"}.
+What I'm showing here is an email collector. So it just collects users' emails. I think that is what a basic subscriber form does. You can also setup an auto-reply option. Auto-reply can help if you are offering an e-book for a subscription. I haven't tried it yet but it should work.
+
+But before collecting emails you should have an email id. You can use any email id but it is a good idea if you use a domain email. If you don't have one, then get a [free domain email using ZOHO](/free-domain-email-zoho/){:target="_blank"}.
 
 
 ## How to make a subscribe form on Jekyll blog?
