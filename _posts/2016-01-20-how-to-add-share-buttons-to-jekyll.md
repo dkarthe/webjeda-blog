@@ -65,7 +65,7 @@ I can do the same thing for twitter share link
 
 This works pretty much on all the social media websites. For LinkedIn I also added title and description of the page.
 
-```https://www.linkedin.com/shareArticle?mini=true&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}&title={% raw %}{{ page.title }}{% endraw %}&summary={% raw %}{{ page.desc }}{% endraw %}&source=webjeda```
+```https://www.linkedin.com/shareArticle?mini=true&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}&title={% raw %}{{ page.title }}{% endraw %}&summary={% raw %}{{ page.description }}{% endraw %}&source=webjeda```
 
 
 This is the key to my WebJeda Sharebar.
@@ -101,7 +101,7 @@ Create a new ```html``` file inside _includes folder and call it share.html. Cop
     <i class="fa fa-reddit-square fa share-button"> reddit</i>
 </a>
 
-<a href="https://www.linkedin.com/shareArticle?mini=true&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}&title={% raw %}{{ page.title }}{% endraw %}&summary={% raw %}{{ page.desc }}{% endraw %}&source=webjeda" onclick="window.open(this.href, 'mywin',
+<a href="https://www.linkedin.com/shareArticle?mini=true&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}&title={% raw %}{{ page.title }}{% endraw %}&summary={% raw %}{{ page.description }}{% endraw %}&source=webjeda" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
     <i class="fa fa-linkedin-square fa share-button"> linkedin</i>
 </a>

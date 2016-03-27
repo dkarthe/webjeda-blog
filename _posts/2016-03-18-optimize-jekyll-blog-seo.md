@@ -8,7 +8,7 @@ image: Jekyll-SEO.jpg
 layout: post
 ---
 
-<img alt="jekyll seo" title="Jekyll SEO" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/Jekyll-SEO.jpg">
+<img alt="jekyll seo" title="Jekyll SEO" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/thumbs/Jekyll-SEO.jpg">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll Search Engine Optimization is left to the users. Initially SEO optimizing Jekyll was hard but gradually it has been easier since we have so many people contributing to the community. Learn how to do Jekyll SEO.
 {: .intro}

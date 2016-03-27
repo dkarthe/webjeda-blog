@@ -10,6 +10,7 @@ html {
 ::-webkit-scrollbar {
     -webkit-appearance: none;
     height: 5px;
+    width: 10px;
 }
 ::-webkit-scrollbar-thumb {
     background-color: #34495e;
@@ -185,6 +186,10 @@ code {
     max-width: 100%;
 
    
+}
+
+.tips code, .warning code, .info code {
+    color: dimgrey;   
 }
 
 code {
