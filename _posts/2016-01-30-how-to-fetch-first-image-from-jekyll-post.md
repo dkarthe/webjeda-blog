@@ -26,7 +26,9 @@ Finally I stumbled across a [stackoverflow answer](http://stackoverflow.com/ques
 Here is the exact code mentioned in the answer. This will just give you a list of all the first images from all your posts. Make sure you do not have any other embedded video or flash(which has ```src``` attribute) file before your first image. This might result in wrong behavior of the code. It may grab the video or some other file instead of the image.
 
 What I suggest is to have an image in the very beginning of the post like I have in my posts or at least after a paragraph. Make sure it is not too wide or way too tall. I keep most of my featured images in **800x500** ratio. 
+
 {% include adsense-inside-post.html %}
+
 Copy this code to your index page but keep a backup of your index file if the changes you make doesn't workout. Make edits on this code however you want to and get a list of posts along with **post title**, **published date**, **post image** and **post author**(if you have different authors writing for you). Present them however you feel like. 
 
 {% highlight html %}

@@ -29,6 +29,7 @@ Making it simple has helped a lot of people to start off with Github. I'm glad I
 ![Github pages youtube tutorial positive response]({{ site.url }}/images/github-pages-tutorial-youtube-positive-response.jpg){: .full}
 
 Checkout the playlist at the bottom to see more comments.
+
 {% include adsense-inside-post.html %}
 
 

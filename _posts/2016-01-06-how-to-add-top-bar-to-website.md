@@ -21,6 +21,7 @@ As shown in the screenshot, in one of my websites [nallikayi](https://articles.n
 I started considering top bar only after I saw the designers from [Quora](https://www.quora.com){:rel='nofollow'}{:target="_blank"} started using it. And my blog WebJeda had a minimal theme. So I thought why not try it. 
 
 I remember YouTube using a red top bar to show how the progress of page loading. That was only for a while and <strike>for some reason they stopped it.</strike> But it seems like they are still using it! You can see it when you click on a video link. Actually it is a great idea to show the users how much page has been loaded without any distractions. By the time I'm writing this blog <a rel="nofollow" href="https://www.freecharge.in" alt="Freecharge">Freecharge</a> is using the top bar as a progress indicator. It must be a ```div``` on top with a 1 pixel border but looks like body top border.
+
 {% include adsense-inside-post.html %}
 
 ![Android chrome browser top loading bar]({{ site.url }}/images/android-chrome-browser-using-top-bar-screenshot.jpg)

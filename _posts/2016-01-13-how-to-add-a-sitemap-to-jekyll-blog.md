@@ -45,7 +45,9 @@ gems:
 
 
 Here is my [_config.yml](https://raw.githubusercontent.com/sharu725/emerald/gh-pages/_config.yml){:rel='nofollow'} file for reference. You will not be able to see the XML file created for sitemap inside your directory.
+
 {% include adsense-inside-post.html %}
+
 Now commit the changes and hit the URL yourwebsite.com/sitemap.xml. You should see all your links listed there.
 
 <iframe width="100%" height="360" class="left half" src="https://www.youtube.com/embed/kiBtQClK-XQ?rel=0" frameborder="0" allowfullscreen></iframe>

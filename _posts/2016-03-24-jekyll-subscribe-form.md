@@ -28,6 +28,7 @@ What I'm showing here is an email collector. So it just collects users' emails. 
 But before collecting emails you should have an email id. You can use any email id but it is a good idea if you use a domain email. If you don't have one, then get a [free domain email using ZOHO](/free-domain-email-zoho/){:target="_blank"}.
 
 {% include adsense-inside-post.html %}
+
 ## How to make a subscribe form on Jekyll blog?
 
 We are using a free service called [**SimpleForm**](https://getsimpleform.com/){:rel='nofollow'}{:target="_blank"} to create our form. SimpleForm is a service similar to Formspree which I discussed in [How to make a contact form in Jekyll](/how-to-add-form-option-to-jekyll-websites/){:target="_blank"}

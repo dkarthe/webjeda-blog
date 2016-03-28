@@ -32,6 +32,7 @@ WordPress comments otherwise works great, you have nothing to code and most of t
 I can guarantee you that they are easy to implement. And you will have the full control of how they look and behave (for the most parts). So let's dive right in.
 
 {% include adsense-inside-post.html %}
+
 There are many ways to add comment box to Jekyll. I will be discussing only the major ones.
 
 **1. Disqus**

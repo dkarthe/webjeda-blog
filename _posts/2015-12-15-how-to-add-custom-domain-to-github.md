@@ -45,8 +45,8 @@ Go to the repository where you have hosted your website and click on **New File*
 {: .left .small}
 
 Name the file as **CNAME** without any extension. Now, inside the CNAME file write your domain name(that you own). I have written ``` truejewls.in ```. Now commit your file to the repository. Make sure you are still in the gh-pages branch while hitting commit.
-{% include adsense-inside-post.html %}
 
+{% include adsense-inside-post.html %}
 
 
 ## Step 2: Adding A record in the DNS Zone Records

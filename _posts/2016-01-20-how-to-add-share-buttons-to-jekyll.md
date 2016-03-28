@@ -34,6 +34,7 @@ Now I had to make a decision whether to use it or make one for myself. I thought
 When I decided to make a share bar for my blog WebJeda, I thought of making it ```Js``` free. As a developer - for a fast performing website - you should avoid ```Js``` and lower the number of http requests. With ShareThis, I used to have 5 to 6 ```Js``` files loaded from a remote server and 22 requests were made. This happens when you have many buttons and every button is downloaded remotely!
 
 Once I installed my css only share bar, the request number dropped to 11! That was a huge improvement! But it comes at a cost. I cannot see number of shares anymore. I can always write a code to calculate number of shares based on click event but that will be in the future. For now I'm happy that I have a beautiful sharebar which is made only with html and css. You can see it in the screenshot at the top of the page.
+
 {% include adsense-inside-post.html %}
 
 ## Basics before we dive in

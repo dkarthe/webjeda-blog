@@ -99,6 +99,7 @@ Now come back to the **ZOHO Domain Setup** tab and click on the **Verify CNAME**
 You are not done yet. Once you choose a ```username```, skip to **Configure Email Delivery**. You should see a table with MX records. 
 
 <p class="clear"></p>
+
 {% include adsense-inside-post.html %}
 
 

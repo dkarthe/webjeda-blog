@@ -89,6 +89,7 @@ The codes will looks somewhat like this
 {% endhighlight %}
 
 {% include adsense-inside-post.html %}
+
 ## Include it in your posts
  Now you can call the file ```fb-like.html``` from wherever you like it just by using this line code. 
  <pre>{% raw %}{% include fb-like.html %}{% endraw %}</pre>

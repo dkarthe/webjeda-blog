@@ -56,6 +56,7 @@ Click on the gear icon on the top-right corner and hit **Options...**. Now you s
 {: .right .half}
 
 Enter your Github credentials and hit Login (choose Github Enterprise if you have an Enterprise account).
+
 {% include adsense-inside-post.html %}
 
 ## Step 4: Clone the repository you just created

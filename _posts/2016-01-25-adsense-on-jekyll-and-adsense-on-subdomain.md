@@ -23,7 +23,9 @@ The first problem I faced was applying for adsense using subdomain. My subdomain
 So one thing was sure by the answers on Google Product Forum that **I cannot apply for adsense with a subdomain**. But I can always apply with the domain name even if it doesn't have much content. For instance my domain [webjeda.com](http://webjeda.com){:target="_blank"} doesn't have many pages. It is actually a single page website meant for my business.
 
 So I applied with my domain ```webjeda.com``` and placed ads on my subdomain(only after placing ads, Google will check your website for compliance). It did not get an approval for days. I thought it doesn't work. Then I read somewhere that I have to put at least one ad in the main domain to get approved.
+
 {% include adsense-inside-post.html %}
+
 I can easily place an ad on ```webjeda.com``` but I was afraid that Google will reject it for having no content. But that was my last hope anyway. There was actually another alternative. Moving the blog to a new domain. I was in no mood to move all my contents in the subdomain to a new domain. That's not just practical.
 
 I decided to place an ad on my domain. And just after a day, while I was browsing my blog ```blog.webjeda.com``` I saw ads showing up. It was showing blank spaces before approval. But after seeing the ads I was really happy that finally something happened!

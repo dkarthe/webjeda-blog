@@ -55,6 +55,7 @@ The out put should look like the screenshot below
 ![Related posts jekyll]({{ site.url }}/images/related-posts-jekyll.jpg){: .full}
 
 {% include adsense-inside-post.html %}
+
 ## How to add Prev-Next Post links in Jekyll?
 
 I think it is a better thing to insert **Previous-Next Post link** after an article than **related post link**. If you are writing articles around only one topic then this is ideal since you always write related articles. 
