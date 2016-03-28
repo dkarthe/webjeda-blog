@@ -20,7 +20,7 @@ layout: post
 [Here is my website's RSS feed](/feed.xml){:rel='nofollow'}{:target="_blank"}
 
 RSS is a simple xml file enclosed with ```<rss>``` tag. There is a reason why it is simple. A user usually subscribes to your blog through RSS to read the content in an RSS-reader app. We define only things that matter in the feed file. By saying things that matter, what I mean is - in an article - title, description, cover image etc., It should not include any style, share buttons etc., because that doesn't matter. Also, you may change the layout very often which should not disturb your readers.
-
+{% include adsense-inside-post.html %}
 ## What is feedburner?
 Feedburner is a feed management webapp. Currently owned by Google but not supported by Google anymore. If you set-up your website feed in feedburner, it will modify the feed according to your requirement. It also provides traffic stats and other useful statistics. The majority of blogging community is using feedburner for its subscribe option; where if a reader subscribes, then an email is sent to his inbox every time you publish a new article.
 
