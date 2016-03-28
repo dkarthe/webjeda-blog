@@ -5,6 +5,7 @@ keywords: Jekyll tutorial, how Jekyll blog works, Jekyll blog setup, Jekyll work
 author: sharathdt
 tags: Jekyll
 image: jekyll-tutorial-screenshot.jpg
+layout: post
 ---
 
 <img alt="Jekyll blog Tutorial" title="Jekyll blog guide" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/jekyll-tutorial-screenshot.jpg">

@@ -5,6 +5,7 @@ keywords: author box Jekyll, author tab Jekyll, Jekyll author box, Jekyll author
 author: sharathdt
 tags: Jekyll
 image: author-box-jekyll.jpg
+layout: post
 ---
 
 <img alt="Author box jekyll" title="Author box for jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/author-box-jekyll.jpg">

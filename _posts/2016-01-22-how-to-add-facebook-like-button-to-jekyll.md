@@ -5,6 +5,7 @@ keywords: facebook like button github pages, like button to Jekyll blog
 author: sharathdt
 tags: Jekyll SEO
 image: adding-facebook-like-button-to-jekyll.jpg
+layout: post
 ---
 
 <img alt="adding-facebook-like-button-to-jekyll" title="adding-facebook-like-button-to-jekyll.jpg" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adding-facebook-like-button-to-jekyll.jpg">

@@ -5,6 +5,7 @@ keywords: polymer Jekyll, polymer github pages, polymer and github
 author: sharathdt
 tags: Jekyll Web-Design
 image: github-pages-polymer.jpg
+layout: post
 ---
 
 <img alt="How I managed to integrate Polymer with github pages jekyll" title="How I managed to integrate Polymer with github pages jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/github-pages-polymer.JPG">

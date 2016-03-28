@@ -5,6 +5,7 @@ keywords: upload files to github, github upload files folders, github drag and d
 author: sharathdt
 tags: Github
 image: upload-option-github.jpg
+layout: post
 ---
 
 <img alt="how to upload files and folder in github" title="github upload option" itemprop="thumbnailUrl" class="left half noborder" src="/images/upload-option-github.jpg">

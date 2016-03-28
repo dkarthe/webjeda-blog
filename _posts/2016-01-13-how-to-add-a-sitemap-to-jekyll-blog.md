@@ -5,6 +5,7 @@ keywords: sitemap in Jekyll blog, Jekyll sitemap, sitemap for Jekyll
 author: sharathdt
 tags: Jekyll SEO
 image: add-sitemap-to-Jekyll-github-pages.jpg
+layout: post
 ---
 
 <img alt="How to add sitemap to Jekyll blog" title="How to add sitemap to Jekyll blog" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/add-sitemap-to-Jekyll-github-pages.jpg">

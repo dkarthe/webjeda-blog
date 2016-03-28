@@ -5,6 +5,7 @@ keywords: cerate Jekyll blog, blogging on Jekyll, github blogging
 author: sharathdt
 tags: Jekyll Web-Design
 image: how-to-create-a-blog-on-github-pages.jpg
+layout: post
 ---
 
 <img alt="How to create a website using Github blog" title="How to create a website using Github pages" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-create-a-blog-on-github-pages.jpg">

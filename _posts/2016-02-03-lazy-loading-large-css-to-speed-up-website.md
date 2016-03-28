@@ -5,6 +5,7 @@ keywords: defer css, lazy load css, load css at the end
 author: sharathdt
 tags: Jekyll SEO Web-Design
 image: lazy-load-css-for-fast-website.jpg
+layout: post
 ---
 
 <img alt="" title="" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/lazy-load-css-for-fast-website.jpg">

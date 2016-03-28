@@ -5,6 +5,7 @@ keywords:
 author: sharathdt
 image: domain-email-free.jpg
 tags: Web-Design
+layout: post
 ---
 
 <img alt="setup a free domain email" title="free domain email" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/thumbs/domain-email-free.jpg">

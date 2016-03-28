@@ -5,6 +5,7 @@ keywords: form in Jekyll, form in Jekyll blog, form in a static website, formspr
 author: sharathdt
 tags: Jekyll Web-Design
 image: how-to-add-form-option-for-jekyll-websites.jpg
+layout: post
 ---
 
 <img alt="How to make a form in Jekyll website" title="How to make a form in Jekyll website" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-add-form-option-for-jekyll-websites.jpg">

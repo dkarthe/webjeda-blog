@@ -5,6 +5,7 @@ keywords: top bar, website top line, top border of website, top colored line in 
 author: sharathdt
 tags: Github-Pages Web-Design
 image: top-bar-on-websites.jpg
+layout: post
 ---
 
 <img alt="How to add colored top bar to website" title="How to add colored top bar to website" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/top-bar-on-websites.jpg">

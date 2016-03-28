@@ -5,6 +5,7 @@ keywords: add comments to Jekyll blog, add disqus to Jekyll, disqus Jekyll
 author: sharathdt
 tags: Jekyll SEO
 image: how-to-add-comment-box-to-jekyll-blog.jpg
+layout: post
 ---
 
 <img alt="how to add comments to jekyll" title="jekyll blog comments" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-add-comment-box-to-jekyll-blog.jpg">

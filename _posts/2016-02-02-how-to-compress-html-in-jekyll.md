@@ -5,6 +5,7 @@ keywords: minify Jekyll html, Jekyll minify, jekyll html minify
 author: sharathdt
 tags: Jekyll SEO
 image: how-to-minify-jekyll-html.jpg
+layout: post
 ---
 
 <img alt="how to compress html jekyll" title="jekyll compress html" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-minify-jekyll-html.jpg">

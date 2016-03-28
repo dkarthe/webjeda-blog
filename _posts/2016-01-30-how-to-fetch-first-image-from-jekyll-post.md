@@ -5,6 +5,7 @@ keywords: fetch images from Jekyll post, grab images from Jekyll post, get image
 author: sharathdt
 tags: Jekyll
 image: how-to-fetch-images-from-jekyll-post.jpg
+layout: post
 ---
 
 <img alt="fetch images from Jekyll post" title="grab images from Jekyll post" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-fetch-images-from-jekyll-post.jpg">

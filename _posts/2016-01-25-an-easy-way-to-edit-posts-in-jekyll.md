@@ -5,6 +5,7 @@ keywords: edit post in Jekyll, edit page in Jekyll, add post in Jekyll
 author: sharathdt
 tags: Jekyll Web-Design
 image: how-to-edit-add-posts-in-jekyll.jpg
+layout: post
 ---
 
 <img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-edit-add-posts-in-jekyll.jpg">

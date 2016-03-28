@@ -5,6 +5,7 @@ Keywords: adsense on subdomain, adsense on Jekyll
 author: sharathdt
 tags: Jekyll Adsense
 image: adsense-on-subdomain-adsense-on-Jekyll.jpg
+layout: post
 ---
 
 <img alt="adsense on subdomain" title="adsense on Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adsense-on-subdomain-adsense-on-Jekyll.jpg">
