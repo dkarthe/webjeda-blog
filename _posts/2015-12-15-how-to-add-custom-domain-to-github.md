@@ -25,11 +25,39 @@ Adding a custom domain is fairly easy compared to adding a subdomain to github h
 
 You may have a website hosted on Github Pages which has a URL that looks similar to [http://sharu725.github.io/index.html](http://sharu725.github.io). But what you want is something like [http://webjeda.com](http://webjeda.com){:rel='dofollow'}. So how to change it to a custom domain like webjeda.com?
 
-If you do not have a website yet, then refer to my post on [How to create a website and host it on github pages](http://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/)
+If you do not have a website yet, then refer to my post on [How to create a website and host it on github pages](http://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/). I have a website for which I want to configure custom domain using github.
 
-First thing is that you should own a domain name. Like I own truejewels.in. You can buy it from any registrars like godaddy, namescheap or somewhere. Domain extensions like **.io**, **.com** are costly whereas **.in**, **co** are cheap. I believe **.tk** is still free. But I prefer **.com** over any other extension. 
+My website looks like this
 
-If you already own a domain name and you want to use it, then continue to Step 1.
+{% highlight html %}
+<html>
+  <title>
+    First website
+  </title>
+  
+  <body>
+    <h1>This is my first github page</h1>
+  </body>
+  
+  <style>
+    body {
+      background-color:green;
+      color:#fff;
+      text-align:center;
+    }
+  </style>
+  
+</html>
+{% endhighlight %}
+
+This is a test website that has nothing but a heading and background color. The reason is that I thought of making this tutorial as simple as possible.
+
+
+First thing is that you should own a domain name. Like I own **truejewels.in**. You can buy it from any registrars like godaddy, namescheap or whichever is cheaper. Domain extensions like **.io**, **.com** are costly whereas **.in**, **co** are cheap. I believe **.tk** is still free. But I prefer **.com** over any other extension. 
+
+You can access the above website usign this link: [**truejewels.com**](http://truejewels.com){:rel='nofollow'}{:target="_blank"}
+
+If you already own a domain name and you want to use it for a github website, then continue to Step 1.
 
 
 ## Step 1: Adding CNAME file to the gh-pages branch.
@@ -37,13 +65,16 @@ If you already own a domain name and you want to use it, then continue to Step 1
 ![Adding a CNAME file to github screenshot]({{ site.url }}/images/adding-CNAME-file-to-github-repository.JPG "Adding a CNAME file to github screenshot")
 {: .right .small}
 
-Go to the repository where you have hosted your website and click on **New File**. You will see a blank space where you can type in anything.
+Go to the repository where you have hosted your website and click on **New File**. You will see a blank space where you can type in anything. Name the file as **CNAME** without any extension.
+
+Here is my repository for reference: [sample Repository](https://github.com/Redgadget/test){:rel='nofollow'}{:target="_blank"}
+
 <p class="clear"></p>
 
 ![Adding domain name in CNAME file - github screenshot]({{ site.url }}/images/adding-domain-name-in-CNAME-file-github.JPG "Adding domain name in CNAME file - github screenshot")
 {: .left .small}
 
-Name the file as **CNAME** without any extension. Now, inside the CNAME file write your domain name(that you own). I have written ``` truejewls.in ```. Now commit your file to the repository. Make sure you are still in the gh-pages branch while hitting commit.
+Now, inside the CNAME file write your domain name you want to use(that you already own). I have written ``` truejewls.in ``` because that is what I will be using. Now commit your file to the repository. Make sure you are still in the gh-pages branch while hitting commit.
 
 {% include adsense-inside-post.html %}
 
@@ -81,6 +112,11 @@ Click on **Finish** and **Save**.
 And that's about it. Do not rush though. It will take a while to propagate. So grab a cup of coffee. Once you are done, hit your URL :)
 
 Propagation can take a long time and it can be in different speeds in different geo-locations. So try using a [proxy site](https://www.proxysite.com/){:rel='nofollow'} to see if it has propagated in different countries. Try servers from different countries.
+
+<div class="warning">
+<h3>Warning</h3>
+<p>If your website has external <strong>css</strong> and <strong>js</strong> files, then watch out for the links you have used in the head tag. Make sure it links to proper files.</p>
+</div>
 
 <iframe itemscope="" class="right half" itemprop="video" width="100%" height="360" src="https://www.youtube.com/embed/hUChaN-VRIc?rel=0" frameborder="0" allowfullscreen></iframe>
 

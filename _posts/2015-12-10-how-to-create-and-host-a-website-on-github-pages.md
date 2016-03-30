@@ -116,13 +116,17 @@ Now click on the URL and you should see your website hosted!
 
 ![Sample website hosted on Github Pages]({{ site.url }}/images/website-hosted-on-github-pages.jpg){: .full}
 
+You can access this website usign this link: [**redgadget.github.io/test**](http://redgadget.github.io/test){:rel='nofollow'}{:target="_blank"}
+
+When you click on this it may change to **truejewels.in**. This is because I have configured a custom domain for this website.
+
+Read: [How to setup custom domain for github website](/how-to-add-custom-domain-to-github/){:target="_blank"}
+
 
 <iframe itemscope="" class="right half" itemprop="video" width="100%" height="360" src="https://www.youtube.com/embed/bwThn0rxv7M?rel=0" frameborder="0" allowfullscreen></iframe>
 And success! 
 
 This is just a single file website. If you want to sync a lot of folders, files, images etc., then you may have to use a Github Client like Github Desktop or SourceTree(my favorite) to push the files. See a video demonstration here
-
-
 
 
 <div class="tips clear">
@@ -131,6 +135,13 @@ This is just a single file website. If you want to sync a lot of folders, files,
 To host your website in user pages, follow the same procedure mentioned above but you have to name the repository in this format <strong>username.github.io</strong> and keep all the website files inside master branch. In my case it is redgadgets.github.io where I was hosting my tech blog <strong>RedGadgets</strong>
 </p>
 </div>
+
+If you want a clear idea on how to host website usig user pages then please refer to this repository - [webjeda](https://github.com/sharu725/sharu725.github.io){:rel='nofollow'}{:target="_blank"}
+has no **gh-pages** branch. We are hosting master branch itself as a website. To do that you have to rename your respository to this format **username.github.io**. Here, username is github user name. My github username is sharu725(for webjeda).
+
+If you access [http://sharu725.github.io](http://sharu725.github.io){:rel='nofollow'}{:target="_blank"} then you will end up in webjeda.com. This redirection happens after setiing up a custon doamin name.
+
+I created this website using foundation framework which is similar to bootstrap. You can always use a template from [html5up](html5up.net){:rel='nofollow'}{:target="_blank"} which provides pretty good templates for free.
 
 Don't forget to post the link of your website created on Github Pages. And ask me if you are stuck in any of the steps above.
 
