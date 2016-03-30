@@ -15,16 +15,22 @@ layout: post
 
 ## What is a feed and why is it used?
 {: .clear}
- Initially when I heard about it, I had no freaking clue what RSS was. I just knew the fact that it doesn't have its own logo and using a tilted WiFi logo :) . RSS stands for Rich Site Summary. It is in ```.xml``` format. It is used for delivering regularly changing content of a website like posts. It should have been called Poor Site Summary because it lacks a lot of things that your site actually has. In other words it is the stripped down version of your website. 
+ Initially when I heard about it, I had no freaking clue what RSS was. I just knew the fact that it doesn't have its own logo and using a tilted WiFi logo :) . RSS stands for Rich Site Summary. It is in ```.xml``` format. It is used for delivering regularly changing content of a website like posts. 
+ 
+It should have been called Poor Site Summary because it lacks a lot of things that your site actually has. In other words it is the stripped down version of your website. 
  
 [Here is my website's RSS feed](/feed.xml){:rel='nofollow'}{:target="_blank"}
 
-RSS is a simple xml file enclosed with ```<rss>``` tag. There is a reason why it is simple. A user usually subscribes to your blog through RSS to read the content in an RSS-reader app. We define only things that matter in the feed file. By saying things that matter, what I mean is - in an article - title, description, cover image etc., It should not include any style, share buttons etc., because that doesn't matter. Also, you may change the layout very often which should not disturb your readers.
+RSS is a simple xml file enclosed with ```<rss>``` tag. There is a reason why it is simple. A user usually subscribes to your blog through RSS to read the content in an RSS-reader app. We define only things that matter in the feed file. By saying things that matter, what I mean is - in an article - title, description, cover image etc., 
+
+It should not include any style, share buttons etc., because that doesn't matter. Also, you may change the layout very often which should not disturb your readers.
 
 {% include adsense-inside-post.html %}
 
 ## What is feedburner?
-Feedburner is a feed management webapp. Currently owned by Google but not supported by Google anymore. If you set-up your website feed in feedburner, it will modify the feed according to your requirement. It also provides traffic stats and other useful statistics. The majority of blogging community is using feedburner for its subscribe option; where if a reader subscribes, then an email is sent to his inbox every time you publish a new article.
+Feedburner is a feed management webapp. Currently owned by Google but not supported by Google anymore. If you set-up your website feed in feedburner, it will modify the feed according to your requirement. It also provides traffic stats and other useful statistics. 
+
+The majority of blogging community is using feedburner for its subscribe option; where if a reader subscribes, then an email is sent to his inbox every time you publish a new article.
 
 Sample Feedburner Form: <a href="https://feedburner.google.com/fb/a/mailverify?uri=webjedablog&amp;loc=en_US" onclick="window.open(this.href, 'mywin',
           'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">Subscribe</a>
@@ -35,7 +41,7 @@ Feedburner setup is only done once. It takes care of subscriptions on its own wi
 
 In the eyes of Feedburner, Jekyll blogs are no different compared to WordPress or Blogger blogs. The reason is that Feedburner is only concerned about the feed file but not the whole of your website. It doesn't care how you created the blog. There are many plugins for WordPress and Blogger for easy integration of Feedburner but for Jekyll we are doing things on our own.
 
-Let's dive in.
+Let's dive right in.
 
 ### Step 1: Keep Jekyll RSS file ready
 As I have explained RSS is a simple xml file. Usually a default Jekyll site will have feed file with the name ```atom.xml``` in the root directory. If you do not have one then here is a code that you can use. Create a new file with the name **feed.xml** in the root of your repository and copy this code in it,
@@ -140,6 +146,12 @@ That is all there is. A user has to click on the link and provide his email, ver
 <h3>Tips</h3>
 <p>If the images aer not showing up on your feedburner feed, then you may be using relative URL for your images. Use complete URL <strong>http://blog.webjeda/images/some-image.jpg</strong> of the image instead of a relative URL <strong>/images/some-image.jpg</strong>. In Jekyll this can be achieved by using <code>site.url</code> or <code>site.baseurl</code> variable.</p>
 </div>
+
+There are plenty of options to customize your feed. First thing I customize is the confirmation email. Whenever a user subscribes to your blog using feedburner, he will recieve an email asking to click on confirmation.
+
+It is important to convince them to click on it. In order to do that, edit the email in a compelling fashion so that user knows you have something to offer.
+
+And also do not forget to include your logo in the email. Many a times user may not check his/her email for a while and your email may look un-related if he/she sees it late. Human brain is made to recall images faster than text. So do not forget to configure the confirmation email so that it includes a logo.
 
 I hope that helped to configure Feedburner for your blog. Now that you know how it works, subscribe to my blog. I publish new articles every other week.
 

@@ -4,22 +4,21 @@ desc: Using github custom domain change the ugly looking username.github.io URL 
 keywords: github custom domain, custom domain github, custom URL github website
 author: sharathdt
 tags: Github-Pages SEO
-image: custom-domain-to-github-2.jpg
+image: custom-domain-to-github-9.jpg
 layout: post
 ---
 
-<img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/custom-domain-to-github-2.jpg">
+<img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/custom-domain-to-github-9.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Using github custom domain change the ugly looking username.github.io URL into a yourdomain.com URL. Learn how to add custom domain to github pages. You can also add a new domain to your Jekyll blog using this method.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Using github custom domain change the ugly looking _username.github.io_ URL into a _yourdomain.com_ URL. Learn how to add custom domain to github pages. You can also add a new domain to your Jekyll blog using this method.
 {: .intro}
 
 ## Why should we use a custom domain?
 {: .clear }
-Using github custom domain you can change the ugly looking username.github.io URL into a yourdomain.com URL. Learn how to add custom domain to github pages. You can also add a new domain to your Jekyll blog using this method.
-
 
 Having a third-party domain like ```username.github.io``` is fine. But a domain name adds credibility to your product or service. Having a domain name is also important for SEO. Search engines like a domain name rather a free subdomain obtained from a third-party. So buy a domain name, it doesn't cost much and it can help you build a brand.
 {: .clear}
+
 I own 12 domains by the time of writing this article. If you have a good domain name in hand, you can always sell it if somebody wants it. May be you can recover everything you spent on it.
 
 Adding a custom domain is fairly easy compared to adding a subdomain to github hosted website. I will explain adding a domain name to Github here in simple steps.
@@ -69,7 +68,7 @@ Now go to **DNS Zone File** option. This is where all your records reside. Click
 **Points to:** 192.30.252.153 or 192.30.252.154
 
 These IPs belong to Github using which your website will be served on your domain name. They will not change anytime soon (at least that's what I believe). If that is the case then many websites hosted using Github Pages will go down all of a sudden.
-You can find these Ips [here](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/){:rel='nofollow'}. You can use any one of them or both. I guess they have two for redundancy. So for 100% availability, use both. In order to use both IPs, you have to add another **A** record with the second IP address.
+You can find these Ips [here](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/){:rel='nofollow'}. You can use any or both of them . I guess there are two IPs for redundancy. So for 100% availability, use both. In order to use both IPs, you have to add another **A** record with the second IP address.
 {: .clear}
 
 ![Adding A record to DNS Zone Records - github screenshot]({{ site.url }}/images/Adding-A-record-to-DNS-github-3.JPG "Adding A record to DNS Zone Records - github screenshot")
