@@ -6,6 +6,7 @@ author: sharathdt
 tags: Jekyll Web-Design
 image: how-to-add-form-option-for-jekyll-websites.jpg
 layout: post
+permalink: /jekyll-contact-form/
 ---
 
 <img alt="How to make a form in Jekyll website" title="How to make a form in Jekyll website" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-add-form-option-for-jekyll-websites.jpg">

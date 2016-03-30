@@ -6,6 +6,7 @@ author: sharathdt
 tags: Github-Pages Web-Design
 image: how-to-make-a-website-on-github.jpg
 layout: post
+permalink: /create-host-website-github-pages/
 ---
 
 <img alt="How to create and host a website on github pages" title="Create and host a website on github pages screenshot" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-make-a-website-on-github.jpg">
@@ -23,11 +24,11 @@ This is something I found out really late. By that time I had a hosting space bo
 
 
 ### 2. It is fast:
-Github Pages are incredibly fast when compared to WordPress and other CMSs.
+Github Pages are incredibly fast when compared to WordPress and other CMSs. This is the reason I migrated all my blogs from WordPress to Jekyll( a blogging platform in github).
 
 
 ### 3. It is secure:
-There is no back-end execution in Github pages and the chances of website getting hacked are nil(one of the reasons why [Obama campaign](https://contribute.barackobama.com/) used Jekyll)
+There is no back-end execution in Github pages and the chances of website getting hacked are nil(one of the reasons why [Obama campaign](https://contribute.barackobama.com/) used Jekyll). If you are still using WordPress, Drupal or Joomla for websites then do consider Github Pages. 
 
 
 ### 4. Blog aware:
@@ -136,10 +137,10 @@ To host your website in user pages, follow the same procedure mentioned above bu
 </p>
 </div>
 
-If you want a clear idea on how to host website usig user pages then please refer to this repository - [webjeda](https://github.com/sharu725/sharu725.github.io){:rel='nofollow'}{:target="_blank"}
-has no **gh-pages** branch. We are hosting master branch itself as a website. To do that you have to rename your respository to this format **username.github.io**. Here, username is github user name. My github username is sharu725(for webjeda).
+If you want a clear idea on how to host website usig user pages then please refer to this repository - [webjeda](https://github.com/sharu725/sharu725.github.io){:rel='nofollow'}{:target="_blank"}.
+It has no **gh-pages** branch. We are hosting master branch itself as a website. To do that you have to rename your respository to this format **username.github.io**. Here, username is github user name. My github username is sharu725(for webjeda).
 
-If you access [http://sharu725.github.io](http://sharu725.github.io){:rel='nofollow'}{:target="_blank"} then you will end up in webjeda.com. This redirection happens after setiing up a custon doamin name.
+If you access [http://sharu725.github.io](http://sharu725.github.io){:rel='nofollow'}{:target="_blank"} then you will end up in webjeda.com. This redirection happens after setting up a custon doamin name.
 
 I created this website using foundation framework which is similar to bootstrap. You can always use a template from [html5up](html5up.net){:rel='nofollow'}{:target="_blank"} which provides pretty good templates for free.
 

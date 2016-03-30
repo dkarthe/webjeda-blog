@@ -6,6 +6,7 @@ author: sharathdt
 tags: Github-Pages Web-Design Github
 image: sync-local-folders-with-github.jpg
 layout: post
+permalink: /sync-files-folders-github/
 ---
 
 <img alt="How to sync folders with Github" title="How to sync folders with Github" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/sync-local-folders-with-github.jpg">

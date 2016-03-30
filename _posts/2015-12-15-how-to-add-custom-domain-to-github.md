@@ -6,6 +6,7 @@ author: sharathdt
 tags: Github-Pages SEO
 image: custom-domain-to-github-9.jpg
 layout: post
+permalink: /custom-domain-github/
 ---
 
 <img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/custom-domain-to-github-9.jpg">
