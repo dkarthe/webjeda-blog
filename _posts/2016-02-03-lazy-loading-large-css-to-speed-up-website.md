@@ -6,6 +6,7 @@ author: sharathdt
 tags: Jekyll SEO Web-Design
 image: lazy-load-css-for-fast-website.jpg
 layout: post
+permalink: /lazy-load-css/
 ---
 
 <img alt="" title="" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/lazy-load-css-for-fast-website.jpg">

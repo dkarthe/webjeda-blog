@@ -6,6 +6,7 @@ author: sharathdt
 tags: Jekyll SEO
 image: how-to-minify-jekyll-html.jpg
 layout: post
+permalink: /compress-html-jekyll/
 ---
 
 <img alt="how to compress html jekyll" title="jekyll compress html" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-minify-jekyll-html.jpg">

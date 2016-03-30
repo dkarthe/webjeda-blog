@@ -6,6 +6,7 @@ author: sharathdt
 tags: SEO Jekyll
 image: Jekyll-SEO.jpg
 layout: post
+permalink: /optimize-jekyll-seo/
 ---
 
 <img alt="jekyll seo" title="Jekyll SEO" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/thumbs/Jekyll-SEO.jpg">

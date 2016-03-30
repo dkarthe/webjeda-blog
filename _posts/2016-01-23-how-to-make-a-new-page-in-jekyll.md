@@ -6,6 +6,7 @@ author: sharathdt
 tags: Jekyll
 image: how-to-add-pages-in-jekyll.jpg
 layout: post
+permalink: /new-page-jekyll/
 ---
 
 <img alt="Creating pages in Jekyll" title="Make a new html page in Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-add-pages-in-jekyll.jpg">

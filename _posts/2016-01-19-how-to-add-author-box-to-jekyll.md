@@ -6,6 +6,7 @@ author: sharathdt
 tags: Jekyll
 image: author-box-jekyll.jpg
 layout: post
+permalink: /author-box-jekyll/
 ---
 
 <img alt="Author box jekyll" title="Author box for jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/author-box-jekyll.jpg">

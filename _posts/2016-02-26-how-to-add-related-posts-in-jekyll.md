@@ -6,6 +6,7 @@ author: sharathdt
 tags: Jekyll
 image: adding-related-previous-next-link-to-jekyll.jpg
 layout: post
+permalink: /related-post-jekyll/
 ---
 
 <img alt="How to Add Related or Previous-Next Post Link in Jelyll" title="next pervious post jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adding-related-previous-next-link-to-jekyll.jpg">

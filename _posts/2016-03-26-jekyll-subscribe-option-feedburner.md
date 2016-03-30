@@ -6,6 +6,7 @@ author: sharathdt
 tags: Jekyll
 image: jekyll-rss-feedburner.jpg
 layout: post
+permalink: /jekyll-subscribe-feedburner/
 ---
 
 <img alt="jekyll subscribe feedburner" title="subscribe feedburner Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/jekyll-rss-feedburner.jpg">
