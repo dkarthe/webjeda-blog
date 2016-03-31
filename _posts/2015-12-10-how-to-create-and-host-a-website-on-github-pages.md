@@ -130,7 +130,7 @@ And success!
 This is just a single file website. If you want to sync a lot of folders, files, images etc., then you may have to use a Github Client like Github Desktop or SourceTree(my favorite) to push the files. See a video demonstration here
 
 
-<div class="tips clear">
+<div class="note clear">
 <h3>User Pages Guide</h3>
 <p>
 To host your website in user pages, follow the same procedure mentioned above but you have to name the repository in this format <strong>username.github.io</strong> and keep all the website files inside master branch. In my case it is redgadgets.github.io where I was hosting my tech blog <strong>RedGadgets</strong>
@@ -143,6 +143,12 @@ It has no **gh-pages** branch. We are hosting master branch itself as a website.
 If you access [http://sharu725.github.io](http://sharu725.github.io){:rel='nofollow'}{:target="_blank"} then you will end up in webjeda.com. This redirection happens after setting up a custon doamin name.
 
 I created this website using foundation framework which is similar to bootstrap. You can always use a template from [html5up](html5up.net){:rel='nofollow'}{:target="_blank"} which provides pretty good templates for free.
+
+<div class="tips">
+<h3>Free Web Hosting on Github!</h3>
+<p>Now that you know you can host a website on Github Pages without paying for any hosting service, you can also host complete websites on Github Pages. If you are a freelance web designer then do consider this option for all the client websites which doesn't need constant changes. I use this for all the portfolio websites I get to design. Read to know <a href="/sync-files-folders-github/"><strong>how to host a complete website on Github Pages</strong></a>
+</p>
+</div>
 
 Don't forget to post the link of your website created on Github Pages. And ask me if you are stuck in any of the steps above.
 
