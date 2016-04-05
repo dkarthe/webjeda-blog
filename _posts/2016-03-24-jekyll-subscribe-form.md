@@ -180,9 +180,8 @@ I have a working form as well!
 <!--End mc_embed_signup-->
 
 
-<p>Once you enter the details, hit subscribe key. You should receive an email right after the subscription</p>
+Once you enter the details, hit subscribe key. You should receive an email right after the subscription
 
-<p>I hope that covers almost all types of subscriptions possible. Let me know which one you implemented and for what reason.</p>
+I hope that covers almost all types of subscriptions possible. Let me know which one you implemented and for what reason. For some reason if you couldn't get this working then let me know. I will help you out at the cost of a coffee.
 
-<p>Thanks for reading!</p>
-
+Thanks for reading!
