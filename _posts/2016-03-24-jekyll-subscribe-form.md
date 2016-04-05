@@ -27,7 +27,6 @@ What I'm showing here is an email collector. So it just collects users' emails. 
 
 But before collecting emails you should have an email id. You can use any email id but it is a good idea if you use a domain email. If you don't have one, then get a [free domain email using ZOHO](/free-domain-email-zoho/){:target="_blank"}.
 
-{% include adsense-inside-post.html %}
 
 ## How to make a subscribe form on Jekyll blog?
 
@@ -133,14 +132,6 @@ For Jekyll websites one must choose embeddable forms. Here is how the code looks
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-	<label for="mce-FNAME">First Name </label>
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-</div>
-<div class="mc-field-group">
-	<label for="mce-LNAME">Last Name </label>
-	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
