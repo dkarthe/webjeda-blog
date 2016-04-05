@@ -105,7 +105,7 @@ I hope that helped. I'm using feed-burner for subscriptions. I will make a post 
 
 ## Update 1 - Automated subscription list
 
-[steven_nc](https://disqus.com/by/steven_nc/){:rel='nofollow'}{:target="_blank"} commented that there should be an un-subscription option for users, which is a valid question because users may want to opt out of your mailing list. Thanks for him to bringing up this topic.
+[steven_nc](https://disqus.com/by/steven_nc/){:rel='nofollow'}{:target="_blank"} commented that there should be an un-subscription option for users, which is a valid question because users may want to opt out of your mailing list. Thanks to him for bringing up this topic.
 
 As I have mentioned in the article this is a completely manual subscription handling. But what if someone wants a automated list generation? where after subscribing the email will be collected automatically and if someone wants to un-subscribe, they can do that as well.
 
