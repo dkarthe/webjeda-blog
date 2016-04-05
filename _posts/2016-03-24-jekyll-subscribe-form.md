@@ -105,11 +105,13 @@ I hope that helped. I'm using feed-burner for subscriptions. I will make a post 
 
 ## Update 1 - Automated subscription list
 
-[steven_nc](https://disqus.com/by/steven_nc/){:rel='nofollow'}{:target="_blank"} commented that there should be an un-subscription option for users, which is a valid question because users may want to opt out of your mailing list.
+[steven_nc](https://disqus.com/by/steven_nc/){:rel='nofollow'}{:target="_blank"} commented that there should be an un-subscription option for users, which is a valid question because users may want to opt out of your mailing list. Thanks for him to bringing up this topic.
 
 As I have mentioned in the article this is a completely manual subscription handling. But what if someone wants a automated list generation? where after subscribing the email will be collected automatically and if someone wants to un-subscribe, they can do that as well.
 
-Here we may have to use third party email subscription handlers like Aweber or MailChimp. I suggest MailChimp for beginners. [Create an account in MailChimp](http://eepurl.com/bWHZgb){:rel='nofollow'}{:target="_blank"} for free.
+Many a times, emails that you send to your subscribers should have an unsubscribe link. Otherwise, email providers may mark it as spam. Since it is not practical to create a un-subcsribe link and include it every time you send an email, you can opt some third party email subscription handlers.
+
+I prefer these two email subscription handlers - Aweber or MailChimp. I suggest MailChimp for beginners. [Create an account in MailChimp](http://eepurl.com/bWHZgb){:rel='nofollow'}{:target="_blank"} for free.
 
 MailChimp has an option to [create a list](https://us10.admin.mailchimp.com/lists/new-list/){:rel='nofollow'}{:target="_blank"}(which will be automatically updated upon new subscriptions and un-subscriptions), an option to create a form for normal websites and an embeddable form for static websites.
 
