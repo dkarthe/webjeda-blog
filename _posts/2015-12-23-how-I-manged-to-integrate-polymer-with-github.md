@@ -31,8 +31,36 @@ If you observe the applications by Google, almost all of them are using paper-ca
 
 Above screenshot shows few applications using card interface. Youtube (I know, it is a new channel), Playstore, Google Keep, Gmail and even Play music is using card interface.
 
-
 I wanted something similar. I did it only using CDN. Usually you have to include Polymer elements in the project if you want to use those elements extensively. But I was using just three elements - paper-card, paper-ripple and paper-button.
+
+<link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html"/>
+
+<div class="inline">
+<paper-card heading="Card Title" class="card-ex">
+  <div class="card-content">Some content</div>
+  <div class="card-actions">
+    <paper-button>Some action</paper-button>
+  </div>
+</paper-card>
+ 
+ <paper-card heading="Card Title" class="amber card-ex">
+  <div class="card-content">Some content</div>
+  <div class="card-actions">
+    <paper-button>Some action</paper-button>
+  </div>
+</paper-card> 
+ 
+ <paper-card heading="Card Title" class="indigo card-ex">
+  <div class="card-content">Some content</div>
+  <div class="card-actions">
+    <paper-button>Some action</paper-button>
+  </div>
+</paper-card>
+</div>
+
+This is how the cards looks like. 
+
+
 
 Here is how I did it.
 
@@ -43,16 +71,17 @@ First thing is to import the Polymer elements. Paste these lines to your **head*
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html"/>
 {% endhighlight %}
 
+<div class="warning">
+<h3>Warning</h3>
+<p>This is just to see if you get the same result. For greater response time you should be using a local copy of these files rather importing from an URL.</p>
+</div>
 
-This is just to see if you get the same result. For greater response time you should be using a local copy of these files rather importing from an URL.
 
 And that's about it. If you want some other element, say **paper-toggle-button** 
 
 {% include adsense-inside-post.html %}
 
-then just replace the **paper-card** with **paper-toggle-button** which would 
-
-be,
+then just replace the **paper-card** with **paper-toggle-button** which would be,
 
 {% highlight html %}
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-toggle-button/paper-toggle-button.html" />
@@ -92,8 +121,13 @@ Here is the css code for coloring the paper-button.
      }
 {% endhighlight %}
 
-Eventually I had to take it out as it started throwing JS errors. I chose w3-css for making cards. They look pretty much like polymer cards!
-Let me know if you were successful in integrating Polymer in your website. 
 
+<div class="note">
+<h3>Note</h3>
+<p>Eventually I had to take it out as it started throwing JS errors. I chose w3-css for making cards. They look pretty much like polymer cards!
+</p>
+</div>
+
+Let me know if you were successful in integrating Polymer in your website. 
 Comment if you do something awesome.
 Thanks for reading!
