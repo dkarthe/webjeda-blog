@@ -11,7 +11,7 @@ permalink: /custom-domain-github/
 
 <img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/custom-domain-to-github-9.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Using github custom domain change the ugly looking _username.github.io_ URL into a _yourdomain.com_ URL. Learn how to add custom domain to github pages. You can also add a new domain to your Jekyll blog using this method.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Using github custom domain, change the ugly looking _username.github.io_ URL into a _yourdomain.com_ URL. Learn how to add custom domain to github pages. You can also add a new domain to your Jekyll blog using this method.
 {: .intro}
 
 ## Why should we use a custom domain?
@@ -54,7 +54,7 @@ My website looks like this
 This is a test website that has nothing but a heading and background color. The reason is that I thought of making this tutorial as simple as possible.
 
 
-First thing is that you should own a domain name. Like I own **truejewels.in**. You can buy it from any registrars like godaddy, namescheap or whichever is cheaper. Domain extensions like **.io**, **.com** are costly whereas **.in**, **co** are cheap. I believe **.tk** is still free. But I prefer **.com** over any other extension. 
+First thing is that you should own a domain name like I own **truejewels.in**. You can buy it from any registrars like godaddy, namescheap or whichever is cheaper. Domain extensions like **.io**, **.com** are costly whereas **.in**, **co** are cheap. I believe **.tk** is still free. But I prefer **.com** over any other extension. 
 
 You can access the above website usign this link: [**truejewels.com**](http://truejewels.com){:rel='nofollow'}{:target="_blank"}
 

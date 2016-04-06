@@ -14,15 +14,15 @@ permalink: /jekyll-subscribe-feedburner/
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Feedburner is the best option available for Jekyll to automate user subscription and send email updates to subscribers. Once you set it up, there is no need to change anything. All you need is a button for users to subscribe.
 {: .intro}
 
-## What is a feed and why is it used?
+## What is RSS feed and why is it used?
 {: .clear}
- Initially when I heard about it, I had no freaking clue what RSS was. I just knew the fact that it doesn't have its own logo and using a tilted WiFi logo :) . RSS stands for Rich Site Summary. It is in ```.xml``` format. It is used for delivering regularly changing content of a website like posts. 
+Initially when I heard about RSS, I had no freaking clue what it was. I just knew that it doesn't have its own logo but using a tilted WiFi logo :) . RSS stands for Rich Site Summary. It is in ```.xml``` format. It is used for delivering regularly changing content of a website like posts. 
  
 It should have been called Poor Site Summary because it lacks a lot of things that your site actually has. In other words it is the stripped down version of your website. 
  
 [Here is my website's RSS feed](/feed.xml){:rel='nofollow'}{:target="_blank"}
 
-RSS is a simple xml file enclosed with ```<rss>``` tag. There is a reason why it is simple. A user usually subscribes to your blog through RSS to read the content in an RSS-reader app. We define only things that matter in the feed file. By saying things that matter, what I mean is - in an article - title, description, cover image etc., 
+RSS is a simple xml file enclosed with ```<rss>``` tag. There is a reason why it is simple. A user usually subscribes to your blog to read the **content** through an RSS-reader app. We define only things that matter in the feed file. By saying things that matter, what I mean is - in an article - title, description, cover image etc., 
 
 It should not include any style, share buttons etc., because that doesn't matter. Also, you may change the layout very often which should not disturb your readers.
 
@@ -145,15 +145,15 @@ That is all there is. A user has to click on the link and provide his email, ver
 
 <div class="tips">
 <h3>Tips</h3>
-<p>If the images aer not showing up on your feedburner feed, then you may be using relative URL for your images. Use complete URL <strong>http://blog.webjeda/images/some-image.jpg</strong> of the image instead of a relative URL <strong>/images/some-image.jpg</strong>. In Jekyll this can be achieved by using <code>site.url</code> or <code>site.baseurl</code> variable.</p>
+<p>If the images are not showing up on your feedburner feed, then you may be using relative URL for your images. Use complete URL <strong>http://blog.webjeda/images/some-image.jpg</strong> of the image instead of a relative URL <strong>/images/some-image.jpg</strong>. In Jekyll this can be achieved by using <code>site.url</code> or <code>site.baseurl</code> variable.</p>
 </div>
 
 There are plenty of options to customize your feed. First thing I customize is the confirmation email. Whenever a user subscribes to your blog using feedburner, he will recieve an email asking to click on confirmation.
 
 It is important to convince them to click on it. In order to do that, edit the email in a compelling fashion so that user knows you have something to offer.
 
-And also do not forget to include your logo in the email. Many a times user may not check his/her email for a while and your email may look un-related if he/she sees it late. Human brain is made to recall images faster than text. So do not forget to configure the confirmation email so that it includes a logo.
+And also do not forget to include your logo in the email. Many a times user may not check his/her email for a while and your email may look un-related if he/she checks it in a later time. Human brain can recall images easier than text. So do not forget to configure the confirmation email so that it includes a logo.
 
-I hope that helped to configure Feedburner for your blog. Now that you know how it works, subscribe to my blog. I publish new articles every other week.
+I hope that helped to setup Feedburner for your blog. Now that you know how it works, subscribe to my blog. I publish new articles every other week.
 
 Thanks for reading!

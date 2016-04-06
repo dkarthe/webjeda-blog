@@ -11,25 +11,26 @@ permalink: /optimize-jekyll-seo/
 
 <img alt="jekyll seo" title="Jekyll SEO" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/thumbs/Jekyll-SEO.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll Search Engine Optimization is left to the users. Initially SEO optimizing Jekyll was hard but gradually it has been easier since we have so many people contributing to the community. Learn how to do Jekyll SEO.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Most of the Jekyll Search Engine Optimization is left to the users. Initially Jekyll SEO was hard but gradually it has become easier since we have so many people contributing to the community. Now a days basic SEO is already taken care of! Learn how to do further Jekyll SEO.
 {: .intro}
 <div class="clear"></div>
 
 <a class="clear" rel="nofollow" href="http://www.freepik.com/free-vector/seo-analytics_764868.htm">Designed by Freepik</a>
 
 ## Why SEO for Jekyll?
+SEO is the only way through which you can get organic traffic. Organic traffic is better than paid traffic because in organic traffic the user is really interested in the service you are offering.
 
 I used WordPress for a long time. If you ask me which one among WordPress and Jekyll is good for SEO, I would shout out WordPress without a pause. 
 
-It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast and Schema Creator, WordPress is almost unbeatable by Jekyll. Ok  wait, why am I praising WordPress so much? 
+It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast and Schema Creator, WordPress is almost unbeatable by Jekyll. Ok wait, why am I praising WordPress so much? 
 
-At the moment we have Jekyll 3.0 and a small [list of plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them.
+At the moment we have Jekyll 3.0 and a small [list of jekyll plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them.
 
-I will be discussing only the steps that involve making changes in your Jekyll functions not to your content. That means I will not be discussing anything about Keyword Research, Link Building, Marketing etc.,
+I will be discussing only the steps that involve making changes to your Jekyll functions but not to your content. That means I will not be discussing anything about Keyword Research, Link Building, Marketing etc.,
  
 ## What is required in a Jekyll website for SEO?
 
-There are many search engines that consider many different factors for indexing and ranking. I will mostly be concentrating on Google as 80% of all the searches are done on Google.
+There are many search engines that consider many different factors for indexing and ranking. I will mostly be concentrating on Google as 80% of all the searches are done over Google or Googled!.
 
 Google takes around 200 parameters into account in ranking a web page. But before we rank in Google we should focus on how to properly get indexed on Google database. 
 
@@ -38,9 +39,10 @@ Google takes around 200 parameters into account in ranking a web page. But befor
 
 ## Let's dive into Jekyll SEO
 
-We have to take care of some basic things that help us index our website on Google. How do we know whether our website is indexed already? It's easy, just Google ```site:yourwebsite.com```. If you see your website links then you are already indexed. Check if the links you see in search result are working. 
+We have to take care of some basic things that help us index our website on Google. How do we know whether our website is indexed or not? 
+It's easy, just Google ```site:yourwebsite.com```. If you see your website links then it is already indexed. Check if the links you see in search results are working. 
 
-I have given the important parameters (among around 200 of them) your Jekyll blog should have to index and rank better in Google.
+I have given some of the important parameters (among around 200 of them) your Jekyll blog should have to index and rank better in Google.
 
 **1. Title & Description**
 
@@ -78,14 +80,14 @@ Every blog post should have a unique title and description. Many bloggers do not
 ![Jekyll seo meta description](/images/jekyll-seo-meta-description-wrong.jpg)
 {: .left .half}
 Consider this snippet. It doesn't make sense. Does it? 
-So take a little while to give a proper description to all your posts. A user should be compelled to click on it when he reads your description. So try to write a catchy but also related description. One should know what he is getting into.
+So take a little while to give a proper description to all your posts. A user should be compelled to click on it when he reads your description. So try to write a catchy but also related description. A user should know what he is getting into.
 
-Search Engine bots try to fetch your Title and Description from the head tag first. So make sure you keep it there for them to crawl.
+Search Engine bots try to fetch your _Title_ and _Description_ from the head tag first. So make sure you keep it there for them to crawl.
 {: .clear}
 
 ### Title
 
-Having your post title as the title makes sense. So ```page.title``` variable takes care of that. If it is your homepage then there is no ```page.title``` variable available. We have to add an alternative which is your site title that you may have mentioned in **_config.yml** file.
+Having your post title as the title makes sense. ```page.title``` variable takes care of that. If it is your homepage then there is no ```page.title``` variable available. We have to add an alternative which is your ```site.title``` that you may have mentioned in **_config.yml** file.
 
 {% highlight html %}
 <title>{% raw %}{%if page.title %}{% endraw %}{% raw %}{{ page.title }}{% endraw %}{% raw %}{% else %}{% endraw %}{% raw %}{{ site.title }}{% endraw %}{% raw %}{% endif %}{% endraw %}</title>
@@ -98,20 +100,15 @@ Using page excerpt as a description is not a good idea because you may have some
 
 Also it is advised to restrict your description to 160 characters or less. Anything more can be considered spam or keyword stuffing by search engines. And also description is not considered for ranking but only to show snippets in the search results.
 
-
-{% highlight html %}
-<title>{% raw %}{%if page.title %}{% endraw %}{% raw %}{{ page.title }}{% endraw %}{% raw %}{% else %}{% endraw %}{% raw %}{{ site.title }}{% endraw %}{% raw %}{% endif %}{% endraw %}</title>
-{% endhighlight %}
-
-{% highlight html %}
+{% highlight html %}{% raw %}
 {% if page.description %}
-<meta itemprop="description" name="description" content="{% raw %}{{ page.description | truncate: 160 }}{% endraw %}" />
+<meta itemprop="description" name="description" content="{{ page.description | truncate: 160 }}" />
 {% else %}
-<meta itemprop="description" name="description" content="{% raw %}{{ site.description | truncate: 160  }}{% endraw %}" />
+<meta itemprop="description" name="description" content="{{ site.description | truncate: 160  }}" />
 {% endif %}
-{% endhighlight %}
+{% endraw %}{% endhighlight %}
 
-So that takes care of Title and description. But remember, you have to explicitly add Title and Description in the Front Matter to all your posts as shown in the example below.
+So that takes care of _Title_ and _Description_. But remember, you have to explicitly add Title and Description in the Front Matter to all your posts as shown in the example below. It doesn't matter how long your description is in the Frontmatter. It will be truncated in the meta tag.
 
 {% highlight css %}
 ---
@@ -124,7 +121,7 @@ description: I created this beautiful looking Jekyll blog by forking a repositor
 <div class="warning">
     <h3>Warning</h3>
     <p>
-       You must be thinking where the hell is <strong>meta keywords</strong>. Due to keyword stuffing - after 2009 - <a href="https://webmasters.googleblog.com/2009/09/google-does-not-use-keywords-meta-tag.html" target="_blank" rel="nofollow">search engines are not considering meta keywords</a> for ranking.  
+       You must be thinking where the hell is <strong>meta keywords</strong>. It is not important anymore. Due to keyword stuffing - after 2009 - <a href="https://webmasters.googleblog.com/2009/09/google-does-not-use-keywords-meta-tag.html" target="_blank" rel="nofollow"><strong>search engines are not considering meta keywords</strong></a> for ranking.  
     </p>
 </div>
 
@@ -132,17 +129,17 @@ description: I created this beautiful looking Jekyll blog by forking a repositor
 
 
 ## 2. URL structure
-A URL conveys a lot of information about the content. Users expect it to be familiar to the topic. 
+A URL conveys a lot of information about the content. Users and bots expect it to be familiar to the topic. 
 
 ### Make it readable
  
 ![URL structure jekyll seo](/images/url-structure-jekyll-seo.jpg)
 {: .right .half}
 
-A clean URL structure gives a better click through rate. Now a days search engines are smart enough to detect whether the URl has any relation with the content.
-I have seen many blogs whose URL contains page ids in it. This will not convey any good information to either a human reader or a search engine bot. It is only used for the convenience of differentiating all the pages within a blog. Do not use ids in URL.
+A clean URL structure gives a better click through rate. Now a days search engines are smart enough to detect whether the URL has any relation with the content.
+I have seen many blogs whose URL contains page ids in it. This will not convey any good information to either a human reader or to a search engine bot. It is only used for the convenience of differentiating all the pages within a blog. Do not use ids in URL.
 
-Including date is a choice. You can do it if you think that helps users in some way. Search engines may extract this data. It is useful if dates really matter to your content.
+Including date is a choice. You can opt it if you think that helps users in some way. Search engines may extract this data. It is useful if dates really matter to your content.
 {: .clear}
 
 Imagine you are a comic book reviewer. You review Iron Man comic every month then it would be a great idea to have URLs like this
@@ -153,11 +150,22 @@ Imagine you are a comic book reviewer. You review Iron Man comic every month the
 
 ```http://webjeda.com/2016/03/21/iron-man-comic-review```
 
-Users will know - just by looking at the URL - which comic you are referring to.
+Users will know - just by looking at the URL - which comic you are referring to. Date is included in the URL by default in Jekyll. If not add the following code to **_config.yml** file.
+{% highlight yml %}
+permalink: date
+{% endhighlight %} or {% highlight yml %}
+permalink: pretty
+{% endhighlight %}
+
+To take it out, use the following code
+
+{% highlight yml %}
+permalink: /:title/
+{% endhighlight %}
 
 
-### Stop using stop-words
-Using **and, or, but, of, the, a, etc** inside a URL is not necessary. It will only increase the length of your URL. In this post I have left out **how-to** because the URL still makes sense without those stop words. Take some time to leave stop words before you decide to publish a post. 
+### Stop using stop-words!
+Using **and, or, but, of, the, a, etc** inside a URL is not necessary. It will only increase the length of your URL(bots like short URLs). In this post I have left out **how-to** because the URL still makes sense without those stop words. Take some time to leave stop words before you decide to publish a post. 
 
 In Jekyll URL can be changed by renaming the file in ```_posts``` folder.
 
@@ -313,7 +321,7 @@ Usually almost all the Jekyll themes (even the default theme) are responsive. If
 
 Media query detects the screen-size and applies the css that you provide inside its tag. That's all it does.
 
-If you are not sure how to use them then it's good. Start here - [w3-schools](http://www.w3schools.com/css/css_rwd_mediaqueries.asp){:rel='nofollow'}{:target="_blank"}. 
+If you are not sure how to use them, then it's good. Start here - [w3-schools](http://www.w3schools.com/css/css_rwd_mediaqueries.asp){:rel='nofollow'}{:target="_blank"}. 
 
 ### Conclusion: 
 Though Jekyll users have a hard time configuring SEO on their own, they do have the full control. Jekyll does only tasks that you tell it to do unlike WordPress. Things like AMP Pages, htaccess, robot.txt are not explored well on Jekyll but we can hope that in the coming years they all will be available by default.
