@@ -17,7 +17,7 @@ permalink: /jekyll-ssl/
 {: .clear}
 SSL (Secure Socket Layer) basically provides a secure connection between client(web browser) and server(website). It avoids eavesdropping, man-in-the-middle attack etc., Bottom line is - A user can browse your website without worrying about someone stealing personal information.
 
-On August 06 2014 Google announced that [https will be considered for ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html){:rel='nofollow'}{:target="_blank"}. They took this measure to keep everybody safe over the web. So using ssl can improve your website ranking. Also, users will trust the product or service you provide in your website.
+On August 06 2014 Google announced that [https will be considered for ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html){:rel='nofollow'}{:target="_blank"}. They took this measure to keep everybody safe over the web. So using ssl can improve your website ranking. And also, users will trust the product or service you provide in your website.
 
 
 ## Why I'm not using SSL on this Jekyll blog?
@@ -33,7 +33,7 @@ I use Adsense for monetizing this blog. If I were to secure this blog with SSL, 
 
 {% include adsense-inside-post.html %}
 
-Google detects whether your website has SSL certificate or not and serves ads accordingly. If I activated SSL in my Jekyll blog, Google will filters only https ads and serve it on my website. This way I may miss some high paying ads.
+Google detects whether your website has SSL certificate or not and serves ads accordingly. If I activate SSL in my Jekyll blog, Google will filter only https ads and serve it on my website. This way I may miss some high paying ads.
 
 ### Performance
 Website speed is my main concern. I want it to be fast; really fast. Activating SSL would slow down my Jekyll blog a little due to TLS handshaking which is a process that the browser and server follow to decide how to communicate and create the secured connection.
