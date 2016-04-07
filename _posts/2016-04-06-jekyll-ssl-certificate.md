@@ -36,7 +36,7 @@ I use Adsense for monetizing this blog. If I were to secure this blog with SSL, 
 Google detects whether your website has SSL certificate or not and serves ads accordingly. If I activate SSL in my Jekyll blog, Google will filter only https ads and serve it on my website. This way I may miss some high paying ads.
 
 ### Performance
-Website speed is my main concern. I want it to be fast; really fast. Activating SSL would slow down my Jekyll blog a little due to TLS handshaking which is a process that the browser and server follow to decide how to communicate and create the secured connection.
+Website loading speed is my main concern. I want it to be fast; really fast. Activating SSL would slow down my Jekyll blog a little due to TLS handshaking which is a process that the browser and server follow to decide how to communicate and create the secured connection.
 
 Google also announced that they were using page load time as a factor in search engine rankings. SSL and page-load time conflict with each other. Anyway, the load time is a little more than what it used to be. So if speed is not your priority then you can always go ahead and use SSL.
 
@@ -62,7 +62,7 @@ You should let search engines read your content only in https site. Use canonica
 <link rel="canonical" href="https://username.github.io" />
 {% endhighlight %}
 
-for Jekyll it should be 
+for Jekyll, it should be 
 {% highlight html %}{% raw %}
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 {% endraw %}{% endhighlight %}
@@ -74,7 +74,7 @@ url: https://username.github.io
 enforce_ssl: username.github.io
 {% endhighlight %}
 
-By following this way there will be no trace of your http website anywhere on the internet even though it works.
+This way, there will be no trace of your **http** website anywhere on the internet even though it works.
 
 ## SSL on custom domain
 If you are using a custom domain, say ```yoursite.com``` then you may have to use a different approach. If enforcing works then great! Otherwise follow the procedure given below.
@@ -86,7 +86,7 @@ It also has other advantages like handling DNS, analytics, providing SSL certifi
 
 ![Add a site cloudflare jekyll ssl](/images/add-site-cloudflare-jekyll-ssl.jpg){: .large .left}
 
-Among these we are concentrating only on DNS handling. So before we begin create an account in CloudFlare. nOW SELECT **Add site** option. Now enter your domain and click on **Begin scan**.
+Among these we are concentrating only on DNS handling. So before we begin create an account in CloudFlare. Now select **Add site** option. Now enter your domain and click on **Begin scan**.
 
 Once the scanning is done, click on **Continue to setup** where you will see an option to verify all your DNS records. You don't have to change anything here. click on **Continue**.
 
@@ -95,7 +95,7 @@ Now select a package that suits your requirement. I would suggest you to try the
 
 ![change dns cloudflare jekyll github ssl](/images/change-dns-cloudflare-jekyll-github-ssl.jpg)
 {: .right .half}
-Now is the crucial part. You have to change the name servers in your domain registrar (mine is GoDaddy) to the following or whichever is provided to you
+Now is the crucial part. You have to change the name servers (NS31.DOMAINCONTROL.COM) in your domain registrar to the following or whichever is provided to you by CloudFlare.
 
 {% highlight css %}
 dan.ns.cloudflare.com
@@ -111,7 +111,7 @@ You have to login to your domain registrar and add these custom name servers. On
 
 ![cloudflare flexible ssl jekyll](/images/cloudflare-flexible-ssl-jekyll.jpg)
 {: .half .left}
-Now navigate to **Crypto** option in CloudFlare. You should see an option called **SSL**. In the drop-down menu select **Flexible**. This is all the changes we need from server end.
+Now navigate to **Crypto** option in CloudFlare. You should see an option called **SSL**. In the drop-down menu select **Flexible**. This is all the changes we need to do in the server end.
 
 
 ### Step 3: Changes to be made in the blog
