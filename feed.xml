@@ -20,11 +20,7 @@
 				{% else %}
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
-				{% if post.image %}
-				<webfeeds:cover image="{{ site.url }}/thumbs/{{ post.image }}" />
-				{% else %}
-				<webfeeds:cover image="{{ site.url }}/img/webjeda-logo-colorful.png" />
-				{% endif %}
+
 				<image>
                     <url>{{ site.url }}/thumbs/{{ post.image }}</url>
                     <title>{{ post.title }}</title>
