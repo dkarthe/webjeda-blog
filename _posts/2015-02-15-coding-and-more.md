@@ -54,6 +54,6 @@ Jekyll static site generator is another boon to web designers to host their blog
 
 <iframe itemscope="" class="left half" itemprop="video" width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
 
-
-
 Finally what I suggest for new developers is to get familiar with Github and contribute to the community. Thank me later. Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it and learn while doing so.
+
+<div class="clear"></div>
