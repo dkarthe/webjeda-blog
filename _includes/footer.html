@@ -14,11 +14,17 @@
               <span class="hint--top hint--bounce" data-hint="twitter"><a href="{{ site.twitter }}" target="_blank" ><i class="footer-icon fa fa-twitter fa"></i></a></span>
               <span class="hint--top hint--bounce" data-hint="github"><a href="{{ site.github}}" target="_blank" ><i class="footer-icon fa fa-github-alt fa"></i></a></span>
                   <span class="hint--top hint--bounce" data-hint="youtube"><a href="{{ site.youtube }}" target="_blank" ><i class="footer-icon fa fa-youtube fa"></i></a></span>
-                  <span class="hint--top hint--bounce" data-hint="email"><a href="{{ site.email }}" ><i class="footer-icon fa fa-envelope fa"></i></a></span>
+                  <span class="hint--top hint--bounce" data-hint="email"><a  id="promail" ><i class="footer-icon fa fa-envelope fa"></i></a></span>
                   <span class="hint--top hint--bounce" data-hint="feedly"><a href="{{ site.feedly }}" target="_blank"><i class="footer-icon fa fa-rss fa"></i></a></span>
                   
         </div>
 
+<script>
+    var contactform =  document.getElementById('promail');
+    contactform.setAttribute('href', 'mailto:' + 'sharu725' + '@' + 'gmail' + '.' + 'com');
+</script>
+  
+  
    </div>
    
    
