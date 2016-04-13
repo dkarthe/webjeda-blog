@@ -13,9 +13,12 @@ permalink: /jekyll-ssl/
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Https has an advantage in SEO over http URLs. It is easy to set up SSL for Jekyll using CloudFlare. Learn how to get a free SSL certificate for your Jekyll blog. Also, find out the advantages and disadvantages of using SSL in your Github Pages website or Jekyll blog.
 {: .intro}
 
+
 ## Why should anyone use SSL?
 {: .clear}
 SSL (Secure Socket Layer) basically provides a secure connection between client(web browser) and server(website). It avoids eavesdropping, man-in-the-middle attack etc., Bottom line is - A user can browse your website without worrying about someone stealing personal information.
+
+<div id="toc" class="clear"></div>
 
 On August 06 2014 Google announced that [https will be considered for ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html){:rel='nofollow'}{:target="_blank"}. They took this measure to keep everybody safe over the web. So using ssl can improve your website ranking. And also, users will trust the product or service you provide in your website.
 

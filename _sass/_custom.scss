@@ -377,3 +377,13 @@ p.right {
 .tag-link {
         padding: 2px;
 }
+
+
+// Table of contents
+
+div#toc {
+    padding: 1em 1em 0 1em;
+    border: 1px solid #aaa;
+    display: inline-block !important;
+    margin-bottom: 1em;
+}

@@ -18,6 +18,8 @@ permalink: /adsense-jekyll-subdomain/
 I had no hopes on this blog either. But I tried my best to deliver the content that somehow helps someone. Many of my posts are actually the problems I faced in figuring out stuff. I think it worked.
 {: .clear}
 
+<div id="toc" class="clear"></div>
+
 ## Adsense on subdomain
 The first problem I faced was applying for adsense using subdomain. My subdomain ```blog.webjeda.com``` cannot be used for applying to Adsense. Google has this policy for a reason. May be you have good content on your subdomain but what if you have bad content in your domain which is non compliant with Adsense policies. Say some adult content or content related to drugs?
 
@@ -33,13 +35,13 @@ I decided to place an ad on my domain. And just after a day, while I was browsin
 
 So follow the guidelines for approval on subdomain
 
-1. ### It doesn't matter how much content is present in your domain but it should be complaint with Adsense policies.
+1. **It doesn't matter how much content is present in your domain but it should be complaint with Adsense policies.**
 
-2. ### Always apply with your domain name not subdomain(I don't think you can apply with a subdomain)
+2. **Always apply with your domain name not subdomain(I don't think you can apply with a subdomain)**
 
-3. ### Place at least one ad on your domain along with subdomain.
+3. **Place at least one ad on your domain along with subdomain.**
 
-4. ### Follow all other [Adsense Policies](https://support.google.com/adsense/answer/23921?hl=en){:rel='nofollow'}{:target="_blank"} without miss
+4. **Follow all other [Adsense Policies](https://support.google.com/adsense/answer/23921?hl=en){:rel='nofollow'}{:target="_blank"} without miss.**
 
 Once you get the approval, read the below section on how to place adsense ads on Jekyll blog.
 

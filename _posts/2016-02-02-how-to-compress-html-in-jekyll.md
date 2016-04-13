@@ -18,6 +18,8 @@ permalink: /compress-html-jekyll/
 {: .clear}
 Speed is a factor to rank high in Google search page. Minifying HTML can lead to an increase in speeds around 5% or more. Lighter the website easier to load even on a slow connection. Usually, html file consists of a lot of empty spaces, comments in between {% raw %}<!-- and -->{% endraw %}, new lines, blank spaces etc., It is good to keep what really matters and omit the rest.
 
+<div id="toc" class="clear"></div>
+
 Though minifying CSS and JS is largely practiced, minifying HTML is not given such an importance. May be because there is not much to minify compared to static files like CSS and JS. But it does help loading your website at a better speed even on 2G connections. Moreover, [PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} recommends minifying HTML.
 
 I have seen huge benefits by minifying my Jekyll blog. What if I tell you that minifying reduces the file size by more than 20%! May be because I have a lot of blank spaces and new lines in the unminified version. And that's an improvement I shouldn't be missing.
@@ -36,13 +38,13 @@ So far in my tutorials, I have never used command line interface. Not that I hat
 
 Now to minify Jekyll blog, 
 
-### Step 1: 
+### Step 1: Download Compress html
 Go to [this link](http://jch.penibelst.de/){:rel='nofollow'}{:target="_blank"} and download the ```compress.html``` file. It should be under the **Installation** heading. 
 
-### Step 2: 
+### Step 2: Place Compress in layouts
 Place this html file inside your ```_layout``` folder.
 
-### Step 3: 
+### Step 3: Add front matter to default layout
 Open ```default.html``` in ```_layouts``` folder and copy the below front matter at the top of the page. If you do not have ```default.html``` then use a top level layout which is used in all pages.
 
 <pre>{% raw %}
@@ -70,7 +72,7 @@ layout: compress
 
 
 
-### Step 4: 
+### Step 4: Save changes
 Save and commit the changes. By default the ```compress``` layout replaces contiguous whitespace with a single whitespace character. But if you want additional options then you can use this snippet inside your ```_config.yml``` file.
 
 {% highlight yaml %}

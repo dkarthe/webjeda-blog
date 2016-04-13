@@ -19,6 +19,8 @@ permalink: /share-buttons-jekyll/
 If you read a lot over the internet then you know how hard it is to share an article with your friend if it doesn't have any sharing button.
 You have to copy the link from the address bar, go to your email account, type every single detail and send it to an email address. Same thing follows for sharing on social media websites.
 
+<div id="toc" class="clear"></div>
+
 It is a good idea to have share buttons at the end of an article. Users may not be willing to copy paste the link but hitting a button is easy! More share is equal to more eyeballs on your article. Shares will drive traffic to your website. So you shouldn't be missing out on a chance to provide users with a share bar.
 
 

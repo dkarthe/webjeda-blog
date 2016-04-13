@@ -18,6 +18,8 @@ permalink: /jekyll-sitemap/
 In one of my previous posts I wrote on [How to create a Jekyll Blog](http://blog.webjeda.com/how-I-created-webjeda-blog). If you have created a blog for yourself or if you already have a Jekyll blog then go through this tutorial.
 {: .clear}
 
+<div id="toc" class="clear"></div>
+
 ![Sitemap of a website]({{ site.url }}/images/how-to-add-sitemap-to-jekyll.jpg)
 {: .right .half}
 A sitemap is a list of links of all your web pages. Sitemap will be in ```.xml``` format. A sitemap helps search engine bots to crawl through your website. Sitemap will also have metadata such as date of a post, pages, last modified date and how often it was updated etc., It looks like your **feed.xml** file. 

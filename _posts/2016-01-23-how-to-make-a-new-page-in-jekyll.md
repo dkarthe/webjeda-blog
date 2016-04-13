@@ -18,6 +18,8 @@ permalink: /new-page-jekyll/
 {: .clear}
 Jekyll themes do not come with all the bells and rings. You have to add whatever you want and take out whatever you do not need. I wanted a [contact page](/contact/){:rel='dofollow'}{:target="_blank"} for my blog and Jekyll did not have one by default. So I had to create one. Same thing with my [about](/about/){:rel='dofollow'}{:target="_blank"} page.
 
+<div id="toc" class="clear"></div>
+
 Many times you may want a home page which do not show list of posts. You may want to show off your projects in the home page. In such cases, you can make your custom pages in Jekyll and use them.
 
 

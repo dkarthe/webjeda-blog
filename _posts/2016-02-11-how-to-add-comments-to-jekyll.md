@@ -17,6 +17,8 @@ permalink: /jekyll-comments/
 When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them an option to express!?
 {: .clear}
 
+<div id="toc" class="clear"></div>
+
 There comes our comment box to the rescue. But there are a lot of them. You have to choose the one that suits your website. Suppose if you are active only on facebook, you can choose facebook comment box. If you have Google users as your readers then it would be a wise option to put a Google comment box. 
 
 It depends on your requirements. What kind of users you have. Suppose if you don't care about user reactions then there is no need to keep a comment box!

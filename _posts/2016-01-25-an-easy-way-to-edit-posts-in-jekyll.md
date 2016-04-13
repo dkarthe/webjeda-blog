@@ -26,6 +26,9 @@ As I was unable to upload images to Github I used to upload images to my Google 
 [Image from google drive](https://lh3.googleusercontent.com/-j3S-KX7DwQ0/VDi4p2xTzVI/AAAAAAAAAGo/_PP4-udRS4c/s550-no/moto-hint-story-pairit-us.jpg){:rel='nofollow'}{:target="_blank"}.
 There is another way to do this by creating an issue in Github where you can drag and drop an image, get the URL and use it as source. But I doubt its reliability.
 
+<div id="toc" class="clear"></div>
+
+
 And also this is not practical. Since you are making a http request, it would take a longer time to load the page. I was not aware of these things. But, that was my workaround for not being able to upload files to Github.
 
 

@@ -18,6 +18,8 @@ permalink: /jekyll-subscribe-feedburner/
 {: .clear}
 Initially when I heard about RSS, I had no freaking clue what it was. I just knew that it doesn't have its own logo but using a tilted WiFi logo :) . RSS stands for Rich Site Summary. It is in ```.xml``` format. It is used for delivering regularly changing content of a website like posts. 
  
+<div id="toc" class="clear"></div>
+ 
 It should have been called Poor Site Summary because it lacks a lot of things that your site actually has. In other words it is the stripped down version of your website. 
  
 [Here is my website's RSS feed](/feed.xml){:rel='nofollow'}{:target="_blank"}

@@ -18,6 +18,8 @@ permalink: /jekyll-guide/
 {: .clear}
 When I had to make some changes in Jekyll, I used to write dirty codes in the respective template and somehow make it work for a while but if I wanted to make any further changes to it then I have to search for the code, see how it used to work, edit or add some more dirty code and make it work again. This is what I used to do years ago. _Half knowledge is worse than no knowledge_ was completely true in my case.
 
+<div id="toc" class="clear"></div>
+
 These dirty codes would break my site, leading to undesirable results. Sometimes I wouldn't know what exactly went wrong. I never used to add comments while committing the changes (big mistake). I can always revert back, but I would lose all the changes and posts :(
 
 

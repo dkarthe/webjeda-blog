@@ -20,6 +20,8 @@ permalink: /lazy-load-css/
 {: .clear}
 Along with loading JavaScript at the end of the document, you should also load big css files at the end. This makes your website super-fast. Because the main content loads first. So even on a slow connection, the content will be available for the user. And also faster the website SEO friendly it is.
 
+<div id="toc" class="clear"></div>
+
 Many a times - on a slow connection - a user may wait for a maximum of 5 to 6 seconds and if the website is blank and still busy loading your **head tag** with a huge ```css``` file, user may hit the back button!
 
 You just lost a potential subscriber or even customer if you are selling something. Using a pre-loader like I did on [my website](http://webjeda.com){:target="_blank"} can engage the users for a few more seconds but not forever. So you should not make your users wait for the main content.

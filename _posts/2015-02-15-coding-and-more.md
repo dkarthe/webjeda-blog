@@ -17,6 +17,7 @@ layout: post
 {: .clear}
 While I was learning Github, I used to go through YouTube videos. But there was not a single guy who teaches it without using CLI. When you run commands on CLI, the output may not be the same for everyone. It depends on the previous installations, dependencies and a correct PATH variable. For starters CLI is a hard nut to crack. So I decided to make it easier for beginners. I do not use CLI in my videos. Everything is done through GUI.
 
+
 I see a lot of blogs providing useful information on Github pages and Jekyll. But in my blogs i want to give step by step procedure for everything without missing anything in between. This is what I expect from a blog. So that is what I follow.
 
 Github is not known to many developers. They struggle to find a reliable hosting service and they may end up paying few bucks which is not necessary when you have Github Pages for the rescue. You can host your website in minutes for free!
