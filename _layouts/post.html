@@ -9,25 +9,19 @@ layout: default
                      margin: 0 auto;
                      max-width: 75%;
                  }
-                 
-                 @include media-query($on-palm) {
-                    .page-content {
-                     margin: 0 auto;
-                     max-width: 96% !important;
-                     }
-                     
-                     img {
+                  @include media-query($on-palm) {
+                    img {
                       max-width: 96%;   
                      }
                  }
-                </style>
+                 </style>
 
 
     <div class="main-content">
                    
-
+       
         <article itemscope itemtype="http://schema.org/TechArticle"  id="post-page" >
-           {% include  adsense-pt.html %}   
+              {% include  adsense-pt.html %} 
             <a itemprop="url" class="post-link" href="{{ site.url }}{{ page.url }}"><h2 itemprop="headline" id="post-title">{{ page.title }}</h2></a>
 
             <span class="time-auth"><time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="by-line" >{{ page.date | date_to_string }}</time>&nbsp;&nbsp;<div class="post-date" id="ga-pageviews"></div></span> 
@@ -40,7 +34,6 @@ layout: default
             {% include share.html %}
             {% include next-previous.html %}
             <div class="clear"></div>
-            
             {% include disqus.html %}
 
         <br /><a href="#top" ><div id="go-top"><span class="hint--top hint--bounce" data-hint="Go to top"><img src="/img/rocket-go-top.png" width="20" height="37" alt="go to top"></span></div></a>
