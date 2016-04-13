@@ -45,3 +45,6 @@ footnote[^1].
 
 
 <span class="hint--bottom hint--bounce" data-hint="A Web-Developement Blog"></span>
+
+Author name display on every post
+{% assign auth_name = site.authors[page.author] %}{{ auth_name.display_name }}
