@@ -28,23 +28,11 @@ If you are looking for a modern, fast loading, visually appealing website, then 
 
 **Disclaimer:** This website is under constant modification. If you find something isn't right then I might be doing some change in the back-end.
 
-<form id="" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="business" value="sharu725@gmail.com">
-                    <input type="hidden" name="lc" value="IN">
-                    <input type="hidden" name="item_name" value="webjeda-donations">
-                    <input type="hidden" name="item_number" value="wj">
-                    <input type="hidden" name="amount" value="1.00">
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input type="hidden" name="button_subtype" value="products">
-                    <input type="hidden" name="no_note" value="0">
-                    <input type="hidden" name="tax_rate" value="0.000">
-                    <input type="hidden" name="shipping" value="0.00">
-                    <input type="hidden" name="add" value="1">
-                    <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
-                    <input type="image" src="/img/Buy-me-a-coffee.svg" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-                    <img alt="" border="0" style="display:none;" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-            </form>
-            
-            
-<!-- <p class="centered" itemprop="copyrightHolder"><a id="foot" target="_blank" href="http://webjeda.com"><img alt="Built by WebJeda" id="footimg" src="/img/built-by-webjeda.svg"></a></p><br /> -->
+## Major changes
+<pre>
+13th April - Added Table of Contents.
+
+28th March - Removed emerald theme and self designed the website.
+</pre>
+
+<p class="centered" itemprop="copyrightHolder"><a id="foot" target="_blank" href="http://webjeda.com"><img alt="Built by WebJeda" id="footimg" src="/img/built-by-webjeda.svg"></a></p>
