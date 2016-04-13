@@ -30,9 +30,12 @@ If you are looking for a modern, fast loading, visually appealing website, then 
 
 ## Major changes
 <pre>
+13th April - Added Analytics Super Proxy to show page views on all my posts. Lost many views since I changed the URL of many posts. But Hey, I have page views!
+
 13th April - Added Table of Contents.
 
 28th March - Removed emerald theme and self designed the website.
+
 </pre>
 
 <p class="centered" itemprop="copyrightHolder"><a id="foot" target="_blank" href="http://webjeda.com"><img alt="Built by WebJeda" id="footimg" src="/img/built-by-webjeda.svg"></a></p>
