@@ -1,6 +1,6 @@
 ---
 title: Minify Jekyll Blog HTML
-desc: Jekyll-being static-is already fast. But to achieve faster loading speed we can minify the html. Minifying CSS and JS is already in practice but compressing html is not practiced by everyone. But Jekyll posts and pages are in markdown and you may not be able to minify all of them using a tool. Jekyll html minify is important for loading websites in a lightning speed. 
+desc: Jekyll - being static - is already fast. But to achieve faster loading speed we can minify the html. Minifying CSS and JS is already in practice but compressing html is not practiced by everyone. But Jekyll posts and pages are in markdown and you may not be able to minify all of them using a tool. Jekyll html minify is important for loading websites in a lightning speed. 
 keywords: minify Jekyll html, Jekyll minify, jekyll html minify
 author: sharathdt
 tags: Jekyll SEO
@@ -20,9 +20,9 @@ Speed is a factor to rank high in Google search page. Minifying HTML can lead to
 
 <div id="toc" class="clear"></div>
 
-Though minifying CSS and JS is largely practiced, minifying HTML is not given such an importance. May be because there is not much to minify compared to static files like CSS and JS. But it does help loading your website at a better speed even on 2G connections. Moreover, [PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} recommends minifying HTML.
+Though minifying CSS and JS is largely practiced, minifying HTML is not given such an importance. Maybe because there is not much to minify compared to static files like CSS and JS. But it does help loading your website at a better speed even on 2G connections. Moreover, [PageSpeed](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"} recommends minifying HTML.
 
-I have seen huge benefits by minifying my Jekyll blog. What if I tell you that minifying reduces the file size by more than 20%! May be because I have a lot of blank spaces and new lines in the unminified version. And that's an improvement I shouldn't be missing.
+I have seen huge benefits by minifying my Jekyll blog. What if I tell you that minifying reduces the file size by more than 20%! May be because I have a lot of blank spaces and new lines in the un-minified version. And that's an improvement I shouldn't be missing.
 
 Here are the minified and unminified files of my last post. They have the same content by the way. You can check the file size by downloading them.
 
@@ -34,7 +34,7 @@ Here are the minified and unminified files of my last post. They have the same c
 
 ## How to minify Jekyll html?
 
-So far in my tutorials, I have never used command line interface. Not that I hate it but I think it's difficult for beginners to comprehend. Likewise you can minify html using ```Grunt``` or ```Gulp``` task runners but for a beginner they might seem alien technologies. And when we are using an automatic minifier that takes care of everything then why do we need a task runner?! And also I prefer solutions that does not involve plugins.
+So far in my tutorials, I have never used command line interface. Not that I hate it but I think it's difficult for beginners to comprehend. Likewise, you can minify html using ```Grunt``` or ```Gulp``` task runners but for a beginner they might seem alien technologies. And when we are using an automatic minifier that takes care of everything then why do we need a task runner?! And also I prefer solutions that does not involve plugins.
 
 Now to minify Jekyll blog, 
 

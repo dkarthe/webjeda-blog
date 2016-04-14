@@ -1,6 +1,6 @@
 ---
 title: Github Upload Option
-desc: For years Github users had a hard time uploading files to github repositories but now github has provided an option to upload files and folders directly into repositories! Jekyll bloggers are also happy with this update. Now they can write a complete blog post with media directly in a browser!
+desc: For years Github users had a hard time uploading files to GitHub repositories but now GitHub has provided an option to upload files and folders directly into repositories! Jekyll bloggers are also happy with this update. Now they can write a complete blog post with media directly in a browser!
 keywords: upload files to github, github upload files folders, github drag and drop upload
 author: sharathdt
 tags: Github
@@ -11,7 +11,7 @@ permalink: /github-upload/
 
 <img alt="how to upload files and folder in github" title="github upload option" itemprop="thumbnailUrl" class="left half noborder" src="/images/upload-option-github.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>For years Github users had a hard time uploading files to github repositories but now github has provided an option to upload files and folders directly into repositories! Jekyll bloggers are also happy with this update. Now they can write a complete blog post with media directly in a browser!
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>For years Github users had a hard time uploading files to GitHub repositories but now GitHub has provided an option to upload files and folders directly into repositories! Jekyll bloggers are also happy with this update. Now they can write a complete blog post with media directly in a browser!
 {: .intro}
 
 Today Github has announced a feature which I was looking forward to from years. Uploading files and folders directly to Github repositories is now a reality. I'm wondering why did it take so many years for Github to add this option.
@@ -24,7 +24,7 @@ Today Github has announced a feature which I was looking forward to from years. 
 Years ago I used to manage a Jekyll blog hosted on Github Pages. It was beautiful, fast and responsive but the only problem I had was uploading files and folders. I wasn't so good at command line interface so I used [prose](http://prose.io){:rel='nofollow'}{:target="_blank"} to upload images and edit my posts. That was easy but setting up prose is still not an easy task.
 
 
-Now with the direct upload option, all that trouble is gone. Any project file, zip file or a complete folder can be uploaded into the repository in just one commit. This will impact a lot for those who manage Jekyll blogs like myself. 
+Now with the direct upload option, all that trouble is gone. Any project file, zip file or a complete folder can be uploaded into the repository in just one commit. This will impact a lot for those who manage Jekyll blogs like mine. 
 
 ## How to upload files and folders?
 
@@ -52,4 +52,3 @@ Editing files (posts) in github repository is fine but for a better user interfa
 {: .clear}
 
 Thanks for reading!
-

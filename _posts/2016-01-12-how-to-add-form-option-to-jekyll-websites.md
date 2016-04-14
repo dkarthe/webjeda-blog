@@ -14,7 +14,7 @@ permalink: /jekyll-contact-form/
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Normal forms will not work on Jekyll blog or Github pages website. You have to use something that works for a static website. I have given a simple solution for such problems.
 {: .intro}
 
-When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. How to add a form to Jekyll website which is static?! The backbone of a forms is the ```php``` code which takes in the data and sends it to respective email address.
+When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. How to add a form to Jekyll website which is static?! The backbone of forms is the ```php``` code which takes the data and sends it to the respective email address.
 {: .clear}
 
 <div id="toc" class="clear"></div>
@@ -22,7 +22,7 @@ When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. Ho
 But Jekyll blogs and websites hosted on github being static, cannot execute ```php``` files. Wait.! Then how do I make a working form in Jekyll blog?
 
 ## why use a form?
-Every contact page gives a entry form to user using which they can enter the details. Forms can be contact form, subscription form, survey form etc., where user enters some data and that reaches the site owner to make further decisions based on the entry.
+Every contact page gives an entry form to user using which they can enter the details. Forms can be a contact form, subscription form, survey form etc., where the user enters some data and that reaches the site owner to make further decisions based on the entry.
 
 ## Form on Jekyll
 There are few solutions to create a form in Jekyll blog.
@@ -76,9 +76,9 @@ If you see the code for the form, **action** and **method** are empty. Formspree
 
 Whenever a user submits his name and email, the data will be sent to formspree.io website and then formspree sends it back to your email with the details. 
 
-Try to enter something and see if you receive the mail. For the first time you have to verify your email address. Then on you can receive mails without any hassle.
+Try to enter something and see if you receive the mail. For the first time, you have to verify your email address. Then on you can receive mails without any hassle.
 
-This is the brief process of making a form in github pages website. What if you want to redirect users to a custom web page once they are done submitting the form on Jekyll blog or github pages website?
+This is the brief process of making a form in GitHub pages website. What if you want to redirect users to a custom web page once they are done submitting the form on Jekyll blog or GitHub pages website?
 
 ## Step 3: Custom thank-you page 
 After the submission, users are redirected to a formspree thank you page by default. But if you want it to be your own custom thank you page then you can do so adding this code.
@@ -93,13 +93,13 @@ Make sure you create a **thank you** page in Github-pages with the name ```thank
 
 ##Step 4: Security from bots
 
-If your form is not secure, it may result in receiving spam mails generated from software agents - BOTS. To fool the bots Formspree has provided an option called ```_gotcha```. This is a imput field only visible to bots but not to users. If an entry is made in this invisible field, that means that someone can see through your invisible element! Must be a bot!!
+If your form is not secure, it may result in receiving spam mails generated from software agents - BOTS. To fool the bots Formspree has provided an option called ```_gotcha```. This is an input field only visible to bots but not to users. If an entry is made in this invisible field, that means that someone can see through your invisible element! Must be a bot!!
 {% highlight html %}
 <input type="text" name="_gotcha" style="display:none" />
 {% endhighlight %}
 
 ## Step 5: Secure your email
-When you mention your email in clear text inside your form, email harvesting bots can easily capture it. Which may result in receiving lot of spam mails. So you can use this code to and insert your separated email. The code will join it later and makes it a meaningful email address. But bots will not recognize this as an email. 
+When you mention your email in clear text inside your form, email harvesting bots can easily capture it. Which may result in receiving a lot of spam emails. So you can use this code to and insert your separated email. The code will join it later and makes it a meaningful email address. But bots will not recognize this as an email. 
 {% highlight html %}
 <form id="formaction" method="POST">
     <p>Name: </p><input type="text" name="name"><br />
@@ -158,13 +158,13 @@ It is actually
 {% endhighlight %}
 
 You don't believe me. Checkout my [contact page](/contact/){:target="_blank"} and view source!
-This works like charm. You are not only cheating bots but also human email harvesters. It is not impossible to decode this but it is hard!
+This works like a charm. You are not only cheating bots but also human email harvesters. It is not impossible to decode this but it is hard!
 
 ## Things to keep in mind
 
-Be careful not to include your personal email in form action as it is easily visible when website source is viewed. You can include an alternative email which forwards mails to your personal email. 
+Be careful not to include your personal email in form action as it is easily visible when website source is viewed. You can include an alternative email which forwards emails to your personal email. 
 
-Also I don't recommend using formspree if you are asking your users any sensitive data because a copy of it is saved in formspree database. But for for general non-sensitive data submission, formspree works like charm.
+Also, I don't recommend using formspree if you are asking your users any sensitive data because a copy of it is saved in the formspree database. But for general non-sensitive data submission, formspree works like a charm.
 
 <iframe itemscope="" itemprop="video" width="100%" height="360" class="right half" src="https://www.youtube.com/embed/IP6HsgwQkvs?rel=0" frameborder="0" allowfullscreen></iframe>
 Here is a video demonstration. And don't forget to leave the link of your website with newly created form, in the comment section.

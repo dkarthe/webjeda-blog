@@ -1,6 +1,6 @@
 ---
 title: How to optimize Jekyll blog for SEO?
-desc: Jekyll Search Engine Optimization is left to the users. Initially SEO optimizing Jekyll was hard but gradually it has been easier since we have so many people contributing to the community. Learn how to do Jekyll SEO. 
+desc: Jekyll Search Engine Optimization is left to the users. Initially, SEO optimizing Jekyll was hard but gradually it has been easier since we have so many people contributing to the community. Learn how to do Jekyll SEO. 
 keywords: 
 author: sharathdt
 tags: SEO Jekyll
@@ -11,7 +11,7 @@ permalink: /optimize-jekyll-seo/
 
 <img alt="jekyll seo" title="Jekyll SEO" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/thumbs/Jekyll-SEO.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Most of the Jekyll Search Engine Optimization is left to the users. Initially Jekyll SEO was hard but gradually it has become easier since we have so many people contributing to the community. Now a days basic SEO is already taken care of! Learn how to do further Jekyll SEO.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Most of the Jekyll Search Engine Optimization is left to the users. Initially, Jekyll SEO was hard but gradually it has become easier since we have so many people contributing to the community. Nowadays basic SEO is already taken care of! Learn how to do further Jekyll SEO.
 {: .intro}
 <div class="clear"></div>
 
@@ -24,9 +24,9 @@ SEO is the only way through which you can get organic traffic. Organic traffic i
 
 I used WordPress for a long time. If you ask me which one among WordPress and Jekyll is good for SEO, I would shout out WordPress without a pause. 
 
-It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast and Schema Creator, WordPress is almost unbeatable by Jekyll. Ok wait, why am I praising WordPress so much? 
+It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast, and Schema Creator. WordPress is almost unbeatable by Jekyll. Ok wait, why am I praising WordPress so much? 
 
-At the moment we have Jekyll 3.0 and a small [list of jekyll plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them.
+At the moment we have Jekyll 3.0 and a small [list of Jekyll plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them.
 
 I will be discussing only the steps that involve making changes to your Jekyll functions but not to your content. That means I will not be discussing anything about Keyword Research, Link Building, Marketing etc.,
  
@@ -100,7 +100,7 @@ Having your post title as the title makes sense. ```page.title``` variable takes
 
 Using page excerpt as a description is not a good idea because you may have something totally different in the first paragraph before you discuss on the main topic. If it is your homepage then make sure you have a site description mentioned in your **_config.yml** file.
 
-Also it is advised to restrict your description to 160 characters or less. Anything more can be considered spam or keyword stuffing by search engines. And also description is not considered for ranking but only to show snippets in the search results.
+Also, it is advised to restrict your description to 160 characters or less. Anything more can be considered spam or keyword stuffing by search engines. And akdescription is not considered for ranking but only to show snippets in the search results.
 
 {% highlight html %}{% raw %}
 {% if page.description %}
@@ -115,7 +115,7 @@ So that takes care of _Title_ and _Description_. But remember, you have to expli
 {% highlight css %}
 ---
 title: How to Create a Beautiful Jekyll Blog?
-description: I created this beautiful looking Jekyll blog by forking a repository. You can also fork it to make it yours. Jekyll is a simple blog generator. The community is growing and number of plugins is also growing. I have moved all my blogs to Jekyll!
+description: I created this beautiful looking Jekyll blog by forking a repository. You can also fork it to make it yours. Jekyll is a simple blog generator. The community is growing and the number of plugins is also growing. I have moved all my blogs to Jekyll!
 ---
 {% endhighlight %}
 
@@ -138,7 +138,7 @@ A URL conveys a lot of information about the content. Users and bots expect it t
 ![URL structure jekyll seo](/images/url-structure-jekyll-seo.jpg)
 {: .right .half}
 
-A clean URL structure gives a better click through rate. Now a days search engines are smart enough to detect whether the URL has any relation with the content.
+A clean URL structure gives a better click through rate. Nowadays search engines are smart enough to detect whether the URL has any relation with the content.
 I have seen many blogs whose URL contains page ids in it. This will not convey any good information to either a human reader or to a search engine bot. It is only used for the convenience of differentiating all the pages within a blog. Do not use ids in URL.
 
 Including date is a choice. You can opt it if you think that helps users in some way. Search engines may extract this data. It is useful if dates really matter to your content.
@@ -152,7 +152,7 @@ Imagine you are a comic book reviewer. You review Iron Man comic every month the
 
 ```http://webjeda.com/2016/03/21/iron-man-comic-review```
 
-Users will know - just by looking at the URL - which comic you are referring to. Date is included in the URL by default in Jekyll. If not add the following code to **_config.yml** file.
+Users will know - just by looking at the URL - which comic you are referring to. The ```date``` is included in the URL by default in Jekyll. If not add the following code to **_config.yml** file.
 {% highlight yml %}
 permalink: date
 {% endhighlight %} or {% highlight yml %}
@@ -167,7 +167,7 @@ permalink: /:title/
 
 
 ### Stop using stop-words!
-Using **and, or, but, of, the, a, etc** inside a URL is not necessary. It will only increase the length of your URL(bots like short URLs). In this post I have left out **how-to** because the URL still makes sense without those stop words. Take some time to leave stop words before you decide to publish a post. 
+Using **and, or, but, of, the, a, etc** inside a URL is not necessary. It will only increase the length of your URL(bots like short URLs). In this post, I have left out **how-to** because the URL still makes sense without those stop words. Take some time to leave stop words before you decide to publish a post. 
 
 In Jekyll URL can be changed by renaming the file in ```_posts``` folder.
 
@@ -184,7 +184,7 @@ whose respective URLs would be
 
 
 ## 3. Sitemap
-Having a sitemap is a necessity these days. It helps bots to crawl through your website easily. Also submit sitemaps to search engines so that they don't have to look for it in the first place. 
+Having a sitemap is a necessity these days. It helps bots to crawl through your website easily. Also, submit sitemaps to search engines so that they don't have to look for it in the first place. 
 
 Read all about why we should use a sitemap and how to submit a sitemap to Google here [How to create a sitemap for Jekyll blog](http://blog.webjeda.com/how-to-add-a-sitemap-to-jekyll-blog/){:target="_blank"}. Submitting sitemap and tracking how much of it has been indexed is the important task in SEO. Do not ignore this step.
 
@@ -195,7 +195,7 @@ Alt-tags are nothing but text shown in case if the image does not load. This tag
 <img alt="jekyll seo" title="Jekyll SEO" src="/images/jekyll-seo.jpg">
 {% endhighlight %}
 
-Also be sure to use related alt tag. This helps search engines to know what's in the image since they are not smart enough to make sense out of an image.
+Also, be sure to use a related alt tag. This helps search engines to know what's in the image since they are not smart enough to make sense out of an image.
 
 
 ## 5. Connecting with Social Media
@@ -213,7 +213,7 @@ Open Graph tags for Jekyll
 {% highlight html %}{% raw %}
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-{% if page.title %}	
+{% if page.title %}    
 <meta property="og:title" content="{{ page.title }}">
 {% else %}
 <meta property="og:title" content="{{ site.title }}">
@@ -238,7 +238,7 @@ Twitter Card tags for Jekyll
 {% highlight html %}{% raw %}
  
 <meta name="twitter:card" content="summary_large_image"/>
- {% if page.title %}	
+ {% if page.title %}    
 <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
 <meta name="twitter:title" content="{{ site.title }}">
@@ -282,7 +282,7 @@ Use the below code to implement touch icons.
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad-retina-152x152.png">
 {% endhighlight %}
 
-But it is a pain creating all those images. So there is a webapp that can do the job for you along with the code and a favicon. All you need is to provide a high quality, square shaped logo.
+But it is a pain creating all those images. So there is a web app that can do the job for you along with the code and a favicon. All you need is to provide a high quality, square shaped logo.
 
 Use [Iconifier](http://iconifier.net/){:rel='nofollow'}{:target="_blank"}.
 Download the **zip** file it generates to get all icons along with the code.
@@ -319,14 +319,14 @@ If you find any errors then try to solve them.
 
 Read all about how your responsive website should be - [Mobile responsiveness](https://developers.google.com/webmasters/mobile-sites/mobile-seo/){:rel='nofollow'}{:target="_blank"}.
 
-Usually almost all the Jekyll themes (even the default theme) are responsive. If you are designing a new layout for your requirements then make sure you use proper media queries to adjust the layout on smaller screen sizes.
+Usually, almost all the Jekyll themes (even the default theme) are responsive. If you are designing a new layout for your requirements then make sure you use proper media queries to adjust the layout to smaller screen sizes.
 
-Media query detects the screen-size and applies the css that you provide inside its tag. That's all it does.
+Media query detects the screen-size and applies the CSS that you provide inside its tag. That's all it does.
 
 If you are not sure how to use them, then it's good. Start here - [w3-schools](http://www.w3schools.com/css/css_rwd_mediaqueries.asp){:rel='nofollow'}{:target="_blank"}. 
 
 ### Conclusion: 
-Though Jekyll users have a hard time configuring SEO on their own, they do have the full control. Jekyll does only tasks that you tell it to do unlike WordPress. Things like AMP Pages, htaccess, robot.txt are not explored well on Jekyll but we can hope that in the coming years they all will be available by default.
+Though Jekyll users have a hard time configuring SEO on their own, they do have the full control. Jekyll does only tasks that you tell it to do, unlike WordPress. Things like AMP Pages, htaccess, robot.txt are not explored well on Jekyll but we can hope that in the coming years they all will be available by default.
 
 
 <div class="tips">

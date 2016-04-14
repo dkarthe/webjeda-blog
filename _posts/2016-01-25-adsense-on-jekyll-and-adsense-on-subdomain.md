@@ -1,6 +1,6 @@
 ---
 title: Adsense on Subdomain and Adsense on Jekyll
-desc: Adsense ads on this subdomain happened only after a deep research about adsense policies. It is indeed possible to have ads on subdomain but you should know what you are doing. Just placing adsense ads on subdomain will not work.
+desc: Adsense ads on this subdomain happened only after a deep research about Adsense policies. It is indeed possible to have ads on subdomain but you should know what you are doing. Just placing Adsense ads on a subdomain will not work.
 Keywords: adsense on subdomain, adsense on Jekyll
 author: sharathdt
 tags: Jekyll Adsense
@@ -11,7 +11,7 @@ permalink: /adsense-jekyll-subdomain/
 
 <img alt="adsense on subdomain" title="adsense on Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adsense-on-subdomain-adsense-on-Jekyll.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Though I had many blogs, none of them got approval for some or the other reason. Actually it was hard to figure out what exactly was going wrong. Adsense policies check many parameters for approval. Though Google sends you the reason, they are vague and I almost gave up on Adsense.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Though I had many blogs, none of them got approval for some or the other reason. Actually, it was hard to figure out what exactly was going wrong. Adsense policies check many parameters for approval. Though Google sends you the reason, they are vague and I almost gave up on Adsense.
 {: .intro}
 <a rel="nofollow" target="_blank" href="http://www.freepik.com/free-vector/office-banners_800177.htm">Design by Freepik</a>
 
@@ -21,9 +21,9 @@ I had no hopes on this blog either. But I tried my best to deliver the content t
 <div id="toc" class="clear"></div>
 
 ## Adsense on subdomain
-The first problem I faced was applying for adsense using subdomain. My subdomain ```blog.webjeda.com``` cannot be used for applying to Adsense. Google has this policy for a reason. May be you have good content on your subdomain but what if you have bad content in your domain which is non compliant with Adsense policies. Say some adult content or content related to drugs?
+The first problem I faced was applying for Adsense using a subdomain. My subdomain ```blog.webjeda.com``` cannot be used for applying to Adsense. Google has this policy for a reason. May be you have good content on your subdomain but what if you have bad content in your domain which is non-compliant with Adsense policies. Say some adult content or content related to drugs?
 
-So one thing was sure by the answers on Google Product Forum that **I cannot apply for adsense with a subdomain**. But I can always apply with the domain name even if it doesn't have much content. For instance my domain [webjeda.com](http://webjeda.com){:target="_blank"} doesn't have many pages. It is actually a single page website meant for my business.
+So one thing was sure by the answers on Google Product Forum that **I cannot apply for Adsense with a subdomain**. But I can always apply with the domain name even if it doesn't have much content. For instance my domain [webjeda.com](http://webjeda.com){:target="_blank"} doesn't have many pages. It is actually a single page website meant for my business.
 
 So I applied with my domain ```webjeda.com``` and placed ads on my subdomain(only after placing ads, Google will check your website for compliance). It did not get an approval for days. I thought it doesn't work. Then I read somewhere that I have to put at least one ad in the main domain to get approved.
 
@@ -35,27 +35,27 @@ I decided to place an ad on my domain. And just after a day, while I was browsin
 
 So follow the guidelines for approval on subdomain
 
-1. **It doesn't matter how much content is present in your domain but it should be complaint with Adsense policies.**
+1. **It doesn't matter how much content is present in your domain but it should be compliant with Adsense policies.**
 
-2. **Always apply with your domain name not subdomain(I don't think you can apply with a subdomain)**
+2. **Always apply with your domain name, not subdomain(I don't think you can apply with a subdomain)**
 
 3. **Place at least one ad on your domain along with subdomain.**
 
 4. **Follow all other [Adsense Policies](https://support.google.com/adsense/answer/23921?hl=en){:rel='nofollow'}{:target="_blank"} without miss.**
 
-Once you get the approval, read the below section on how to place adsense ads on Jekyll blog.
+Once you get the approval, read the below section on how to place Adsense ads on Jekyll blog.
 
 ## Adsense on Jekyll blog
 
-Though it is very easy to automatically place ads on all pages and places, I wasn't able automatically place the ads where I exactly wanted. 
+Though it is very easy to automatically place ads on all pages and places, I wasn't able to place the ads automatically where I wanted. 
 
 I have placed ads on top and bottom of my blog posts and pages. And one more ad appears somewhere in the middle of all the posts. So how did I do this?
 
-### 1. Get responsive adsense code
+### 1. Get responsive Adsense code
 The advantage is that it adopts to all screen-size so that you don't have to add media queries and adjust the width.
 
-### 2. Create html files of adsense code
-Create 3 html files with different names inside ```_includes``` folder(you can place only 3 ads per page. But this is not a hard and fast rule). Copy paste the adsense code(responsive) that you generated in Adsense. Here is a sample adsense code for the file. Keeping the script tags inside a ```div``` tag is optional.
+### 2. Create html files of Adsense code
+Create 3 html files with different names inside ```_includes``` folder(you can place only 3 ads per page. But this is not a hard and fast rule). Copy paste the Adsense code(responsive) that you generated in Adsense. Here is a sample Adsense code for the file. Keeping the script tags inside a ```div``` tag is optional.
 
 {% highlight html %}
 <div>
@@ -76,9 +76,9 @@ Create 3 html files with different names inside ```_includes``` folder(you can p
 These files can be called anywhere inside the layouts, posts and pages using this line
 <pre>{% raw %}{% include adsense-file-1.html %}{% endraw %}</pre>
 
-Change ```adsense-file-1``` to whatever the name you have given to your adsense html.
+Change ```adsense-file-1``` to whatever the name you have given to your Adsense html.
 
-I have a total of 3 adsense html files
+I have a total of 3 Adsense html files
 
 1. Called inside ```default``` layout at the bottom portion (appears in almost all pages). 
 
@@ -91,17 +91,17 @@ I have a total of 3 adsense html files
 layout: default
 ---
 <article id="page">
-	{% raw %}{% include adsense-file-1.html %}{% endraw %}
+    {% raw %}{% include adsense-file-1.html %}{% endraw %}
   {% raw %}{{ content }}{% endraw %}
 
 </article>
 {% endhighlight %}
 
 
-### 4. Where not to show adsense code
-It is against the Adsense policy to show adsense ads on 404 page, blank page or a page which doesn't have much content. So I decided not to include adsense on about, contact, 404 page etc., 
+### 4. Where not to show Adsense code
+It is against the Adsense policy to show Adsense ads on 404 page, a blank page or a page which doesn't have much content. So I decided not to include adsense on about, contact, 404 page etc., 
 
-But how? I have defined adsense files in default, page and post layouts. So any page using any of these layouts would automatically get adsense ads in it.
+But how? I have defined Adsense files in default, page and post layouts. So any page using any of these layouts would automatically get Adsense ads in it.
 
 Then it hit me. I can add a front matter and write a condition not to include those pages! Here I have added a front matter attribute called ```adallow: 0``` to all those pages in which I don't want my adsense ads to appear.
 

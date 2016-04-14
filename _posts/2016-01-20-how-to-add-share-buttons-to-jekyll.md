@@ -11,7 +11,7 @@ permalink: /share-buttons-jekyll/
 
 <img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/share-bar-to-jekyll.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Reducing the use of JavaScript results in a faster loading speed. Here is a guide on how to add a social share bar to Jekyll blogs. You can copy paste the code and it should work! Many of the Jekyll themes will not include share buttons by default. It is upto you to find a suitable share bar for your website. So I thought of making one for myself!
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Reducing the use of JavaScript results in a faster loading speed. Here is a guide on how to add a social share bar to Jekyll blogs. You can copy paste the code and it should work! Many of the Jekyll themes will not include share buttons by default. It is up to you to find a suitable share bar for your website. So I thought of making one for myself!
 {: .intro}
 
 ## Why share bar for Jekyll blog?
@@ -26,9 +26,9 @@ It is a good idea to have share buttons at the end of an article. Users may not 
 
 ## How to add a share bar?
 
-Adding a sharebar is really easy using services like **ShareThis** or **AddtoAny**. They are good. They provide decent buttons with share count. This is what I recommend if you just want a sharebar and you don't care about your website loading speed. I have used ShareThis before and the problem was that it loads a lot of JavaScript files which will slow down the website.
+Adding a share bar is really easy using services like **ShareThis** or **AddtoAny**. They are good. They provide decent buttons with share count. This is what I recommend if you just want a share bar and you don't care about your website loading speed. I have used ShareThis before and the problem was that it loads a lot of JavaScript files which will slow down the website.
 
-I can always ```defer``` javascript loading but the files that are loaded by ShareThis are remote. So I don't even have an option to add ```defer``` or ```async```. So I thought of saving the remote ```Js``` files to my local directory and call it from there! That didn't work out very well as there were session variables used and they started to throw ```Js``` errors.
+I can always ```defer``` javascript loading but the files that are loaded by ShareThis are remote. So I don't even have the option to add ```defer``` or ```async```. So I thought of saving the remote ```Js``` files to my local directory and call it from there! That didn't work out very well as there were session variables used and they started to throw ```Js``` errors.
 
 Now I had to make a decision whether to use it or make one for myself. I thought why not make one! I will have the complete design control. So I chose to design it myself.
 
@@ -36,7 +36,7 @@ Now I had to make a decision whether to use it or make one for myself. I thought
 
 When I decided to make a share bar for my blog WebJeda, I thought of making it ```Js``` free. As a developer - for a fast performing website - you should avoid ```Js``` and lower the number of http requests. With ShareThis, I used to have 5 to 6 ```Js``` files loaded from a remote server and 22 requests were made. This happens when you have many buttons and every button is downloaded remotely!
 
-Once I installed my css only share bar, the request number dropped to 11! That was a huge improvement! But it comes at a cost. I cannot see number of shares anymore. I can always write a code to calculate number of shares based on click event but that will be in the future. For now I'm happy that I have a beautiful sharebar which is made only with html and css. You can see it in the screenshot at the top of the page.
+Once I installed my css only share bar, the request number dropped to 11! That was a huge improvement! But it comes at a cost. I cannot see a number of shares anymore. I can always write a code to calculate the number of shares based on click event but that will be in the future. For now, I'm happy that I have a beautiful share bar which is made only with html and css. You can see it in the screenshot at the top of the page.
 
 {% include adsense-inside-post.html %}
 
@@ -68,14 +68,14 @@ I can do the same thing for twitter share link
 
 ```https://twitter.com/home?status={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}```
 
-This works pretty much on all the social media websites. For LinkedIn I also added title and description of the page.
+This works pretty much on all the social media websites. For LinkedIn, I also added title and description of the page.
 
 ```https://www.linkedin.com/shareArticle?mini=true&url={% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}&title={% raw %}{{ page.title }}{% endraw %}&summary={% raw %}{{ page.description }}{% endraw %}&source=webjeda```
 
 
 This is the key to my WebJeda Sharebar.
 
-## How to implement WebJeda sharebar?
+## How to implement WebJeda share bar?
 
 Create a new ```html``` file inside _includes folder and call it share.html. Copy paste this code.
 
@@ -121,7 +121,7 @@ Create a new ```html``` file inside _includes folder and call it share.html. Cop
 
 I have used icons from **font awesome** which is better than loading icons from local files.
 
-Now copy this line inside your post layout file which will be inside **_layouts** folder. You have to place this line wherever you want the sharebar to appear on your posts.
+Now copy this line inside your post layout file which will be inside the **_layouts** folder. You have to place this line wherever you want the share bar to appear on your posts.
 
 {% highlight html %}
 {% raw %}{% include  share.html %}{% endraw %}
@@ -141,9 +141,9 @@ I have styled my buttons with the following css. You can change it for your need
 }
 {% endhighlight %}
 
-Currently I'm using this share bar for my blog. At the end of this article you see a sharebar which uses the same code.
+Currently, I'm using this share bar for my blog. At the end of this article, you see a share bar which uses the same code.
 ![webjeda share bar for jekyll]({{ site.url }}/images/how-to-add-share-bar-to-jekyll-blog.jpg){: .full}
 
-So this is how you can implement only css and javaScript free WebJeda sharebar. If you were able to implement this in your blog then please leave a link in the comment.
+So this is how you can implement only css and javaScript free WebJeda share bar. If you were able to implement this on your blog then please leave a link in the comment.
 
 Thanks for reading!

@@ -92,13 +92,13 @@ layout: default
 ---
 
 <article id="post-page" >
-	    <h2>{% raw %}{{ page.title }}{% endraw %}</h2>		
-	    <time datetime="{% raw %}{{ page.date | date_to_xmlschema }}{% endraw %}" class="by-line" >{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
-	    <div class="content" >
+        <h2>{% raw %}{{ page.title }}{% endraw %}</h2>        
+        <time datetime="{% raw %}{{ page.date | date_to_xmlschema }}{% endraw %}" class="by-line" >{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
+        <div class="content" >
 
-		{% raw %}{{ content }}{% endraw %}
-		
-	    </div>
+        {% raw %}{{ content }}{% endraw %}
+        
+        </div>
     
         {% raw %}{% assign author = site.authors[page.author] %}{% endraw %}
         {% raw %}{% include  author.html %}{% endraw %}
@@ -112,7 +112,7 @@ layout: default
 
 
 ## Step 4: Add author name in all posts
-Now in all your posts which are inside **_post** folder you should add a new attribute called author
+Now in all your posts which are inside **_post** folder, you should add a new attribute called author
 
 {% highlight html %}
 ---
@@ -154,6 +154,6 @@ img#image-author {
 
 So that is about adding multiple author section for Jekyll blog. Let me know if you were able to successfully implement this in your Jekyll blog or website. 
 
-Also post the link of your blog in the comment section once you successfully implement this. 
+Also, post the link to your blog in the comment section once you successfully implement this. 
 
 Thanks for reading!

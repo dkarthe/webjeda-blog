@@ -11,10 +11,10 @@ permalink: /sync-files-folders-github/
 
 <img alt="How to sync folders with Github" title="How to sync folders with Github" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/sync-local-folders-with-github.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Creating files inside Github repository is easy but what if you have lot of files and folders to upload to Github! You can also upload project to github using this method. In this tutorial I'm uploading a complete website into Github Pages.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Creating files inside Github repository is easy but what if you have lot of files and folders to upload to Github! You can also upload a project to github using this method. In this tutorial, I'm uploading a complete website into Github Pages.
 {: .intro}
 
-In my initial days of using Github I used to see repositories filled with folders, files and what not. I used to wonder how the hell these people are uploading folders to Github! 
+In my initial days of using Github, I used to see repositories filled with folders, files and what not. I used to wonder how the hell these people are uploading folders to Github! 
 {: .clear}
 
 <div id="toc" class="clear"></div>
@@ -118,7 +118,7 @@ Now login to your Github account to see whether your website has been hosted. Na
 Change the branch to gh-pages and see if the files you synced are present in that branch.
 
 
-Now click on settings and look for **Github Pages** section where you will see a green check mark with a ugly looking URL next to it. Hit that URL. You should see your website hosted!
+Now click on settings and look for **Github Pages** section where you will see a green check mark with an ugly looking URL next to it. Hit that URL. You should see your website hosted!
 {: .clear}
 
 
@@ -135,4 +135,4 @@ Success!!
 ### Want to change the URL to something not ugly?
 
 Read: [How to add custom domain to websites hosted on Github Pages](https://blog.webjeda.com/how-to-add-custom-domain-to-github){:target="_blank"}. If you are stuck in any of these steps, please leave a comment. I'll try to help. 
-Thanks for reading! For more elaborated tutorials like this one, subscribe.
+Thanks for reading! For more detailed tutorials like this one, subscribe.

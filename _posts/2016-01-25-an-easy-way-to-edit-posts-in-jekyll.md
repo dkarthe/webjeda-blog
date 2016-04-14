@@ -1,6 +1,6 @@
 ---
 title: Add or Edit Jekyll Posts through a Browser
-desc: For beginners an easy online editing option is beneficial. Learn how to add posts, edit posts and other Jekyll files online through prose.io in this tutorial. Also find out how to upload images using prose.io! This can be really helpful when you are out on trip and have an urge to write a Jekyll post.
+desc: For beginners an easy online editing option is beneficial. Learn how to add posts, edit posts, and other Jekyll files online through prose.io in this tutorial. Also, find out how to upload images using prose.io! This can be really helpful when you are out on a trip and have an urge to write a Jekyll post.
 keywords: edit post in Jekyll, edit page in Jekyll, add post in Jekyll
 author: sharathdt
 tags: Jekyll Web-Design
@@ -24,12 +24,12 @@ permalink: /edit-posts-jekyll/
 </div>
 As I was unable to upload images to Github I used to upload images to my Google drive, then get the URL of the image and put that as a source in the blog. One of those examples here
 [Image from google drive](https://lh3.googleusercontent.com/-j3S-KX7DwQ0/VDi4p2xTzVI/AAAAAAAAAGo/_PP4-udRS4c/s550-no/moto-hint-story-pairit-us.jpg){:rel='nofollow'}{:target="_blank"}.
-There is another way to do this by creating an issue in Github where you can drag and drop an image, get the URL and use it as source. But I doubt its reliability.
+There is another way to do this by creating an issue on Github where you can drag and drop an image, get the URL and use it as a source. But I doubt its reliability.
 
 <div id="toc" class="clear"></div>
 
 
-And also this is not practical. Since you are making a http request, it would take a longer time to load the page. I was not aware of these things. But, that was my workaround for not being able to upload files to Github.
+And also, this is not practical. Since you are making a http request, it would take a longer time to load the page. I was not aware of these things. But, that was my workaround for not being able to upload files to Github.
 
 
 ## A nice tool to upload images to Github
@@ -37,7 +37,7 @@ And also this is not practical. Since you are making a http request, it would ta
 {: .right .half}
 Eventually I found a tool called [prose.io](http://prose.io){:rel='nofollow'}{:target="_blank"}. It is good, the interface, functionality and even the animations! I wanted something that can upload images to Github. Prose was the Saviour.
 
-I was really impressed with this webapp with a feature to upload images. But it will not upload images by default. To make it work, you need to add these lines of code given below inside ```_config.yml```. This will solve the problem of prose.io not uploading images!
+I was really impressed with this web app with a feature to upload images. But it will not upload images by default. To make it work, you need to add these lines of code given below inside ```_config.yml```. This will solve the problem of prose.io not uploading images!
 
 <div class="clear"></div>
 
@@ -99,7 +99,7 @@ Once you figure out [**how to sync files and folders with Github from your local
 
 This is the reason why I recommend prose.io for beginners. It is simple, easy and GUI!
 
-And also in situations where you are using a chromebook, there isn't any convenient way to sync Github files locally. May be in the future Github will release apps for **Chrome Os** and **Android** but for now there is no option. 
+And also in situations where you are using a Chromebook, there isn't any convenient way to sync Github files locally. Maybe in the future Github will release apps for **Chrome Os** and **Android** but for now there is no option. 
 
 While traveling you may just have a smart-phone or a tablet with you. In such cases you will appreciate **prose.io**!
 

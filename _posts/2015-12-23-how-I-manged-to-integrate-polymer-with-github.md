@@ -25,7 +25,7 @@ Polymer cards are getting used in every single application Google is developing.
 
 ![blog.webjeda.com speed test]({{ site.url }}/images/blog-webjeda-com-website-speed-test.JPG){: .full}
 
-Faster than 99% of all websites checked on pingdom tools!
+Faster than 99% of all websites checked on Pingdom tools!
 
 If you observe the applications by Google, almost all of them are using paper-cards.
 
@@ -33,7 +33,7 @@ If you observe the applications by Google, almost all of them are using paper-ca
 
 Above screenshot shows few applications using card interface. Youtube (I know, it is a new channel), Playstore, Google Keep, Gmail and even Play music is using card interface.
 
-I wanted something similar. I did it only using CDN. Usually you have to include Polymer elements in the project if you want to use those elements extensively. But I was using just three elements - paper-card, paper-ripple and paper-button.
+I wanted something similar. I did it only using CDN. Usually, you have to include Polymer elements in the project if you want to use those elements extensively. But I was using just three elements - paper-card, paper-ripple, and paper-button.
 
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html"/>
 
@@ -60,7 +60,7 @@ I wanted something similar. I did it only using CDN. Usually you have to include
 </paper-card>
 </div>
 
-This is how the cards looks like. 
+This is how the cards look like. 
 
 
 
@@ -110,7 +110,7 @@ So what about my jekyll blog index page?
  
 Copy these lines to your **index.html** page without deleting the default code. If you like it then delete the default code and keep the polymer one.
 
-How I included colored paper button?
+How did I include colored paper button?
 
 ## Color to Polymer buttons
 

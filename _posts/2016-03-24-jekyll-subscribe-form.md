@@ -1,6 +1,6 @@
 ---
 title: How to create a subscribe form for Jekyll that actually works!?
-desc: Subscribe form for Jekyll was not available because all forms tend to work with php code to send emails. But with this method we can add a subscribe form for Jekyll websites which works out of the box.
+desc: Subscribe form for Jekyll was not available because all forms tend to work with php code to send emails. But with this method, we can add a subscribe form for Jekyll websites which works out of the box.
 keywords: 
 author: sharathdt
 tags: Jekyll
@@ -10,7 +10,7 @@ layout: post
 
 <img alt="jekyll subscribe form" title="subscribe form Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/thumbs/jekyll-subscribe-form.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Subscribe form for Jekyll was not available because all forms tend to work with ```php``` code to send emails. But with this method we can add a subscribe form for Jekyll websites which works out of the box. I'm another step closer to compete with WordPress blogs!
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Subscribe form for Jekyll was not available because all forms tend to work with ```php``` code to send emails. But with this method, we can add a subscribe form for Jekyll websites which works out of the box. I'm another step closer to compete with WordPress blogs!
 {: .intro}
 
 ## Why use a subscribe form?
@@ -23,7 +23,7 @@ Many bloggers use the mailing list for affiliate marketing. I don't think it is 
 
 WordPress has an advantage with many plugins that can do the job without breaking a sweat. But, after moving all my blogs from WordPress to Jekyll I had to find an alternative for subscribe forms.
 
-This is one of those things I always wanted in Jekyll but did not know how to execute. This idea hit me while I was having a shower! Initially, I tried to create a form with [FormSpree](http://formspree.com){:rel='nofollow'}{:target="_blank"} similar to [how I created a contact form](/how-to-add-form-option-to-jekyll-websites/){:target="_blank"}. It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on a specific page but not for all pages. What clicked to me in the shower is that SimpleForm can be used to make a contact form which works on all pages!
+This is one of those things I always wanted in Jekyll but did not know how to execute. This idea hit me while I was having a shower! Initially, I tried to create a form with [FormSpree](http://formspree.com){:rel='nofollow'}{:target="_blank"} similar to [how I created a contact form](/how-to-add-form-option-to-Jekyll-websites/){:target="_blank"}. It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on a specific page but not for all pages. What clicked me in the shower is that SimpleForm can be used to make a contact form which works on all pages!
 
 What I'm showing here is an email collector. So it just collects users' emails. I think that is what a basic subscriber form does. You can also setup an auto-reply option. Auto-reply can help if you are offering an e-book for a subscription. I haven't tried it yet but it should work.
 
@@ -52,7 +52,7 @@ Your form api token is c7b404f97b2e45f982ffed4995bf42af
 ![Jekyll subscribe form](/images/jekyll-subscribe-form.jpg)
 {: .right}
 
-Now create a form in Jekyll with only email input in it and change the action according to SimpleForm documentations. You can create it in a separate page so that users will go to that page and subscribe or you can create it in the default layout so that the form is available on all pages.
+Now create a form in Jekyll with only email input in it and change the action according to SimpleForm documentations. You can create it on a separate page so that users will go to that page and subscribe or you can create it in the default layout so that the form is available on all pages.
 
 {% highlight html %}
 <form action="https://getsimpleform.com/messages?form_api_token=c7b404f97b2e45f982ffed4995bf42af" method="post">
@@ -109,38 +109,38 @@ I hope that helped. I'm using feed-burner for subscriptions. I will make a post 
 
 [steven_nc](https://disqus.com/by/steven_nc/){:rel='nofollow'}{:target="_blank"} commented that there should be an un-subscription option for users, which is a valid question because users may want to opt out of your mailing list. Thanks to him for bringing up this topic.
 
-As I have mentioned in the article this is a completely manual subscription handling. But what if someone wants a automated list generation? where after subscribing the email will be collected automatically and if someone wants to un-subscribe, they can do that as well.
+As I have mentioned in the article this is a completely manual subscription handling. But what if someone wants an automated list generation? where after subscribing the email will be collected automatically and if someone wants to un-subscribe, they can do that as well.
 
-Many a times, emails that you send to your subscribers should have an unsubscribe link. Otherwise, email providers may mark it as spam. Since it is not practical to create a un-subcsribe link and include it every time you send an email, you can opt some third party email subscription handlers.
+Many times, emails that you send to your subscribers should have an unsubscribe link. Otherwise, email providers may mark it as spam. Since it is not practical to create a un-subscribe link and include it every time you send an email, you can opt some third party email subscription handlers.
 
 I prefer these two email subscription handlers - Aweber or MailChimp. I suggest MailChimp for beginners. [Create an account in MailChimp](http://eepurl.com/bWHZgb){:rel='nofollow'}{:target="_blank"} for free.
 
 MailChimp has an option to [create a list](https://us10.admin.mailchimp.com/lists/new-list/){:rel='nofollow'}{:target="_blank"}(which will be automatically updated upon new subscriptions and un-subscriptions), an option to create a form for normal websites and an embeddable form for static websites.
 
-For Jekyll websites one must choose embeddable forms. Here is how the code looks like
+For Jekyll websites, one must choose embeddable forms. Here is how the code looks like
 
 {% highlight html %}
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
 <form action="//redgadgets.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=a268d63442" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
+    <h2>Subscribe to our mailing list</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_210acce5db69d3d4a04b0e25d_a268d63442" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
@@ -155,24 +155,24 @@ I have a working form as well!
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
 <form action="//redgadgets.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=a268d63442" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
+    <h2>Subscribe to our mailing list</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_210acce5db69d3d4a04b0e25d_a268d63442" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>

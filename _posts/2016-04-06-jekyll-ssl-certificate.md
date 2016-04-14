@@ -1,6 +1,6 @@
 ---
 title: SSL certificate for Jekyll
-desc: https has an advantage in SEO over http URLs. It is easy to set up SSL for Jekyll using CloudFlare. Learn how to get a free SSL certificate for your Jekyll blog. Also, find out the advantages and disadvantages of using SSL in your website.
+desc: https has an advantage in SEO over http URLs. It is easy to set up SSL for Jekyll using CloudFlare. Learn how to get a free SSL certificate for your Jekyll blog. Also, find out the advantages and disadvantages of using SSL on your website.
 keywords: 
 author: sharathdt
 tags: Jekyll SEO Github-Pages 
@@ -16,15 +16,15 @@ permalink: /jekyll-ssl/
 
 ## Why should anyone use SSL?
 {: .clear}
-SSL (Secure Socket Layer) basically provides a secure connection between client(web browser) and server(website). It avoids eavesdropping, man-in-the-middle attack etc., Bottom line is - A user can browse your website without worrying about someone stealing personal information.
+SSL (Secure Socket Layer) basically provides a secure connection between the client(web browser) and server(website). It avoids eavesdropping, man-in-the-middle attack etc., Bottom line is - A user can browse your website without worrying about someone stealing personal information.
 
 <div id="toc" class="clear"></div>
 
-On August 06 2014 Google announced that [https will be considered for ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html){:rel='nofollow'}{:target="_blank"}. They took this measure to keep everybody safe over the web. So using ssl can improve your website ranking. And also, users will trust the product or service you provide in your website.
+On August 06 2014 Google announced that [https will be considered for ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html){:rel='nofollow'}{:target="_blank"}. They took this measure to keep everybody safe over the web. So using SSL can improve your website ranking. And also, users will trust the product or service you provide on your website.
 
 
 ## Why I'm not using SSL on this Jekyll blog?
-![Jekyll and github pages ssl](/images/nallikayi-articles-github-pages-ssl.jpg)
+![Jekyll and GitHub pages ssl](/images/nallikayi-articles-github-pages-ssl.jpg)
 {: .right}
 I'm using SSL on [Nallikayi Articles](https://articles.nallikayi.com){:target="_blank"} and [WebJeda](https://webjeda.com){:target="_blank"} but not on other websites. Why did I do so? If SSL is good for SEO, why didn't I use it on all my websites? Especially, why didn't I use it on this blog?! The reasons are as follows,
 
@@ -32,7 +32,7 @@ I'm using SSL on [Nallikayi Articles](https://articles.nallikayi.com){:target="_
 
 ### Adsense
 {: .clear}
-I use Adsense for monetizing this blog. If I were to secure this blog with SSL, I should not request any data from a http server. Everything should be https! But, most of the ads on Adsense are from a http source which is not acceptable for a SSL certified website.
+I use Adsense for monetizing this blog. If I were to secure this blog with SSL, I should not request any data from a http server. Everything should be https! But, most of the ads on Adsense are from a http source which is not acceptable for an SSL certified website.
 
 {% include adsense-inside-post.html %}
 
@@ -50,7 +50,7 @@ If your website or Jekyll blog URL is in the format ```username.github.io``` the
 If it works but you do not see a green padlock then the reason must be that your website is requesting something from a non-secure (http) server. Read [warning](#warning-1) to solve this.
 
 ### Enforce https
-Use this JavaScript code at the top of your website to redirect to https. Change **username** to your github username.
+Use this JavaScript code at the top of your website to redirect to https. Change **username** to your GitHub username.
 
 {% highlight js %}
 var host = "username.github.io";
@@ -89,14 +89,14 @@ It also has other advantages like handling DNS, analytics, providing SSL certifi
 
 ![Add a site cloudflare jekyll ssl](/images/add-site-cloudflare-jekyll-ssl.jpg){: .large .left}
 
-Among these we are concentrating only on DNS handling. So before we begin create an account in CloudFlare. Now select **Add site** option. Now enter your domain and click on **Begin scan**.
+Among these, we are concentrating only on DNS handling. So before we begin to create an account in CloudFlare. Now select **Add site** option. Now enter your domain and click on **Begin scan**.
 
 Once the scanning is done, click on **Continue to setup** where you will see an option to verify all your DNS records. You don't have to change anything here. click on **Continue**.
 
 Now select a package that suits your requirement. I would suggest you to try the free version first and then upgrade if you like their service.
 {: .clear}
 
-![change dns cloudflare jekyll github ssl](/images/change-dns-cloudflare-jekyll-github-ssl.jpg)
+![change DNS CloudFlare Jekyll GitHub ssl](/images/change-dns-cloudflare-jekyll-github-ssl.jpg)
 {: .right .half}
 Now is the crucial part. You have to change the name servers (NS31.DOMAINCONTROL.COM) in your domain registrar to the following or whichever is provided to you by CloudFlare.
 
@@ -151,7 +151,7 @@ enforce_ssl: yoursite.com
 {% endhighlight %}
 
 
-Flexibel SSL is not the complete solution for security since it is provided by ClouFlare. If someone can hack into CloudFlare then they can steal information from your users! Since we are using it for SEO ranking, we are good.
+Flexible SSL is not the complete solution for security since it is provided by ClouFlare. If someone can hack into CloudFlare then they can steal information from your users! Since we are using it for SEO ranking, we are good.
 
 If you are looking for complete security then you can buy SSL certificate for your website.
 

@@ -11,10 +11,10 @@ permalink: /jekyll-comments/
 
 <img alt="how to add comments to jekyll" title="jekyll blog comments" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-add-comment-box-to-jekyll-blog.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll themes are pretty neat with bare minimum options. Jekyll blog comments is not included by default. WordPress blogs have comments by default. What if we want it in our Jekyll blog as well? We have a cleaner and better options in Jekyll.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll themes are pretty neat with bare minimum options. Jekyll blog comments are not included by default. WordPress blogs have comments by default. What if we want it in our Jekyll blog as well? We have a cleaner and better option in Jekyll.
 {: .intro}
 
-When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them an option to express!?
+When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them the option to express!?
 {: .clear}
 
 <div id="toc" class="clear"></div>
@@ -28,15 +28,15 @@ It depends on your requirements. What kind of users you have. Suppose if you don
 
 WordPress comes with a nice default comment box and you can get other ones through plugins if you don't like the default one. But if you want to place the comment box a little above than the position it is already in then you are in trouble!
 
-Editing plugins in WordPress is really hard unless you are an expert in ```php``` and know where to look for the changes. I have tried it and I can tell you that it is not a good experience.
+Editing plugins in WordPress are really hard unless you are an expert in ```php``` and know where to look for the changes. I have tried it and I can tell you that it is not a good experience.
 
-WordPress comments otherwise works great, you have nothing to code and most of the bloggers use it. But if you have made a choice to move from WordPress to Jekyll (which I would really appreciate) then you can install one of these comment boxes in your blog.
+WordPress comments otherwise work great, you have nothing to code and most of the bloggers use it. But if you have made a choice to move from WordPress to Jekyll (which I would really appreciate) then you can install one of these comment boxes on your blog.
 
 I can guarantee you that they are easy to implement. And you will have the full control of how they look and behave (for the most parts). So let's dive right in.
 
 {% include adsense-inside-post.html %}
 
-There are many ways to add comment box to Jekyll. I will be discussing only the major ones.
+There are many ways to add a comment box to Jekyll. I will be discussing only the major ones.
 
 **1. Disqus**
 
@@ -122,7 +122,7 @@ If you want to show the number of comments anywhere on the website then you can 
 <h3>Warning</h3>
 <p>Disqus may not work as expected if you have compress.html active to <a href="http://blog.webjeda.com/how-to-compress-html-in-jekyll/" rel="nofollow" target="_blank">compress jekyll html</a>.
 
-And also Google does not index Disqus blog many times. If you are very serious about your comments to be indexed then you may have to look for other options or follow <a href="https://help.disqus.com/customer/en/portal/articles/762307-why-isn-t-google-indexing-my-comments-" rel="nofollow" target="_blank">this question</a>.
+And also, Google does not index Disqus blog many times. If you are very serious about your comments to be indexed then you may have to look for other options or follow <a href="https://help.disqus.com/customer/en/portal/articles/762307-why-isn-t-google-indexing-my-comments-" rel="nofollow" target="_blank">this question</a>.
 
 But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <strong>some</strong> dynamic comments!</p>
 
@@ -144,7 +144,7 @@ It is not feasible to copy this code to every other blog post. That is the reaso
 
 If you want the comment box to appear at the bottom of all my posts, you should add the above include liquid tag to post layout which will be inside **_layouts** folder.
 
-A sample post layout with disqus would look like this
+A sample post layout with Disqus would look like this
 
 {% highlight html %}
 ---
@@ -152,12 +152,12 @@ layout: default
 ---
 <article id="post-page" >
     <a href=""><h2>{% raw %}{{ page.title }}{% endraw %}</h2></a>
-	<time>{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
-	<div class="content" >
-			{% raw %}{{ content }}{% endraw %}
-	</div>	
+    <time>{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
+    <div class="content" >
+            {% raw %}{{ content }}{% endraw %}
+    </div>    
 </article>
-	{% raw %}{% include  disqus.html %}{% endraw %}
+    {% raw %}{% include  disqus.html %}{% endraw %}
 {% endhighlight %}
 
 And now you should have a comment box below every single blog post. But what if you don't want comments on certain blog posts?!
@@ -176,13 +176,13 @@ Now in the **post** layout, add the following code
 {% highlight html %}
 <article id="post-page" >
     <a href=""><h2>{% raw %}{{ page.title }}{% endraw %}</h2></a>
-	<time>{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
-	<div class="content" >
-			{% raw %}{{ content }}{% endraw %}
-	</div>	
+    <time>{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
+    <div class="content" >
+            {% raw %}{{ content }}{% endraw %}
+    </div>    
 
  {% raw %}{% if post.comments != 0 %}{% endraw %}
-	{% raw %}{% include  disqus.html %}{% endraw %}
+    {% raw %}{% include  disqus.html %}{% endraw %}
  {% raw %}{% endif %}{% endraw %}
  
 </article>
@@ -276,7 +276,7 @@ Before adding facebook comments, you may have to create an app in facebook. I ha
 
 After creating an app log on to [comments plugin page](https://developers.facebook.com/docs/plugins/comments){:rel='nofollow'}{:target="_blank"}. 
 
-Here you can specify your requirements like width, number of posts to appear, color-scheme etc., and hit get code.
+Here you can specify your requirements like width, number of posts to appear, color-scheme etc., and hit **Get code**.
 
 You should get a code similar to the below one. 
 
@@ -297,7 +297,7 @@ The above code is just the script which doesn't display anything. The below code
 <div class="fb-comments" data-href="{% raw %}{{ site.url }}{% endraw %}{% raw %}{{ page.url }}{% endraw %}" data-numposts="5"></div>
 {% endhighlight %}
 
-Use the same method I discussed in [**step 4**](#step4) of disqus comments.
+Use the same method I discussed in [**step 4**](#step4) of Disqus comments.
 
 Finally, adding a comment box to Jekyll is easy and it can be useful for a good SEO signal if you are using a social-network comment box like facebook or Google plus. 
 

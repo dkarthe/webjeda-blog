@@ -19,7 +19,7 @@ Read: [How to secure email address](/how-to-add-form-option-to-jekyll-websites/#
 
 <div id="toc" class="clear"></div>
 
-Another thing that matters is credibility. Let's say you have a domain called ```truejewels.in``` where you sell jewelery online and you are using an email, ```john321@gmail.com``` along with it. When you send an email to a customer about the confirmation of an order with this email id, do you think they trust you that you are from **Truejewels**?
+Another thing that matters is credibility. Let's say you have a domain called ```truejewels.in``` where you sell jewelry online and you are using an email, ```john321@gmail.com``` along with it. When you send an email to a customer about the confirmation of an order with this email id, do you think they trust you that you are from **Truejewels**?
 
 What if your email id was ```john@truejewels.in```? That gives the customer an affirmation that you really are associated with **Truejewels**. I'm going to give you a tutorial where you can get a free custom domain email by ZOHO. You will get a fully functional email setup.
 
@@ -77,7 +77,7 @@ Once you select your option (in my case it was **others**) you should see a tabl
 ![free domain email setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-7.jpg)
 {: .left .half}
 
-Now in a new tab log in to your registrar (in my case godaddy), Click on **Add record **. Now in ZOHO tab, copy the Name value which is similar to ```zb14572708``` and Host value ```zmverify.zoho.com``` and paste them in respective inputs inside **Godaddy add zone record** form, click Finish.
+Now in a new tab log into your registrar (in my case GoDaddy), Click on **Add record **. Now in ZOHO tab, copy the Name value which is similar to ```zb14572708``` and Host value ```zmverify.zoho.com``` and paste them in respective inputs inside **Godaddy add zone record** form, click Finish.
 
 <p class="clear"></p>
 
@@ -94,7 +94,7 @@ Now come back to the **ZOHO Domain Setup** tab and click on the **Verify CNAME**
 
 <div id="step9 clear"></div>
 
-### Step 9: MX records for sending and recieving mails
+### Step 9: MX records for sending and receiving mails
 
 ![free email hosting for domain setup ZOHO godaddy](/images/setup-custom-domain-email-with-ZOHO-10.jpg)
 {: .left .half}
@@ -112,14 +112,14 @@ Now we have to enter these **Mail Exchange** records in our registrar. Use the s
 
 ### Step 10: Success!
 {: .clear}
-You are good to access your emails in [ZOHO mail](https://mail.zoho.com/){:rel='nofollow'}{:target="_blank"}. You can send and receive mails to this mailbox. Check if it is working by sending a mail from a different email account and once you receive it, reply to the mail. If everything is working fine then go to the next step.
+You are good to access your emails in [ZOHO mail](https://mail.zoho.com/){:rel='nofollow'}{:target="_blank"}. You can send and receive emails to this mailbox. Check if it is working by sending a mail from a different email account and once you receive it, reply to the mail. If everything is working fine then go to the next step.
 
 ### Final step ( I swear) : Email forwarding
 
 ![email forwarding in ZOHO mail](/images/setup-custom-domain-email-with-ZOHO-12.jpg)
 {: .right .small}
 
-It is hard to always login to ZOHO mail and check for mails. A better way is to get the mails received by ZOHO to your personal mail. This is pretty easy. Once you login to ZOHO mailbox, click on gear icon at the top-right corner. Then click on settings.
+It is hard to always login to ZOHO mail and check for emails. A better way is to get the emails received by ZOHO to your personal mail. This is pretty easy. Once you login to ZOHO mailbox, click on gear icon at the top-right corner. Then click on settings.
 
 Carefully look for **Email forwarding and POP/IMAP** and click on it. It will open up [email forwarding](https://mail.zoho.com/mail/zmset.do#12){:rel='nofollow'}{:target="_blank"} page.
 {: .clear}

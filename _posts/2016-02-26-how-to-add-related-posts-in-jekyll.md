@@ -1,5 +1,5 @@
 ---
-title: How to Add Related or Previous-Next Post Link in Jelyll?
+title: How to Add Related or Previous-Next Post Link in Jekyll?
 desc: Related posts is a way to keep your users hooked to checkout more content from your website. If they like your current article, then there is a good chance that they would like to browse more of your site. Add a related post or add next previous link to Jekyll articles using this method. 
 keywords: add related post jekyll, jekyll related post, next previous post jekyll
 author: sharathdt
@@ -11,15 +11,15 @@ permalink: /related-post-jekyll/
 
 <img alt="How to Add Related or Previous-Next Post Link in Jelyll" title="next pervious post jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adding-related-previous-next-link-to-jekyll.jpg">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>**Related posts** is a way to keep your users hooked to checkout more content from your website. If they like your current article, then there is a good chance that they would like to browse more of your site. Add a related post or add next previous link to Jekyll articles using this method. 
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>**Related posts** is a way to keep your users hooked to check out more content from your website. If they like your current article, then there is a good chance that they would like to browse more of your site. Add a related post or add next previous link to Jekyll articles using this method. 
 {: .intro}
 
-A long time ago I was writing 4 parts on WordPress installation tutorial. At the end of every article I had to leave the next or previous article link. I used to do it manually in this way "To read my next article on useful WordPress plugins read [part 2](#)" 
+A long time ago I was writing 4 parts on WordPress installation tutorial. At the end of every article, I had to leave the next or previous article link. I used to do it manually in this way "To read my next article on useful WordPress plugins read [part 2](#)" 
 {: .clear}
 
 <div id="toc" class="clear"></div>
 
-Manually linking articles was hectic when I have more articles. May be there is a plugin in WordPress that can do the job, but I was fed up with too many plugins! But in Jekyll we have nice little variables ```page.previous```and ```page.next``` which does the job without breaking a sweat.
+Manually linking articles was hectic when I have more articles. May be there is a plugin for WordPress that can do the job, but I was fed up with too many plugins! But in Jekyll, we have nice little variables ```page.previous```and ```page.next``` which does the job without breaking a sweat.
 
 
 ## Why use Related Prev-Next Navigation in Jekyll?
@@ -53,7 +53,7 @@ Here is the code I have used on my [chess blog](http://kidschessworld.com){:targ
 </div>
 {% endhighlight %}
 
-The out put should look like the screenshot below
+The output should look like the screenshot below
 
 ![Related posts jekyll]({{ site.url }}/images/related-posts-jekyll.jpg){: .full}
 

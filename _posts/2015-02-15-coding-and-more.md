@@ -15,10 +15,10 @@ layout: post
 
 ## Why teach Github?
 {: .clear}
-While I was learning Github, I used to go through YouTube videos. But there was not a single guy who teaches it without using CLI. When you run commands on CLI, the output may not be the same for everyone. It depends on the previous installations, dependencies and a correct PATH variable. For starters CLI is a hard nut to crack. So I decided to make it easier for beginners. I do not use CLI in my videos. Everything is done through GUI.
+While I was learning Github, I used to go through YouTube videos. But there was not a single guy who teaches it without using CLI. When you run commands on CLI, the output may not be the same for everyone. It depends on the previous installations, dependencies, and a correct PATH variable. For starters, CLI is a hard nut to crack. So I decided to make it easier for beginners. I do not use CLI in my videos. Everything is done through GUI.
 
 
-I see a lot of blogs providing useful information on Github pages and Jekyll. But in my blogs i want to give step by step procedure for everything without missing anything in between. This is what I expect from a blog. So that is what I follow.
+I see a lot of blogs providing useful information on Github pages and Jekyll. But in my blogs, i want to give step by step procedure for everything without missing anything in between. This is what I expect from a blog. So that is what I follow.
 
 Github is not known to many developers. They struggle to find a reliable hosting service and they may end up paying few bucks which is not necessary when you have Github Pages for the rescue. You can host your website in minutes for free!
 
@@ -29,7 +29,7 @@ and then [sync a complete website using this tutorial](http://blog.webjeda.com/h
 Making it simple has helped a lot of people to start off with Github. I'm glad I helped. I got a very positive response for my efforts. A few in the screenshots below
 ![Github pages youtube tutorial positive response]({{ site.url }}/images/github-pages-tutorial-youtube-positive-response.jpg){: .full}
 
-Checkout the playlist at the bottom to see more comments.
+Check out the playlist at the bottom to see more comments.
 
 {% include adsense-inside-post.html %}
 
@@ -46,15 +46,15 @@ Another thing I found very difficult is choosing the right tools for web develop
 
 [w3schools](www.w3schools.com/){:rel='nofollow'} - they are the best at teaching how to code.
 
-I hope you are wondering why **Sublime text** is not included in the list. I used to prefer Sublime text over Brackets! But for my blog posts I needed a plugin to count the words. It was easy installing it on Brackets. Moreover Brackets has live preview option!  And also in-line editing makes it better than any other text editor.
+I hope you are wondering why **Sublime text** is not included in the list. I used to prefer Sublime text over Brackets! But for my blog posts, I needed a plugin to count the words. It was easy installing it on Brackets. Moreover, Brackets has live preview option!  And also, in-line editing makes it better than any other text editor.
 
 I think Github Pages is faster than any other conventional web hosting method. But Github cannot execute files in the server. So php files will not run in Github. But you are good to use HTML, CSS and JS. 
 
 
-Jekyll static site generator is another boon to web designers to host their blogs or single page websites. I have created many blogs on Jekyll. Actually this blog is completely generated using Jekyll! It almost will never break. Uptime of the websites depends on Github Servers. As an established company, Github is always up and running. I have not faced any major issue so far. I think years ago my blog was down for few seconds.
+Jekyll static site generator is another boon to web designers to host their blogs or single page websites. I have created many blogs on Jekyll. Actually, this blog is completely generated using Jekyll! It almost will never break. Uptime of the websites depends on Github Servers. As an established company, Github is always up and running. I have not faced any major issue so far. I think years ago my blog was down for few seconds.
 
 <iframe itemscope="" class="left half" itemprop="video" width="100%" height="330" src="https://www.youtube.com/embed/bwThn0rxv7M?list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1" frameborder="0" allowfullscreen></iframe>
 
-Finally what I suggest for new developers is to get familiar with Github and contribute to the community. Thank me later. Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it and learn while doing so.
+Finally, what I suggest for new developers is to get familiar with Github and contribute to the community. Thank me later. Only after making hundreds of mistakes, one can learn the best way to code. I suggest you the same, make mistakes, correct it and learn while doing so.
 
 <div class="clear"></div>

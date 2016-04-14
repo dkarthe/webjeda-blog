@@ -75,7 +75,7 @@ In the URL input, paste your facebook page URL and select width (this is importa
 ![like button to website]({{ site.url }}/images/how-to-add-facebook-like-button-to-jekyll.jpg){: .full}
 
 Now create a html file inside ```_includes```, name it ```fb-like.html``` and copy paste both the codes in it. Save the file.
-The codes will looks somewhat like this
+The code will look somewhat like this
 
 {% highlight html %}
 <div id="fb-root"></div>
@@ -107,12 +107,12 @@ Using it on all posts
 layout: default
 ---
 <article id="post-page" >
-    <h2>{% raw %}{{ page.title }}{% endraw %}</h2>		
-	<time datetime="{% raw %}{{ page.date | date_to_xmlschema }}{% endraw %}" class="by-line" >{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
-	<div class="content" >
-		 {% raw %}{{ content }}{% endraw %}
-	</div>	
-	{% raw %}{% include  fb-like.html %}{% endraw %}
+    <h2>{% raw %}{{ page.title }}{% endraw %}</h2>        
+    <time datetime="{% raw %}{{ page.date | date_to_xmlschema }}{% endraw %}" class="by-line" >{% raw %}{{ page.date | date_to_string }}{% endraw %}</time>
+    <div class="content" >
+         {% raw %}{{ content }}{% endraw %}
+    </div>    
+    {% raw %}{% include  fb-like.html %}{% endraw %}
      
 </article>
  {% endhighlight %}
