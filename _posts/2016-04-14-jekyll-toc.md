@@ -15,7 +15,7 @@ permalink: /jekyll-toc/
 
 ## Why Table of Contents?
 {: .clear}
-I always liked the Wikipedia **Table of Contents** section which is present for almost every article. It gives us a good insight of the whole article in a few headlines. Imagine, if that was not there; how hard it would be to find things you wanted. Things like someones career, early life etc., Here is a [sample page](https://en.wikipedia.org/wiki/Kannada){:rel='nofollow'}{:target="_blank"}
+I always liked the Wikipedia **Table of Contents** section which is present in almost every article. It gives us a good insight of the whole article in a few headlines. Imagine, if that was not there; how hard it would be to find things you wanted. Things like someone's career, early life etc., Here is a [sample page](https://en.wikipedia.org/wiki/Kannada){:rel='nofollow'}{:target="_blank"}
 
 I have used a similar kind of TOC on my blog. At least it looks the same! So here is the Table of Contents of this blog post.
 
