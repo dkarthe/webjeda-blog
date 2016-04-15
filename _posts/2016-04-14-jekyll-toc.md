@@ -36,7 +36,7 @@ I'm not against Jekyll plugins or something but I'm just waiting for them to be 
 
 ### Step 1: Download necessary files
 
-Download the zip file: [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents/archive/master.zip){:rel='nofollow'}{:target="_blank"}. Thanks to [Alex Ghiculescu](https://github.com/ghiculescu){:rel='nofollow'}{:target="_blank"} for this repository. Don't forget to give a star to TOC repository if it works for you.
+**Download the zip file:** [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents/archive/master.zip){:rel='nofollow'}{:target="_blank"}. Thanks to [Alex Ghiculescu](https://github.com/ghiculescu){:rel='nofollow'}{:target="_blank"} for this repository. Don't forget to give a star to TOC repository if it works for you.
 
 So the repository you just downloaded has a single JavaScript file ```toc.js``` which is enough for creating Table of Contents.
 
@@ -96,7 +96,7 @@ layout: default
 
 ### Step 4: Initiate TOC
 
-Before initiating Table of Contents, it is logical to wait till all the contents are loaded. Because TOC uses all the headers. So it is necessary that all the headers are loaded before the initiation of TOC. So add this snippet of code that waits till the page is completely loaded.
+Before initiating Table of Contents, it is logical to wait till all the contents are loaded. Because TOC uses all the headers and it is necessary that all the headers are loaded before the initiation of TOC. So to the post layout, add this snippet of code that waits till the page is completely loaded.
 
 {% highlight html %}
 <script type="text/javascript">
@@ -105,6 +105,30 @@ $(document).ready(function() {
 });
 </script>
 {% endhighlight %}
+
+Here is the complete **post layout** that is ready to load Table of Contents on your Jekyll posts.
+
+{% highlight html %}{% raw %}
+---
+layout: default
+---
+<sript src="/path/to/toc.js"></sript>
+<article class="post">
+  <h1 class="post-title note info">{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+  <div id="toc"></div>
+  {{ content }}
+</article>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+});
+</script>
+
+{% endraw %}{% endhighlight %}
+
+
 
 This code will call the TOC function once the DOM is ready. After rendering, this is how it will look like
 
