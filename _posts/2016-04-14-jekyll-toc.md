@@ -38,15 +38,15 @@ I'm not against Jekyll plugins or something but I'm just waiting for them to be 
 
 Download the zip file: [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents/archive/master.zip){:rel='nofollow'}{:target="_blank"}. Thanks to [Alex Ghiculescu](https://github.com/ghiculescu){:rel='nofollow'}{:target="_blank"} for this repository. Don't forget to give a star to TOC repository if it works for you.
 
-SO the repository you just downloaded has a single JavaScript file ```toc.js``` which is enough for creating Table of Contents.
+So the repository you just downloaded has a single JavaScript file ```toc.js``` which is enough for creating Table of Contents.
 
-### Step 2: Install script in Jekyll repository
+### Step 2: Install the script in Jekyll repository
 
 Place the ```toc.js``` inside your repository somewhere. Maybe inside a folder called **js** where all your scripts are placed.
 
-Now call this JavaScript file where you want the TOC to show up. Usually, all the posts are using **post layout**. If you want to be shown on pages then call it on **page layout**. And if you want it everywhere then it is wise to call the file in **default layout**.
+Now call this JavaScript file where you want the TOC to show up. Usually, all the posts require TOC. So you can call it in the **post layout**. If you want it to be shown on pages then call it on **page layout**. And if you want it everywhere then it is wise to call the file in the **default layout**.
 
-Add this line of code in whichever layout file you would like. 
+Add this line of code in the layout file you would like the TOC to appear. 
 {% highlight html %}
 <sript src="/path/to/toc.js"></sript>
 {% endhighlight %}
@@ -68,15 +68,31 @@ layout: default
 
 ### Step 3: Call TOC in the layout.
 
-I personally like calling it in the desired places of posts. So I go into all my posts and paste the below line in certain places. So if you look at my posts, the Table of Contents does not belong to one fixed place. It can be in the first paragraph sometimes in the second one and so on.
+I personally like calling it in particular places of my articles. So I go into all my posts and paste the below line in certain places. So if you look at my posts, the Table of Contents does not belong to one fixed place. It can be in the first paragraph or second paragraph and so on.
 
-But this is a hectic thing to do. If you have a lot of posts then it is better to place it in the layout itself than individual posts.
+But this is a tedious task if you have a lot of posts. It is better to place the code in the layout itself than individual posts.
 
 Use this line of code in the layout and the TOC will load there.
 
 {% highlight html %}
 <div id="toc"></div>
 {% endhighlight %}
+
+I'm calling it in my post layout; just above the content.
+
+{% highlight html %}{% raw %}
+---
+layout: default
+---
+<sript src="/path/to/toc.js"></sript>
+<article class="post">
+  <h1 class="post-title note info">{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+  <div id="toc"></div>
+  {{ content }}
+</article>
+{% endraw %}{% endhighlight %}
+
 
 ### Step 4: Initiate TOC
 
