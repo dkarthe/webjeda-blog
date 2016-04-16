@@ -31,8 +31,7 @@ On August 06 2014 Google announced that [https will be considered for ranking si
 ## Why I'm not using SSL on this Jekyll blog?
 ![Jekyll and GitHub pages ssl](/images/nallikayi-articles-github-pages-ssl.jpg)
 {: .right}
-I'm using SSL on [Nallikayi Articles](https://articles.nallikayi.com){:target="_blank"} and [WebJeda](https://webjeda.com){:target="_blank"} but not on other websites. Why did I do so? If SSL is good for SEO, why didn't I use it on all my websites? Especially, why didn't I use it on this blog?! The reasons are as follows,
-
+I'm using SSL on [Nallikayi Articles](https://articles.nallikayi.com){:target="_blank"} but not on other websites. Why did I do so? If SSL is good for SEO, why didn't I use it on all my websites? Especially, why didn't I use it on this blog?! The reasons are as follows,
 
 
 ### Adsense
