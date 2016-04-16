@@ -13,6 +13,7 @@ permalink: /jekyll-toc/
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Table of contents is the index of your blog post. It provides a quick look at what the post is all about. Also, users can skip to any topic they like just by clicking on it. Learn how to add Table of Contents (TOC) to your Jekyll blog.
 {: .intro}
 
+
 ## Why Table of Contents?
 {: .clear}
 I always liked the Wikipedia **Table of Contents** section which is present in almost every article. It gives us a good insight of the whole article in a few headlines. Imagine, if that was not there; how hard it would be to find things you wanted. Things like someone's career, early life etc., Here is a [sample page](https://en.wikipedia.org/wiki/Kannada){:rel='nofollow'}{:target="_blank"}
@@ -32,6 +33,24 @@ When I was using WordPress, there was a simple plugin called TOC and it used to 
 {% include adsense-inside-post.html %}
 
 I'm not against Jekyll plugins or something but I'm just waiting for them to be simple to use. Now, let's dive in and install TOC.
+
+
+<div class="tips">
+<h3>Tips</h3>
+<p>If you are using kramdown as your markdown processor then you can add the following lines anywhere on the post to add a TOC. Which is pretty simple if you do not want to use JavaScript on your blog
+<code><pre>* Do not remove this line (it will not be displayed)
+{:toc}</pre></code></p>
+</div>
+
+
+This is how a kramdown TOC looks like.
+
+
+* Do not remove this line (it will not be displayed)
+{:toc}
+
+
+But if you want some customizations like ordered list, follow the below procedure
 
 
 ### Step 1: Download necessary files
