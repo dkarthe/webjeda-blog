@@ -18,9 +18,8 @@ permalink: /jekyll-toc/
 {: .clear}
 I always liked the Wikipedia **Table of Contents** section which is present in almost every article. It gives us a good insight of the whole article in a few headlines. Imagine, if that was not there; how hard it would be to find things you wanted. Things like someone's career, early life etc., Here is a [sample page](https://en.wikipedia.org/wiki/Kannada){:rel='nofollow'}{:target="_blank"}
 
-I have used a similar kind of TOC on my blog. At least it looks the same! So here is the Table of Contents of this blog post.
+I have used a similar kind of TOC on my blog. At least it looks similar! So here is the Table of Contents of this blog post. This is how it looks like.
 
-<div class="clear"></div>   
 
 
 * Do not remove this line (it will not be displayed) 
@@ -43,8 +42,7 @@ I'm not against Jekyll plugins or something but I'm just waiting for them to be 
 
 <div class="tips">
 <h3>Tips</h3>
-<p>If you are using kramdown as your markdown processor then you can add the following lines anywhere on the post to add a TOC. Which is pretty simple if you do not want to use JavaScript on your blog
-<code><pre>* Do not remove this line (it will not be displayed)
+<p>If you are using kramdown as your markdown processor then you can add the following lines anywhere on the post to add a TOC. Which is pretty simple if you do not want to use JavaScript on your blog <code><pre>* Do not remove this line (it will not be displayed)
 {:toc}</pre></code></p>
 </div>
 
@@ -72,13 +70,6 @@ You can make it look pretty by adding this style
 }
 
 {% endhighlight %}
-
-
-This is how a kramdown TOC looks like after using the style.
-
-
-* Do not remove this line (it will not be displayed)
-{:toc}
 
 
 But if this doesn't work for you then you can follow the procedure below.
