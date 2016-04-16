@@ -42,15 +42,61 @@ I'm not against Jekyll plugins or something but I'm just waiting for them to be 
 {:toc}</pre></code></p>
 </div>
 
+You can make it look pretty by adding this style
 
-This is how a kramdown TOC looks like.
+{% highlight css %}
+
+// Adding 'Contents' headline to the TOC
+#markdown-toc::before {
+    content: "Contents";
+    font-weight: bold;
+}
+
+
+// Using numbers instead of bullets for listing
+#markdown-toc ul {
+    list-style: decimal;
+}
+
+#markdown-toc {
+    border: 1px solid #aaa;
+    padding: 1.5em;
+    list-style: decimal;
+    display: inline-block;
+}
+
+{% endhighlight %}
+
+
+<style>
+
+#markdown-toc::before {
+    content: "Contents";
+    font-weight: bold;
+}
+
+#markdown-toc ul {
+    list-style: decimal;
+}
+
+#markdown-toc {
+    border: 1px solid #aaa;
+    padding: 1.5em;
+    list-style: decimal;
+    display: inline-block;
+}
+
+
+</style>
+
+This is how a kramdown TOC looks like after using some style.
 
 
 * Do not remove this line (it will not be displayed)
 {:toc}
 
 
-But if you want some customizations like ordered list, follow the below procedure
+But if this doesn't work for you then you can follow the procedure below.
 
 
 ### Step 1: Download necessary files
