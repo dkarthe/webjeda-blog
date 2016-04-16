@@ -17,7 +17,11 @@ permalink: /integrate-polymer-jekyll/
 If you have observed my blog index, I have a card style as shown in the screenshot. It took me a while to figure out how I can integrate Polymer(a promising project by Google) to my Jekyll blog.
 {: .clear}
 
-<div id="toc" class="clear"></div>
+<div class="clear"></div>   
+
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
 
 ## Why Polymer?
 

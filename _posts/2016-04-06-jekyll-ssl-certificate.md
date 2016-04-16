@@ -18,7 +18,12 @@ permalink: /jekyll-ssl/
 {: .clear}
 SSL (Secure Socket Layer) basically provides a secure connection between the client(web browser) and server(website). It avoids eavesdropping, man-in-the-middle attack etc., Bottom line is - A user can browse your website without worrying about someone stealing personal information.
 
-<div id="toc" class="clear"></div>
+<div class="clear"></div>   
+
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 
 On August 06 2014 Google announced that [https will be considered for ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html){:rel='nofollow'}{:target="_blank"}. They took this measure to keep everybody safe over the web. So using SSL can improve your website ranking. And also, users will trust the product or service you provide on your website.
 

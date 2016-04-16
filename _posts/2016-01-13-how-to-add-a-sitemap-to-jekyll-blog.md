@@ -18,7 +18,12 @@ permalink: /jekyll-sitemap/
 In one of my previous posts, I wrote on [How to create a Jekyll Blog](http://blog.webjeda.com/how-I-created-webjeda-blog). If you have created a blog for yourself or if you already have a Jekyll blog then go through this tutorial.
 {: .clear}
 
-<div id="toc" class="clear"></div>
+<div class="clear"></div>   
+
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 
 ![Sitemap of a website]({{ site.url }}/images/how-to-add-sitemap-to-jekyll.jpg)
 {: .right .half}

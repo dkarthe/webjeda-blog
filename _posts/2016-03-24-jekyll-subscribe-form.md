@@ -17,7 +17,12 @@ layout: post
 {: .clear}
 Subscribe form is used basically to collect visitors' emails to provide them an update of new articles every time you post a new one. Also, a good way to get some initial traffic to a new post. 
 
-<div id="toc" class="clear"></div>
+<div class="clear"></div>   
+
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 
 Many bloggers use the mailing list for affiliate marketing. I don't think it is a bad idea. If a user is interested in the stuff blogger is selling, then it is a win-win. 
 

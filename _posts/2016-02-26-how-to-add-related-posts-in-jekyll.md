@@ -17,7 +17,12 @@ permalink: /related-post-jekyll/
 A long time ago I was writing 4 parts on WordPress installation tutorial. At the end of every article, I had to leave the next or previous article link. I used to do it manually in this way "To read my next article on useful WordPress plugins read [part 2](#)" 
 {: .clear}
 
-<div id="toc" class="clear"></div>
+<div class="clear"></div>   
+
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 
 Manually linking articles was hectic when I have more articles. May be there is a plugin for WordPress that can do the job, but I was fed up with too many plugins! But in Jekyll, we have nice little variables ```page.previous```and ```page.next``` which does the job without breaking a sweat.
 

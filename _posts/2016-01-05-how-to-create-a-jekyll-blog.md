@@ -17,7 +17,11 @@ permalink: /create-jekyll-blog/
 When I had this idea to create a web designing blog, I thought of making it in WordPress. For some reason, I didn't like the same look of WordPress themes. Many of them are distracting. I was looking for something totally content oriented.
 {: .clear}
 
-<div id="toc" class="clear"></div>
+<div class="clear"></div>   
+
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
 
 A minimalistic WordPress theme would have done the job, but I wanted something that can load faster. Jekyll - a static site generator - is a lot faster and very secure. But Jekyll themes are very limited. You cannot actually get the exact design you want like you get in WordPress.
 

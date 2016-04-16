@@ -16,7 +16,12 @@ permalink: /fetch-image-jekyll/
 
 If you observe this blog's homepage, you'll see that I have used a card-style container to fit in everything. It looks better with a proper shadow. Now my index page grabs the first image(now it uses a different way to fetch images) from my post and shows it in the list along with its title. The best part is that the images are grabbed automatically from every post of my Jekyll blog.
 
-<div id="toc" class="clear"></div>
+<div class="clear"></div>   
+
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 
 ## Why fetch an image from Jekyll post?
 {: .clear}

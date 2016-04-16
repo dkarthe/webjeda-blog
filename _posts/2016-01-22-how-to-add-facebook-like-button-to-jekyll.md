@@ -17,8 +17,12 @@ permalink: /facebook-like-button-jekyll/
 Understanding Jekyll is really important to manipulate the options available to handle different things. Usually all Jekyll themes will have a **header** and a **footer** template inside ```_includes``` folder.
 {: .clear}
 
+<div class="clear"></div>   
 
-<div id="toc" class="clear"></div>
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 
 ## Basics before implementation
 

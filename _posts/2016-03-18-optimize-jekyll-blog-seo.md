@@ -13,14 +13,20 @@ permalink: /optimize-jekyll-seo/
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Most of the Jekyll Search Engine Optimization is left to the users. Initially, Jekyll SEO was hard but gradually it has become easier since we have so many people contributing to the community. Nowadays basic SEO is already taken care of! Learn how to do further Jekyll SEO.
 {: .intro}
-<div class="clear"></div>
-
 <a class="clear" rel="nofollow" href="http://www.freepik.com/free-vector/seo-analytics_764868.htm">Designed by Freepik</a>
+
+
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
+
+
 
 ## Why SEO for Jekyll?
 SEO is the only way through which you can get organic traffic. Organic traffic is better than paid traffic because in organic traffic the user is really interested in the service you are offering.
 
-<div id="toc" class="clear"></div>
+
 
 I used WordPress for a long time. If you ask me which one among WordPress and Jekyll is good for SEO, I would shout out WordPress without a pause. 
 

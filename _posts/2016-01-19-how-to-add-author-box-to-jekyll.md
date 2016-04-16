@@ -17,7 +17,12 @@ permalink: /author-box-jekyll/
 I can make a template, add it to every post manually and change author name, image and other details accordingly but it is not practical if you have many authors. I like how WordPress handles different authors.
 {: .clear}
 
-<div id="toc" class="clear"></div>
+<div class="clear"></div>   
+
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 
 There should be a provision where you just mention authors name in the post and that should be enough for the post to update itself with particular author details.
 

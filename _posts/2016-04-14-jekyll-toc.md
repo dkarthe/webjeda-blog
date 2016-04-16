@@ -20,7 +20,13 @@ I always liked the Wikipedia **Table of Contents** section which is present in a
 
 I have used a similar kind of TOC on my blog. At least it looks the same! So here is the Table of Contents of this blog post.
 
-<div id="toc" class="clear"></div>
+<div class="clear"></div>   
+
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
+
 
 Table of Contents for Jekyll blog or any blog for that matter is not really necessary if they are very short. But, for a long detailed article with a TOC makes it very organized.
 
@@ -68,28 +74,7 @@ You can make it look pretty by adding this style
 {% endhighlight %}
 
 
-<style>
-
-#markdown-toc::before {
-    content: "Contents";
-    font-weight: bold;
-}
-
-#markdown-toc ul {
-    list-style: decimal;
-}
-
-#markdown-toc {
-    border: 1px solid #aaa;
-    padding: 1.5em;
-    list-style: decimal;
-    display: inline-block;
-}
-
-
-</style>
-
-This is how a kramdown TOC looks like after using some style.
+This is how a kramdown TOC looks like after using the style.
 
 
 * Do not remove this line (it will not be displayed)
