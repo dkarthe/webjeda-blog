@@ -8,14 +8,20 @@ author:
   url: "http://www.webjeda.com"
 categories:  Github, Github-pages, Jekyll, Web-Design, Personal, Announcement
 
-facebook: https://www.facebook.com/webjeda
-twitter: https://twitter.com/webjeda
+
+facebook: https://www.facebook.com/sharu725
+twitter: https://twitter.com/sharathdt
 github: https://github.com/sharu725
 youtube: https://www.youtube.com/channel/UCbOO7d0vVo0kIrkd7m32irg
 email: mailto:hello@webjeda.com
+feedburner-subscribe: https://feedburner.google.com/fb/a/mailverify?uri=webjedablog&amp;loc=en_US 
+analytics: 'UA-71358787-1'
+disqus-shortname: webjeda
+copyrights-owner: WebJeda # Copyright in the footer
 feedly: http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fblog.webjeda.com%2Ffeed.xml
-
 super-proxy: https://rugged-sunbeam-127917.appspot.com/query?id=ahdzfnJ1Z2dlZC1zdW5iZWFtLTEyNzkxN3IVCxIIQXBpUXVlcnkYgICAgNrjhgoM&format=json
+
+
 # Build settings
 #baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown

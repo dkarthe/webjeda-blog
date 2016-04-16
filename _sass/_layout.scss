@@ -108,14 +108,7 @@ body > #container { height: auto; min-height: 100%; }
 
 
 
-#site-footer {
-    background-image: url(/img/footer-bar.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
-    height: 6em;
-    margin: 0 auto;
- }
+
 
 .footer-heading {
     font-size: 18px;
@@ -259,19 +252,6 @@ body > #container { height: auto; min-height: 100%; }
     }
 }
 
-/* .sidebar {
-    width: 27%;
-    padding: 1%;
-    vertical-align: top;
-    display: inline-block;
-    border-radius:1em 0 0 1em;
-    margin-right: 0;
-    background-color: transparent;
-box-shadow: 0px 0px 5px -3px #828282;
-} */
-
-
-
 
 
 
@@ -302,9 +282,9 @@ input#search_box {
 
 
 //3 columns
-.column-left{ float: left; width: 33%;}
-.column-right{ float: none; width: 33%; margin:0 auto;}
-.column-center{ float: right; width: 33%; }
+.column-left{ float: left; width: 33%; margin:0 auto;}
+.column-right{ float: right; width: 30%;}
+.column-center{  width: 33%; margin:0 auto; display: inline-block;text-align: center;}
 
 
 .related-posts {
@@ -388,7 +368,7 @@ select {
 
 
 #search-page {
-    min-height: 400px;
+    margin-bottom: 35em;
 }
 
 #post-page img {
@@ -495,11 +475,7 @@ section#archive {
 }
 
 
-div#footer-icons {
-    position: relative;
-    top: 8em;
-    text-align: center;
-}
+  div#footer-icons {text-align: center; }
 
 .footer-icon {
         margin-left: 0.7em;
@@ -507,12 +483,10 @@ div#footer-icons {
 }
 
 .built p {
-    font-size: 1em;
-    margin-bottom: 0;
+    font-size: 1.1em;
     text-align: center;
-    position: relative;
-    top: 8em;
-    }
+    margin: 0;
+}
 #donate-form {
     position: relative;
     top: 8em;
@@ -559,6 +533,7 @@ div#footer-icons {
 #contact-form {
     border: 1px solid #aaa;
     display: inline-flex;
+    margin-bottom: 6em;
 }
 
 .fixed-link-box {
@@ -582,6 +557,8 @@ div#footer-icons {
     height: 50px;
     margin: 0 10px;
 }
+
+img#footer-logo {margin: 0;}
 
 //
 //
@@ -618,15 +595,7 @@ div#footer-icons {
         font-weight: 300;
         }
 
-            #site-footer {
 
-        background-image: url(/img/footer-bar.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 100%;
-        background-position: bottom;
-        height: 1em;
-       }
 
        .page-content {
         margin: 0 auto; 
@@ -683,4 +652,9 @@ a.page-num:hover {
 .navi {
     padding: 5px;
     font-weight: 600;
+}
+
+img#foomage {
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
