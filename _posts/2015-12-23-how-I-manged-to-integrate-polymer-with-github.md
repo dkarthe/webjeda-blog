@@ -64,7 +64,7 @@ This is how the default cards will look like.
 </div>
 
 
-You can customize this as you like. Add an image, description or a button. Polymer Ripple effect is also cool!
+You can customize the cards as you like. Add an image, description or a button. Polymer Ripple effect is also cool!
 
 
 ## How did I do it?
