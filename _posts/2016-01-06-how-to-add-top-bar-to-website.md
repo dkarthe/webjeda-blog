@@ -9,14 +9,11 @@ layout: post
 permalink: /top-bar-website/
 ---
 
-<img alt="How to add colored top bar to website" title="How to add colored top bar to website" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/top-bar-on-websites.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Top bars are beautiful looking lines at the top of a website. See how I have implemented it in my websites. A colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
-As shown in the screenshot, in one of my websites [nallikayi](https://articles.nallikayi.com){:rel='dofollow'}{:target="_blank"}, there is a top green bar for no reason. Though the website is minimal, a colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
-{: .clear}
 
 ## Why top bar?
 

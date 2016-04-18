@@ -9,9 +9,9 @@ layout: post
 permalink: /facebook-like-button-jekyll/
 ---
 
-<img alt="adding-facebook-like-button-to-jekyll" title="adding-facebook-like-button-to-jekyll.jpg" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/adding-facebook-like-button-to-jekyll.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Adding facebook button on a Jekyll blog site is different compared to HTML sites. This is because Jekyll blogs have an advantage of including html files which are inside _includes folder. We are taking advantage of this option!
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 Understanding Jekyll is really important to manipulate the options available to handle different things. Usually all Jekyll themes will have a **header** and a **footer** template inside ```_includes``` folder.

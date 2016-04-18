@@ -8,11 +8,10 @@ image: ssl-jekyll.jpg
 permalink: /jekyll-ssl/
 ---
 
-<img alt="jekyll ssl" title="https jekyll" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/ssl-jekyll.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Https has an advantage in SEO over http URLs. It is easy to set up SSL for Jekyll using CloudFlare. Learn how to get a free SSL certificate for your Jekyll blog. Also, find out the advantages and disadvantages of using SSL in your Github Pages website or Jekyll blog.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
-
 
 ## Why should anyone use SSL?
 {: .clear}

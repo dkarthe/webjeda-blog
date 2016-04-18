@@ -8,9 +8,9 @@ image: jekyll-subscribe-form.jpg
 layout: post
 ---
 
-<img alt="jekyll subscribe form" title="subscribe form Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/thumbs/jekyll-subscribe-form.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Subscribe form for Jekyll was not available because all forms tend to work with ```php``` code to send emails. But with this method, we can add a subscribe form for Jekyll websites which works out of the box. I'm another step closer to compete with WordPress blogs!
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 ## Why use a subscribe form?

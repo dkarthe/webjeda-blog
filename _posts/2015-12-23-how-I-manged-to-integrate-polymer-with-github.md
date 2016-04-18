@@ -9,13 +9,10 @@ layout: post
 permalink: /integrate-polymer-jekyll/
 ---
 
-<img alt="How I managed to integrate Polymer with github pages jekyll" title="How I managed to integrate Polymer with github pages jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/github-pages-polymer.JPG">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Polymer elements are really cool to work with. I have a tutorial to include Polymer elements in simple steps. Polymer is an ambitious project from Google which might take off a lot of burden on web designers and developers.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
-
-If you have observed my blog index, I have a card style as shown in the screenshot. It took me a while to figure out how I can integrate Polymer(a promising project by Google) to my Jekyll blog.
-{: .clear}
 
 <div class="clear"></div>   
 

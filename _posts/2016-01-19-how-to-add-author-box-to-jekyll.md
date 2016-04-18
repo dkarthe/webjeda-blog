@@ -9,9 +9,9 @@ layout: post
 permalink: /author-box-jekyll/
 ---
 
-<img alt="Author box jekyll" title="Author box for jekyll" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/author-box-jekyll.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>I run a blog called [Nallikayi Articles](https://articles.nallikayi.com){:target="_blank"} where I choose the best articles from authors and post it. But the real hurdle was to add different author section at the bottom of the article for every post. 
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 I can make a template, add it to every post manually and change author name, image and other details accordingly but it is not practical if you have many authors. I like how WordPress handles different authors.

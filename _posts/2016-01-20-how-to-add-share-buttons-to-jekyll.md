@@ -9,9 +9,9 @@ layout: post
 permalink: /share-buttons-jekyll/
 ---
 
-<img alt="How to add a share bar to Jekyll blog" title="Jekyll blog share buttons" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/share-bar-to-jekyll.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Reducing the use of JavaScript results in a faster loading speed. Here is a guide on how to add a social share bar to Jekyll blogs. You can copy paste the code and it should work! Many of the Jekyll themes will not include share buttons by default. It is up to you to find a suitable share bar for your website. So I thought of making one for myself!
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 ## Why share bar for Jekyll blog?

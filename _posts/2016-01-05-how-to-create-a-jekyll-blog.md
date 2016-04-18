@@ -9,13 +9,10 @@ layout: post
 permalink: /create-jekyll-blog/
 ---
 
-<img alt="How to create a website using Github blog" title="How to create a website using Github pages" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-create-a-blog-on-github-pages.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>I created this beautiful looking Jekyll blog by forking a repository(now I have designed my own). You can also fork it to make it yours. Jekyll is a simple blog generator. The community is growing and the number of plugins is also growing. After realizing its capability I have moved all my blogs to Jekyll!
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
-
-When I had this idea to create a web designing blog, I thought of making it in WordPress. For some reason, I didn't like the same look of WordPress themes. Many of them are distracting. I was looking for something totally content oriented.
-{: .clear}
 
 <div class="clear"></div>   
 

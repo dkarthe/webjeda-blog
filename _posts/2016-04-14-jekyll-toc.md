@@ -8,9 +8,9 @@ image: jekyll-toc.jpg
 permalink: /jekyll-toc/
 ---
 
-<img alt="jekyll toc" title="table of contents jekyll" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/jekyll-toc.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Table of contents is the index of your blog post. It provides a quick look at what the post is all about. Also, users can skip to any topic they like just by clicking on it. Learn how to add Table of Contents (TOC) to your Jekyll blog.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 

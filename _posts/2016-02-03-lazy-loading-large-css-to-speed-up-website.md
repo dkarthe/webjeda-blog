@@ -9,10 +9,9 @@ layout: post
 permalink: /lazy-load-css/
 ---
 
-<img alt="" title="" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/lazy-load-css-for-fast-website.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Loading JavaScript at the end is common but for a faster website one should load big CSS files at the end as well. Learn how to defer CSS loading which makes your website super-fast. Also learn how to test your website for speed.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 <a target="_blank" rel="nofollow" href="http://www.freepik.com/free-vector/cartoon-animals_802878.htm">Designed by Freepik</a>
 

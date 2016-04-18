@@ -8,9 +8,9 @@ tags: Web-Design
 layout: post
 ---
 
-<img alt="setup a free domain email" title="free domain email" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/thumbs/domain-email-free.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Website owners do not give much importance to own a domain email even though a free, fully functional domain email can be created easily. This is true in the case of many beginners and it was true in my case as well. I used to have a gmail account for all the email communications and form pages.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 In a way, it was easy to handle all the emails from one place but my inbox started to clutter with spam. It is a headache to cleanup inbox every time I was bombarded with spam emails.

@@ -9,9 +9,9 @@ layout: post
 permalink: /jekyll-comments/
 ---
 
-<img alt="how to add comments to jekyll" title="jekyll blog comments" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-add-comment-box-to-jekyll-blog.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Jekyll themes are pretty neat with bare minimum options. Jekyll blog comments are not included by default. WordPress blogs have comments by default. What if we want it in our Jekyll blog as well? We have a cleaner and better option in Jekyll.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 When you write an opinion in your blog, there can be mixed reactions from your readers. There are people who agree with you, There are some who don't agree with you and few have a different opinion all together. But how will you know what their reaction is if you don't give them the option to express!?

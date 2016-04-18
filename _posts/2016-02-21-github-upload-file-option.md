@@ -9,9 +9,9 @@ layout: post
 permalink: /github-upload/
 ---
 
-<img alt="how to upload files and folder in github" title="github upload option" itemprop="thumbnailUrl" class="left half noborder" src="/images/upload-option-github.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>For years Github users had a hard time uploading files to GitHub repositories but now GitHub has provided an option to upload files and folders directly into repositories! Jekyll bloggers are also happy with this update. Now they can write a complete blog post with media directly in a browser!
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 Today Github has announced a feature which I was looking forward to from years. Uploading files and folders directly to Github repositories is now a reality. I'm wondering why did it take so many years for Github to add this option.

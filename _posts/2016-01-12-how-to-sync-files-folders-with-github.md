@@ -9,9 +9,9 @@ layout: post
 permalink: /sync-files-folders-github/
 ---
 
-<img alt="How to sync folders with Github" title="How to sync folders with Github" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/sync-local-folders-with-github.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Creating files inside Github repository is easy but what if you have lot of files and folders to upload to Github! You can also upload a project to github using this method. In this tutorial, I'm uploading a complete website into Github Pages.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 In my initial days of using Github, I used to see repositories filled with folders, files and what not. I used to wonder how the hell these people are uploading folders to Github! 

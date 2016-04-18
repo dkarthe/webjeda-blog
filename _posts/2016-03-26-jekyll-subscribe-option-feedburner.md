@@ -9,9 +9,9 @@ layout: post
 permalink: /jekyll-subscribe-feedburner/
 ---
 
-<img alt="jekyll subscribe feedburner" title="subscribe feedburner Jekyll" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/jekyll-rss-feedburner.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Feedburner is the best option available for Jekyll to automate user subscription and send email updates to subscribers. Once you set it up, there is no need to change anything. All you need is a button for users to subscribe.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 ## What is RSS feed and why is it used?

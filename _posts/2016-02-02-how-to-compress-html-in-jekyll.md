@@ -9,9 +9,9 @@ layout: post
 permalink: /compress-html-jekyll/
 ---
 
-<img alt="how to compress html jekyll" title="jekyll compress html" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/how-to-minify-jekyll-html.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>There was not a single convenient way to minify the whole Jekyll blog markup until I found this cool ```html``` file which does the minifying like a champ. It  uses pure Liquid code. And it doesn't need any coding from your end. Something like a plug and play. Website loading speed is also one among 200 other parameters Google considers for SEO.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 ## Why do we have to minify HTML?

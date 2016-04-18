@@ -4,14 +4,14 @@ desc: Using github custom domain change the ugly looking username.github.io URL 
 keywords: github custom domain, custom domain github, custom URL github website
 author: sharathdt
 tags: Github-Pages SEO
-image: custom-domain-to-github-9.jpg
+image: custom-domain-to-github.jpg
 layout: post
 permalink: /custom-domain-github/
 ---
 
-<img alt="Configure custom domain to github website screenshot" title="Configure custom domain to github website screenshot" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/images/custom-domain-to-github-9.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="{{site.url}}/thumbs/{{page.image}}">
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Using github custom domain, change the ugly looking _username.github.io_ URL into a _yourdomain.com_ URL. Learn how to add a custom domain to github pages. You can also add a new domain to your Jekyll blog using this method.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
 ## Why should we use a custom domain?
