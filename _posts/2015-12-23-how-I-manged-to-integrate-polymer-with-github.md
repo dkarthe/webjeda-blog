@@ -4,7 +4,7 @@ desc: Polymer elements are really cool to work with. I have a tutorial to includ
 keywords: polymer Jekyll, polymer github pages, polymer and github
 author: sharathdt
 tags: Jekyll Web-Design
-image: github-pages-polymer-screenshot.JPG
+image: github-pages-polymer.JPG
 layout: post
 permalink: /integrate-polymer-jekyll/
 ---
