@@ -78,7 +78,7 @@ First thing is to import the Polymer elements. Paste these lines to your **head*
 
 <div class="warning">
 <h3>Warning</h3>
-<p>This is just to see if you get the same result. For greater response time you should be using a local copy of these files rather importing from an URL.</p>
+<p>This method is not recomended. I'm using this as an example. For greater response time you should be using a local copy of these files rather importing from an URL. Remember, importing more files lead to a slow loading website</p>
 </div>
 
 
