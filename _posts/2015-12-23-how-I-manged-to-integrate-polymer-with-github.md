@@ -111,7 +111,9 @@ So what about my jekyll blog index page?
  </paper-card>
  {% endhighlight %}
  
-Copy these lines to your **index.html** page without deleting the default code. If you like it then delete the default code and keep the polymer one.
+Copy these lines to your **index.html** page without deleting the default code. If you like it then delete the default code and keep the polymer one. 
+
+>I'm not using polymer cards for my blog index by the way. I have designed it on my own.
 
 How did I include colored paper button?
 
