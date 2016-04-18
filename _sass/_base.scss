@@ -143,7 +143,7 @@ a {
     transition-property:all;
 
     &:hover {
-        color: #27ae60;
+        color: $highlight-color;
         text-decoration: none;
     }
 }
@@ -262,14 +262,14 @@ pre {
     font-weight: 900;
     letter-spacing: -2px;
     text-align: center;
-    color: #2980b9;
+    color: $brand-color;
     -webkit-transition-delay: 0.2s; /* Safari */
     transition-duration: 0.2s;
     transition-property:all;
 }
 
 #post-title:hover {
-    color: #0a5;
+    color: $highlight-color;
 }
 
 strong, b {
@@ -315,7 +315,7 @@ strong, b {
     
     pre, code {
         
-        max-width: 94%;
+        max-width: 92%;
     }
     
 }
