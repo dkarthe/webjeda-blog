@@ -36,8 +36,10 @@ Above screenshot shows few applications using card interface. Youtube (I know, i
 
 I wanted something similar. I did it only using CDN. Usually, you have to include Polymer elements in the project if you want to use those elements extensively. But I was using just three elements - paper-card, paper-ripple, and paper-button.
 
+
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html"/>
 
+This is how the default cards will look like. 
 <div class="inline">
 <paper-card heading="Card Title" class="card-ex">
   <div class="card-content">Some content</div>
@@ -46,14 +48,14 @@ I wanted something similar. I did it only using CDN. Usually, you have to includ
   </div>
 </paper-card>
  
- <paper-card heading="Card Title" class="amber card-ex">
+ <paper-card heading="Card Title" class="card-ex" style="background-color: #B67CE0">
   <div class="card-content">Some content</div>
   <div class="card-actions">
     <paper-button>Some action</paper-button>
   </div>
 </paper-card> 
  
- <paper-card heading="Card Title" class="indigo card-ex">
+ <paper-card heading="Card Title" class="card-ex" style="background-color: #7CE0BA">
   <div class="card-content">Some content</div>
   <div class="card-actions">
     <paper-button>Some action</paper-button>
@@ -61,8 +63,8 @@ I wanted something similar. I did it only using CDN. Usually, you have to includ
 </paper-card>
 </div>
 
-This is how the cards look like. 
 
+You can customize this as you like. Add an image, description or a button. Polymer Ripple effect is also cool!
 
 
 ## How did I do it?
