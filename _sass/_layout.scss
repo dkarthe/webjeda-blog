@@ -604,6 +604,7 @@ img#foomage {
 
 i.fa.fa-circle-o {
     font-weight: bold;
+    opaciity: 1;
 }
 .time-auth {
     font-weight: bold;
@@ -617,4 +618,9 @@ div#ga-pageviews {
 
 .fa.fa-pull-left {
 color: $brand-color;
+}
+#author-pic {
+    border-radius: 50%;
+    width: 30px;
+    margin: 0 0.5em 0 0;
 }
