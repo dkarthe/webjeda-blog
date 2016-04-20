@@ -107,7 +107,7 @@ First thing is logging into Github account and forking the whole [theme reposito
 What **fork** does is that it copies the whole repository as a new repository inside your Github account. You can rename the repository to anything you like in the **Settings** option.
 
 ## Step 3: Check whether you are on the right branch
-Branching in Github is nothing but taking the whole source code and make changes to test a different feature. There is always a master branch from which you can make many branches. One such branch is ``gh-pages``. Github considers the code to be a website, only if it is in the branch gh-pages.
+Branching in Github is nothing but taking the whole source code and make changes to test a different feature. There is always a master branch from which you can make many branches. One such branch is ``gh-pages``. Github considers the code to be a website, only if it is in the gh-pages branch.
 
 ![create gh pages branch](/images/create-gh-pages-branch.JPG)
 {: .right .half}
