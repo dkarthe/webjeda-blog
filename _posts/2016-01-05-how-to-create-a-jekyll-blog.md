@@ -22,28 +22,34 @@ Jekyll is an open-source blogging platform written in Ruby by Tom Preston-Werner
 {:toc}
 
 
-Jekyll being open-source - is free. It can be hosted on a Github repository - which is also free! Now compare this to a WordPress blog where you have to buy hosting. When my blogs were in WordPress, it cost me anywhere around $12 every month for hosting. Now that I'm using Jekyll and hosting it on Github, my expense is zero on hosting!
+Jekyll being open-source - is free. It can be hosted on a Github repository - which is also free! Now compare this to a WordPress blog where you have to buy hosting. When my blogs were in WordPress, it used to cost me anywhere around $12 every month for hosting. Now that I'm using Jekyll and hosting it on Github, my expense is zero on hosting!
 
 I had no control over WordPress design. I had to rely on the themes that are available. An SEO friendly theme would cost anywhere around $50. That sucks! Writing posts on web interface is another headache. I like to write my posts in a text editor like Brackets, Sublime or Atom. Maybe it is the **aesthetically pleasing** design that makes me stick to these apps.
 
-Jekyll was perfect for me because it is very minimal, content-oriented and super fast. Jekyll converts your content(posts and pages) written in markdown into static web pages. I personally like markdown format because it is easy, reader-friendly, and doesn't look like a bunch of html code. 
+Jekyll was perfect for me because it is very minimal, content-oriented and super fast. Jekyll converts your content(posts and pages) written in markdown into static web pages. I personally like markdown format because it is easy, reader-friendly, and doesn't look like a bunch of confusing html code. 
 
 ### Reasons to use Jekyll
 
 **1. Minimal**
+
 This is the main reason why I was dragged into Jekyll. It feels good to read a blog with minimum distractions.
 
 **2. Fast**
-Before I knew Jekyll, I used to find these google search results with the website extension ``.io`` which used to load super fast. I always wondered how do they create such websites (now I know!).
+
+Before I knew Jekyll, I used to find these links on google search results with the website extension ``.io`` which used to be minimal and load super fast. I always wondered how do they create such websites (now I know!).
 
 **3. Secure**
+
 Since there is no database, most of the security threats are halted right there. No wonder why [obama campaign](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/){:rel='nofollow'}{:target="_blank"} website was created using Jekyll.
 
 **4. Economic**
+
 If you use Github for hosting your Jekyll blog then your expense on hosting would be zero! Also, hosting static websites is really cheap in third-party hosting services.
 
 
 [Skip to video](#video)
+
+[Skip to Step 1](##step-1-find-a-theme-that-suits-your-requirement)
 
 If you would like to learn how to host a website on GitHub first then read: [How to host a website on github pages](/create-host-website-github-pages/){:target="_blank"}.
 
@@ -55,7 +61,7 @@ Also for this blog, a minimalistic WordPress theme would have done the job, but 
 
 What if you are not a designer? Don't worry, there are plenty of pre-built themes available for Jekyll. For all these goodness, I have moved all my blogs to Jekyll! 
 
-Let's create a simple blog in 5 minutes! The output would look like this : [redgadget](http://redgadget.github.io/emerald/){:rel='nofollow'}{:target="_blank"}. This blog has a nice sliding navigation bar, a minimal footer and content focussed main page design. Though the blog has a green color scheme, it can be changed to any color you like.
+Let's create a simple blog in 5 minutes! The output would look like this : [**redgadget**](http://redgadget.github.io/emerald/){:rel='nofollow'}{:target="_blank"}. This blog has a nice sliding navigation bar, a minimal footer and content focussed main page design. Though the blog has a green color scheme, it can be changed to any color you like.
 
 ## Prerequisites
 
@@ -154,14 +160,17 @@ The theme you forked will have default values that you can change at different p
 
 Go through all the folders like images, _posts, _includes, _layout etc, to make changes that you want. Most of these are plug and play but title and logo must be changed before you host your blog to the public.
 
-Editing files on github.com is actually hard. For easier editing use [prose](/edit-posts-jekyll/){:target="_blank"}.
+Editing files on github.com is actually hard. For easier editing use [**prose**](/edit-posts-jekyll/){:target="_blank"}.
 
 
 ## Step 7: Publish your new post!
 
 Usually, themes will have some sample posts in the ``_posts`` folder already. Posts are in ``.md`` format which stands for markdown. Markdown is an easy-to-read and easy-to-write format which will ultimately be converted into html after processing. 
 
-You can edit the posts that are already present or you can also create a new file with the extension ``.md`` and name in the format **YYYY-MM-DD-title.md**. Use [Markdown Cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html){:rel='nofollow'}{:target="_blank"} to write a post. 
+
+You can edit the posts that are already present or you can also create a new file with the extension ``.md`` and name in the format **YYYY-MM-DD-title.md**. Use [Markdown Cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html){:rel='nofollow'}{:target="_blank"} while writing the post. 
+
+### Front Matter
 
 The front matter is a block of key-value pair that exist at the top of a post or a page. It is declared in between triple dashed lines. This is where you can provide the title, layout, permalink(preferred URL) and more to a post or a page.
 
@@ -176,9 +185,9 @@ permalink: /create-jekyll-blog/
 ---
 {% endhighlight %}
 
-If you want to start writing posts then read: [How to edit Jekyll post](/an-easy-way-to-edit-posts-in-jekyll/)
+If you want to start writing posts then read: [How to edit Jekyll posts](/an-easy-way-to-edit-posts-in-jekyll/)
 
-This is how we host a project website. In Github, we have two types of hosting - User Pages and Project Pages. The method described above is Project Pages.
+This is how we host a project website or blog. In github, we have two types of hosting - **User Pages** and **Project Pages**. The method described above is Project Pages.
 
 ## How to host a Jekyll blog on User Pages?
 
