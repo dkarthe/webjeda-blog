@@ -28,21 +28,21 @@ I had no control over WordPress design. I had to rely on the themes that are ava
 
 Jekyll was perfect for me because it is very minimal, content-oriented and super fast. Jekyll converts your content(posts and pages) written in markdown into static web pages. I personally like markdown format because it is easy, reader-friendly, and doesn't look like a bunch of confusing html code. 
 
-### Reasons to use Jekyll
+## Reasons to use Jekyll
 
-**1. Minimal**
+### 1. Minimal
 
 This is the main reason why I was dragged into Jekyll. It feels good to read a blog with minimum distractions.
 
-**2. Fast**
+### 2. Fast
 
 Before I knew Jekyll, I used to find these links on google search results with the website extension ``.io`` which used to be minimal and load super fast. I always wondered how do they create such websites (now I know!).
 
-**3. Secure**
+### 3. Secure
 
 Since there is no database, most of the security threats are halted right there. No wonder why [obama campaign](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/){:rel='nofollow'}{:target="_blank"} website was created using Jekyll.
 
-**4. Economic**
+### 4. Economic
 
 If you use Github for hosting your Jekyll blog then your expense on hosting would be zero! Also, hosting static websites is really cheap in third-party hosting services.
 
@@ -67,7 +67,7 @@ Let's create a simple blog in 5 minutes! The output would look like this : [**re
 
 **1. Github Account**
 
-**2. Little Patience**
+**2. A Little Patience**
 
 Create a free account on [Github](https://github.com){:target="_blank"}. Github account is required because we are hosting the blog on Github. You can also host on other hostings like Amazon AWS, CloudCannon but it is better to start with a Version Control System like Github.
 
@@ -168,7 +168,7 @@ Editing files on github.com is actually hard. For easier editing use [**prose**]
 Usually, themes will have some sample posts in the ``_posts`` folder already. Posts are in ``.md`` format which stands for markdown. Markdown is an easy-to-read and easy-to-write format which will ultimately be converted into html after processing. 
 
 
-You can edit the posts that are already present or you can also create a new file with the extension ``.md`` and name in the format **YYYY-MM-DD-title.md**. Use [Markdown Cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html){:rel='nofollow'}{:target="_blank"} while writing the post. 
+You can edit the posts that are already present or you can also create a new file with the extension ``.md`` and name in the format **YYYY-MM-DD-title.md**. Use [Markdown Cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html){:rel='nofollow'}{:target="_blank"} while writing posts. 
 
 ### Front Matter
 
@@ -189,11 +189,27 @@ If you want to start writing posts then read: [How to edit Jekyll posts](/an-eas
 
 This is how we host a project website or blog. In github, we have two types of hosting - **User Pages** and **Project Pages**. The method described above is Project Pages.
 
+<div class="tips">
+    <h3>Pro Tips</h3>
+    <p>You can use any number of Project Pages in a github account. A repository should be kept under 1GB. Which means a Project Page should not exceed 1GB. Also, it should not contain a file of size exceeding 100MB. Read <a target="_blank" href="https://help.github.com/articles/what-is-my-disk-quota/#file-and-repository-size-limitations"><strong>Disk Quota</strong> </a>
+    </p>
+</div>
+
+Here is a table for better understanding of User Pages and Project Pages.
+
+| Type of GitHub Pages site  | Domain/Host location  | Publishing branch  |
+|----------------------------|-----------------------|--------------------|
+| User Pages                 | username.github.io    |   master           |
+| Project Pages              | username.github.io/projectname | gh-pages  |
+
+
+<p></p>
+
 ## How to host a Jekyll blog on User Pages?
 
 User Pages is meant to host a personal website. Maybe a portfolio, resume or a showcase of your work. There can be many Project pages but there should be only one User Page which can be accessed at the address ```http://username.github.io```. 
 
-For creating Jekyll blog on User Pages, you should follow the same steps till [Step 4](#step-3-check-for-redirection) which is finding a theme, forking the repository and checking for redirection.
+To create Jekyll blog on User Pages, you should follow the same steps till [Step 4](#step-3-check-for-redirection) which is finding a theme, forking the repository and checking for redirection.
 
 Now, go to **Settings** and rename the repository as **username.github.io** where username is your Github username.
 
@@ -201,21 +217,29 @@ Now, go to **Settings** and rename the repository as **username.github.io** wher
 
 Now you can access this blog by accessing the URL ```http://username.github.io```. Replace the username with your GitHub user-name.
 
-**Remember, there can be only one User Page**.
+<div class="warning">
+    <h3>Warning</h3>
+    <p>
+       You can only use your own account name for a <strong>User Page</strong> repository. So there can be only one User Page per github account.
+    </p>
+</div>
 
 
 ## Developing Jekyll Locally
 There are many advantages when you blog locally and push changes to the server. But, you will have to install Ruby and some RubyGems on your desktop in order make everything work.
 
-Advantages
+**Advantages**
 
-**1. Use your favorite editor**
+### 1. Use your favorite editor
+
 I like to write posts on [Brackets](http://brackets.io){:rel='nofollow'}{:target="_blank"} or Sublime Text. Writing on a local editor is better than on a browser because these editors are fast and can save the files locally at any moment.
 
-**2. No internet is required**
+### 2. No internet is required
+
 Since we are writing posts locally, no internet is required until the time we have to post to the server. This is good for someone like me who is living in a small town and have an unreliable internet connection.
 
-**3. See the changes before implementing**
+### 3. See the changes before implementing
+
 When you are editing Jekyll blog locally, you can make changes and see how it renders on a browser. This is really useful when you are creating a new menu bar, button, or a layout where you have to change things very often before settling on the final version.
 
 To learn how to develop Jekyll locally, read: [How to sync files and folders to Github](/sync-files-folders-github/){:target="_blank"}.

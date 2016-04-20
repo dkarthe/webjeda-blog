@@ -5,6 +5,26 @@ Schema
 
 <img alt="c10h14n2" title="C10h14n2 film website" itemprop="thumbnailUrl" src="/images/c10h14n2movie-mockup.png">
 
+
+
+<div class="tips">
+    <h3>Pro Tips</h3>
+    <p>
+        If you want to test whether your website is optimized for SEO then try <a href="https://toolbox.seositecheckup.com/apps/seo-checkup"><strong>SEO Checkup</strong></a> and try to resolve all the errors and warnings.
+    </p>
+</div>
+
+
+  | Piece | Name | Symbol | Points |
+  | ♙    | Pawn  | -     |  1     |
+  | ♘    | Knight| N     |  3     |
+  | ♗    | Bishop| B     |  3     |
+  | ♖    | Rook  | R     |  5     |
+  | ♕    | Queen | Q     |  9     |
+  | ♔    | King  | K     |  ∞     |
+  
+
+
 // Adsense
 
 {% include adsense-inside-post.html %}
