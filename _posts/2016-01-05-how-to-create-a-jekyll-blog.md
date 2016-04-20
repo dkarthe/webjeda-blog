@@ -109,7 +109,7 @@ What **fork** does is that it copies the whole repository as a new repository in
 ## Step 3: Check whether you are on the right branch
 Branching in Github is nothing but taking the whole source code and make changes to test a different feature. There is always a master branch from which you can make many branches. One such branch is ``gh-pages``. Github considers the code to be a website, only if it is in the branch gh-pages.
 
-![create gh pages branch](/images/create-gh-pages-branch.jpg)
+![create gh pages branch](/images/create-gh-pages-branch.JPG)
 {: .right .half}
 
 So once you fork the repository, make sure you are in the gh-pages branch. If not then create a branch with the name ``gh-pages``. Many themes tend to have only the ``master`` branch. So it is necessary to create a gh-pages branch to host the blog as a Project Page
