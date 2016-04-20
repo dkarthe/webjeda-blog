@@ -257,9 +257,11 @@ I suggest you to try Jekyll and see if you can get all the functionalities you w
 
 Follow this blog to know what you can do with your Jekyll blog. I try to cover many critical requirements like a contact form, subscribe option etc.,
 
-If you have any doubts or if you couldn't set up your Jekyll blog then please leave your question in the comments. I will try to sort it out for you.
+
 
 <iframe itemscope="" itemprop="video" width="100%" height="310" id="video" class="right half" src="https://www.youtube.com/embed/U0idtvxVo9I?rel=0" frameborder="0" allowfullscreen></iframe>
+
+If you have any doubts or if you couldn't set up your Jekyll blog then please leave your question in the comments. I will try to sort it out for you.
 
 Here is a video demonstration on how to create Jekyll blog. And, once you create a blog, don't forget to leave its link, in the comment section.
 
