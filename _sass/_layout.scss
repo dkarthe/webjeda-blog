@@ -641,4 +641,10 @@ td, th {
 table {
     border-collapse: collapse;
 }
-    
+
+// jemoji
+img.emoji {
+    margin: 0;
+    background-color: #FFF;
+    border: none!important;
+}

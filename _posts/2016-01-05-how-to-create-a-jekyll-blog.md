@@ -24,7 +24,7 @@ Jekyll is an open-source blogging platform written in Ruby by Tom Preston-Werner
 
 Jekyll being open-source - is free. It can be hosted on a Github repository - which is also free! Now compare this to a WordPress blog where you have to buy hosting. When my blogs were in WordPress, it used to cost me anywhere around $12 every month for hosting. Now that I'm using Jekyll and hosting it on Github, my expense is zero on hosting!
 
-I had no control over WordPress design. I had to rely on the themes that are available. An SEO friendly theme would cost anywhere around $50. That sucks! Writing posts on web interface is another headache. I like to write my posts in a text editor like Brackets, Sublime or Atom. Maybe it is the **aesthetically pleasing** design that makes me stick to these apps.
+I had no control over WordPress design. I had to rely on the themes that are available. An SEO friendly theme would cost anywhere around $50. That sucks! Writing posts on web interface is another headache. I like to write my posts in a text editor like Brackets, Sublime or Atom. Maybe it is the **aesthetically pleasing** :maple_leaf: design that makes me stick to these apps.
 
 Jekyll was perfect for me because it is very minimal, content-oriented and super fast. Jekyll converts your content(posts and pages) written in markdown into static web pages. I personally like markdown format because it is easy, reader-friendly, and doesn't look like a bunch of confusing html code. 
 
@@ -65,11 +65,15 @@ Let's create a simple blog in 5 minutes! The output would look like this : [**re
 
 ## Prerequisites
 
-**1. Github Account**
+:white_check_mark: **Github Account**
 
-**2. A Little Patience**
+:white_check_mark: **A Little Patience**
 
 Create a free account on [Github](https://github.com){:target="_blank"}. Github account is required because we are hosting the blog on Github. You can also host on other hostings like Amazon AWS, CloudCannon but it is better to start with a Version Control System like Github.
+
+Have a little patience to understand how it works. Many times (at least in my case :pig: ), you do not get the output you were looking for. There is a reason for that. Go through the error message. Copy the whole error message to google search to see whether other people have faced the same issue before. I have solved many issues I had with this method.
+
+Github documentation is good but it uses technical terms that a normal user is not aware of. If you want a guide for github then here it is - [**Github Guide**](https://guides.github.com/features/mastering-markdown/){:rel='nofollow'}{:target="_blank"}.
 
 
 ## Step 1: Find a theme that suits your requirement
