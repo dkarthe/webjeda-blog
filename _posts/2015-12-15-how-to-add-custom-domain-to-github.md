@@ -4,7 +4,7 @@ desc: Using a custom domain, change the ugly looking username.github.io URL into
 keywords: github custom domain, custom domain github, custom URL github website
 author: sharathdt
 tags: Github-Pages SEO
-image: custom-domain-to-github-9.jpg
+image: custom-domain-to-github.jpg
 layout: post
 permalink: /custom-domain-github/
 ---
