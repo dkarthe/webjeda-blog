@@ -83,8 +83,9 @@ Here is my repository for reference: [sample Repository](https://github.com/Redg
 
 Now, inside the CNAME file write your domain name you want to use(that you already own). I have written ``` truejewls.in ``` because that is what I will be using. Now commit your file to the repository. Make sure you are still in the gh-pages branch while hitting commit.
 
+<div class="clear"></div>
+
 {% include adsense-inside-post.html %}
-{: .clear}
 
 ## Step 2: Adding A record in the DNS Zone Records
 
