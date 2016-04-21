@@ -205,7 +205,7 @@ Here is a table for better understanding of User Pages and Project Pages.
 |----------------------------|-----------------------|--------------------|
 | User Pages                 | username.github.io    |   master           |
 | Project Pages              | username.github.io/projectname | gh-pages  |
-
+{: .mdtable}
 
 <p></p>
 

@@ -349,11 +349,6 @@ a.next:hover {
 
 
 
-
-
-
-
-
 .fa-rss {
     color: #2bb24c;
 }
@@ -412,20 +407,4 @@ a.next:hover {
     font-weight: bold;
 }
 
-
-#markdown-toc::before {
-    content: "Contents";
-    font-weight: bold;
-}
-
-#markdown-toc ul {
-    list-style: none;
-}
-
-#markdown-toc {
-    border: 1px solid #aaa;
-    padding: 1.5em;
-    list-style: decimal;
-    display: inline-block;
-}
 

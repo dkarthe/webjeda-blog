@@ -626,19 +626,17 @@ color: $brand-color;
 
 //table 
 
-table {
+table.mdtable {
+    border-collapse: collapse;
     border: 2px solid #aaa;
     border-top: 4px solid #22A7F0;
 }
 
-td, th {
+
+.mdtable td, .mdtable th {
     border: 1px solid #aaa;
     text-align: center;
     padding: 0.625em;
-}
-
-table {
-    border-collapse: collapse;
 }
 
 // jemoji
@@ -646,4 +644,22 @@ img.emoji {
     margin: 0;
     background-color: #FFF;
     border: none!important;
+}
+
+//TOC
+
+#markdown-toc::before {
+    content: "Contents";
+    font-weight: bold;
+}
+
+#markdown-toc ul {
+    list-style: none;
+}
+
+#markdown-toc {
+    border: 1px solid #aaa;
+    padding: 1.5em;
+    list-style: decimal;
+    display: inline-block;
 }
