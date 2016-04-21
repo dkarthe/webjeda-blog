@@ -231,30 +231,78 @@ There are many advantages when you blog locally and push changes to the server. 
 
 **Advantages**
 
-### 1. Use your favorite editor
-
+**1. Use your favorite editor:**
 I like to write posts on [Brackets](http://brackets.io){:rel='nofollow'}{:target="_blank"} or Sublime Text. Writing on a local editor is better than on a browser because these editors are fast and can save the files locally at any moment.
 
-### 2. No internet is required
-
+**2. No internet is required:**
 Since we are writing posts locally, no internet is required until the time we have to post to the server. This is good for someone like me who is living in a small town and have an unreliable internet connection.
 
-### 3. See the changes before implementing
-
+**3. See the changes before implementing:**
 When you are editing Jekyll blog locally, you can make changes and see how it renders on a browser. This is really useful when you are creating a new menu bar, button, or a layout where you have to change things very often before settling on the final version.
 
-To learn how to develop Jekyll locally, read: [How to sync files and folders to Github](/sync-files-folders-github/){:target="_blank"}.
 
-To know more about Jekyll, read:  [A layman's guide to Jekyll](/jekyll-guide/){:target="_blank"}.
+### What do you need to run Jekyll locally?
+
+As I said in the introduction, Jekyll is written in Ruby. So you should have Ruby installed on your computer. And you will also be using some Ruby gems like Jekyll(obviously), pagination, jemoji etc., Gems add certain functionality to your Jekyll blog.
+
+Pagination used to be included in Jekyll but, after Jekyll 3.0 it is no more included. You have to manually install pagination gem.
+
+**1. Install Ruby** - [Download links](https://www.ruby-lang.org/en/documentation/installation/){:rel='nofollow'}{:target="_blank"}
+
+**2. Install Gems**
+
+  Jekyll: ``gem install jekyll``
+  
+  Pagination: ``gem install pagination``
+    
+
+Now your computer is ready to install Jekyll. Make a folder on your computer with any name you wish, say **Project**. 
+
+* Open the command line and navigate to the folder **Project**.
+
+* Enter the following command ``jekyll new new-jekyll-blog``. Use any name in place of **new-jekyll-blog**. This command will create a folder named **new-jekyll-blog** and place default Jekyll site inside it. The folder structure will look somewhat like this. You may not have all the files but you will have all the necessary files.
+
+```
+.
+.
+├── _config.yml
+├── _drafts
+|   ├── begin-with-the-crazy-ideas.textile
+|   └── on-simplicity-in-technology.markdown
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   └── 2009-04-26-barcamp-boston-4-roundup.textile
+├── _data
+|   └── members.yml
+├── _site
+├── .jekyll-metadata
+└── index.html
+```
+
+
+
+* Enter ``cd new-jekyll-blog`` to navigate inside the Jekyll site.
+
+* Enter ``jekyll serve`` to serve it locally so that you can browse the blog through a browser. Your blog will be available on ``http://localhost:4000`` by default.
+
+You can make any changes you like to the Jekyll site. Jekyll polls for any changes that you make. It may take a few seconds depending on the size and complexity of your blog. For a faster build, use ``jekyll serve --incremental`` which polls only for changed files. Use it with caution since it is has some problems.
+
+This is how I created my Jekyll blog. Once you are done designing your blog, you should push these changes to a repository. To learn how to push changes to Github, read: [How to sync files and folders to Github](/sync-files-folders-github/){:target="_blank"}.
 
 ## Conclusion
-There are many things that you can do over Jekyll but there are limitations. Since the blog is static, there is no server side execution possible. So your contact form which uses a ``php`` file may not work in Jekyll. 
+There are many things that you can do over Jekyll but there are limitations as well. Since the blog is static, there is no server side execution possible. So your contact form which uses a ``php`` file may not work in Jekyll. 
 
-I suggest you to try Jekyll and see if you can get all the functionalities you wanted in your blog. Initially, I was skeptical about podcasting on Jekyll but today I have a [podcast](http://nallikayi.com){:target="_blank"} successfully hosted on Jekyll.
+I suggest you to try Jekyll and see if you can get all the functionalities you wanted in your blog. Initially, I was skeptical about podcasting on Jekyll but today I have a [podcast](http://nallikayi.com){:target="_blank"} successfully hosted using Jekyll.
 
 Follow this blog to know what you can do with your Jekyll blog. I try to cover many critical requirements like a contact form, subscribe option etc.,
 
-
+To know more about Jekyll, read:  [A layman's guide to Jekyll](/jekyll-guide/){:target="_blank"}.
 
 <iframe itemscope="" itemprop="video" width="100%" height="310" id="video" class="right half" src="https://www.youtube.com/embed/U0idtvxVo9I?rel=0" frameborder="0" allowfullscreen></iframe>
 

@@ -251,40 +251,40 @@ a.next:hover {
 
 @include media-query($on-palm) {
 
-        p.left, p.right, img.left,img.right, .left, .right {
+     p.left, p.right, img.left,img.right, .left, .right {
             float: none;
             text-align:left;
             margin-left: 0em;
             margin-bottom: 1em;
-
+        
         }
         
         .clear {
             clear: both;
         }
-
+        
         .intro {
             font-size: 1.2em;
             font-weight: 300;
             color: $brand-color;
         }
-
+        
         .full {
             width: 100%;
             border-radius: 4px;
         }
-
+        
         .half {
             width: 100%;
             border-radius: 4px;
         }
-
-
+        
+        
         .large {
             width: 100%;
             border-radius: 4px;
         }
-
+        
         .small {
             width: 100%;
             border-radius: 4px;
@@ -308,14 +308,6 @@ a.next:hover {
         margin-top: 0em;
         }
     
-        #donate-form {
-        margin-top: 0em;
-        text-align: center;
-
-        }
-    
-    
-
 }
 
 @media only screen and (max-width: 700px) {
