@@ -46,10 +46,7 @@ Since there is no database, most of the security threats are halted right there.
 
 If you use Github for hosting your Jekyll blog then your expense on hosting would be zero! Also, hosting static websites is really cheap in third-party hosting services.
 
-
 [Skip to video](#video)
-
-[Skip to Step 1](##step-1-find-a-theme-that-suits-your-requirement)
 
 If you would like to learn how to host a website on GitHub first then read: [How to host a website on github pages](/create-host-website-github-pages/){:target="_blank"}.
 
