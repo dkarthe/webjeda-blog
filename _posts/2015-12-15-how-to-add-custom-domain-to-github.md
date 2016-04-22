@@ -34,12 +34,12 @@ You may have a website hosted on Github Pages which has a URL that looks similar
 
 ## Prerequisites
 
-### 1. A website hosted on Github Pages
+### A website hosted on Github Pages
 Creating a website or uploading a pre-built website to github pages has become very easy after GIthub released drag and drop upload option to its repositories.
 
 If you do not have a website yet, then refer to my post on [How to create a website and host it on github pages](http://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/){:target="_blank"} to learn how you can create a simple website on Github Pages.
 
-### 2. A domain bought from any registrar
+### A domain bought from any registrar
 You have to purchase a domain from any registrar like GoDaddy, NamesCheap etc. It would cost you around $10 a year by the time this article being written.
 
 Choose a short, easy-to-remember domain which may not have a number in it. A unique name is a good candidate for better ranking.
@@ -77,7 +77,7 @@ The website looks like this
 This is a test website that has nothing but a heading and background color. Since I thought of making this tutorial as simple as possible, I have kept the website to a bare minimum.
 
 
-I own **truejewels.in**. I will be using this domain for the test website whose current URL is ``http://redgadget.github.io/test/``. I have already configured custom domain which you can access using this link: [**truejewels.com**](http://truejewels.com){:rel='nofollow'}{:target="_blank"}
+I own ``truejewels.in``. I will be using this domain for the test website whose current URL is ``http://redgadget.github.io/test/``. I have already configured custom domain which you can access using this link: [**truejewels.com**](http://truejewels.com){:rel='nofollow'}{:target="_blank"}
 
 Let's see how I did it.
 
@@ -137,7 +137,7 @@ And that's about it. You have successfully set up a custom domain for a github w
 
 Propagation can take a long time and it can be at different speeds in different geo-locations. So try using a [proxy site](https://www.proxysite.com/){:rel='nofollow'} to see if it has propagated in different countries. Try servers from different countries.
 
-A better option is to grab a cup of coffee :coffee:. Once you are done, hit the URL :trollface:
+A better option is to grab a cup of coffee :coffee:. Once you are done, hit the URL.
 
 <div class="warning">
 <h3>Warning</h3>
