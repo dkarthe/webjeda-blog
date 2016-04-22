@@ -160,7 +160,7 @@ If you are looking for complete security then you can buy SSL certificate for yo
 
 <div class="warning" id="warning-1">
 <h3>Warning</h3>
-<p>All the resources that are requested by a <strong>ssl</strong> activated website should also be secured. That is, if you request a any file with <strong>http</strong> link then the green padlock will not appear. In order to avoid that use relative url. For example, instead of <code>http://webjeda.css</code> use <code>//webjeda.css</code></p>
+<p>All the resources that are requested by a <strong>ssl</strong> activated website should also be secured. That is, if you request any file with a  <strong>http</strong> link then the green padlock will not appear. In order to avoid that use relative url. For example, instead of <code>http://webjeda.css</code> use <code>//webjeda.css</code></p>
 </div>
 
 I hope that helped you set up SSL on your website. Ask any doubts you have through comments. Do not forget to subscribe.
