@@ -76,7 +76,7 @@ This is the key to my WebJeda Sharebar.
 
 Create a new ```html``` file inside **_includes** folder and call it share.html. Copy paste this code.
 
-{% highlight html %}
+{% highlight html %}{% raw %}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <h3>Share this:</h3>
@@ -96,8 +96,7 @@ Create a new ```html``` file inside **_includes** folder and call it share.html.
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-linkedin fa share-button"> linkedin</i></a>                         
         <a href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ page.url }}"><i class="fa fa-envelope fa share-button"> email</i></a>                                  
 </div>
-
-{% endhighlight %}
+{% endraw %}{% endhighlight %}
 
 I have used icons from **font awesome** which is better idea than loading icons from local files.
 
