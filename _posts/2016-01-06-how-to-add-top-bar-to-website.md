@@ -1,6 +1,6 @@
 ---
 title: Adding Top Bar to Websites
-desc: Top bars are beautiful looking lines at the top of a website. See how I have implemented it in my websites. A colored top bar would not do much harm. Instead, it increases the beauty of your website (if used correctly).
+desc: Top bars are beautiful looking lines at the top of a website. A colored top bar would not do any harm. Instead, it increases the beauty of your website (if used correctly). Read to know how I have implemented it in my websites.
 keywords: top bar, website top line, top border of website, top colored line in websites
 author: sharathdt
 tags: Github-Pages Web-Design
@@ -17,10 +17,9 @@ permalink: /top-bar-website/
 
 ## Why top bar?
 
-I started considering top bar only after I saw the designers from [Quora](https://www.quora.com){:rel='nofollow'}{:target="_blank"} started using it. And my blog WebJeda had a minimal theme. So I thought why not try it. 
+I started considering top bar only after I saw the designers from [Quora](https://www.quora.com){:rel='nofollow'}{:target="_blank"} started using it. I also used to have a top bar on this blog but after the new design I no longer use it. But, one of my blogs [Nallikayi](http://nallikayi.com){:target="_blank"} has a nice top bar which goes with the design.
 
 <div class="clear"></div>   
-
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
@@ -33,7 +32,7 @@ I remember YouTube using a red top bar to show how the progress of page loading.
 {: .right .half}
 If you have seen Chrome browser on android, they still use this. May be it is using a different code but visually similar to that we use in websites.
 
-So here it is giving some valuable information. But what I want is just a constant colored top bar to enhance the visual appearance. It is very easy and can be done with a single line of code!
+So here it is giving some valuable information. But what I want is just a minimal colored top bar to enhance the visual appearance. It is very easy and can be done with a single line of code!
 {: .clear}
 
 ## what is the code for top bar!
@@ -43,15 +42,16 @@ Just copy these lines to your css file and you'll have a top bar! So far we have
 
 {% highlight css %}
 body {
-  border-top: 0.1em solid #37ba8a;
+  border-top: 4px solid #37ba8a;
+  margin: 0;
 }
 {% endhighlight %}
 
 
-So that's all there is! Use ```px``` instead of ```em``` if you like. I use ```em``` as I have configured it to adjust to the screen-size.  Now change the color according to your theme and don't make it very contrasting, say a blue top bar on red background. That is not very pleasing to eyes. And also make sure the body has no margin. Otherwise you may not get the top bar where you wanted.
+So that's all there is! Use ```em``` instead of ```px``` if you like. I use ```em``` as I have configured it to adjust to the screen-size.  Now change the color according to your theme and don't make it very contrasting, say a blue top bar on red background. That is not very pleasing to eyes. And also make sure the body has no margin. Otherwise you may not get the top bar where you wanted.
 
 Though it is a simple thing, it gives a huge impact on the look and aesthetics.
-Check the difference between these two websites I made for my mom.
+Check the difference between these two sample websites I made for my mom.
 
 No top bar: [No top bar](http://webjeda.com/No-top-bar/){:rel='nofollow'}{:target="_blank"} 
 
@@ -62,8 +62,6 @@ Top bar: [Top bar](http://webjeda.com/top-bar/){:rel='nofollow'}{:target="_blank
 ![top border used by google]({{ site.url }}/images/top-border-used-by-gmail.jpg)
 {: .right .half}
 This can be used on buttons to make them look awesome! This can give a modern look to almost all the elements. One such thing I have noticed is in **gmail** categories.
-
-
 
 Here is a button with just borders
 {: .clear}
@@ -102,8 +100,8 @@ button.border-style {
 }
 {% endhighlight %}
 
-Ok, so do implement this on your website and let me know how it went.
+Try mplementing top bar on your website and let me know how it went.
 
-And don't forget to leave the link of your website with newly created top bar, in the comment section.
+And don't forget to leave the link in the comment section, of your website with newly created top bar.
 
 Thanks for reading!

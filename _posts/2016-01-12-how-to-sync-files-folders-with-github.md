@@ -1,6 +1,6 @@
 ---
 title: Sync Files and Folders with Github Pages
-desc: Creating files inside Github repository is easy but what if you have lot of files and folders to upload to Github! You can also upload project to github using this method. In this tutorial I'm uploading a complete website into Github Pages.
+desc: Creating files inside Github repository is easy but what if you have a lot of files and folders to upload to Github! You can also upload a project to github using this method. In this tutorial I'm uploading a complete website into Github Pages.
 keywords: upload folders to github, sync files and folders with github
 author: sharathdt
 tags: Github-Pages Web-Design Github
@@ -17,17 +17,22 @@ permalink: /sync-files-folders-github/
 In my initial days of using Github, I used to see repositories filled with folders, files and what not. I used to wonder how the hell these people are uploading folders to Github! 
 {: .clear}
 
-<div class="clear"></div>   
+<div class="note">
+    <h3>Update</h3>
+    <p>
+    Github has a new <a href="/github-upload/" target="_blank"><strong>drag and drop upload option</strong></a> available for direct uploading of files and folders. But, the method I'm discussing in this post is also required to make changes and puch only the changes.
+    </p>
+</div>
 
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-It is only after some tutorials I realized that it is indeed very easy. The day I found out how to upload folders was one of the happiest days because I knew one thing for sure, uploading files = uploading a complete website :)
+It is only after some tutorials I realized that it is indeed very easy. The day I found out how to upload folders was one of the happiest days because I knew one thing for sure, uploading files = uploading a complete website :sunglasses:
 
-That is exactly what I'm going to do here. This one is going to be a lengthy post, so grab a cup of coffee!
+That is exactly what I'm going to do here. This one is going to be a lengthy post, so grab a cup of coffee :coffee:!
 
-I'm going to create this website (or at least host it) - [Hyperspace](http://redgadget.github.io/MyFirstWebsite/){:target="_blank"}
+I'm going to create this website (or at least host it) - [Hyperspace](http://redgadget.github.io/MyFirstWebsite/){:rel='nofollow'}{:target="_blank"}
 
 
 Download these things before we start
@@ -42,7 +47,7 @@ Download these things before we start
 
 Login to your Github account and create a repository. Name it anything you feel like. I'm calling it **MyFirstWebsite**. Commit once you are done naming it. Now create a **gh-pages** branch in your repository.
 
-Refer to [How to create and host a website](http://blog.webjeda.com/how-to-create-and-host-a-website-on-github-pages/){:target="_blank"} if you are not sure how to create a branch.
+Refer to [How to create and host a website](/create-host-website-github-pages/){:target="_blank"} if you are not sure how to create a branch.
 
 Remember - project files can only be hosted using gh-pages branch.
 
@@ -117,10 +122,10 @@ Once you are satisfied looking at it, hit commit and wait for the app to sync it
 
 ![ How to sync folders with Github - Successfully synced files and folders with Github]({{ site.url }}/images/successfully-synced-folders-in-github.jpg)
 {: .left .small}
-Now login to your Github account to see whether your website has been hosted. Navigate to your repository that you just synced. 
+
+Now, login to your Github account to see whether your website has been hosted. Navigate to your repository that you just synced. 
 
 Change the branch to gh-pages and see if the files you synced are present in that branch.
-
 
 Now click on settings and look for **Github Pages** section where you will see a green check mark with an ugly looking URL next to it. Hit that URL. You should see your website hosted!
 {: .clear}
@@ -130,13 +135,11 @@ Now click on settings and look for **Github Pages** section where you will see a
 
 
 <iframe itemscope="" itemprop="video" width="100%" height="360" class="left half" src="https://www.youtube.com/embed/5BSpJ0bpE14?rel=0" frameborder="0" allowfullscreen></iframe>
-Here is the final URL: [MyFirstWebsite](http://redgadget.github.io/MyFirstWebsite/){:target="_blank"} and a video demonstration.
+Here is the final URL: [MyFirstWebsite](http://redgadget.github.io/MyFirstWebsite/){:rel='nofollow'}{:target="_blank"} and a video demonstration.
 
-Success!!
-{: .clear}
+### Change the URL to something not ugly?
+Read: [How to add custom domain to websites hosted on Github Pages](/custom-domain-github/){:target="_blank"}. 
 
-
-### Want to change the URL to something not ugly?
-
-Read: [How to add custom domain to websites hosted on Github Pages](https://blog.webjeda.com/how-to-add-custom-domain-to-github){:target="_blank"}. If you are stuck in any of these steps, please leave a comment. I'll try to help. 
+If you are stuck in any of these steps, please leave a comment. I'll try to help. 
 Thanks for reading! For more detailed tutorials like this one, subscribe.
+{: .clear}
