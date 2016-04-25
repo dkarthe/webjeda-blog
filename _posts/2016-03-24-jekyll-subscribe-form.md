@@ -24,11 +24,13 @@ Subscribe form is used basically to collect visitors' emails to provide them an 
 {:toc}
 
 
-Many bloggers use the mailing list for affiliate marketing. I don't think it is a bad idea. If a user is interested in the stuff blogger is selling, then it is a win-win. 
+Many bloggers use mailing list for affiliate marketing. I don't think it is a bad idea. If a user is interested in the stuff blogger is selling, then it is a win-win. 
 
-WordPress has an advantage with many plugins that can do the job without breaking a sweat. But, after moving all my blogs from WordPress to Jekyll I had to find an alternative for subscribe forms.
+WordPress has an advantage over Jekyll since it has many plugins that can do the job without breaking a sweat. But, after moving all my blogs from WordPress to Jekyll I had to find an alternative for subscribe forms.
 
-This is one of those things I always wanted in Jekyll but did not know how to execute. This idea hit me while I was having a shower! Initially, I tried to create a form with [FormSpree](http://formspree.com){:rel='nofollow'}{:target="_blank"} similar to [how I created a contact form](/how-to-add-form-option-to-Jekyll-websites/){:target="_blank"}. It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on a specific page but not for all pages. What clicked me in the shower is that SimpleForm can be used to make a contact form which works on all pages!
+This is one of those things I always wanted in Jekyll but did not know how to do it. This idea hit me one day while I was working on contact forms. Initially, I tried to create a form with [FormSpree](http://formspree.com){:rel='nofollow'}{:target="_blank"} similar to [how I created a contact form](/jekyll-contact-form/){:target="_blank"}. 
+
+It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on a specific page but not for all pages. What clicked me in the shower is that SimpleForm can be used to make a contact form which works on all pages!
 
 What I'm showing here is an email collector. So it just collects users' emails. I think that is what a basic subscriber form does. You can also setup an auto-reply option. Auto-reply can help if you are offering an e-book for a subscription. I haven't tried it yet but it should work.
 
@@ -39,7 +41,7 @@ But before collecting emails you should have an email id. You can use any email 
 
 We are using a free service called [**SimpleForm**](https://getsimpleform.com/){:rel='nofollow'}{:target="_blank"} to create our form. SimpleForm is a service similar to Formspree which I discussed in [How to make a contact form in Jekyll](/how-to-add-form-option-to-jekyll-websites/){:target="_blank"}
 
-I'm not using Formspree because it doesn't work on all pages. Formspree is URL specific. If you want your subscribe form to be on all the pages(which is usually the case), SimpleForm has to be the logical choice.
+I'm not using FormSpree because it doesn't work on all pages. Formspree is URL specific. If you want your subscribe form to be on all the pages(which is usually the case), SimpleForm has to be the logical choice.
 
 ### Step 1: Get an API Token from SimpleForm
 ![Jekyll subscribe form](/images/jekyll-subscribe-form-simpleform.jpg){: .full}
@@ -187,7 +189,9 @@ I have a working form as well!
 <!--End mc_embed_signup-->
 
 
-Once you enter the details, hit subscribe key. You should receive an email right after the subscription
+Once you enter the details, hit subscribe key. You should receive an email right after the subscription. Actually this is the form I'm using in my website. You will get the same form when you click on **subscribe** button in the menu bar. The form may look different but it does the same job as this form.
+
+
 
 I hope that covers almost all types of subscriptions possible. Let me know which one you implemented and for what reason. For some reason if you couldn't get this working then let me know. I will help you out at the cost of a coffee.
 
