@@ -186,7 +186,7 @@ div#toc {
 {% endhighlight %}
 {: .clear}
 
-And also the word **Contents** is actually **Jump to. . ** by default. You can change this in the JavaScript file ```toc.js``` between ```<i>``` tag.
+And also the word **Contents** is actually **Jump to. .** by default. You can change this in the JavaScript file ```toc.js``` between ```<i>``` tag.
 
 {% highlight css %}
 title: '<i>Jump to...</i>';

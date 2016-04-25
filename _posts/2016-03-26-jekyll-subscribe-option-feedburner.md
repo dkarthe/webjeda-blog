@@ -45,7 +45,7 @@ Sample Feedburner Form: <a href="https://feedburner.google.com/fb/a/mailverify?u
 
 
 ## How to get Feedburner subscribe option for my Jekyll blog?
-Feedburner setup is only done once. It takes care of subscriptions on its own without your intervention. This is the main reason I'm still using Feedburner for subscriptions.
+Feedburner setup is only done once. It takes care of subscriptions on its own without your intervention. This is the main reason I recommend Feedburner for beginners.
 
 In the eyes of Feedburner, Jekyll blogs are no different compared to WordPress or Blogger blogs. The reason is that Feedburner is only concerned about the feed file but not the whole of your website. It doesn't care how you created the blog. There are many plugins for WordPress and Blogger for easy integration of Feedburner but for Jekyll we are doing things on our own.
 
