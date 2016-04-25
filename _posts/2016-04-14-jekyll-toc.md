@@ -217,7 +217,7 @@ rdiscount:
 {: .clear}
 Table of Contents by default will consider all the headers h1, h2, h3, h4, h5 and h6.
 
-What if you don't want any h4 or h5 are displayed? Use this code in place of the one we used in [Step 4](#step-4-initiate-toc).
+What if you don't want any h4 or h5 displayed? Use this code in place of the one we used in [Step 4](#step-4-initiate-toc).
 
 {% highlight js %}
 $('#toc').toc({ headers: 'h1, h2, h3, h6' });
