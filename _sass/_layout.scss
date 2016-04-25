@@ -24,6 +24,7 @@ body > #container { height: auto; min-height: 100%; }
     }
 
     .page-link {
+        font-family: sans-serif;
         color: #828282;
         font-size: 1.2em;
         font-weight: 100;
@@ -279,14 +280,15 @@ img.post-image-index {
 .post-excerpt {
     font-size: 1em;
     margin-bottom:0;
-    color: #383838;
+    color: #8C8C8C;
+    margin-top: 0.5em;
 }
 
 .post-index-title {
     border-bottom: 1px solid #eee;
     margin-left: -5px;
     margin-right: -5px;
-    padding-bottom:5px;
+    padding-bottom: 0.5em;
     color: #383838;
     font-size: 1.1em;
 }
@@ -659,6 +661,7 @@ img.emoji {
 #markdown-toc {
     border: 1px solid #aaa;
     padding: 1.5em;
+    padding-left: 2em;
     list-style: decimal;
     display: inline-block;
 }
