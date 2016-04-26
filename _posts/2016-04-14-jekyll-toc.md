@@ -16,10 +16,9 @@ permalink: /jekyll-toc/
 
 ## Why Table of Contents?
 {: .clear}
-I always liked the Wikipedia **Table of Contents** section which is present in almost every article. It gives us a good insight of the whole article in a few headlines. Imagine, if that was not there; how hard it would be to find things you wanted. Things like someone's career, early life etc., Here is a [sample page](https://en.wikipedia.org/wiki/Kannada){:rel='nofollow'}{:target="_blank"}
+I always liked the Wikipedia **Table of Contents** section which is present in almost every article. It gives a good insight to the whole article with headlines. Imagine, if that was not there; how hard it would be to find things that we specifically looking for. Things like someone's career, early life etc., Here is a [sample page](https://en.wikipedia.org/wiki/Kannada){:rel='nofollow'}{:target="_blank"} wikipedia page.
 
-I have used a similar kind of TOC on my blog. At least it looks similar! So here is the Table of Contents of this blog post. This is how it looks like.
-
+I have used a similar kind of TOC on my blog. At least it looks similar! So here is the Table of Contents of this blog post.
 
 
 * Do not remove this line (it will not be displayed) 
@@ -27,17 +26,19 @@ I have used a similar kind of TOC on my blog. At least it looks similar! So here
 
 
 
-Table of Contents for Jekyll blog or any blog for that matter is not really necessary if they are very short. But, for a long detailed article with a TOC makes it very organized.
+Table of Contents for Jekyll blog or any blog for that matter is not really necessary if the article is very short. But, for a long detailed article, a TOC section provides a good insight.
 
 ## How to add TOC for Jekyll posts?
 
-There are [plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"} for Jekyll to generate TOC but, I have stayed away from them for one reason. I want the complete control on my website. That is why I haven't used any plugin so far for in my blog.
+There are [plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"} for Jekyll to generate TOC but, I have stayed away from them for one reason. I want the complete control on my website.
 
 When I was using WordPress, there was a simple plugin called TOC and it used to work like a charm. It also had some color schemes available for it. But when we are dealing with Jekyll, plugins are very new and can be unstable.
 
 {% include adsense-inside-post.html %}
 
-I'm not against Jekyll plugins or something but I'm just waiting for them to be simple to use. Now, let's dive in and install TOC.
+I'm not against Jekyll plugins or something but I'm just waiting for them to be simple to use. 
+
+Now, let's dive in and install TOC.
 
 
 <div class="tips">
@@ -77,7 +78,7 @@ But if this doesn't work for you then you can follow the procedure below.
 
 ### Step 1: Download necessary files
 
-**Download the zip file:** [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents/archive/master.zip){:rel='nofollow'}{:target="_blank"}. Thanks to [Alex Ghiculescu](https://github.com/ghiculescu){:rel='nofollow'}{:target="_blank"} for this repository. Don't forget to give a star to TOC repository if it works for you.
+**Download the zip file:** [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents/archive/master.zip){:rel='nofollow'}{:target="_blank"}. Thanks to [Alex Ghiculescu](https://github.com/ghiculescu){:rel='nofollow'}{:target="_blank"} for this repository. Don't forget to give a star to this repository if it works for you.
 
 So the repository you just downloaded has a single JavaScript file ```toc.js``` which is enough for creating Table of Contents.
 
@@ -186,13 +187,13 @@ div#toc {
 {% endhighlight %}
 {: .clear}
 
-And also the word **Contents** is actually **Jump to. .** by default. You can change this in the JavaScript file ```toc.js``` between ```<i>``` tag.
+And also the word **Contents** was actually **Jump to. .** by default. You can change this in the JavaScript file ```toc.js``` between ```<i>``` tag.
 
 {% highlight css %}
 title: '<i>Jump to...</i>';
 {% endhighlight %}
 
-For some reason, the TOC section assumes the style ```display: block``` which will cover the whole page. But I wanted it on one side of the page. So I have added the code ```display: inline-block!important```. I personally do not like using **!important** but here I had to. I think it is at least better than in-line CSS!
+For some reason, the TOC section assumes the style ```display: block``` which will cover the whole page. But I wanted it on one side of the page. So I have added the code ```display: inline-block!important```. I personally do not like using **!important** but here I had to. It is at least better than in-line CSS!
 
 Now, different markdown handlers process markdown differently. Table of Contents will create an anchor tag for every headline. But this is not supported by all the markdown processors. **Kramdown** is good with it but if you are using **redcarpet** or **rdiscount** you have to make some changes in the **_config.yml** file.
 
