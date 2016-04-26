@@ -9,7 +9,7 @@ layout: post
 permalink: /optimize-jekyll-seo/
 ---
 
-<img alt="jekyll seo" title="Jekyll SEO" itemprop="thumbnailUrl" class="left half noborder" src="{{ site.url }}/thumbs/Jekyll-SEO.jpg">
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Most of the Jekyll Search Engine Optimization is left to the users. Initially, Jekyll SEO was hard but gradually it has become easier since we have so many people contributing to the community. Nowadays basic SEO is already taken care of! Learn how to do further Jekyll SEO.
 {: .intro}
