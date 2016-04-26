@@ -439,7 +439,7 @@ input#mce-EMAIL {
     outline: none;
 }
 
-input#mce-EMAIL:active {
+input#mce-EMAIL:focus {
     border-bottom: 1px solid #0a5;
 }
 
