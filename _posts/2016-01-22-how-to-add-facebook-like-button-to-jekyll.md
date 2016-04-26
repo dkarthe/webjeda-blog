@@ -1,6 +1,6 @@
 ---
 title: Adding Facebook Like Button to Jekyll Blog
-desc: Adding facebook button on a Jekyll blog site is different compared to HTML sites. This is because Jekyll blogs have an advantage of including html files which are inside _includes folder. We are taking advantage of this option! 
+desc: Adding facebook button on a Jekyll blog site is different compared to HTML sites. This is because Jekyll blogs have the advantage of including html files which are inside _includes folder. We are taking advantage of this option! 
 keywords: facebook like button github pages, like button to Jekyll blog
 author: sharathdt
 tags: Jekyll SEO
