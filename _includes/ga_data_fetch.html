@@ -15,10 +15,10 @@
 
                 if (response.rows !== undefined) {
                   jQuery.each(response.rows, function(index, row){
-                      var ga_page_url = row[1];
+                      var ga_page_url = row[0];
 
                       if (ga_page_url === page_url) {
-                          page_views = row[3];
+                          page_views = row[1];
                           if (page_views !== undefined && page_views !== null && $("#ga-pageviews-div")) {
                               $("#ga-pageviews").html("Views: " + page_views);
                           }
