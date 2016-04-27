@@ -22,8 +22,8 @@ layout: compress
   }; 
               
 </script>
-<link rel="stylesheet" href="/css/main.css">
-<script>
+
+<script async>
     var cb = function() {
 var m = document.createElement('link'); m.rel = 'stylesheet';
 var n = document.createElement('link'); n.rel = 'stylesheet';
@@ -37,6 +37,7 @@ webkitRequestAnimationFrame || msRequestAnimationFrame;
 if (raf) raf(cb);
 else window.addEventListener('load', cb);
 </script>
+
  {% include analytics.html %}
  
   </body>
