@@ -13,7 +13,7 @@ github: https://github.com/sharu725
 youtube: https://www.youtube.com/channel/UCbOO7d0vVo0kIrkd7m32irg
 email: mailto:hello@webjeda.com
 feedburner-subscribe: https://feedburner.google.com/fb/a/mailverify?uri=webjedablog&amp;loc=en_US 
-analytics: UA-71358787-1
+analytics: 'UA-71358787-1'
 disqus-shortname: webjeda
 copyrights-owner: WebJeda # Copyright in the footer
 feedly: http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fblog.webjeda.com%2Ffeed.xml
