@@ -10,7 +10,11 @@ layout: compress
                 {{ content }}         
              {% include footer-1.html %}
 
-<script>
+
+
+<script async="async" src="/js/css-def.js"></script>
+ {% include analytics.html %}
+ <script>
     window.onload = function(){ 
     setTimeout(function() { 
       var ad = document.querySelector("ins.adsbygoogle");
@@ -22,10 +26,6 @@ layout: compress
   }; 
               
 </script>
-
-<script src="/js/css-def.js"></script>
-
- {% include analytics.html %}
  <script defer="defer" src="//load.sumome.com/" data-sumo-site-id="dec2f5872eb578a8dc528768e57e31d20af5bf9e5fffdc1da6241fe254e00bc2" ></script>
   </body>
 </html>
