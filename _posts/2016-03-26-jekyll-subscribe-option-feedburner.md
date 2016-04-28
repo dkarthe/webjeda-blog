@@ -3,7 +3,7 @@ title: How to create a subscribe button for Jekyll using Feedburner?
 desc: Feedburner is the best option available for Jekyll to automate user subscription and send email updates to subscribers. Once you set it up, there is no need to change anything. All you need is a button for users to subscribe.
 keywords: 
 author: sharathdt
-tags: Jekyll
+tags: Jekyll Web-Design
 image: jekyll-rss-feedburner.jpg
 layout: post
 permalink: /jekyll-subscribe-feedburner/
