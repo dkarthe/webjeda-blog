@@ -16,7 +16,7 @@ permalink: /share-buttons-jekyll/
 
 ## Why share bar for Jekyll blog?
 {: .clear}
-If you read a lot over the internet then you know how hard it is to share an article with your friend if it doesn't have a sharing button. You have to copy the link from the address bar, go to your email account, type every single detail and send it. Same thing follows for sharing on social media websites.
+If you read a lot over the internet then you know how hard it is to share an article with your friend if it doesn't have a share button. You have to copy the link from the address bar, go to your email account, type every single detail and send it. Same thing follows for sharing on social media websites.
 
 
 * Do not remove this line (it will not be displayed) 
@@ -26,7 +26,7 @@ If you read a lot over the internet then you know how hard it is to share an art
 It is a good idea to have share buttons at the end of an article. Users may not be willing to copy paste the link but hitting a button is easy! More share is equal to more eyeballs on your article. Shares will drive traffic to your website and sometimes it may go viral. So it is necessary to provide an option to share.
 
 
-## How to add a share bar?
+## How to add a social media share bar?
 
 Adding a share bar is really easy using services like **ShareThis** or **AddtoAny**. They are good. They provide decent buttons with share count. This is what I recommend if you just want a share bar and you don't care about your website loading speed. I have used ShareThis before and the problem was that it loads a lot of JavaScript files which will slow down the website.
 
@@ -34,7 +34,7 @@ I can always ```defer``` javascript loading but, the files that are loaded by Sh
 
 Now I had to make a decision whether to use it or make one for myself. I thought why not make one! I will have the complete design control. So this is how I designed a share bar for my Jekyll blog.
 
-## Making a share bar without JavaScript
+## Making a social media share bar without JavaScript
 
 When I decided to make a share bar for my Jekyll blog WebJeda, I thought of making it javaScript free. As a developer - for a fast performing website - you should avoid JavaScript as much as possible and also lower the number of http requests. With ShareThis, I used to have 5 to 6 JavaScript files being loaded from a remote server and 22 requests were made. This happens when you have many buttons and every button is downloaded remotely!
 
