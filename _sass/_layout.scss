@@ -598,4 +598,19 @@ img.emoji {
     display: inline-block;
 }
 
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+    -webkit-transition-delay: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+    transition-property:all;
+
+    &:hover {
+        color: $highlight-color;
+        text-decoration: none;
+    }
+}
 
