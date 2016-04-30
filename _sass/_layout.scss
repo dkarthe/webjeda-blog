@@ -4,14 +4,12 @@
  padding-bottom: 0em;
  padding-top: 0.625em;
  padding-right: 1em;    
- position: relative;
 }
 
 
 
 .site-nav {
-    float: left;
-    line-height: 44px;
+    display: inline-block;
     margin-left: 2em;
     z-index: 999;
     margin-top: 1em;
@@ -116,10 +114,6 @@
 }
 
 
-
-/**
- * Posts
- */
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -250,64 +244,6 @@ select {
 }
 
 
-
-#search-page {
-    margin-bottom: 35em;
-}
-
-#post-page img {
-    border: 2px solid #eee;
-}
-
-#share-box-container {
-    margin-bottom: 2em;
-}
-
- .share-button {
-    margin: 0px;
-    border: 1px solid #D3D6D2;
-    padding: 5px 10px 5px 10px;
-    opacity: 0.9;
-    margin-bottom: 0.3em;
-} 
-
-i{
-    transition: .3s ease-out;
-    opacity: 0.8;
-    background-color: transparent;
-}
-
-i.share-button:hover {    
-    box-shadow: 0px 2px 4px 0px #e6e6e6, 0 2px 10px 0 rgba(0,0,0,0.12);
-    opacity: 1;
-    background-color: transparent;
-}
-
-
-
-#author-content {
-    padding: 0.5em;
-}
-
-#name-author {
-    border-top: 1px solid #eee;
-    color: #333;
-}
-
-#image-author {
-    border-radius: 50px;
-}
-
-#about-author p {
-    color: #777;
-    margin-bottom:0;
-}
-
-#social-author {
-   text-align: right;
-    margin-bottom: 0.625em;
-}
-
 h4 {
     margin-bottom: 0;
 }
@@ -351,83 +287,6 @@ section#archive {
     border-bottom: 2px solid #e74c3c;
 }
 
-
-div#footer-icons {text-align: center; }
-
-.footer-icon {
-        margin-left: 0.7em;
-        font-size: 120% !important;
-}
-
-.built p {
-    font-family: sans-serif;
-    font-size: 1em;
-    text-align: center;
-    margin: 0;
-}
-
-
-.contact-li {
-    list-style: none;
-}
-
-.contact-input {
-    border:none;
-    border-bottom: 1px solid #eee;
-    transition-duration: 0.3s;
-    width: 12em;
-}
-
-.contact-input:focus {
-    outline:none;
-    border-bottom: 1px solid $highlight-color;
-}
-
-.contact-label {
-    display: block;
-}
-
-#submit {
-    border:none;
-    background-color: $highlight-color;
-    padding: 5px 15px;
-    color: #eee;
-}
-
-#submit:hover {
-    box-shadow: 0px 0px 5px #aaa;
-}
-
-
-#contact-form {
-    border: 1px solid #aaa;
-    display: inline-flex;
-    margin-bottom: 6em;
-}
-
-.fixed-link-box {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    opacity: .7;
-    -moz-transition: .25s ease-in-out;
-    -webkit-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-
-.fixed-link-box:hover {
-    opacity: 1;
-}
-
-.rss-link {
-    background: url(/img/rss.svg) 0 0/48px no-repeat #2BB1F3;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 0 10px;
-}
-
-img#footer-logo {margin: 0;}
 
 
 @include media-query($on-palm) {
@@ -520,24 +379,15 @@ img#foomage {
         float: right;
 }
 
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
+
+img#logo  {
+    margin-top: 0.625em;
+    vertical-align: initial;
     margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
 }
 
-i.fa.fa-circle-o {
-    font-weight: bold;
-    opaciity: 1;
-}
+
+
 .time-auth {
     font-family: 'Droid Serif', serif;
     font-weight: bold;
@@ -548,59 +398,8 @@ div#ga-pageviews {
     display: inline-block;
 }
 
-.fa.fa-pull-left {
-color: $brand-color;
-}
-#author-pic {
-    border-radius: 50%;
-    width: 30px;
-    margin: 0 0.5em 0 0;
-}
-
-//table 
-
-table.mdtable {
-    border-collapse: collapse;
-    border: 2px solid #aaa;
-    border-top: 4px solid #22A7F0;
-}
 
 
-.mdtable td, .mdtable th {
-    border: 1px solid #aaa;
-    text-align: center;
-    padding: 0.625em;
-}
-
-// jemoji
-img.emoji {
-    margin: 0;
-    background-color: #FFF;
-    border: none!important;
-}
-
-//TOC
-
-#markdown-toc::before {
-    content: "Contents";
-    font-weight: bold;
-}
-
-#markdown-toc ul {
-    list-style: decimal;
-}
-
-#markdown-toc {
-    border: 1px solid #aaa;
-    padding: 1.5em;
-    padding-left: 2em;
-    list-style: decimal;
-    display: inline-block;
-}
-
-/**
- * Links
- */
 a {
     color: $brand-color;
     text-decoration: none;
@@ -613,4 +412,3 @@ a {
         text-decoration: none;
     }
 }
-
