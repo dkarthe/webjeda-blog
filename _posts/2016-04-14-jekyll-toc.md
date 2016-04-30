@@ -34,7 +34,6 @@ There are [plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target
 
 When I was using WordPress, there was a simple plugin called TOC and it used to work like a charm. It also had some color schemes available for it. But when we are dealing with Jekyll, plugins are very new and can be unstable.
 
-{% include adsense-inside-post.html %}
 
 I'm not against Jekyll plugins or something but I'm just waiting for them to be simple to use. 
 
@@ -107,6 +106,7 @@ layout: default
 </article>
 {% endraw %}{% endhighlight %}
 
+{% include adsense-inside-post.html %}
 
 ### Step 3: Call TOC in the layout.
 
