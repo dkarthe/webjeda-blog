@@ -56,6 +56,8 @@ If you are looking for a modern, fast loading, visually appealing website, then 
 
 ## Major changes
 <pre>
+30th April - Some speed optimization and changed paragraph font to Source serid pro.
+
 25th April - Changed paragraph font to Droid Serif and headlines to Helvetica.
 
 13th April - Added Analytics Super Proxy to show page views on all my posts. Lost many views since I changed the URL of many posts. But Hey, I have page views!

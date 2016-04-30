@@ -156,24 +156,7 @@
     }
 }
 
-//3 columns
-.column-left{ float: left; width: 33%; margin:0 auto;}
-.column-right{ float: right; width: 30%;}
-.column-center{  width: 33%; margin:0 auto; display: inline-block;text-align: center;}
 
-
-.related-posts {
-    list-style: none;
-}
-
-.latest {
-    padding: 0.625em;
-    border: 1px solid #207cca;
-    margin-right: 2%;
-    display: block;
-}
-
-//Homepage
 
 #mainbox{
   font-family: inherit;
@@ -238,131 +221,18 @@ img.post-image-index {
     font-size: 1.1em;
 }
 
-select {
-    border: none;
-    color: #777;
-}
-
-
-h4 {
-    margin-bottom: 0;
-}
-
-section#archive {
-    font-size: 1.4em;
-    font-weight: 600;
-}
-
- 
-.about:hover {
-    border-bottom: 4px solid $brand-color;
-}
-
-.archive:hover {
-    border-bottom: 4px solid #40d47e;
-}
-
-
-.contact:hover {
-    border-bottom: 4px solid #f1c40f;
-}
-
-
-.pricing:hover {
-    border-bottom: 2px solid #3a5269;
-}
-
-
-.sitemap:hover {
-    border-bottom: 2px solid #9b59b6;
-}
-
-
-.subscribe:hover {
-    border-bottom: 2px solid #e67e22
-}
-
-
-.search:hover  {
-    border-bottom: 2px solid #e74c3c;
-}
-
-
 
 @include media-query($on-palm) {
-
-        .built p {
-        font-family: sans-serif;
-        font-size: 0.9em;
-        margin-bottom: 0;
-        text-align: center;
-        }
-
-        div#footer-icons {
-        position: relative;
-        top: 1em;
-        text-align: center;
-        }   
-    
-        #donate-form {
-        position: relative;
-        top: 2em;
-        text-align: center;
-    
-        }
-        section#archive {
-        font-size: 1em;
-        font-weight: 300;
-        }
-
-
 
        .page-content {
         margin: 0 auto; 
         max-width: 96% !important; 
        }
-
-        .column-left{ float: none; width: 100%; margin:0 auto;}
-        .column-right{ float: none; width: 100%; margin:0 auto;}
-        .column-center{ float: none; width: 100%; margin:0 auto;}
-    
-        h4 {
-        font-size: 1em;
-        }
-        .rss-link {
-            display: none;
-        }
-    
     
         .card{
         opacity: 1;
          }
     
-}
-
-
-
- h3.tag-head {
-    margin-bottom: 0;
-}
-
-.pagination {
-    text-align: center;
-    margin-top: 2em;
-}
-
-.page-num {
-    padding: 4px 12px;
-    background-color: $brand-color;
-    font-weight: 600;
-}
-
-a.page-num {
-    color: #fff;
-}
-
-a.page-num:hover {
-    color: #555;
 }
 
 .navi {
@@ -375,27 +245,12 @@ img#foomage {
     margin-top: 1em;
 }
 
-.post-tags {
-        float: right;
-}
 
 
 img#logo  {
     margin-top: 0.625em;
     vertical-align: initial;
     margin-bottom: 0;
-}
-
-
-
-.time-auth {
-    font-family: 'Droid Serif', serif;
-    font-weight: bold;
-    color: $brand-color;
-}
-
-div#ga-pageviews {
-    display: inline-block;
 }
 
 

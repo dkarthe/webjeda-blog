@@ -1,6 +1,7 @@
 html {
  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
  text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
  background-color: #FFF;
  height: 100%;
  box-sizing: border-box;
@@ -38,11 +39,11 @@ dl, dd, ol, ul, figure {
 }
 
 p {
-    font-family: 'Droid Serif', serif;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    color: #404040;
+    font: 1.4em/1.6 $base-font-family;
+    color: #333;
     text-rendering: optimizeLegibility;
+    margin-bottom: 2em;
+    background: transparent;
 }
 
 
@@ -85,7 +86,8 @@ body {
 h1, h2, h3, h4, h5, h6{
     margin-bottom: 0.625em;
 }
-p, blockquote, pre,
+
+blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: 2em;
