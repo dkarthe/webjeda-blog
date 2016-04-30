@@ -6,7 +6,7 @@ author: sharathdt
 tags: Jekyll Web-Design
 image: jekyll-speed-optimization.jpg
 permalink: /jekyll-speed/
-publish: false
+published: false
 ---
 
 <img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
