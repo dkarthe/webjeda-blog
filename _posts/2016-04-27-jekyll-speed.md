@@ -16,7 +16,7 @@ published: false
 <a href="http://www.freepik.com/free-vector/pizzeria-fast-delivery-vector-cartoon_719308.htm" rel="nofollow" target="_blank">Designed by Freepik</a>
 
 
-## why page speed is important?
+## Why page speed is important?
 It is a website, not an F1 racing car! Then why should we try to optimize it for speed? Well, there are plenty of reasons to speed up our Jekyll blog. The main one being user experience.
 
 A typical user of the 21st century doesn't want to waste time staring at a blank page for more than 5 seconds. I'm pretty sure that your website loads within that time frame but, it may not happen in all conditions. Users may close the tab and never return to your website if it takes too long to load. Be cautious to keep the page loading speed within 2 seconds.
