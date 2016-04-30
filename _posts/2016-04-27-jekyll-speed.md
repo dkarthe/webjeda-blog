@@ -1,0 +1,234 @@
+---
+title: How to speed up Jekyll blog?
+desc: Google considers website loading speed as a factor in their search ranking algorithm. How to speed up Jekyll blog by optimizing various factors that helps website load faster on a mobile device even on a 2g data speed!
+keywords: 
+author: sharathdt
+tags: Jekyll Web-Design
+image: jekyll-speed-optimization.jpg
+permalink: /jekyll-speed/
+publish: false
+---
+
+<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
+
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
+{: .intro}
+<a href="http://www.freepik.com/free-vector/pizzeria-fast-delivery-vector-cartoon_719308.htm" rel="nofollow" target="_blank">Designed by Freepik</a>
+
+
+## why page speed is important?
+It is a website, not an F1 racing car! Then why should we try to optimize it for speed? Well, there are plenty of reasons to speed up our Jekyll blog. The main one being user experience.
+
+A typical user of the 21st century doesn't want to waste time staring at a blank page for more than 5 seconds. I'm pretty sure that your website loads within that time frame but, it may not happen in all conditions. Users may close the tab and never return to your website if it takes too long to load. Be cautious to keep the page loading speed within 2 seconds.
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
+On 2010, [Google announced](https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html){:rel='nofollow'}{:target="_blank"} that they are including website speed as one of the signals in their search ranking algorithms. So for a better ranking in search engine, you should make your website load faster. And also for e-commerce websites, speed is very crucial. Let us look at some of the adverse effects of slow website load time.
+
+**1. One second delay in loading cost for Amazon is $1.6B sales each year!**
+
+**2. A study by Walmart showed that every second of improvement in their website loading time would increase conversion by 2%.**
+
+**3. Tagman found that every second of delay in page loading time can result in 7% decrease in online sales.**
+
+
+For established businesses, speed is of grave importance. For a small time bloggers like myself, it doesn't make much of a difference but I still care about my website ranking and user experience. A good way to stop users from going away from your website is to load visual content very fast! The style is important but it can wait.
+
+I will be using some of these technical terms here onwards. 
+
+**Page Speed:** Time taken by the content of a web page to load completely.
+
+**Time to first byte:** Time taken to receive the first byte of information from the web server.
+
+**Async:** JavaScript code is parsed and executed along with html without blocking.
+
+**Defer:** JavaScript code is executed only at the end of parsing html and other resources.
+
+**Visible content (above the fold):** The portion of a webpage users see on their screen before they scroll.
+
+**Minify:** Process of removing all the unnecessary characters from source code.
+
+**Cache:** A component that stores data so that it can be served faster. In the case of websites, it is browser cache.
+
+## Is your Jekyll blog fast enough?
+
+If you have chosen Jekyll for blogging then you are already on the right track. A static website is very fast because it has a one-time communication with the server which is while loading the content. There is no interaction after the page is completely loaded. But in a dynamic CMSs like WordPress, there is dynamic content loaded over time on user interaction resulting in a new request to the server on every interaction. 
+
+This to and fro information flow takes time and thus makes the website slower. But dynamic sites have many advantages over static sites. Imagine signing up for a service, say gmail. Every single detail you enter is fed to the server right away and checked if that is valid. If you enter a username which is already taken then google will let you know right then by checking its database. All these queries establish a connection which takes time.
+
+Though Jekyll sites are fast, it slows down depending on the configuration and content. There are [few rules mentioned by Google Page Speed](https://developers.google.com/speed/docs/insights/rules#speed-rules){:rel='nofollow'}{:target="_blank"} that gives you an idea on how to optimize your website for faster loading. But, it is for general websites. I will be discussing some methods through which you can optimize Jekyll blog in particular.
+
+## How do I know whether my Jekyll site is slow?
+Website loads faster on an LTE connection than on a 2g connection. So in order to know the exact speed of your website and how well it is configured for performance, go through these online tools.
+
+[**GTmetrix:**](https://gtmetrix.com/){:rel='nofollow'}{:target="_blank"}
+GTmetrix is a speed testing tool which provides pretty decent data with a cool UI. It provides a lot of data on requests, minification, possible optimization etc., The homepage of this blog scores 99%! 
+
+Many speed testing sites will let you know that your CSS, JS, HTML are not minified, images can be compressed etc., but, this website gives you the optimized files right away to use. I usually download fully compressed image suggested by GTmetrix and replace the original image to enhances the speed.
+
+It also provides YSlow score and details on why your website is loading slowly. Another important feature is historical data. The website stores the result in a database and fetches with a graph when you click on **History**! I just love it. It has helped me keep a track on my website speed. 
+
+![Jekyll speed test on GTmetrix](/images/jekyll-speed-optimization-test-gtmetrix.jpg){: .full}
+
+[**PageSpeed Insights:**](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"}
+This is a free tool provided by Google. I prefer this because ultimately Google is the one who ranks my website based on speed. I rely on the results provided from PageSpeed more than any other tool.
+
+![Jekyll speed test on PageSpeed Insights](/images/jekyll-speed-optimization-test-pagespeed-insights.jpg){: .full}
+
+[**WebPageTest:**](http://www.webpagetest.org/){:rel='nofollow'}{:target="_blank"}
+This is probably one of the best tools to find out what's wrong with your site. It gives you the details on First View and Repeat View. This is good because when a website is loaded for the first time on a browser, it takes a lot of time since it is downloading all the resources for the first time. But, when you visit the website again on the same browser, it takes significantly less time to load the same website.
+
+Thanks to browser cache which saves time and also bandwidth by caching static files on its cache memory. Web page loads really fast if it has cached few resources already. If your website gets repeated visitors then browser cache is very useful.
+
+Now that you have tested you blog, see if these tests reveal something. See if they provide any suggestion. Based on that suggestion you can work on your blog and optimize it.
+
+## How to speed up Jekyll blog?
+If the results of the check are not satisfactory then follow these steps to speed up your Jekyll blog.
+
+
+### Keep JavasScript at the bottom of the page
+One thing we all developers collectively do wrong is keeping the script tags in the head tag. If that is the case then the browser shows a blank page till it downloads the complete script. If one of the downloads take too long then the page load time increases significantly.
+
+Keeping ``<script>`` tags at the end of the page will not block the parsing of ``html``. If you want the script to be loaded along with ``html`` then use ``async`` attribute.
+
+### compress images
+
+Many times we do not give attention to the images we use. I used to use images of high dimensions and resize it using ``height`` and ``width`` attribute. But the image used to weigh 50kb or more which is not practical for speed optimization.
+
+Always crop images to the exact size required instead of resizing it using html or css. This reduces the file size and hence page load time.
+
+Along with this, you can use photoshop to optimize images for the web. An option called **Save for web** helps to reduce the file size significantly. If you are not good at photoshop do not own a copy then use this online tool called [**Tinypng**](https://tinypng.com){:rel='nofollow'}{:target="_blank"} which does the same job.
+
+### Minify Jekyll HTML, CSS and JS
+Minifying is another way to reduce file-size which results in fast loading of websites. Minifying removes any character or space that is unnecessary. Many times we use comments in the code for our convenience. But, this is not required for an end user. Here are few things you can do to achieve minification.
+
+**Html:**
+Minifying Jekyll html is very easy. A pure liquid layout is available which does the job like a charm. Read [How to minify Jekyll html](/compress-html-jekyll/){:target="_blank"}
+
+**Css:**
+Minifying css is necessary if you are using a lot of styling. A typical website uses more styling than JavaScript. Minifying css reduces the file size drastically. Read [How SASS works in Jekyll](https://jekyllrb.com/docs/assets/){:rel='nofollow'}{:target="_blank"}
+
+If you do not know SASS then you can use this trick which does the same job.
+
+* Rename all the **.css** files into **.scss** and place them in a folder **_sass**. You have to create one of you do not have it already. It should look something like this. 
+
+
+<pre>
+.
+.
+├── _sass
+|   ├── css-1.scss
+|   └── css-2.scss
+</pre>
+
+* Make a folder called ``css`` in the root and create a file and name it ``main.scss``
+
+* Copy the below code inside ``main.scss``
+
+{% highlight css %}
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "css-1",
+        "css-2",
+
+;
+
+{% endhighlight %}
+
+Once the Jekyll renders the page, a ``main.css`` file is created inside the ``css`` folder. You can observe this if you are using Jekyll locally. It will be present inside ``_site`` folder.
+
+What this process does is, combines both ``css-1`` and ``css-2`` into one ``main`` css file which is minified! I have shown for only two css files but you can use any number of files inside ``_sass`` folder. Make sure you import it in the ``main.scss`` file.
+
+**JavaScript:**
+If you are loading JavaScript from a CDN then make sure you use the ``.min.js`` version. That is the minified version. To minify local JS code I use [Closure Compiler](http://closure-compiler.appspot.com/home){:rel='nofollow'}{:target="_blank"} by Google which works well for me. Here is a [guide on how to use it](https://developers.google.com/closure/compiler/docs/gettingstarted_ui#the-hello-world-of-the-closure-compiler-service-ui){:rel='nofollow'}{:target="_blank"}.
+
+### Minimize http requests
+Every request a webpage makes will take a considerable amount of time. We can use some techniques to reduce the number of requests.
+
+**Use Data URI instead of images:**
+Every image is loaded using a http request. In order to avoid this, an image can be converted into base-64 code that looks like this.
+
+<pre>
+data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx//2wBDAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAFBkADAREAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAUGBAcI/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABkBAQADAQEAAAAAAAAAAAAAAAAEBgcDBf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIVcVIAAAAAAAAAAAAAAAAAAAAAAAASzO0AAAAAAAAAAAAAAAAAAAAAAAABhvecQAAAAAAAAAAAAAAAAAAAAAAAEYsbbQAAAAAAAAAAAAAAAAAAAAAAAFGV9UgAAAAAAAAAAAAAAAAAAAAAAAHWiIkAAAAAAAAAAAAAAAAAAAAAAAAK0xxoYAAAAAAAAAAAAAAAAAAAAAAADUK/J4AAAAAAAAAAAAAAAAAAAAAAAD//Z
+</pre>
+
+If you are wondering what this is, then copy the code and paste it into your browsers address bar. It is actually the small footer bar I have used on this website.
+
+So in the place of ``src`` attribute in a ``<img>`` tag, you can use this data URI which doesn't make a request for the image as it is available right there. But, these base-64 codes are huge! Be cautious not to remove any single character out of the URI.
+
+I was worried that this URI format image will not be cached but my Chrome browser saves it in the cache. Let me know if you think it doesn't.
+
+Currently, I have replaced small images with data URI and saved some http requests. Use it and let me know whether it helped your website to load faster.
+
+
+**Use CSS sprites:**
+This is another cool way to reduce the number of http requests. Css sprites combine many images into a single sprite sheet and css is used to show any particular image from the bunch. This way, there is only one request is made to fetch images.
+
+A tool like [CssSprites](http://csssprites.com/){:rel='nofollow'}{:target="_blank"} can be used to create sprite sheets. It will also provide the style for every image that you want to display.
+
+**Inline small CSS:**
+If you keep multiple css files then multiple http requests are needed to load them. Instead, if one of your css is really small, then you can inline it by placing inside ``<style>`` tag.
+
+
+### Use a CDN to cache static files
+CDN stands for Content Distribution Network which delivers content through a server close to the end user and thus reducing the time required to fetch content. Google uses servers located in India in response to a request made by an Indian user. 
+
+I use [CloudFlare](https://cloudflare.com){:rel='nofollow'}{:target="_blank"}, which is a free CDN with plenty of features. I have explained the [CloudFlare setup in this article](/jekyll-ssl/){:target="_blank"}.
+
+
+### Lazy load css 
+Loading a big css file in the header may result in a blank page for few seconds. In order to avoid this, we should load big files in the end and prioritize visible content. Css files like font awesome, web-fonts can be loaded at the end instead in the head tag.
+
+I have written a detailed tutorial on [Lazy loading css](/lazy-load-css/){:rel='nofollow'}{:target="_blank"} which can be used on any website.
+
+<div class="info">
+    <h3>Info</h3>
+    <p>I use two css files. One is <code><pre>critical.css</pre></code> which only has important styles that are required in the beginning like page width, content width etc. This file loads immediately as I have declared it in the head tag. I have all other styles combined in a minified css file called <code><pre>main.css</pre></code> which is configured for lazy loading.
+    </p>
+</div>
+
+
+### Lazy load images using jQuery
+Jquery can be used to lazy load html, especially images. This method will prioritize above the fold content which is visible in the viewport. All the content below will be loaded only upon scrolling. You can also add effects like fade-in that makes it pretty!
+
+Here is a guide on [how to use JQuery lazy loading](http://www.appelsiini.net/projects/lazyload){:rel='nofollow'}{:target="_blank"} 
+
+### Request only required font
+If you are using Google fonts, then load only the required font variation. If you want Open sans font for your paragraph text then do not select **Extra-Bold** or **Light** variations. All you need is **Regular** style.
+
+![Jekyll speed optimization by tweaking google font loading](/images/jekyll-speed-optimization-google-font-optimization.jpg){: .full}
+
+Google actually has a scale on the right side showing page load variation on selecting more variations of the font.
+
+### Adsense Script in Jekyll
+If you are using multiple blocks of ads on your website then avoid repeatedly using the script tag. You just have to declare the below script tag once. You can use any number of ads (but, Google suggests a maximum of 3 ads/page)
+
+{% highlight html %}
+<!--   Adsense Script  -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{% endhighlight %}
+
+### Faster landing page
+A post layout in Jekyll will have a lot of things stuffed in. It has the content, it may have a third party comment box, ads, social media share bar, Jquery and what not. So loading all these resources obviously take time. There is always a minimum overhead that is always present for posts.
+
+But, a landing page(Home page) should be really fast. Because in blogs, the home page is where people find the list of posts. If the list itself takes a lot of time then they hope worst for individual posts. So make sure you keep your home page clean. 
+
+Load only things that are necessary for a home page. For example, loading AdSense code on home page layout is not necessary if you are not showing any ads there.
+
+### Use amplify theme
+[Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed by following Google Accelerated Mobile Pages(AMP) rules.
+
+AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
+
+
+## Conclusion
+More than ranking on search engines, speed is important to keep users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare this to the service in restaurants; how happy we feel if the service is quick. Check your website loading speed every time you make a major change.
+
+I hope that helped you speed up your Jekyll website. Ask any doubts you have through comments.
+
+Thanks for reading!

@@ -15,7 +15,7 @@ layout: post
 
 In a way, it was easy to handle all the emails from one place but my inbox started to clutter with spam. It is a headache to cleanup inbox every time I was bombarded with spam emails.
 {: .clear}
-Read: [How to secure email address](/how-to-add-form-option-to-jekyll-websites/#step-5-secure-your-email){:target="_blank"}
+Read: [How to secure email address](/jekyll-contact-form/#step-5-secure-your-email){:target="_blank"}
 
 <div class="clear"></div>   
 

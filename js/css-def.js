@@ -1,18 +1,2 @@
-var cb = function() {
-
-var l = document.createElement('link'); l.rel = 'stylesheet';
-var m = document.createElement('link'); m.rel = 'stylesheet';
-var n = document.createElement('link'); n.rel = 'stylesheet';
-
-l.href = 'https://fonts.googleapis.com/css?family=Source+Serif+Pro';
-m.href = '/css/main.css';
-n.href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
-
-var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-var i = document.getElementsByTagName('head')[0]; i.parentNode.insertBefore(m, i);
-var j = document.getElementsByTagName('head')[0]; j.parentNode.insertBefore(n, j);
-};
-var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-webkitRequestAnimationFrame || msRequestAnimationFrame;
-if (raf) raf(cb);
-else window.addEventListener('load', cb);
+var cb=function(){var a=document.createElement("link");a.rel="stylesheet";var b=document.createElement("link");b.rel="stylesheet";var c=document.createElement("link");c.rel="stylesheet";a.href="https://fonts.googleapis.com/css?family=Source+Serif+Pro";b.href="/css/main.css";c.href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";var d=document.getElementsByTagName("head")[0];d.parentNode.insertBefore(a,d);a=document.getElementsByTagName("head")[0];a.parentNode.insertBefore(b,
+a);b=document.getElementsByTagName("head")[0];b.parentNode.insertBefore(c,b)},raf=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;raf?raf(cb):window.addEventListener("load",cb);
