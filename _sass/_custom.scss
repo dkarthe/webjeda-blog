@@ -292,6 +292,13 @@ a.page-num:hover {
 }
 
 
+//3 columns
+.column-left{ float: left; width: 33%; margin:0 auto;}
+.column-right{ float: right; width: 30%;}
+.column-center{  width: 33%; margin:0 auto; display: inline-block;text-align: center;}
+
+
+
 
 @include media-query($on-palm) {
 
@@ -698,13 +705,6 @@ i.fa.fa-circle-o {
     font-weight: bold;
     opaciity: 1;
 }
-
-
-//3 columns
-.column-left{ float: left; width: 33%; margin:0 auto;}
-.column-right{ float: right; width: 30%;}
-.column-center{  width: 33%; margin:0 auto; display: inline-block;text-align: center;}
-
 
 
 select {
