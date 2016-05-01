@@ -1,6 +1,6 @@
 ---
 title: How to speed up Jekyll blog?
-desc: Google considers page speed as a factor in their search ranking algorithm. Learb how to speed up Jekyll blog by various methods that help website load faster on a mobile device even on a 2g data speed!
+desc: Google considers page speed as a factor in their search ranking algorithm. Learn how to speed up Jekyll blog by various methods that help website load faster on a mobile device even on a 2g data speed!
 keywords: 
 author: sharathdt
 tags: Jekyll Web-Design SEO
