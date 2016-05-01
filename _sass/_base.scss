@@ -174,7 +174,7 @@ code {
    
 }
 
-.tips code, .warning code, .info code {
+.tips code, .warning code, .note code {
     color: dimgrey;
     text-shadow: 0px 0px 1px dimgrey;
 }
@@ -194,14 +194,6 @@ pre {
         padding-left: 0;
     }
 }
-
-
-
-/**
- * Wrapper
- */
-
-
 
 /**
  * Clearfix
@@ -246,7 +238,7 @@ pre {
     letter-spacing: -1px;
     text-align: center;
     color: $brand-color;
-    -webkit-transition-delay: 0.2s; /* Safari */
+    -webkit-transition-delay: 0.2s;
     transition-duration: 0.2s;
     transition-property:all;
 }
