@@ -247,8 +247,8 @@ AMP is a project by Google to make websites load faster on mobile devices. Anyon
 
 
 ## Conclusion
-More than ranking on search engines, speed is important to keep users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare this to the service in restaurants; how happy we feel if the service is quick. Check your website loading speed every time you make a major change.
+More than ranking on search engines, speed is important to keep users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare this to the service in restaurants; how happy we feel if the service is quick. It is easy to differentiate a Jekyll site from a WordPress site just by its page speed! This is one of the reasons why I chose Jekyll over WordPress. Check your website loading speed every time you make a major change.
 
-I hope that helped you speed up your Jekyll website. Ask any doubts you have through comments.
+I hope that the article helped you speed up your Jekyll website. Ask any doubts you have through comments.
 
 Thanks for reading!
