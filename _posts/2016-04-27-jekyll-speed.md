@@ -44,6 +44,7 @@ If something loads then uses waiting threshold increases. You may have seen prel
 This is how a simple pre-loader looks like. Don't expect anything to load. This will keep spinning forever!
 
 I will be using some of these technical terms here onwards. 
+{: .clear}
 
 **Page Speed:** Time taken by the content of a web page to load completely.
 
@@ -167,9 +168,11 @@ Every image in the page is loaded using a http request. In order to avoid this, 
 data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx//2wBDAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAFBkADAREAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAUGBAcI/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABkBAQADAQEAAAAAAAAAAAAAAAAEBgcDBf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIVcVIAAAAAAAAAAAAAAAAAAAAAAAASzO0AAAAAAAAAAAAAAAAAAAAAAAABhvecQAAAAAAAAAAAAAAAAAAAAAAAEYsbbQAAAAAAAAAAAAAAAAAAAAAAAFGV9UgAAAAAAAAAAAAAAAAAAAAAAAHWiIkAAAAAAAAAAAAAAAAAAAAAAAAK0xxoYAAAAAAAAAAAAAAAAAAAAAAADUK/J4AAAAAAAAAAAAAAAAAAAAAAAD//Z
 </pre>
 
-If you are wondering what this is, then copy the code and paste it into your browsers address bar. It is actually the small footer bar I have used on this website.
+If you are wondering what this is, then copy the code and paste it into your browsers address bar. It is actually the small footer bar I have used on this website which will look like the image below.
 
-So in the place of ``src`` attribute in a ``<img>`` tag, you can use this data URI which doesn't make a request for the image as it is available right there. But, these base-64 codes are huge! Be cautious not to remove any single character out of the URI.
+![Speed up jekyll by using data URI](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx//2wBDAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAFBkADAREAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAUGBAcI/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABkBAQADAQEAAAAAAAAAAAAAAAAEBgcDBf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIVcVIAAAAAAAAAAAAAAAAAAAAAAAASzO0AAAAAAAAAAAAAAAAAAAAAAAABhvecQAAAAAAAAAAAAAAAAAAAAAAAEYsbbQAAAAAAAAAAAAAAAAAAAAAAAFGV9UgAAAAAAAAAAAAAAAAAAAAAAAHWiIkAAAAAAAAAAAAAAAAAAAAAAAAK0xxoYAAAAAAAAAAAAAAAAAAAAAAADUK/J4AAAAAAAAAAAAAAAAAAAAAAAD//Z)
+
+So in the place of ``src`` attribute in a ``<img>`` tag, you can use this data URI which doesn't make a request for the image as it is the image available right there. But, these base-64 codes are lengthy! It is hard to handle anything lenghthy while coding. Remember, this will not reduce the file size of the image. And be cautious not to remove even single character out of the URI.
 
 I was worried that this URI format image will not be cached but my Chrome browser saves it in the cache. Let me know if you think it doesn't.
 
@@ -177,13 +180,22 @@ Currently, I have replaced small images with data-URI and saved some http reques
 
 
 **Use CSS sprites:**
+
+![css sprite sheets example](/images/css-sprite-sheet-example.jpg)
+{: .right}
+
 This is another cool way to reduce the number of http requests. Css sprites combine many images into a single sprite sheet and css is used to show any particular image from the bunch using ``background-position``. This way, there is only one request is made to fetch images.
 
+
 A tool like [CssSprites](http://csssprites.com/){:rel='nofollow'}{:target="_blank"} can be used to create sprite sheets. It will also provide the style for every image that you want to display.
+{: .clear}
+
+This works best for small images like social media buttons. Do not use this for large images as it might take a long time to load the sprite sheet.
 
 **Inline small CSS:**
 If you keep multiple css files then multiple http requests are needed to load them. Instead, if one of your css is really small, then you can inline it by placing inside ``<style>`` tag.
 
+<div class="note"><h3>Info</h3><p>I use two css files. One is <code>critical.css</code> which only has important styles that are required in the beginning like page width, content width etc. This file loads immediately as I have declared it in the head tag. I have all other styles combined in a minified css file called <code>main.css</code> which is configured for lazy loading.</p></div>
 
 ### 5. Use a CDN to cache static files
 CDN stands for Content Distribution Network which delivers content through a server close to the end user and thus reducing the time required to fetch content. Google uses servers located in India in response to a request made by an Indian user. 
@@ -194,25 +206,25 @@ I use [CloudFlare](https://cloudflare.com){:rel='nofollow'}{:target="_blank"}, w
 ### 6. Lazy load css 
 Loading a big css file in the header may result in a blank page for few seconds. In order to avoid this, we should load big files in the end and prioritize visible content. Css files like font awesome, web-fonts can be loaded at the end instead in the head tag.
 
-I have written a detailed tutorial on [Lazy loading css](/lazy-load-css/){:rel='nofollow'}{:target="_blank"} which can be used on any website.
-
-<div class="note"><h3>Info</h3><p>I use two css files. One is <code>critical.css</code> which only has important styles that are required in the beginning like page width, content width etc. This file loads immediately as I have declared it in the head tag. I have all other styles combined in a minified css file called <code>main.css</code> which is configured for lazy loading.</p></div>
+I have written a detailed tutorial on [How to lazy load css](/lazy-load-css/){:rel='nofollow'}{:target="_blank"} which can be used on any website.
 
 
 ### 7. Lazy load images using jQuery
 Jquery can be used to lazy load html, especially images. This method will prioritize above the fold content which is visible in the viewport. All the content below will be loaded only upon scrolling. You can also add effects like fade-in that makes it pretty!
 
-Here is a guide on [how to use jQuery lazy loading](http://www.appelsiini.net/projects/lazyload){:rel='nofollow'}{:target="_blank"} 
+Here is a guide on [how to use jQuery lazy loading](http://www.appelsiini.net/projects/lazyload){:rel='nofollow'}{:target="_blank"}. And here is a [sample website](http://www.appelsiini.net/projects/lazyload/enabled_fadein.html){:rel='nofollow'}{:target="_blank"} which uses this feature.
+
+This feature comes in handy if your website has a lot of images or other similar content. This can be used on any type of media file.
 
 ### 8. Request only required font
 If you are using Google fonts, then load only the required font variation. If you want Open sans font for your paragraph text then do not select **Extra-Bold** or **Light** variations. All you need is **Regular** style.
 
 ![Jekyll speed optimization by tweaking google font loading](/images/jekyll-speed-optimization-google-font-optimization.jpg){: .full}
 
-Google actually has a scale on the right side showing page load variation on selecting more variations of the font.
+Google actually has a scale on the right side showing page load variation on selecting more variations of the font. More types you select heavier the font css becomes which in turn increases the page load time.
 
 ### 9. Adsense Script in Jekyll
-If you are using multiple blocks of ads on your website then avoid repeatedly using the script tag. You just have to declare the below script tag once. You can use any number of ads (but, Google suggests a maximum of 3 ads/page)
+If you are using multiple blocks of ads on your website then avoid repeatedly using the Adsense script tag. You just have to declare the below script tag once. You can use any number of ads (but, Google suggests a maximum of 3 ads/page).
 
 {% highlight html %}
 <!--   Adsense Script  -->
@@ -220,9 +232,9 @@ If you are using multiple blocks of ads on your website then avoid repeatedly us
 {% endhighlight %}
 
 ### 10. Faster landing page
-A post layout in Jekyll will have a lot of things stuffed in. It has the content, it may have a third party comment box, ads, social media share bar, Jquery and what not. So loading all these resources obviously take time. There is always a minimum overhead that is always present for posts.
+A post layout in Jekyll will have a lot of things stuffed in. It has the content, it may have a third party comment box, ads, social media share bar, Jquery and what not. So loading all these resources obviously take time. There is always a minimum overhead present for posts.
 
-But, a landing page(Home page) should be really fast. Because in blogs, the home page is where people find the list of posts. If the list itself takes a lot of time then they hope worst for individual posts. So make sure you keep your home page clean. 
+But, a landing page(Home page) should be really fast. Because in blogs, the home page is where people find the list of posts and they usually browse through it to find the content they are looking for. If the post index itself takes a lot of time then they hope worst for individual posts. So make sure you keep your home page fast and clean. 
 
 Load only things that are necessary for a home page. For example, loading AdSense code on home page layout is not necessary if you are not showing any ads there.
 

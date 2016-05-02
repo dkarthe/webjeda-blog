@@ -29,4 +29,4 @@ I would love to hear from you. Any query, any suggestion or feedback would be gr
         <input type="submit" value="Send" id="submit"/>
         <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
         
-    </form>
+</form>
