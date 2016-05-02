@@ -214,7 +214,7 @@ If you observe the images I have used in this post, all the images have specifie
 <img src="/path/to/some-image.jpg" width="400px" height="300px">
 {% endhighlight %}
 
-But for markdown, you have to use other ways. Because we do not use tags in markdown. I always wondered how to resize images on markdown. I found some answers that work and some that dont.
+But for markdown, you have to use other ways since cannot use tags in markdown. I always wondered how to resize images on markdown. I found some answers that work and some that dont.
 
 For Kramdown
 {% highlight markdown %}
