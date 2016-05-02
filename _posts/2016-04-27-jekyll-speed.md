@@ -69,7 +69,7 @@ This to and fro information flow takes time and thus makes the website slower. B
 Though Jekyll sites are fast, it slows down depending on the configuration and content. There are [few rules mentioned by Google Page Speed](https://developers.google.com/speed/docs/insights/rules#speed-rules){:rel='nofollow'}{:target="_blank"} that gives you an idea on how to optimize your website for faster loading but, it is for general websites. I will be discussing some methods exclusively for Jekyll through which you can optimize your blog.
 
 ## How do I know whether my Jekyll site is slow?
-Website loads faster on an LTE connection than on a 2g connection. So in order to know the exact speed of your website and how well it is configured for performance, go through these online tools.
+Website loads faster on an LTE connection than on a 2g connection. So in order to know the exact page speed and how well it is configured for performance, go through these online tools.
 
 [**GTmetrix:**](https://gtmetrix.com/){:rel='nofollow'}{:target="_blank"}
 GTmetrix is a page speed testing tool which provides pretty decent data with a cool UI. It provides crucial data on number of requests, minification status, possible optimization etc., In GTmetrix, my home page scores a whopping 99%! 
