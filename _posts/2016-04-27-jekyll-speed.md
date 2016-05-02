@@ -8,7 +8,7 @@ image: jekyll-speed-optimization.jpg
 permalink: /jekyll-speed/
 ---
 
-<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
+<img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
@@ -78,17 +78,17 @@ Many speed testing sites will let you know that your CSS, JS, HTML are not minif
 
 It also provides YSlow score and details on why your website is loading slowly. Another important feature is historical data. The website stores the result in a database and fetches with a graph when you click on **History**! I just love it. It has helped me keep a track on my website speed. 
 
-![Jekyll speed test on GTmetrix](/images/jekyll-speed-optimization-test-gtmetrix.jpg){: .full}
+![Jekyll speed test on GTmetrix](/images/jekyll-speed-optimization-test-gtmetrix.jpg){:width="700px" max-height="237px" .full}
 
 [**PageSpeed Insights:**](https://developers.google.com/speed/pagespeed/insights/){:rel='nofollow'}{:target="_blank"}
 This is a free tool provided by Google. I prefer this because ultimately Google is the one who ranks my website based on speed. I rely on the results provided from PageSpeed more than any other tool. I minified my html content only after seeing a suggestion from PageSpeed.
 
-![Jekyll speed test on PageSpeed Insights](/images/jekyll-speed-optimization-test-pagespeed-insights.jpg){: .full}
+![Jekyll speed test on PageSpeed Insights](/images/jekyll-speed-optimization-test-pagespeed-insights.jpg){:width="700px" max-height="312px" .full}
 
 [**WebPageTest:**](http://www.webpagetest.org/){:rel='nofollow'}{:target="_blank"}
 This is probably one of the best tools to find out what's wrong with your site. It gives you the details on First View and Repeat View. This is good because when a website is loaded for the first time on a browser, it takes a lot of time since it is downloading all the resources for the first time. But, when you visit the website again on the same browser, it takes significantly less time to load the same website.
 
-![Jekyll speed test on webpagetest org](/images/jekyll-speed-optimization-test-webpagetest-org.jpg){: .full}
+![Jekyll speed test on webpagetest org](/images/jekyll-speed-optimization-test-webpagetest-org.jpg){:width="700px" max-height="242px" .full}
 
 Thanks to browser cache which saves time and also bandwidth by caching static files on its cache memory. Web page loads really fast if it has cached few resources already. If your website gets repeated visitors then browser cache is very useful.
 
@@ -183,7 +183,7 @@ Currently, I have replaced small images with data-URI and saved some http reques
 
 **Use CSS sprites:**
 
-![css sprite sheets example](/images/css-sprite-sheet-example.jpg)
+![css sprite sheets example](/images/css-sprite-sheet-example.jpg){:width="243px" max-height="122px"}
 {: .right}
 
 This is another cool way to reduce the number of http requests. Css sprites combine many images into a single sprite sheet and css is used to show any particular image from the bunch using ``background-position``. This way, there is only one request is made to fetch images.
@@ -204,28 +204,52 @@ CDN stands for Content Distribution Network which delivers content through a ser
 
 I use [CloudFlare](https://cloudflare.com){:rel='nofollow'}{:target="_blank"}, which is a free CDN with plenty of features. I have explained the [CloudFlare setup in this article](/jekyll-ssl/#step-1-migrate-dns-to-cloudflare){:target="_blank"}.
 
+### 6. Use height and width attribute for images
+Using height and width attribute will help the browser to display a page without any reflow. If you do not specify anything then the browser will have no idea what size the image is until the image is completely downloaded. This is actually a small delay but, if you have more images without dimensions specified then it might lead to a significant delay in page load time.
 
-### 6. Lazy load css 
+If you observe the images I have used in this post, all the images have specified dimensions. Specifying dimensions in a normal html website is easy
+
+
+{% highlight html %}
+<img src="/path/to/some-image.jpg" width="400px" height="300px">
+{% endhighlight %}
+
+But for markdown, you have to use other ways. Because we do not use tags in markdown. I always wondered how to resize images on markdown. I found some answers that work and some that dont.
+
+For Kramdown
+{% highlight markdown %}
+![Alt text](/path/to/some-image.jpg "Title"){:width="400px" height="300px"}
+{% endhighlight %}
+
+For other markdown processors
+{% highlight markdown %}
+![Alt text](/path/to/some-image.jpg "Title" =400x300)
+{% endhighlight %}
+
+I havent tested it on other processors but they should work. Please let me know if this doesn't work for you or you have other ways to do it.
+
+
+### 7. Lazy load css 
 Loading a big css file in the header may result in a blank page for few seconds. In order to avoid this, we should load big files in the end and prioritize visible content. Css files like font awesome, web-fonts can be loaded at the end instead in the head tag.
 
 I have written a detailed tutorial on [How to lazy load css](/lazy-load-css/){:rel='nofollow'}{:target="_blank"} which can be used on any website.
 
 
-### 7. Lazy load images using jQuery
+### 8. Lazy load images using jQuery
 Jquery can be used to lazy load html, especially images. This method will prioritize above the fold content which is visible in the viewport. All the content below will be loaded only upon scrolling. You can also add effects like fade-in that makes it pretty!
 
 Here is a guide on [how to use jQuery lazy loading](http://www.appelsiini.net/projects/lazyload){:rel='nofollow'}{:target="_blank"}. And here is a [sample website](http://www.appelsiini.net/projects/lazyload/enabled_fadein.html){:rel='nofollow'}{:target="_blank"} which uses this feature.
 
 This feature comes in handy if your website has a lot of images or other similar content. This can be used on any type of media file.
 
-### 8. Request only required font
+### 9. Request only required font
 If you are using Google fonts, then load only the required font variation. If you want Open sans font for your paragraph text then do not select **Extra-Bold** or **Light** variations. All you need is **Regular** style.
 
-![Jekyll speed optimization by tweaking google font loading](/images/jekyll-speed-optimization-google-font-optimization.jpg){: .full}
+![Jekyll speed optimization by tweaking google font loading](/images/jekyll-speed-optimization-google-font-optimization.jpg){:width="700px" max-height="187px" .full}
 
 Google actually has a scale on the right side showing page load variation on selecting more variations of the font. More types you select heavier the font css becomes which in turn increases the page load time.
 
-### 9. Adsense Script in Jekyll
+### 10. Adsense Script in Jekyll
 If you are using multiple blocks of ads on your website then avoid repeatedly using the Adsense script tag. You just have to declare the below script tag once. You can use any number of ads (but, Google suggests a maximum of 3 ads/page).
 
 {% highlight html %}
@@ -233,18 +257,17 @@ If you are using multiple blocks of ads on your website then avoid repeatedly us
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 {% endhighlight %}
 
-### 10. Faster landing page
+### 11. Faster landing page
 A post layout in Jekyll will have a lot of things stuffed in. It has the content, it may have a third party comment box, ads, social media share bar, Jquery and what not. So loading all these resources obviously take time. There is always a minimum overhead present for posts.
 
 But, a landing page(Home page) should be really fast. Because in blogs, the home page is where people find the list of posts and they usually browse through it to find the content they are looking for. If the post index itself takes a lot of time then they hope worst for individual posts. So make sure you keep your home page fast and clean. 
 
 Load only things that are necessary for a home page. For example, loading AdSense code on home page layout is not necessary if you are not showing any ads there.
 
-### 11. Use amplify theme
-[Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed by following Google Accelerated Mobile Pages(AMP) rules.
+### 12. Use amplify theme
+[Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed by following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
 
-AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
-
+If you are someone who likes minimal design for your blog then I would suggest to use amplify theme for its speed. 
 
 ## Conclusion
 More than ranking on search engines, speed is important to keep users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare this to the service in restaurants; how happy we feel if the service is quick. It is easy to differentiate a Jekyll site from a WordPress site just by its page speed! This is one of the reasons why I chose Jekyll over WordPress. Check your website loading speed every time you make a major change.

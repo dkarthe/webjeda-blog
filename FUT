@@ -1,4 +1,9 @@
 {:rel='nofollow'}{:target="_blank"}
+{:width="243px" max-height="122px"}
+
+Add id: {: #with-an-id}
+Add classes: {: .class1 .class2}
+Inline Css: This is *red*{: style="color: red"}.
 
 Schema
 <a itemprop="" href=""></a>
@@ -41,9 +46,7 @@ style="color:#e74c3c"
 
 ==================================
 
-Add id: {: #with-an-id}
-Add classes: {: .class1 .class2}
-Inline Css: This is *red*{: style="color: red"}.
+
 
 A link: A [link](http://kramdown.gettalong.org "hp") to the homepage.
 

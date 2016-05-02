@@ -8,7 +8,7 @@ image: webjeda-channel-art.jpg
 layout: post
 ---
 
-<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
+<img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}

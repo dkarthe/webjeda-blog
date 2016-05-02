@@ -9,7 +9,7 @@ layout: post
 permalink: /edit-posts-jekyll/
 ---
 
-<img alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
+<img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>In my initial days of blogging with Jekyll, I used to edit posts directly inside Github repository. All the posts will be inside ```_posts``` folder. Editing was easy since it was markdown. But the real struggle was to insert images. If the image source is a URL then it was easy but if the image was inside my local computer folder then there was no way uploading it. I did not know [**how to sync files and folders with Github**](http://blog.webjeda.com/how-to-sync-files-folders-with-github){:rel='dofollow'}{:target="_blank"}.
 {: .intro}
