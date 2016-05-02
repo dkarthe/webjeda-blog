@@ -151,6 +151,8 @@ If you do not know SASS then you can use this trick which does the same job.
 
 {% endhighlight %}
 
+{% include adsense-inside-post.html %}
+
 Once the Jekyll renders the page, a ``main.css`` file is created inside the ``css`` folder. You can observe this if you are using Jekyll locally. It will be present inside ``_site`` folder.
 
 What this process does is, combines both ``css-1`` and ``css-2`` into one ``main`` css file which is minified! I have shown for only two css files but you can use any number of files inside ``_sass`` folder. Make sure you import it in the ``main.scss`` file.
