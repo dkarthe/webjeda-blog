@@ -145,7 +145,7 @@ If you do not know SASS then you can use this trick which does the same job.
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "css-1",
-        "css-2",
+        "css-2"
 
 ;
 
