@@ -172,7 +172,7 @@ data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIB
 
 If you are wondering what this is, then copy the code and paste it into your browsers address bar. It is actually the small footer bar I have used on this website which will look like the image below.
 
-![Speed up jekyll by using data URI](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx//2wBDAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAFBkADAREAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAUGBAcI/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABkBAQADAQEAAAAAAAAAAAAAAAAEBgcDBf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIVcVIAAAAAAAAAAAAAAAAAAAAAAAASzO0AAAAAAAAAAAAAAAAAAAAAAAABhvecQAAAAAAAAAAAAAAAAAAAAAAAEYsbbQAAAAAAAAAAAAAAAAAAAAAAAFGV9UgAAAAAAAAAAAAAAAAAAAAAAAHWiIkAAAAAAAAAAAAAAAAAAAAAAAAK0xxoYAAAAAAAAAAAAAAAAAAAAAAADUK/J4AAAAAAAAAAAAAAAAAAAAAAAD//Z)
+![Speed up jekyll by using data URI](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx//2wBDAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAFBkADAREAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAUGBAcI/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABkBAQADAQEAAAAAAAAAAAAAAAAEBgcDBf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIVcVIAAAAAAAAAAAAAAAAAAAAAAAASzO0AAAAAAAAAAAAAAAAAAAAAAAABhvecQAAAAAAAAAAAAAAAAAAAAAAAEYsbbQAAAAAAAAAAAAAAAAAAAAAAAFGV9UgAAAAAAAAAAAAAAAAAAAAAAAHWiIkAAAAAAAAAAAAAAAAAAAAAAAAK0xxoYAAAAAAAAAAAAAAAAAAAAAAADUK/J4AAAAAAAAAAAAAAAAAAAAAAAD//Z){:width="1600px" max-height="5px"}
 
 So in the place of ``src`` attribute in a ``<img>`` tag, you can use this data URI which doesn't make a request for the image as it is the image available right there. But, these base-64 codes are lengthy! It is hard to handle anything lenghthy while coding. Remember, this will not reduce the file size of the image. And be cautious not to remove even single character out of the URI.
 
@@ -204,7 +204,7 @@ CDN stands for Content Distribution Network which delivers content through a ser
 
 I use [CloudFlare](https://cloudflare.com){:rel='nofollow'}{:target="_blank"}, which is a free CDN with plenty of features. I have explained the [CloudFlare setup in this article](/jekyll-ssl/#step-1-migrate-dns-to-cloudflare){:target="_blank"}.
 
-### 6. Use height and width attribute for images
+### 6. Use image dimensions
 Using height and width attribute will help the browser to display a page without any reflow. If you do not specify anything then the browser will have no idea what size the image is until the image is completely downloaded. This is actually a small delay but, if you have more images without dimensions specified then it might lead to a significant delay in page load time.
 
 If you observe the images I have used in this post, all the images have specified dimensions. Specifying dimensions in a normal html website is easy
