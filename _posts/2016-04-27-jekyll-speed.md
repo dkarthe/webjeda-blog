@@ -270,7 +270,7 @@ Load only things that are necessary for a home page. For example, loading AdSens
 If you are someone who likes minimal design for your blog then I would suggest to use amplify theme for its speed. 
 
 ## Conclusion
-More than ranking on search engines, speed is important to keep users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare this to the service in restaurants; how happy we feel if the service is quick. It is easy to differentiate a Jekyll site from a WordPress site just by its page speed! This is one of the reasons why I chose Jekyll over WordPress. Check your website loading speed every time you make a major change.
+More than ranking on search engines, speed is important to keep users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare your website to a restaurant; how happy we feel if the service is quick and how frustrated if the order takes forever. It is easy to differentiate a Jekyll site from a WordPress site just by its page speed! This is one of the reasons why I chose Jekyll over WordPress. Check your website loading speed every time you make a major change.
 
 I hope that the article helped you speed up your Jekyll website. Ask any doubts you have through comments.
 
