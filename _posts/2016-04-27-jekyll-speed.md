@@ -235,7 +235,7 @@ SVG stands for Scalable Vector Graphics. An svg image can be scaled to any size 
 
 The best example for using SVGs successfully in a website is [varvy.com](https://varvy.com){:rel='nofollow'}{:target="_blank"}. Patrick Sexton has used Adobe Illustrator to create some wonderful SVG images that are very light-weight and scalable.
 
-SVGs are basically ``xml`` which means that they are made up of few tags and can be edited using a text file. We can also perform lossless compression on them to reduce the size. So SVG has a big advantage over PNG, JPEG etc., An example of such an advantage is given below. I have created two images here one is a compressed SVG and the other is a JPEG optimized for web.
+SVGs are basically ``xml`` which means that they are made up of few tags and can be edited using a text file. We can also perform lossless compression on them to reduce the size. So SVG has a big advantage over PNG, JPEG etc., An example of such an advantage is given below. I have created two images here. One is a compressed SVG image and the other is a JPEG image optimized for web.
 
 ![webjeda blog](/images/webjeda.svg){: width="45%" .inline .left}
 
@@ -276,7 +276,7 @@ If you are using Google fonts, then load only the required font variation. If yo
 
 ![Jekyll speed optimization by tweaking google font loading](/images/jekyll-speed-optimization-google-font-optimization.jpg){:width="700px" max-height="187px" .full}
 
-Google actually has a scale on the right side showing page load variation on selecting more variations of the font. More types you select heavier the font css becomes which in turn increases the page load time.
+Google actually has a scale on the right side showing how page load increases on selecting more variations of the font. More types you select heavier the font css becomes which in turn increases the page load time.
 
 ### 11. Adsense Script in Jekyll
 If you are using multiple blocks of ads on your website then avoid repeatedly using the Adsense script tag. You just have to declare the below script tag once. You can use any number of ads (but, Google suggests a maximum of 3 ads/page).
