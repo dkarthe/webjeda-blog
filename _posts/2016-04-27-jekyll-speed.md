@@ -1,6 +1,6 @@
 ---
 title: How to speed up Jekyll blog?
-desc: Google considers page speed as a factor in their search ranking algorithm. Learn how to speed up Jekyll blog by various methods that help website load faster on a mobile device even on a 2g data speed!
+desc: Page speed is one of the factors in Google's search ranking algorithm. Learn how to speed up Jekyll blog by various methods that help website load faster on a mobile device even on a 2g connection!
 keywords: 
 author: sharathdt
 tags: Jekyll Web-Design SEO
@@ -34,7 +34,7 @@ On 2010, [Google announced](https://webmasters.googleblog.com/2010/04/using-site
 
 For established businesses, speed is of grave importance. For small time bloggers like myself, it doesn't make much of a difference but, I still care about my website ranking and user experience. A good way to stop users from going away from your website is to load visual content very fast! The style is important but it can wait. 
 
-If something loads then uses waiting threshold increases. You may have seen preloaders on some websites which shows the progress. Pre-loaders can retain the users for a few more seconds but not very long.
+If something loads then users' waiting threshold increases. You may have seen preloaders on some websites which shows the progress. Pre-loaders can retain users for a few more seconds but not longer than that.
 
 <p class="right half">
 <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw margin-bottom"></i>
@@ -72,7 +72,7 @@ Though Jekyll sites are fast, it slows down depending on the configuration and c
 Website loads faster on an LTE connection than on a 2g connection. So in order to know the exact page speed and how well it is configured for performance, go through these online tools.
 
 [**GTmetrix:**](https://gtmetrix.com/){:rel='nofollow'}{:target="_blank"}
-GTmetrix is a page speed testing tool which provides pretty decent data with a cool UI. It provides crucial data on number of requests, minification status, possible optimization etc., In GTmetrix, my home page scores a whopping 99%! 
+GTmetrix is a page speed testing tool which provides pretty decent data with a cool UI. It provides crucial data on **number of requests**, **minification status**, **possible optimization** etc., In GTmetrix, my home page scores a whopping 99%! 
 
 Many speed testing sites will let you know that your CSS, JS, HTML are not minified, images can be compressed etc., but this website gives you the optimized files right away to use. I usually download fully compressed image suggested by GTmetrix and replace the original image to enhances the speed.
 
@@ -86,13 +86,15 @@ This is a free tool provided by Google. I prefer this because ultimately Google 
 ![Jekyll speed test on PageSpeed Insights](/images/jekyll-speed-optimization-test-pagespeed-insights.jpg){:width="700px" max-height="312px" .full}
 
 [**WebPageTest:**](http://www.webpagetest.org/){:rel='nofollow'}{:target="_blank"}
-This is probably one of the best tools to find out what's wrong with your site. It gives you the details on First View and Repeat View. This is good because when a website is loaded for the first time on a browser, it takes a lot of time since it is downloading all the resources for the first time. But, when you visit the website again on the same browser, it takes significantly less time to load the same website.
+This is probably one of the best tools to find out what's wrong with your site. It gives you the details on **First View** and **Repeat View**. This is good because when a website is loaded for the first time on a browser, it takes a lot of time since it is downloading all the resources for the first time. But, when you visit the website again on the same browser, it takes significantly less time. 
+
+A repeat visitor is served quickly than a new visitor. But, first visit should be fast enought to convert new visitor to a repeat visitor. Have you heard of the forst impression? That very much applies to websites as well.
 
 ![Jekyll speed test on webpagetest org](/images/jekyll-speed-optimization-test-webpagetest-org.jpg){:width="700px" max-height="242px" .full}
 
 Thanks to browser cache which saves time and also bandwidth by caching static files on its cache memory. Web page loads really fast if it has cached few resources already. If your website gets repeated visitors then browser cache is very useful.
 
-Now that you have tested you blog, see if these tests reveal something. See if they provide any suggestion. Based on that suggestion you can work on your blog and optimize it.
+Now that you have tested you blog, see if these tests reveal something. See if they provide any suggestions. Based on those suggestions you can work on your blog and optimize it.
 
 ## How to speed up Jekyll blog?
 If the results from the check are not satisfactory then follow these steps to speed up to optimize Jekyll blog for speed.
@@ -158,13 +160,13 @@ Once the Jekyll renders the page, a ``main.css`` file is created inside the ``cs
 What this process does is, combines both ``css-1`` and ``css-2`` into one ``main`` css file which is minified! I have shown for only two css files but you can use any number of files inside ``_sass`` folder. Make sure you import it in the ``main.scss`` file.
 
 **JavaScript:**
-If you are loading JavaScript from a CDN then make sure you use the ``.min.js`` version. That is the minified version. To minify local JS code I use [Closure Compiler](http://closure-compiler.appspot.com/home){:rel='nofollow'}{:target="_blank"} by Google which works well for me. Here is a [guide on how to use it](https://developers.google.com/closure/compiler/docs/gettingstarted_ui#the-hello-world-of-the-closure-compiler-service-ui){:rel='nofollow'}{:target="_blank"}.
+If you are loading JavaScript from a CDN then make sure you use the ``.min.js`` version. That is the minified version. To minify local JS code I use [Closure Compiler](http://closure-compiler.appspot.com/home){:rel='nofollow'}{:target="_blank"} by Google which I have been using for a log time with satisfactory results. Here is a [guide on how to use it](https://developers.google.com/closure/compiler/docs/gettingstarted_ui#the-hello-world-of-the-closure-compiler-service-ui){:rel='nofollow'}{:target="_blank"}.
 
 ### 4. Minimize http requests
 Every request a webpage makes will take a considerable amount of time in establishing a connection and retrieving data. We can use some techniques to reduce the number of requests.
 
 **Use Data-URI instead of images:**
-Every image in the page is loaded using a http request. In order to avoid this, an image can be converted into base-64 code that looks like this.
+Every image in a website is generally loaded using a http request. In order to avoid this, an image can be converted into base-64 code which looks like this.
 
 <pre>
 data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx//2wBDAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAFBkADAREAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAUGBAcI/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABkBAQADAQEAAAAAAAAAAAAAAAAEBgcDBf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIVcVIAAAAAAAAAAAAAAAAAAAAAAAASzO0AAAAAAAAAAAAAAAAAAAAAAAABhvecQAAAAAAAAAAAAAAAAAAAAAAAEYsbbQAAAAAAAAAAAAAAAAAAAAAAAFGV9UgAAAAAAAAAAAAAAAAAAAAAAAHWiIkAAAAAAAAAAAAAAAAAAAAAAAAK0xxoYAAAAAAAAAAAAAAAAAAAAAAADUK/J4AAAAAAAAAAAAAAAAAAAAAAAD//Z
@@ -176,7 +178,7 @@ If you are wondering what this is, then copy the code and paste it into your bro
 
 So in the place of ``src`` attribute in a ``<img>`` tag, you can use this data URI which doesn't make a request for the image as it is the image available right there. But, these base-64 codes are lengthy! It is hard to handle anything lenghthy while coding. Remember, this will not reduce the file size of the image. And be cautious not to remove even single character out of the URI.
 
-I was worried that this URI format image will not be cached but my Chrome browser saves it in the cache. Let me know if you think it doesn't.
+I was worried that the data URI format image will not be cached but my Chrome browser saves it in the cache. Let me know if you think it doesn't.
 
 Currently, I have replaced small images with data-URI and saved some http requests. Use it and let me know whether it helped your website to load faster.
 
@@ -186,7 +188,7 @@ Currently, I have replaced small images with data-URI and saved some http reques
 ![css sprite sheets example](/images/css-sprite-sheet-example.jpg){:width="243px" max-height="122px"}
 {: .right}
 
-This is another cool way to reduce the number of http requests. Css sprites combine many images into a single sprite sheet and css is used to show any particular image from the bunch using ``background-position``. This way, there is only one request is made to fetch images.
+This is another cool way to reduce the number of http requests. Css sprites combine many images into a single sprite sheet. Then css is used to show any particular image from the bunch using ``background-position``. This way, there is only one request is made to fetch all the images.
 
 
 A tool like [CssSprites](http://csssprites.com/){:rel='nofollow'}{:target="_blank"} can be used to create sprite sheets. It will also provide the style for every image that you want to display.
@@ -205,16 +207,16 @@ CDN stands for Content Distribution Network which delivers content through a ser
 I use [CloudFlare](https://cloudflare.com){:rel='nofollow'}{:target="_blank"}, which is a free CDN with plenty of features. I have explained the [CloudFlare setup in this article](/jekyll-ssl/#step-1-migrate-dns-to-cloudflare){:target="_blank"}.
 
 ### 6. Use image dimensions
-Using height and width attribute will help the browser to display a page without any reflow. If you do not specify anything then the browser will have no idea what size the image is until the image is completely downloaded. This is actually a small delay but, if you have more images without dimensions specified then it might lead to a significant delay in page load time.
+Using height and width attribute will help the browser to display a page without any reflow. If you do not specify any resolution then the browser will have no idea what size the image is until the image is completely downloaded. This causes a small delay but, if you have more images without dimensions specified then it might lead to a significant delay in page load time.
 
-If you observe the images I have used in this post, all the images have specified dimensions. Specifying dimensions in a normal html website is easy
+If you observe the images I have used in this post, all of them have specified dimensions. Specifying dimensions in a normal html website is easy.
 
 
 {% highlight html %}
 <img src="/path/to/some-image.jpg" width="400px" height="300px">
 {% endhighlight %}
 
-But for markdown, you have to use other ways since cannot use tags in markdown. I always wondered how to resize images on markdown. I found some answers that work and some that dont.
+But for markdown, we have to use other ways since we cannot use tags in markdown. I always wondered how to resize images on markdown. I found some answers that work and some that dont.
 
 For Kramdown
 {% highlight markdown %}
@@ -229,11 +231,11 @@ For other markdown processors
 I havent tested it on other processors but they should work. Please let me know if this doesn't work for you or you have other ways to do it.
 
 ### 7. Use SVG instead of JPEG
-SVG stands for Scalable Vector Graphics. An svg image can be scaled to any size without losing quality because it uses ponts instead of pixels. SVG can be used for basic images with few details like logos buttons etc., But it can also be used for featured images if they are simple enough!
+SVG stands for Scalable Vector Graphics. An svg image can be scaled to any size without losing quality because it uses ponts instead of pixels. SVG can be used for images with very few details. Images like logos buttons etc., can be converted into SVG. Bigger images can also be converted to SVG but there can be a drastic increase in the filesize. But for images with simple lines, rectangles and other shapes we can use SVG.
 
-The best example for using SVGs successfully in a website is varvy.com. Patrick Sexton has used Adobe Illustrator to create these wonderful SVG images which are very light-weight and scalable.
+The best example for using SVGs successfully in a website is [varvy.com](https://varvy.com){:rel='nofollow'}{:target="_blank"}. Patrick Sexton has used Adobe Illustrator to create some wonderful SVG images that are very light-weight and scalable.
 
-An example of such image is given below.
+SVGs are basically ``xml`` which means that they are made up of few tags and can be edited using a text file. We can also perform lossless compression on them to reduce the size. So SVG has a big advantage over PNG, JPEG etc., An example of such an advantage is given below. I have created two images here one is a compressed SVG and the other is a JPEG optimized for web.
 
 ![webjeda blog](/images/webjeda.svg){: width="45%" .inline .left}
 
@@ -249,15 +251,17 @@ JPEG image
 
 <div class="clear"></div>
 
-Both images look the same but there is a huge difference in their size. The first SVG image is around 1KB but the second JPEG image is of the size 14KB! Open them in new tab and download to check the size.
+Both images look the same but there is a huge difference in their size. The first SVG image is around 1KB but the second JPEG image is of the size 14KB!
 
-This is a huge difference in size. I'm pretty impressed by this improvement. I'm thinkin of using SVGs as features images. Main advantage is that it doesn't look pixellated on big screens.
+This is a huge difference in size. I'm pretty impressed by this improvement. I'm thinkin of using SVGs as features images. Main advantage is that it doesn't look pixellated on big screens. Open them in new tab to see how SVG don't loose its quality even if you press **Ctrl +** but JPEG becomes pixellated. Download them to check the size.
+
+If you do not use Adobe Illustrator, then you can use Sketch(for mac) or [Drawsvg](http://drawsvg.org){:rel='nofollow' target="_blank"} for online SVG creation. Once you create an SVG, make sure you optimize it using [SVG optimizer](http://petercollingridge.appspot.com/svg-optimiser){:rel='nofollow' target="_blank"} which reduces the size a little bit.
 
 ### 8. Lazy load css 
 {: .clear}
 Loading a big css file in the header may result in a blank page for few seconds. In order to avoid this, we should load big files in the end and prioritize visible content. Css files like font awesome, web-fonts can be loaded at the end instead in the head tag.
 
-I have written a detailed tutorial on [how to lazy load css](/lazy-load-css/){:rel='nofollow'}{:target="_blank"} which can be used on any website.
+I have written a detailed tutorial on [how to lazy load css](/lazy-load-css/){:rel='nofollow' target="_blank"} which can be used on any website.
 
 
 ### 9. Lazy load images using jQuery
@@ -292,7 +296,7 @@ Load only things that are necessary for a home page. For example, loading AdSens
 ### 13. Use amplify theme
 [Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed by following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
 
-If you are someone who likes minimal design for your blog then I would suggest to use amplify theme for its speed. 
+If you are someone who likes minimal design for your blog then I would suggest to use amplify theme for its speed. So these are the methods I would recommend to use to speed up your Jekyll blog. Once you implement some of these methods, check if it has improved the page load time.
 
 ## Conclusion
 More than ranking on search engines, speed is important to keep users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare your website to a restaurant; how happy we feel if the service is quick and how frustrating it will be if the order takes forever. It is easy to differentiate a Jekyll site from a WordPress site just by its page speed! This is one of the reasons why I chose Jekyll over WordPress. Check your website loading speed every time you make a major change.
