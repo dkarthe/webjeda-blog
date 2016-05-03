@@ -6,9 +6,6 @@ permalink: /about/
 adallow: 0
 ---
 
-![webjeda blog](/svg/webjeda.svg){: .half .left}
-
-
 <i class="fa fa-quote-left  fa-pull-left fa-border"></i>WebJeda is a web designing company based in Bengaluru. Designing beautiful responsive and functional websites is our passion. 
 {: .intro }
 

@@ -228,28 +228,53 @@ For other markdown processors
 
 I havent tested it on other processors but they should work. Please let me know if this doesn't work for you or you have other ways to do it.
 
+### 7. Use SVG instead of JPEG
+SVG stands for Scalable Vector Graphics. An svg image can be scaled to any size without losing quality because it uses ponts instead of pixels. SVG can be used for basic images with few details like logos buttons etc., But it can also be used for featured images if they are simple enough!
 
-### 7. Lazy load css 
+The best example for using SVGs successfully in a website is varvy.com. Patrick Sexton has used Adobe Illustrator to create these wonderful SVG images which are very light-weight and scalable.
+
+An example of such image is given below.
+
+![webjeda blog](/images/webjeda.svg){: width="45%" .inline .left}
+
+![webjeda blog](/images/webjeda.jpg){: width="45%" .inline .right}
+
+<div class="clear"></div>
+
+SVG image
+{: width="47%" .inline .left .centered}
+
+JPEG image
+{: width="47%" .inline .right .centered}
+
+<div class="clear"></div>
+
+Both images look the same but there is a huge difference in their size. The first SVG image is around 1KB but the second JPEG image is of the size 14KB! Open them in new tab and download to check the size.
+
+This is a huge difference in size. I'm pretty impressed by this improvement. I'm thinkin of using SVGs as features images. Main advantage is that it doesn't look pixellated on big screens.
+
+### 8. Lazy load css 
+{: .clear}
 Loading a big css file in the header may result in a blank page for few seconds. In order to avoid this, we should load big files in the end and prioritize visible content. Css files like font awesome, web-fonts can be loaded at the end instead in the head tag.
 
-I have written a detailed tutorial on [How to lazy load css](/lazy-load-css/){:rel='nofollow'}{:target="_blank"} which can be used on any website.
+I have written a detailed tutorial on [how to lazy load css](/lazy-load-css/){:rel='nofollow'}{:target="_blank"} which can be used on any website.
 
 
-### 8. Lazy load images using jQuery
+### 9. Lazy load images using jQuery
 Jquery can be used to lazy load html, especially images. This method will prioritize above the fold content which is visible in the viewport. All the content below will be loaded only upon scrolling. You can also add effects like fade-in that makes it pretty!
 
 Here is a guide on [how to use jQuery lazy loading](http://www.appelsiini.net/projects/lazyload){:rel='nofollow'}{:target="_blank"}. And here is a [sample website](http://www.appelsiini.net/projects/lazyload/enabled_fadein.html){:rel='nofollow'}{:target="_blank"} which uses this feature.
 
 This feature comes in handy if your website has a lot of images or other similar content. This can be used on any type of media file.
 
-### 9. Request only required font
+### 10. Request only required font
 If you are using Google fonts, then load only the required font variation. If you want Open sans font for your paragraph text then do not select **Extra-Bold** or **Light** variations. All you need is **Regular** style.
 
 ![Jekyll speed optimization by tweaking google font loading](/images/jekyll-speed-optimization-google-font-optimization.jpg){:width="700px" max-height="187px" .full}
 
 Google actually has a scale on the right side showing page load variation on selecting more variations of the font. More types you select heavier the font css becomes which in turn increases the page load time.
 
-### 10. Adsense Script in Jekyll
+### 11. Adsense Script in Jekyll
 If you are using multiple blocks of ads on your website then avoid repeatedly using the Adsense script tag. You just have to declare the below script tag once. You can use any number of ads (but, Google suggests a maximum of 3 ads/page).
 
 {% highlight html %}
@@ -257,14 +282,14 @@ If you are using multiple blocks of ads on your website then avoid repeatedly us
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 {% endhighlight %}
 
-### 11. Faster landing page
+### 12. Faster landing page
 A post layout in Jekyll will have a lot of things stuffed in. It has the content, it may have a third party comment box, ads, social media share bar, Jquery and what not. So loading all these resources obviously take time. There is always a minimum overhead present for posts.
 
 But, a landing page(Home page) should be really fast. Because in blogs, the home page is where people find the list of posts and they usually browse through it to find the content they are looking for. If the post index itself takes a lot of time then they hope worst for individual posts. So make sure you keep your home page fast and clean. 
 
 Load only things that are necessary for a home page. For example, loading AdSense code on home page layout is not necessary if you are not showing any ads there.
 
-### 12. Use amplify theme
+### 13. Use amplify theme
 [Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed by following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
 
 If you are someone who likes minimal design for your blog then I would suggest to use amplify theme for its speed. 
