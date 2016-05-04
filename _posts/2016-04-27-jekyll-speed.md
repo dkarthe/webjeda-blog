@@ -23,7 +23,7 @@ A typical user of the 21st century doesn't want to waste his/her time staring at
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-On 2010, [Google announced](https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html){:rel='nofollow'}{:target="_blank"} that they are including website speed as one of the signals in their search ranking algorithms. So for a better ranking in search engines, you should make your website load faster. And also for e-commerce websites, speed is very crucial. Let us look at some of the adverse effects of slow website load time.
+On April 2010, [Google announced](https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html){:rel='nofollow'}{:target="_blank"} that they are including website speed as one of the signals in their search ranking algorithms. So for a better ranking in search engines, you should make your website load faster. And also for e-commerce websites, speed is very crucial. Let us look at some of the adverse effects of slow website load time.
 
 **1. One second delay in loading cost for Amazon is $1.6B sales each year!**
 
