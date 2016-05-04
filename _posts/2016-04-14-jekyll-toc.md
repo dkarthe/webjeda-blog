@@ -4,7 +4,7 @@ desc: Table of contents is the index of your blog post. It provides a quick look
 keywords: 
 author: sharathdt
 tags: Jekyll  
-image: jekyll-toc.jpg
+image: jekyll-toc.png
 permalink: /jekyll-toc/
 ---
 

@@ -4,7 +4,7 @@ desc: Jekyll - being static - is already fast. But to achieve faster loading spe
 keywords: minify Jekyll html, Jekyll minify, jekyll html minify
 author: sharathdt
 tags: Jekyll SEO
-image: how-to-minify-jekyll-html.jpg
+image: how-to-minify-jekyll-html.png
 layout: post
 permalink: /compress-html-jekyll/
 ---

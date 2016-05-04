@@ -4,12 +4,12 @@ desc: Using a custom domain, you can change the ugly looking username.github.io 
 keywords: github custom domain, custom domain github, custom URL github website
 author: sharathdt
 tags: Github-Pages SEO
-image: custom-domain-to-github.jpg
+image: custom-domain-to-github.png
 layout: post
 permalink: /custom-domain-github/
 ---
 
-<img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="{{site.url}}/thumbs/{{page.image}}">
+<img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}

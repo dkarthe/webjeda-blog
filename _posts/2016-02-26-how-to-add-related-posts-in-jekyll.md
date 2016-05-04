@@ -4,7 +4,7 @@ desc: Related posts is a way to keep your users hooked to checkout more content 
 keywords: add related post jekyll, jekyll related post, next previous post jekyll
 author: sharathdt
 tags: Jekyll
-image: adding-related-previous-next-link-to-jekyll.jpg
+image: adding-related-previous-next-link-to-jekyll.png
 layout: post
 permalink: /related-post-jekyll/
 ---

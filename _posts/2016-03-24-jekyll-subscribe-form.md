@@ -4,7 +4,7 @@ desc: Subscribe form for Jekyll was not available because all forms tend to work
 keywords: 
 author: sharathdt
 tags: Jekyll
-image: jekyll-subscribe-form.jpg
+image: jekyll-subscribe-form.png
 layout: post
 ---
 

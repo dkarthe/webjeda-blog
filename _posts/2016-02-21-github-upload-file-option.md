@@ -4,7 +4,7 @@ desc: For years Github users had a hard time uploading files to GitHub repositor
 keywords: upload files to github, github upload files folders, github drag and drop upload
 author: sharathdt
 tags: Github
-image: upload-option-github.jpg
+image: upload-option-github.png
 layout: post
 permalink: /github-upload/
 ---

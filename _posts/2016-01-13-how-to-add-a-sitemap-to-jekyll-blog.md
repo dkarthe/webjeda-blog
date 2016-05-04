@@ -4,7 +4,7 @@ desc: Submitting sitemap to major search engines is important to get indexed and
 keywords: sitemap in Jekyll blog, Jekyll sitemap, sitemap for Jekyll
 author: sharathdt
 tags: Jekyll SEO
-image: add-sitemap-to-Jekyll-github-pages.jpg
+image: add-sitemap-to-Jekyll-github-pages.png
 layout: post
 permalink: /jekyll-sitemap/
 ---

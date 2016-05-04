@@ -4,7 +4,7 @@ desc: Reducing the use of JavaScript results in a faster loading speed. Here is 
 keywords: share bar without javascript, Jekyll share buttons, share buttons for Jekyll blog
 author: sharathdt
 tags: Jekyll SEO
-image: share-bar-to-jekyll.jpg
+image: share-bar-to-jekyll.png
 layout: post
 permalink: /share-buttons-jekyll/
 ---
@@ -46,7 +46,7 @@ Once I installed my css-only share bar, the request number dropped to 11! That w
 When I was preparing this share bar, I was facing problems with sharing the page I'm currently browsing. Let's say you are in the page ``article-1``, the facebook share link should look like ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/article-1/```. And if you are in the page ``article-2``, then it should change to ```https://www.facebook.com/sharer/sharer.php?u=http://blog.webjeda.com/article-2/```.
 
 
-![How to use site variables in Jekyll]({{ site.url }}/images/jekyll-site-variables-and-how-to-use-them.jpg)
+![How to use site variables in Jekyll](/images/jekyll-site-variables-and-how-to-use-them.png)
 {: .right .half}
 
 But how to make this change of URL for every page. One way was to use ```window.location()``` but that is again JavaScript which I'm trying to avoid. Then I realized that I can use **Site Variables** - the ```{% raw %}{{ stuff }}{% endraw %}``` inside double curly braces!

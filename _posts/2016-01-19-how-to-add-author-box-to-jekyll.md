@@ -4,7 +4,7 @@ desc: Adding multiple authors like in WordPress to a Jekyll blog was hard. But n
 keywords: author box Jekyll, author tab Jekyll, Jekyll author box, Jekyll author section
 author: sharathdt
 tags: Jekyll
-image: author-box-jekyll.jpg
+image: author-box-jekyll.png
 layout: post
 permalink: /author-box-jekyll/
 ---

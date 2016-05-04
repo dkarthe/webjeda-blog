@@ -4,7 +4,7 @@ desc: https has an advantage in SEO over http URLs. It is easy to set up SSL for
 keywords: 
 author: sharathdt
 tags: Jekyll SEO Github-Pages 
-image: ssl-jekyll.jpg
+image: ssl-jekyll.png
 permalink: /jekyll-ssl/
 ---
 

@@ -4,7 +4,7 @@ desc: Jekyll is really simple once you know how it works. You can make your blog
 keywords: Jekyll tutorial, how Jekyll blog works, Jekyll blog setup, Jekyll working, Jekyll guide
 author: sharathdt
 tags: Jekyll
-image: jekyll-tutorial-screenshot.jpg
+image: jekyll-tutorial-screenshot.png
 layout: post
 permalink: /jekyll-guide/
 ---
@@ -36,7 +36,7 @@ If you are just starting off with Jekyll or you do not know how to use Jekyll th
 But once you finish reading this post, I suggest you check out the documentation. It will give you a rather deep insight than just a brief introduction like this one.
 
 ## What Jekyll does better?
-![Jekyll transforms text to html]({{ site.url }}/images/jekyll-transforms-text-to-hypertext.jpg){: .full}
+![Jekyll transforms text to html](/images/jekyll-transforms-text-to-hypertext.png){: .full}
 
 As depicted in the image(pardon my photoshop skills), Jekyll does magic on text files converting them into html files - which is technically called as **"**text transformation**"**. This is not the only thing Jekyll does. Jekyll actually does some more magic like templating, pagination, syntax highlighting,  etc., And also, Jekyll posts and pages can be written in easily readable markups like [markdown](https://daringfireball.net/projects/markdown/basics){:rel='nofollow'}{:target="_blank"}, <strike>textile</strike> (not supported anymore after Jekyll 3.0 update) etc.,
 
