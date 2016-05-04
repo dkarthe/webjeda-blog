@@ -4,7 +4,7 @@ desc: Jekyll Search Engine Optimization is left to the users. Initially, SEO opt
 keywords: 
 author: sharathdt
 tags: SEO Jekyll
-image: Jekyll-SEO.jpg
+image: Jekyll-SEO.png
 layout: post
 permalink: /optimize-jekyll-seo/
 ---

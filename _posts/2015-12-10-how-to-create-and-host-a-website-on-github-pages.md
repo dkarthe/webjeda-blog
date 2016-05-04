@@ -4,7 +4,7 @@ desc: Learn how to create a website on Github and host it for free using Github 
 keywords: create a website on github, github pages website, host website on github, github web hosting
 author: sharathdt
 tags: Github-Pages Web-Design
-image: how-to-make-a-website-on-github.jpg
+image: webjeda2.svg
 layout: post
 permalink: /create-host-website-github-pages/
 ---
