@@ -58,6 +58,7 @@ If you are looking for a modern, fast loading, visually appealing website, then 
 
 ## Major changes
 <pre>
+
 30th April - Some speed optimization and changed paragraph font to Source serif pro.
 
 25th April - Changed paragraph font to Droid Serif and headlines to Helvetica.
