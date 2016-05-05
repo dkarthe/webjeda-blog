@@ -62,7 +62,7 @@ If you are looking for a modern, fast loading, visually appealing website, then 
 
 25th April - Changed paragraph font to Droid Serif and headlines to Helvetica.
 
-13th April - Added Analytics Super Proxy to show page views on all my posts. Lost many views since I changed the URL of many posts. But Hey, I have page views!
+13th April - Added Analytics Super Proxy to show page views on all my posts. Lost many views since I changed the URL of many posts. But Hey, I can show pageviews!
 
 13th April - Added Table of Contents.
 
