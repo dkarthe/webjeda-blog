@@ -4,7 +4,7 @@ desc: Top bars are beautiful looking lines at the top of a website. A colored to
 keywords: top bar, website top line, top border of website, top colored line in websites
 author: sharathdt
 tags: Github-Pages Web-Design
-image: top-bar-on-websites.jpg
+image: top-bar-on-websites.png
 layout: post
 permalink: /top-bar-website/
 ---
@@ -16,7 +16,7 @@ permalink: /top-bar-website/
 
 
 ## Why top bar?
-
+{: .clear}
 I started considering top bar only after I saw the designers from [Quora](https://www.quora.com){:rel='nofollow'}{:target="_blank"} started using it. I also used to have a top bar on this blog but after the new design I no longer use it. But, one of my blogs [Nallikayi](http://nallikayi.com){:target="_blank"} has a nice top bar which goes with the design.
 
 <div class="clear"></div>   

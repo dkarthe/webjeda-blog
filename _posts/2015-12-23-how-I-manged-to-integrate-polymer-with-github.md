@@ -1,15 +1,15 @@
 ---
 title: Integrate Polymer in Jekyll Blog
-desc: Polymer elements are really cool to work with. I have a tutorial to include Polymer elements in simple steps. Polymer is an ambitious project from Google which might take off a lot of burden on web designers and developers.
+desc: Js frameworks may come and go but Polymer stays for a long time. Polymer elements are really cool to work with. I have a tutorial to include Polymer elements in Jekyll with simple steps. Polymer is an ambitious project by Google which might take off a lot of burden on web designers and developers.
 keywords: polymer Jekyll, polymer github pages, polymer and github
 author: sharathdt
 tags: Jekyll Web-Design
-image: github-pages-polymer.JPG
+image: jekyll-polymer.png
 layout: post
 permalink: /integrate-polymer-jekyll/
 ---
 
-<img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="{{site.url}}/thumbs/{{page.image}}">
+<img width="600px" max-height="375px" alt="{{page.title}}" title="{{page.title}}" itemprop="thumbnailUrl" class="left half noborder" src="/thumbs/{{page.image}}">
 
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
