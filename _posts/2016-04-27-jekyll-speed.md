@@ -159,6 +159,13 @@ Once the Jekyll renders the page, a ``main.css`` file is created inside the ``cs
 
 What this process does is, combines both ``css-1`` and ``css-2`` into one ``main`` css file which is minified! I have shown for only two css files but you can use any number of files inside ``_sass`` folder. Make sure you import it in the ``main.scss`` file.
 
+If you want the ``main.css`` to be minified by default then use the below snippet inside **_config.yml** file.
+
+{% highlight yaml %}
+sass:
+    style: compressed
+{% endhighlight %}
+
 **JavaScript:**
 If you are loading JavaScript from a CDN then make sure you use the ``.min.js`` version. That is the minified version. To minify local JS code I use [Closure Compiler](http://closure-compiler.appspot.com/home){:rel='nofollow'}{:target="_blank"} by Google which I have been using for a log time with satisfactory results. Here is a [guide on how to use it](https://developers.google.com/closure/compiler/docs/gettingstarted_ui#the-hello-world-of-the-closure-compiler-service-ui){:rel='nofollow'}{:target="_blank"}.
 
