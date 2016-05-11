@@ -66,9 +66,10 @@ compress_html:
   
 #collection
 collections:
-  angular:
-    output: true
-    permalink: /angular/:title/
+    - jekyll-themes
+
+
+  
     
 authors:
       sharathdt:
