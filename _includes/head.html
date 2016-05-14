@@ -4,6 +4,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="generator" content="Jekyll 3.0">
+ 
+  <!-- Critical CSS -->
+  <style>
+          {% capture include_to_scssify %}
+          {% include critical.scss %}
+          {% endcapture %}
+          {{ include_to_scssify | scssify }}
+  </style>
+
 
 {% if page.desc %}
 <meta itemprop="description" name="description" content="{{ page.desc | truncate: 160 }}" />
@@ -17,7 +26,7 @@
 {% endif %}
 
 <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	
+
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
@@ -72,9 +81,7 @@
     <!-- Canonical -->
 <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   
-  <!-- Critical CSS -->
-<link rel="stylesheet" href="/css/critical.css">
- 
+
 <!--   Adsense Script  -->
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>   
   <script>(adsbygoogle = window.adsbygoogle || []).push({

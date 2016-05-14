@@ -203,8 +203,27 @@ A tool like [CssSprites](http://csssprites.com/){:rel='nofollow'}{:target="_blan
 
 This works best for small images like social media buttons. Do not use this for large images as it might take a long time to load the sprite sheet.
 
-**Inline small CSS:**
+**Inline small CSS or SCSS:**
 If you keep multiple css files then multiple http requests are needed to load them. Instead, if one of your css is really small, then you can inline it by placing inside ``<style>`` tag.
+
+If you have a ``.css`` file then it is easy to inline in the head tag by keeping the css file inside **_includes** folder and using the code below.
+
+{% highlight html %}{% raw %}
+ <style>
+{% inclide critical.css %}
+</style>
+{% endraw %}{% endhighlight %}
+
+But, if you have a ``.scss`` file the process to inline scss is a little different. You have to keep the scss file inside the **_includes** folder as usual but you should use the code given below.
+
+{% highlight html %}{% raw %}
+  <style>
+          {% capture include_to_scssify %}
+          {% include critical.scss %}
+          {% endcapture %}
+          {{ include_to_scssify | scssify }}
+  </style>
+{% endraw %}{% endhighlight %}
 
 <div class="note"><h3>Info</h3><p>I use two css files. One is <code>critical.css</code> which only has important styles that are required in the beginning like page width, content width etc. This file loads immediately as I have declared it in the head tag. I have all other styles combined in a minified css file called <code>main.css</code> which is configured for lazy loading.</p></div>
 
