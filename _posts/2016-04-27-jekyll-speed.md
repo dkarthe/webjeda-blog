@@ -312,8 +312,13 @@ But, a landing page(Home page) should be really fast. Because in blogs, the home
 
 Load only things that are necessary for a home page. For example, loading AdSense code on home page layout is not necessary if you are not showing any ads there.
 
-### 13. Use amplify theme
-[Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed by following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
+### 13. Use a minimal theme
+
+I'm kind of promoting my themes here. Use [**Thunder**](http://webjeda.com/thunder/){:target="_blank"} theme for a real fast loading website. It looks fairly good and loads super fast. The reason is that it is a slim version of default Jekyll theme.
+
+I have added some things to make it look attractive but all those rings and bells are really light. Go ahead and try it. I have created another theme called [**Purple**](http://webjeda.com/purple/){:target="_blank"} which is also minimal.
+
+If you want a site which loads really fast on mobile phones then try Amplify. [Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
 
 If you are someone who likes minimal design for your blog then I would suggest to use amplify theme for its speed. So these are the methods I would recommend to use to speed up your Jekyll blog. Once you implement some of these methods, check if it has improved the page load time.
 
