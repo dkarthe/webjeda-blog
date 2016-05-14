@@ -314,9 +314,12 @@ Load only things that are necessary for a home page. For example, loading AdSens
 
 ### 13. Use a minimal theme
 
+![minimal Jekyll theme thunder](/images/thunder-jekyll-theme.jpg){: .noborder}
+{: .right .half}
 I'm kind of promoting my themes here. Use [**Thunder**](http://webjeda.com/thunder/){:target="_blank"} theme for a real fast loading website. It looks fairly good and loads super fast. The reason is that it is a slim version of default Jekyll theme.
 
 I have added some things to make it look attractive but all those rings and bells are really light. Go ahead and try it. I have created another theme called [**Purple**](http://webjeda.com/purple/){:target="_blank"} which is also minimal.
+{: .clear}
 
 If you want a site which loads really fast on mobile phones then try Amplify. [Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
 
