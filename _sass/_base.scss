@@ -165,19 +165,16 @@ pre,
 code {
  
     font-size: 15px;
- /*    border: 1px solid $grey-color-light; */
+    border: 1px solid $brand-color;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: transparent;
     display: inline-block;
     max-width: 100%;
+    text-shadow: 0px 1px 1px;
 
    
 }
 
-.tips code, .warning code, .note code {
-    color: dimgrey;
-    text-shadow: 0px 0px 1px dimgrey;
-}
 
 code {
     padding: 0px 5px;
@@ -249,6 +246,7 @@ pre {
 
 strong, b {
         font-weight: 600;
+        letter-spacing: 1px;
 }
 
 

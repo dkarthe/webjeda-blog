@@ -108,77 +108,52 @@ p.right {
 }
 
 
-.warning {
-    background-color: #EC706C;
+.warning{
+        background-color: #EC706C;
     border-left: 1.2em solid #D24D57;
-    border-radius: 0 4px 4px 0;
-    padding: 5px 5px 5px 15px;
-    margin: 2em 0 2em 0;
-    color: #eee;
-    text-shadow: 0px 0px 1px #F5E5E5;
-    font-size: 0.9em;
 }
-
 .note {
-    background-color: #E0C442;
-    border-left: 1.2em solid #B78C11;
-    border-radius: 0 4px 4px 0;
-    padding: 5px 5px 5px 15px;
-    margin: 2em 0 2em 0;
-    color: #eee;
-    text-shadow: 0px 0px 1px #F5E5E5;
-    font-size: 0.9em;
+    background-color: #3DBB3B;
+    border-left: 1.2em solid #257B12;
 }
-
-.tips {
+.tips{
     background-color: #22A7F0;
     border-left: 1.2em solid #4183D7;
+}
+.warning, .note, .tips {
+
     border-radius: 0 4px 4px 0;
     padding: 5px 5px 5px 15px;
     margin: 2em 0 2em 0;
-    color: #eee;
-        text-shadow: 0px 0px 1px #F5E5E5;
+    color: #fff;
+    text-shadow: 0px 0px 1px;
     font-size: 0.9em;
 }
 
-
-
 .warning p, .note p, .tips p {
-   color: #eee;        
+   color: #fff;        
 }
 
-.warning a{
+.warning a, .note a, .tips a {
     color: #fff;
 }
 
-.warning a:hover{
-    color: #eee;
-}
 
-
-
-.note a {
-    color: #fff;   
-}
-
-.note a:hover {
+.warning a:hover, .note a:hover, .tips a:hover  {
     color: #eee;   
 }
 
 .warning h3, .note h3, .tips h3 {
-    color: #eee;
+    color: #fff;
     font-size: 1.5em;
     font-weight: 600;
 }
 
-
-.tips a {
-    color: #fff;   
+.tips code, .warning code, .note code {
+    color: fff;
+    border: 1px solid #eee;
 }
 
-.tips a:hover {
-    color: #eee;   
-}
 
 //warning ends
 .this, .past, .arch-list {

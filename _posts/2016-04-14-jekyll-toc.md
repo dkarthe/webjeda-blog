@@ -40,12 +40,11 @@ I'm not against Jekyll plugins or something but I'm just waiting for them to be 
 Now, let's dive in and install TOC.
 
 
-<div class="tips">
-<h3>Tips</h3>
-<p>If you are using kramdown as your markdown processor then you can add the following lines anywhere on the post to add a TOC. Which is pretty simple if you do not want to use JavaScript on your blog <code><pre>* Do not remove this line (it will not be displayed)
-{:toc}</pre></code></p>
-</div>
-
+If you are using kramdown as your markdown processor then you can add the following lines anywhere on the post to add a TOC. Which is pretty simple if you do not want to use JavaScript on your blog 
+{% highlight md %}
+* Do not remove this line (it will not be displayed)
+{:toc}
+{% endhighlight %}
 You can make it look pretty by adding this style
 
 {% highlight css %}
