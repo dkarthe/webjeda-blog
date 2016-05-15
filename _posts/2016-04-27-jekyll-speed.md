@@ -263,16 +263,15 @@ The best example for using SVGs successfully in a website is [varvy.com](https:/
 
 SVGs are basically ``xml`` which means that they are made up of few tags and can be edited using a text file. We can also perform lossless compression on them to reduce the size. So SVG has a big advantage over PNG, JPEG etc., An example of such an advantage is given below. I have created two images here. One is a compressed SVG image and the other is a JPEG image optimized for web.
 
-![webjeda blog](/images/webjeda.svg){: width="45%" .inline .left .noborder}
+![webjeda blog](/images/webjeda.svg){: .inline .left .small .noborder}
 
-![webjeda blog](/images/webjeda.jpg){: width="45%" .inline .right .noborder}
 
-<div class="clear"></div>
-
+![webjeda blog](/images/webjeda.jpg){: .inline .small .noborder}
 
 Both images look the same but there is a huge difference in their size. The first SVG image is around 1KB but the second JPEG image is of the size 14KB!
 
 This is a amazing; isn't it? I'm pretty impressed by this improvement. I'm thinkin of using more SVGs in my posts. Webjeda logo is already SVG. The main advantage is that it doesn't look pixellated on big screens. Open them in new tab to see how SVG don't loose its quality even if you press **Ctrl +** but JPEG becomes pixellated. Download them to check the size.
+{: .clear}
 
 If you do not use Adobe Illustrator, then you can use Sketch(for mac) or [Drawsvg](http://drawsvg.org){:rel='nofollow' target="_blank"} for online SVG creation. Once you create an SVG, make sure you optimize it using [SVG optimizer](http://petercollingridge.appspot.com/svg-optimiser){:rel='nofollow' target="_blank"} which reduces the size a little bit.
 
