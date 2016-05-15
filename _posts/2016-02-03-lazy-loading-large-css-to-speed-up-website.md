@@ -87,11 +87,28 @@ I struggled hard to tackle this. And after a while, I realized that I can define
         <main>
          {% raw %}{{ content }}{% endraw %}
         </main>
+  </div>
 {% endhighlight %}
 
 So that solved the problem :) You can in-line important css this way. When the css file is made to load at the end, your content will not have any styling which means the content may show up on the left side of the screen for a fraction of a second, fonts appear with a default web-font and some SVGs and images may show up in their full size.
 
 To avoid this, in-line some of the css which makes everything look smooth. Do not in-line too much css though. It is not a good practice and also your users shouldn't get an impression that you do not know how to use css.
+
+## Inline SCSS in Jekyll
+Jekyll supports sass preprocessor. So any number of ``scss`` files can be used to make a single ``main.scss`` file which in turn generates a ``main.css`` file upon build.
+
+And also, Jekyll supports linking ``scss`` file directly inside html and can be changed to ``css`` file using scssify filter.
+
+{% highlight html %}{% raw %}
+  <style>
+          {% capture include_to_scssify %}
+          {% include critical.scss %}
+          {% endcapture %}
+          {{ include_to_scssify | scssify }}
+  </style>
+{% endraw %}{% endhighlight %}
+
+But remember, the scss file you want to include should be inside **_includes** folder.
 
 
 I hope this article has helped you to speed up your website. Let me know how it went. Leave a comment if you have any suggestion. I would be happy to implement it.
