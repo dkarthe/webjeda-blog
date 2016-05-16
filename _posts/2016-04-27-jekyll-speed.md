@@ -88,7 +88,7 @@ This is a free tool provided by Google. I prefer this because ultimately Google 
 [**WebPageTest:**](http://www.webpagetest.org/){:rel='nofollow'}{:target="_blank"}
 This is probably one of the best tools to find out what's wrong with your site. It gives you the details on **First View** and **Repeat View**. This is good because when a website is loaded for the first time on a browser, it takes a lot of time since it is downloading all the resources for the first time. But, when you visit the website again on the same browser, it takes significantly less time. 
 
-A repeat visitor is served quickly than a new visitor. But, first visit should be fast enought to convert new visitor to a repeat visitor. Have you heard of the forst impression? That very much applies to websites as well.
+A repeat visitor is served quickly than a new visitor. But, first visit should be fast enought to convert new visitor to a repeat visitor. Have you heard of first impression? That very much applies to websites as well.
 
 ![Jekyll speed test on webpagetest org](/images/jekyll-speed-optimization-test-webpagetest-org.jpg){:width="700px" max-height="242px" .full}
 
