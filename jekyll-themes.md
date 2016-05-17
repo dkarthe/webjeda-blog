@@ -1,6 +1,6 @@
 ---
 layout: default
-desc: Webjeda jekyll themes is a showcase of handpicked, responsive jekyll themes. You will find some of the best jekyll themes that can be used for your website blog or portfolio.
+desc: Webjeda jekyll themes is a showcase of hand-picked, responsive jekyll themes. You will find some of the best jekyll themes that can be used for your website blog or portfolio.
 permalink: /jekyll-themes/
 ---
 
