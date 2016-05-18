@@ -129,7 +129,7 @@ author: sharathdt
 ---
 {% endhighlight %}
 
-![Multiple author box for Jekyll]({{ site.url }}/images/author-section-jekyll-sample.jpg){: .right .large}
+![Multiple author box for Jekyll]({{ site.url }}/images/author-section-jekyll-sample.jpg){: .right .large .noborder}
 Now your post recognizes the author as **sharathdt** and all the details like author name, author image, author about are updated accordingly. Here is how it looks like in my blog posts
 
 Your author box may not be styled as mine but you can style it however you want it to be. I have used w3-css cards for card style.
