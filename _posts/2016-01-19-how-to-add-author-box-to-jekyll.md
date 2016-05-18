@@ -1,6 +1,6 @@
 ---
 title: Adding Author Box to Jekyll Blog
-desc: Adding multiple authors like in WordPress to a Jekyll blog was hard. But not anymore. Learn how to add an author box to your Jekyll blog with these easy steps. You can also create author section for your Jekyll blog using this method.
+desc: Adding multiple authors to a Jekyll blog was hard. But not anymore. Learn how to add an author box to your Jekyll blog with these easy steps. You can also create a nice author section for your Jekyll blog using this method.
 keywords: author box Jekyll, author tab Jekyll, Jekyll author box, Jekyll author section
 author: sharathdt
 tags: Jekyll
@@ -14,11 +14,11 @@ permalink: /author-box-jekyll/
 <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>{{page.desc}}
 {: .intro}
 
-When I wanted an author section for my blog [Nallikayi Articels](https://articles.nallikayi.com){:target="_blank"}, I thought of differnt ways to make it possible. I had multiple authors and placing different code for different author was not practical.
+When I wanted an author section for my blog [Nallikayi Articles](https://articles.nallikayi.com){:target="_blank"}, I thought of differnt ways to make it possible. I had multiple authors. Placing different code for different author was not practical.
 
-I can make a template, add it to every post manually and change author name, image and other details accordingly but it is also not practical if you have many authors. 
+I can make a template, add it to every post manually and change author name, image and other details accordingly but it is also not practical if you have too many authors. 
 
-I like how WordPress handles different authors. All you need is to add user. But for Jekyll we still don't have that facility. We are doing this the hard way.
+I like how WordPress handles different authors. All you need is to add user. But for Jekyll we still don't have that option. We are doing this the hard way.
 {: .clear}
 
 
@@ -26,7 +26,7 @@ I like how WordPress handles different authors. All you need is to add user. But
 {:toc}
 
 
-There should be a provision where you just mention authors name in the post and that should be enough for the post to update itself with particular author details.
+There should be a provision where you just mention authors name in the post and that should be enough for the post to update itself with particular author details. We are doing just that!
 
 This tutorial explains how to add a multiple author box to Jekyll blog posts step by step.
 
@@ -43,25 +43,26 @@ Create a new ```html``` file inside **_includes** folder, name it **author.html*
 <div class="w3-card-2">
   <div id="author-content">
     <h3>Author</h3>
-                         <hr>
-     <div itemprop="author" id="name-author"><strong>{% raw %}{{ author.display_name }}{% endraw %}</strong><br /></div>
-     <div id="im-ab">
+    <hr>
+     <div itemprop="author" id="name-author"><strong>{% raw %}{{ author.display_name }}{% endraw %}</strong></div>
+
      <img itemprop="image" id="image-author" src="{% raw %}{{ author.gravatar }}{% endraw %}">
-        <div id="about-author">{% raw %}{{ author.about }}{% endraw %}</div>
-        </div>
+      <div id="about-author">{% raw %}{{ author.about }}{% endraw %}</div>
       <div id="social-author"> 
             <a href="{% raw %}{{ author.facebook }}{% endraw %}" ><i class="fa fa-facebook-square fa"></i></a>
             <a href="{% raw %}{{ author.twitter }}{% endraw %}" ><i class="fa fa-twitter-square fa"></i></a>
             <a href="{% raw %}{{ author.github }}{% endraw %}" ><i class="fa fa-github-square fa"></i></a>
             <a href="{% raw %}{{ author.email }}{% endraw %}" ><i class="fa fa-envelope-square fa"></i></a>
-            </div>
-       </div>
+      </div>
     </div>
+</div>
 {% endhighlight %}
+
+Design the layout however you want it to be. Make it match to your website layout and color scheme. I'm using font awesme to load icons here. This is a heavy css file. You can omit this if you don't want any icons in the author section. If you are using font awrsome in your Jekyll blog already then you don't have to include this again.
 
 ## Step 2: Add authors in configuration file
 
-Now copy below details into your ```_config.yml``` which is in the root of the repository. Change details accordingly. Here I have mentioned only for two authors - **sharathdt** and **sampaths**. You can use any number of authors. Add details of new authors to this file in this format.
+Now copy below details into your **_config.yml** which is in the root of the repository. Change details accordingly. Here I have mentioned only for two authors - **sharathdt** and **sampaths**. You can use any number of authors. Add details of new authors to this file in this format.
 
 {% highlight yaml %}
 authors:
@@ -89,7 +90,7 @@ authors:
 
 ## Step 3: Include author section in post layout
 
-Now in your **post** template file, which is inside **_layout** folder add these lines at the end of the post layout as shown in the sample below.
+Now in your **post** template file, which is inside **_layout** folder add these lines at the end of the post layout as shown in the example below.
 
  Sample **post layout**
  
@@ -119,7 +120,7 @@ layout: default
 
 
 ## Step 4: Add author name in all posts
-Now in all your posts which are inside **_post** folder, you should add a new attribute called author
+Now in all your posts which are inside **_post** folder, you should add a new attribute called author and respective author name that you have used for details in **_config.yml** file.
 
 {% highlight html %}
 ---
@@ -127,7 +128,8 @@ title: Some Title
 author: sharathdt
 ---
 {% endhighlight %}
-![Author box for Jekyll]({{ site.url }}/images/author-section-jekyll-sample.jpg){: .right .large}
+
+![Multiple author box for Jekyll]({{ site.url }}/images/author-section-jekyll-sample.jpg){: .right .large}
 Now your post recognizes the author as **sharathdt** and all the details like author name, author image, author about are updated accordingly. Here is how it looks like in my blog posts
 
 Your author box may not be styled as mine but you can style it however you want it to be. I have used w3-css cards for card style.
