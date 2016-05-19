@@ -125,7 +125,7 @@ I hope that helped. I'm was feed-burner for subscriptions. I have a post on [How
 As I have mentioned in the article this is a completely manual subscription handling. But what if someone wants an automated list generation. Which means after every subscription, email will be collected as a list and if someone wants to un-subscribe, the list will update itself.
 
 
-Many times, emails that you send to your subscribers should have an unsubscribe link. Otherwise, email providers may mark it as spam. Since it is not practical to create a un-subscribe link and include it every time you send an email, you can opt some third party email subscription handlers.
+Many times, emails that you send to your subscribers should have an unsubscribe link. Otherwise, email providers may mark it as spam and move it to spam folder every time. No one checks spam folder unless they are asked to do so. And also it is not practical to create a un-subscribe link and include it every time you send an email, you can opt some third party email subscription handlers.
 {: .clear}
 
 I prefer these two email subscription handlers - Aweber or MailChimp. I suggest MailChimp for beginners. [Create an account in MailChimp](http://eepurl.com/bWHZgb){:rel='nofollow'}{:target="_blank"} for free.
