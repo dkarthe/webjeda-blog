@@ -1,6 +1,6 @@
 ---
 title: How to create a subscribe form for Jekyll that actually works!?
-desc: Subscribe form for Jekyll was not available because forms usually work with php code to send emails. But with this method, we can add a subscribe form for Jekyll websites which will works out of the box.
+desc: Subscribe form for Jekyll is not readily available because forms usually work with php code to send emails. But with this method, we can add a subscribe form on any Jekyll blog which will works out of the box.
 keywords: 
 author: sharathdt
 tags: Jekyll
@@ -117,11 +117,16 @@ I hope that helped. I'm was feed-burner for subscriptions. I have a post on [How
 
 ## Update 1 - MailChimp subscribe form on Jekyll
 
+![embed mailchimp form on jekyll blog](/images/mailchimp-form-jekyll.png){: .noborder }
+{: .right .half }
+
 [**steven_nc**](https://disqus.com/by/steven_nc/){:rel='nofollow'}{:target="_blank"} commented asking how do I handle un-subscriptions, which is a valid question because users may want to opt out of your mailing list. Thanks to him for bringing up this topic.
 
 As I have mentioned in the article this is a completely manual subscription handling. But what if someone wants an automated list generation. Which means after every subscription, email will be collected as a list and if someone wants to un-subscribe, the list will update itself.
 
+
 Many times, emails that you send to your subscribers should have an unsubscribe link. Otherwise, email providers may mark it as spam. Since it is not practical to create a un-subscribe link and include it every time you send an email, you can opt some third party email subscription handlers.
+{: .clear}
 
 I prefer these two email subscription handlers - Aweber or MailChimp. I suggest MailChimp for beginners. [Create an account in MailChimp](http://eepurl.com/bWHZgb){:rel='nofollow'}{:target="_blank"} for free.
 
