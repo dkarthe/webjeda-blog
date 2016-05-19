@@ -197,7 +197,7 @@ I have a working form as well!
 <!--End mc_embed_signup-->
 
 <p></p>
-Once you enter the details, hit subscribe key. You should receive an email right after the subscription. Actually this is the form I'm using in my website. You will get the same form when you click on **subscribe** button in the menu bar. The form may look different but it does the same job as this form.
+Once you enter the details, hit subscribe key. You should receive an email right then. Actually this is the form I'm using in my website. You will get the same form when you click on **subscribe** button in the menu bar. The form may look different but it does the same job as this form.
 
 
 
