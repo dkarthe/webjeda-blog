@@ -1,6 +1,6 @@
 ---
 title: How to create a subscribe form for Jekyll that actually works!?
-desc: Subscribe form for Jekyll was not available because all forms tend to work with php code to send emails. But with this method, we can add a subscribe form for Jekyll websites which works out of the box.
+desc: Subscribe form for Jekyll was not available because forms usually work with php code to send emails. But with this method, we can add a subscribe form for Jekyll websites which will works out of the box.
 keywords: 
 author: sharathdt
 tags: Jekyll
@@ -15,7 +15,7 @@ layout: post
 
 ## Why use a subscribe form?
 {: .clear}
-Subscribe form is used basically to collect visitors' emails to provide them an update of new articles every time you post a new one. Also, a good way to get some initial traffic to a new post. 
+Subscribe form is used basically to collect visitors' emails to provide them an update every time you post a new article. Also, a good way to get some initial traffic to a new post. 
 
 <div class="clear"></div>   
 
@@ -30,11 +30,14 @@ WordPress has an advantage over Jekyll since it has many plugins that can do the
 
 This is one of those things I always wanted in Jekyll but did not know how to do it. This idea hit me one day while I was working on contact forms. Initially, I tried to create a form with [FormSpree](http://formspree.com){:rel='nofollow'}{:target="_blank"} similar to [how I created a contact form](/jekyll-contact-form/){:target="_blank"}. 
 
-It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on a specific page but not for all pages. What clicked me in the shower is that SimpleForm can be used to make a contact form which works on all pages!
+It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on one specific page but not for all pages. What I eventually found was that SimpleForm can be used to make a contact form which works on all pages! Which means it can be used as a subscribe form.
 
 What I'm showing here is an email collector. So it just collects users' emails. I think that is what a basic subscriber form does. You can also setup an auto-reply option. Auto-reply can help if you are offering an e-book for a subscription. I haven't tried it yet but it should work.
 
 But before collecting emails you should have an email id. You can use any email id but it is a good idea if you use a domain email. If you don't have one, then get a [free domain email using ZOHO](/free-domain-email-zoho/){:target="_blank"}.
+
+If you want to use MailChimp form on jekyll (I'm currently using it) then skip to [MailChimp on Jekyll](#update-1---mailchimp-subscribe-form-on-jekyll) section. MailChimp takes care of everything. You can create lists, design forms, send campaign emails etc., Overall a very good platform for beginners.
+
 
 
 ## How to make a subscribe form on Jekyll blog?
@@ -106,17 +109,17 @@ Once the user enters his email in the form and hits subscribe, he should be show
 
 
 ### Step 4: Success!
-That's it. Now collect emails and make a list. I use mail-chimp and I send an update to the list using campaign every time I make a new post.
+That's it. Now collect emails and make a list. I use MailChimp and I send an update to the list using campaign every time I make a new post.
 
 Here is a working example: <a href="http://redgadget.github.io/form-jekyll/" target="_blank" rel="nofollow">Sample Subscribe Form</a>
 
-I hope that helped. I'm using feed-burner for subscriptions. I will make a post on how to do that as well. Don't forget to subscribe to my updates!
+I hope that helped. I'm was feed-burner for subscriptions. I have a post on [How to use Feedburner for subscriptions](/jekyll-subscribe-feedburner/){:target="_blank"}. Feedburner is free and pretty good for managing feeds and subscriptions.
 
-## Update 1 - Automated subscription list
+## Update 1 - MailChimp subscribe form on Jekyll
 
-[steven_nc](https://disqus.com/by/steven_nc/){:rel='nofollow'}{:target="_blank"} commented that there should be an un-subscription option for users, which is a valid question because users may want to opt out of your mailing list. Thanks to him for bringing up this topic.
+[**steven_nc**](https://disqus.com/by/steven_nc/){:rel='nofollow'}{:target="_blank"} commented asking how do I handle un-subscriptions, which is a valid question because users may want to opt out of your mailing list. Thanks to him for bringing up this topic.
 
-As I have mentioned in the article this is a completely manual subscription handling. But what if someone wants an automated list generation? where after subscribing the email will be collected automatically and if someone wants to un-subscribe, they can do that as well.
+As I have mentioned in the article this is a completely manual subscription handling. But what if someone wants an automated list generation. Which means after every subscription, email will be collected as a list and if someone wants to un-subscribe, the list will update itself.
 
 Many times, emails that you send to your subscribers should have an unsubscribe link. Otherwise, email providers may mark it as spam. Since it is not practical to create a un-subscribe link and include it every time you send an email, you can opt some third party email subscription handlers.
 
@@ -188,7 +191,7 @@ I have a working form as well!
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
 
-
+<p></p>
 Once you enter the details, hit subscribe key. You should receive an email right after the subscription. Actually this is the form I'm using in my website. You will get the same form when you click on **subscribe** button in the menu bar. The form may look different but it does the same job as this form.
 
 
