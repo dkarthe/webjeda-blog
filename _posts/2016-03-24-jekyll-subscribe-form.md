@@ -201,6 +201,6 @@ Once you enter the details, hit subscribe key. You should receive an email right
 
 
 
-I hope that covers almost all types of subscriptions possible. Let me know which one you implemented and for what reason. For some reason if you couldn't get this working then let me know. I will help you out at the cost of a coffee.
+I hope that covers many types of subscription forms available for Jekyll. Let me know which one you implemented and for what reason. If you couldn't get this working then let me know in the comment section.
 
 Thanks for reading!
