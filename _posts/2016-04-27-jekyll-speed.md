@@ -270,7 +270,7 @@ SVGs are basically ``xml`` which means that they are made up of few tags and can
 
 Both images look the same but there is a huge difference in their size. The first SVG image is around 1KB but the second JPEG image is of the size 14KB!
 
-This is a amazing; isn't it? I'm pretty impressed by this improvement. I'm thinkin of using more SVGs in my posts. Webjeda logo is already an SVG. The main advantage is that it doesn't look pixellated on big screens. Open them in new tab to see how SVGs don't loose their quality even if you zoom in but, JPEG images becomes pixellated.
+This is a amazing; isn't it? I'm pretty impressed by this improvement. I'm thinkin of using more SVGs in my posts. Webjeda logo is already an SVG. The main advantage is that it doesn't look pixellated on big screens. Open them in new tab to see how SVGs don't loose their quality even if you zoom in but, JPEG images become pixellated.
 {: .clear}
 
 If you do not use Adobe Illustrator, then you can use Sketch(for mac) or [Drawsvg](http://drawsvg.org){:rel='nofollow' target="_blank"} for online SVG creation. Once you create an SVG, make sure you optimize it using [SVG optimizer](http://petercollingridge.appspot.com/svg-optimiser){:rel='nofollow' target="_blank"} which reduces the size a little bit.
@@ -287,10 +287,10 @@ Jquery can be used to lazy load html, especially images. This method will priori
 
 Here is a guide on [how to use jQuery lazy loading](http://www.appelsiini.net/projects/lazyload){:rel='nofollow'}{:target="_blank"}. And here is a [sample website](http://www.appelsiini.net/projects/lazyload/enabled_fadein.html){:rel='nofollow'}{:target="_blank"} which uses this feature.
 
-This feature comes in handy if your website has a lot of images or other similar content. This can be used on any type of media file.
+This feature comes in handy if your website has a lot of images or other similar content. This can be used on any type of media.
 
-### 10. Request only required font
-If you are using Google fonts, then load only the required font variation. If you want Open sans font for your paragraph text then do not select **Extra-Bold** or **Light** variations. All you need is **Regular** style.
+### 10. Request only the required font
+If you are using Google fonts, then load only the required font variation. If you want Open sans font for your paragraph text then do not select **Extra-Bold** or **Light** variations. All you need is the **Regular** style.
 
 ![Jekyll speed optimization by tweaking google font loading](/images/jekyll-speed-optimization-google-font-optimization.jpg){:width="700px" max-height="187px" .full}
 
@@ -322,10 +322,10 @@ I have added some things to make it look attractive but all those rings and bell
 
 If you want a site which loads really fast on mobile phones then try Amplify. [Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
 
-If you are someone who likes minimal design for your blog then I would suggest to use amplify theme for its speed. So these are the methods I would recommend to use to speed up your Jekyll blog. Once you implement some of these methods, check if it has improved the page load time.
+So these are the methods I would recommend to use to speed up your Jekyll blog. Once you implement some of these methods, check if it has improved the page load time.
 
 ## Conclusion
-More than ranking on search engines, speed is important to keep users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare your website to a restaurant; how happy we feel if the service is quick and how frustrating it will be if the order takes forever. It is easy to differentiate a Jekyll site from a WordPress site just by its page speed! This is one of the reasons why I chose Jekyll over WordPress. Check your website loading speed every time you make a major change.
+More than ranking on search engines, speed is important to keep your users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare your website to a restaurant; how happy we feel if the service is quick and how frustrating it will be if the order takes forever. It is easy to differentiate a Jekyll site from a WordPress site just by its page speed! This is one of the reasons why I chose Jekyll over WordPress.
 
 I hope that the article helped you speed up your Jekyll website. Ask any doubts you have through comments.
 
